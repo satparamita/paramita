@@ -1,3 +1,71 @@
+.fa {
+  font-size: 14px;
+}
+.fa-home {
+  color: #e74c3c;
+  font-size: 15px;
+}
+.fa-archive {
+  color: #1abc9c;
+}
+.fa-tags {
+  color: #ffa500;
+}
+.fa-chalkboard {
+  color: #3498db;
+}
+.fa-link {
+  color: #fc427b;
+}
+.fa-user {
+  color: #9b59b6;
+}
+.fa-camera {
+  color: #1abc9c;
+}
+.fa-envelope {
+  color: #1abc9c;
+}
+.fa-zhihu {
+  color: #1abc9c;
+}
+.fa-calendar {
+  color: #70a1ff;
+}
+.fa-calendar-check {
+  color: #5352ed;
+}
+.fa-folder {
+  color: #ffa502;
+}
+.fa-eye {
+  color: #70a1ff;
+}
+.fa-comment {
+  color: #2ed573;
+}
+.fa-file-word {
+  color: #273c75;
+}
+.fa-clock {
+  color: #ff5252;
+}
+.fa-book {
+  color: #1abc9c;
+}
+.fa-windows {
+  color: #e74c3c;
+  font-size: 15px;
+}
+.fa-chrome {
+  color: #fc427b;
+}
+.fa-tools {
+  color: #ffa500;
+}
+.fa-python {
+  color: #3498db;
+}
 :root {
   --body-bg-color: #eee;
   --content-bg-color: #fff;
