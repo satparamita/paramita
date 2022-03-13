@@ -3197,7 +3197,7 @@ body {
   font-size: 15px;
 }
 .fa-archive {
-  color: #1abc9c;
+  color: #00bfff;
 }
 .fa-tags {
   color: #ffa500;
@@ -3215,10 +3215,10 @@ body {
   color: #1abc9c;
 }
 .fa-envelope {
-  color: #fc427b;
+  color: #1e90ff;
 }
 .fa-zhihu {
-  color: #00f;
+  color: #0000cd;
 }
 .fa-calendar-check {
   color: #f00;
