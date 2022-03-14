@@ -18,10 +18,10 @@
     <title>大藏经经藏序言合集</title>
     <url>/p/a7130f16.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
-        <div id="aplayer-qFaahbnh" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
+        <div id="aplayer-XdXAwLGl" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
 			  <script>
 				  var options = {"narrow":false,"autoplay":false,"showlrc":3,"mode":"circulation","mutex":true,"theme":"#33a3dc","preload":"metadata","listmaxheight":"680px","music":[{"title":"般若波罗密心经（梵文）","author":"泠鸢yousa","url":"/assets/泠鸢yousa - 【重录】般若波罗密心经（梵文）.mp3","pic":"https://satparamita.top/images/my.jpg","lrc":""}]};
-				  options.element = document.getElementById("aplayer-qFaahbnh");
+				  options.element = document.getElementById("aplayer-XdXAwLGl");
 				  var ap = new APlayer(options);
 			    window.aplayers || (window.aplayers = []);
 				  window.aplayers.push(ap);
@@ -746,10 +746,10 @@
     <title>大藏经论藏序言合集</title>
     <url>/p/56fff504.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
-        <div id="aplayer-ApjCvkja" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
+        <div id="aplayer-RUGCYXzj" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
 			  <script>
 				  var options = {"narrow":false,"autoplay":false,"showlrc":3,"mode":"circulation","mutex":true,"theme":"#33a3dc","preload":"metadata","listmaxheight":"680px","music":[{"title":"般若波罗密心经（梵文）","author":"泠鸢yousa","url":"/assets/泠鸢yousa - 【重录】般若波罗密心经（梵文）.mp3","pic":"https://satparamita.top/images/my.jpg","lrc":""}]};
-				  options.element = document.getElementById("aplayer-ApjCvkja");
+				  options.element = document.getElementById("aplayer-RUGCYXzj");
 				  var ap = new APlayer(options);
 			    window.aplayers || (window.aplayers = []);
 				  window.aplayers.push(ap);
