@@ -18,10 +18,10 @@
     <title>大藏经经藏序言合集</title>
     <url>/p/a7130f16.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
-        <div id="aplayer-vcPsJUMN" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
+        <div id="aplayer-ZQnJZZGA" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
 			  <script>
 				  var options = {"narrow":false,"autoplay":false,"showlrc":3,"mode":"circulation","mutex":true,"theme":"#33a3dc","preload":"metadata","listmaxheight":"680px","music":[{"title":"般若波罗密心经（梵文）","author":"泠鸢yousa","url":"/assets/泠鸢yousa - 【重录】般若波罗密心经（梵文）.mp3","pic":"https://satparamita.top/images/my.jpg","lrc":""}]};
-				  options.element = document.getElementById("aplayer-vcPsJUMN");
+				  options.element = document.getElementById("aplayer-ZQnJZZGA");
 				  var ap = new APlayer(options);
 			    window.aplayers || (window.aplayers = []);
 				  window.aplayers.push(ap);
@@ -149,10 +149,10 @@
     <title>大藏经论藏序言合集</title>
     <url>/p/56fff504.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
-        <div id="aplayer-AHMetJJp" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
+        <div id="aplayer-LDRmlEUH" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
 			  <script>
 				  var options = {"narrow":false,"autoplay":false,"showlrc":3,"mode":"circulation","mutex":true,"theme":"#33a3dc","preload":"metadata","listmaxheight":"680px","music":[{"title":"般若波罗密心经（梵文）","author":"泠鸢yousa","url":"/assets/泠鸢yousa - 【重录】般若波罗密心经（梵文）.mp3","pic":"https://satparamita.top/images/my.jpg","lrc":""}]};
-				  options.element = document.getElementById("aplayer-AHMetJJp");
+				  options.element = document.getElementById("aplayer-LDRmlEUH");
 				  var ap = new APlayer(options);
 			    window.aplayers || (window.aplayers = []);
 				  window.aplayers.push(ap);
@@ -820,10 +820,17 @@
     <title>古诗文摘录一</title>
     <url>/p/34ec0e12.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote class="blockquote-center">
-<p>[TOC]</p>
+<h4 id="长相思"><a class="markdownIt-Anchor" href="#长相思"></a> 长相思</h4>
+<p>一 陈 徐陵<br>
+长相思，望归难，传闻奉诏戍皋兰。龙城远，雁门寒。愁来瘦转剧，衣带自然宽。念君今不见，谁为抱腰看。<br>
+二 陈 徐陵<br>
+长相思。好春节。梦里恒啼悲不泄。帐中起。牕前髻。柳絮飞还聚。游丝断复结。欲见洛阳花。如君陇头雪。<br>
+陈 萧淳 和云<br>
+长相思，久离别。新燕参差条可结。壶关远，雁书绝。对云恒忆阵，看花复愁雪。犹有望归心，流黄未剪截。</p>
+<span id="more"></span>
 <h4 id="临江仙未遇行藏谁肯信-宋-侯蒙"><a class="markdownIt-Anchor" href="#临江仙未遇行藏谁肯信-宋-侯蒙"></a> 临江仙·未遇行藏谁肯信 宋 侯蒙</h4>
 <p>未遇行藏谁肯信，如今方表名踪。无端良匠画形容。当风轻借力，一举入高空。<br>
-才得吹嘘身渐稳，只疑远赴蟾宫。雨馀时候夕阳红。几人平地上，看我碧霄中。<span id="more"></span></p>
+才得吹嘘身渐稳，只疑远赴蟾宫。雨馀时候夕阳红。几人平地上，看我碧霄中。</p>
 <h4 id="本事诗十首选二-清-苏曼殊"><a class="markdownIt-Anchor" href="#本事诗十首选二-清-苏曼殊"></a> 本事诗十首·选二 清 苏曼殊</h4>
 <p>乌舍凌波肌似雪，亲持红叶索题诗。<br>
 还卿一钵无情泪，恨不相逢未剃时。<br>
