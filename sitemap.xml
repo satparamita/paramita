@@ -473,6 +473,13 @@
   </url>
   
   <url>
+    <loc>https://satparamita.top/tags/markdown/</loc>
+    <lastmod>2022-03-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://satparamita.top/tags/%E8%AF%97%E6%96%87/</loc>
     <lastmod>2022-03-24</lastmod>
     <changefreq>daily</changefreq>
@@ -481,13 +488,6 @@
   
   <url>
     <loc>https://satparamita.top/tags/%E6%91%98%E5%BD%95/</loc>
-    <lastmod>2022-03-24</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://satparamita.top/tags/markdown/</loc>
     <lastmod>2022-03-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
