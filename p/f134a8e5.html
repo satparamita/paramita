@@ -37,12 +37,12 @@
 });
 daovoice('update');
  </script>
-<meta name="description" content="目录 在文章开头或段落中填写[TOC]以显示全文的目录。如果不需要在目录中显示某一个标题，在标题后面添加 &amp;#123;ignore&#x3D;true&amp;#125; 即可。比如## 这是二级标题 &amp;#123;ignore&#x3D;true&amp;#125;，注意中间有一个空格。 使用[TOC]显示目录，选择目录标题深度有两种方式：">
+<meta name="description" content="目录 在文章开头或段落中填写[TOC]以显示全文的目录。如果不需要在目录中显示某一个标题，在标题后面添加 &amp;#123;ignore&#x3D;true&amp;#125; 即可。比如## 这是二级标题 &amp;#123;ignore&#x3D;true&amp;#125;，注意中间有一个空格。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="markdown语法">
 <meta property="og:url" content="https://satparamita.top/p/f134a8e5.html">
 <meta property="og:site_name" content="SatParamita六到彼岸">
-<meta property="og:description" content="目录 在文章开头或段落中填写[TOC]以显示全文的目录。如果不需要在目录中显示某一个标题，在标题后面添加 &amp;#123;ignore&#x3D;true&amp;#125; 即可。比如## 这是二级标题 &amp;#123;ignore&#x3D;true&amp;#125;，注意中间有一个空格。 使用[TOC]显示目录，选择目录标题深度有两种方式：">
+<meta property="og:description" content="目录 在文章开头或段落中填写[TOC]以显示全文的目录。如果不需要在目录中显示某一个标题，在标题后面添加 &amp;#123;ignore&#x3D;true&amp;#125; 即可。比如## 这是二级标题 &amp;#123;ignore&#x3D;true&amp;#125;，注意中间有一个空格。">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://i.loli.net/2021/10/20/fryZVW1xP2qtAsI.jpg">
 <meta property="og:image" content="https://i.loli.net/2021/10/20/fryZVW1xP2qtAsI.jpg">
@@ -314,8 +314,8 @@ daovoice('update');
     
     <div class="post-body" itemprop="articleBody">
         <h3 id="目录"><a class="markdownIt-Anchor" href="#目录"></a> 目录</h3>
-<p>在文章开头或段落中填写<code>[TOC]</code>以显示全文的目录。如果不需要在目录中显示某一个标题，在标题后面添加 <code>&#123;ignore=true&#125;</code> 即可。比如<code>## 这是二级标题 &#123;ignore=true&#125;</code>，注意中间有一个空格。<br>
-使用<code>[TOC]</code>显示目录，选择目录标题深度有两种方式：<span id="more"></span></p>
+<p>在文章开头或段落中填写<code>[TOC]</code>以显示全文的目录。如果不需要在目录中显示某一个标题，在标题后面添加 <code>&#123;ignore=true&#125;</code> 即可。比如<code>## 这是二级标题 &#123;ignore=true&#125;</code>，注意中间有一个空格。<span id="more"></span><br>
+使用<code>[TOC]</code>显示目录，选择目录标题深度有两种方式：</p>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">toc: </span><br><span class="line">  depth_from: <span class="number">2</span></span><br><span class="line">  <span class="attr">depth_to</span>: <span class="number">3</span></span><br><span class="line">  <span class="attr">ordered</span>: <span class="literal">false</span></span><br><span class="line">---</span><br></pre></td></tr></table></figure>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">@<span class="keyword">import</span> <span class="string">&quot;[TOC]&quot;</span> &#123;cmd=<span class="string">&quot;toc&quot;</span> depthFrom=<span class="number">2</span> depthTo=<span class="number">2</span> orderedList=<span class="literal">false</span>&#125; </span><br></pre></td></tr></table></figure>
 <h3 id="标题"><a class="markdownIt-Anchor" href="#标题"></a> 标题</h3>
@@ -337,10 +337,8 @@ daovoice('update');
 <p><mark>标记文字</mark><br>
 换行<br>换行</p>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;mark&gt;标记文字&lt;/mark&gt;</span><br><span class="line">换行&lt;br&gt;换行</span><br></pre></td></tr></table></figure>
-<div align="center">
-设置居中。
-</div>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;div align=center&gt;</span><br><span class="line">设置居中。</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+<div align="center">设置居中。</div>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;div align=center&gt;设置居中。&lt;/div&gt;</span><br></pre></td></tr></table></figure>
 <p><font face="黑体">我是黑体字</font> <font face="宋体">我是宋体字</font> <font face="微软雅黑">我是微软雅黑</font> <font face="STCAIYUN">我是华文彩云</font></p>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;font face=<span class="string">&quot;微软雅黑&quot;</span>&gt;我是微软雅黑&lt;/font&gt;</span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">font</span> <span class="attr">face</span>=<span class="string">&quot;STCAIYUN&quot;</span>&gt;</span>我是华文彩云<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
 <p><font size="1">size为1</font><br>

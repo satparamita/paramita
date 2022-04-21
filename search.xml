@@ -1191,9 +1191,9 @@
   <entry>
     <title>Next主题设置-添加标签云、友情链接</title>
     <url>/p/3752fd9a.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="标签云特效参考cloud-more-"><a class="markdownIt-Anchor" href="#标签云特效参考cloud-more-"></a> 标签云特效，参考<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL0QwbjlYMW4vaGV4by10YWctY2xvdWQvYmxvYi9tYXN0ZXIvUkVBRE1FLlpILm1k">cloud<i class="fa fa-external-link-alt"></i></span>。<span id="more"></span></h3>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="标签云特效参考cloud"><a class="markdownIt-Anchor" href="#标签云特效参考cloud"></a> 标签云特效，参考<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL0QwbjlYMW4vaGV4by10YWctY2xvdWQvYmxvYi9tYXN0ZXIvUkVBRE1FLlpILm1k">cloud<i class="fa fa-external-link-alt"></i></span>。</h3>
 <ol>
-<li>安装：<code>npm install hexo-tag-cloud@^2.0.* --save</code></li>
+<li>安装：<code>npm install hexo-tag-cloud@^2.0.* --save</code><span id="more"></span></li>
 <li>对于next8版本，找到<code>theme/next/layout/_macro/sidebar.njk</code>，打开后搜索<code>back2top.sidebar</code>，在其上方添加如下代码。</li>
 </ol>
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;% <span class="keyword">if</span> site.tags.length &gt; <span class="number">1</span> %&#125;</span><br><span class="line">&lt;script type=<span class="string">&quot;text/javascript&quot;</span> charset=<span class="string">&quot;utf-8&quot;</span> src=<span class="string">&quot;&#123;&#123; url_for(&#x27;/js/tagcloud.js&#x27;) &#125;&#125;&quot;</span>&gt;&lt;/script&gt;</span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">src</span>=<span class="string">&quot;&#123;&#123; url_for(&#x27;/js/tagcanvas.js&#x27;) &#125;&#125;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;widget-wrap&quot;</span>&gt;</span></span></span><br><span class="line"><span class="xml">    <span class="tag">&lt;<span class="name">h3</span> <span class="attr">class</span>=<span class="string">&quot;widget-title&quot;</span>&gt;</span>Tag Cloud<span class="tag">&lt;/<span class="name">h3</span>&gt;</span>  #为标签云命名，建议不命名，直接删除此行</span></span><br><span class="line"><span class="xml">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;myCanvasContainer&quot;</span> <span class="attr">class</span>=<span class="string">&quot;widget tagcloud&quot;</span>&gt;</span></span></span><br><span class="line"><span class="xml">        <span class="tag">&lt;<span class="name">canvas</span> <span class="attr">width</span>=<span class="string">&quot;250&quot;</span> <span class="attr">height</span>=<span class="string">&quot;250&quot;</span> <span class="attr">id</span>=<span class="string">&quot;resCanvas&quot;</span> <span class="attr">style</span>=<span class="string">&quot;width:100%&quot;</span>&gt;</span></span></span><br><span class="line"><span class="xml">            &#123;&#123; list_tags() &#125;&#125;</span></span><br><span class="line"><span class="xml">        <span class="tag">&lt;/<span class="name">canvas</span>&gt;</span></span></span><br><span class="line"><span class="xml">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="xml"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
@@ -1377,8 +1377,8 @@ pdf文件存放在与test.md文件同名的test文件夹里。也可以添加外
     <url>/p/1b9a5d5d.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="软件安装"><a class="markdownIt-Anchor" href="#软件安装"></a> 软件安装</h2>
 <ol>
-<li>安装<span class="exturl" data-url="aHR0cHM6Ly9ub2RlanMub3JnL3poLWNuLw==">Node.js<i class="fa fa-external-link-alt"></i></span>、<span class="exturl" data-url="aHR0cHM6Ly9naXQtc2NtLmNvbS9kb3dubG9hZHM=">git<i class="fa fa-external-link-alt"></i></span>，点击进入下载网站。</li>
-<li>检验git是否安装成功，同时按下<code>Win</code>键和<code>R</code>键打开运行窗口，输入<code>cmd</code>，打开命令提示符，分别输入以下命令：<span id="more"></span><br>
+<li>安装<span class="exturl" data-url="aHR0cHM6Ly9ub2RlanMub3JnL3poLWNuLw==">Node.js<i class="fa fa-external-link-alt"></i></span>、<span class="exturl" data-url="aHR0cHM6Ly9naXQtc2NtLmNvbS9kb3dubG9hZHM=">git<i class="fa fa-external-link-alt"></i></span>，点击进入下载网站。<span id="more"></span></li>
+<li>检验git是否安装成功，同时按下<code>Win</code>键和<code>R</code>键打开运行窗口，输入<code>cmd</code>，打开命令提示符，分别输入以下命令：<br>
 <code>git --version</code><br>
 <code>node -v</code><br>
 <code>npm -v</code><br>
@@ -1539,8 +1539,8 @@ pdf文件存放在与test.md文件同名的test文件夹里。也可以添加外
     <title>markdown语法</title>
     <url>/p/f134a8e5.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="目录"><a class="markdownIt-Anchor" href="#目录"></a> 目录</h3>
-<p>在文章开头或段落中填写<code>[TOC]</code>以显示全文的目录。如果不需要在目录中显示某一个标题，在标题后面添加 <code>&#123;ignore=true&#125;</code> 即可。比如<code>## 这是二级标题 &#123;ignore=true&#125;</code>，注意中间有一个空格。<br>
-使用<code>[TOC]</code>显示目录，选择目录标题深度有两种方式：<span id="more"></span></p>
+<p>在文章开头或段落中填写<code>[TOC]</code>以显示全文的目录。如果不需要在目录中显示某一个标题，在标题后面添加 <code>&#123;ignore=true&#125;</code> 即可。比如<code>## 这是二级标题 &#123;ignore=true&#125;</code>，注意中间有一个空格。<span id="more"></span><br>
+使用<code>[TOC]</code>显示目录，选择目录标题深度有两种方式：</p>
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">toc: </span><br><span class="line">  depth_from: <span class="number">2</span></span><br><span class="line">  <span class="attr">depth_to</span>: <span class="number">3</span></span><br><span class="line">  <span class="attr">ordered</span>: <span class="literal">false</span></span><br><span class="line">---</span><br></pre></td></tr></table></figure>
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line">@<span class="keyword">import</span> <span class="string">&quot;[TOC]&quot;</span> &#123;cmd=<span class="string">&quot;toc&quot;</span> depthFrom=<span class="number">2</span> depthTo=<span class="number">2</span> orderedList=<span class="literal">false</span>&#125; </span><br></pre></td></tr></table></figure>
 <h3 id="标题"><a class="markdownIt-Anchor" href="#标题"></a> 标题</h3>
@@ -1562,10 +1562,8 @@ pdf文件存放在与test.md文件同名的test文件夹里。也可以添加外
 <p><mark>标记文字</mark><br>
 换行<br>换行</p>
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;mark&gt;标记文字&lt;/mark&gt;</span><br><span class="line">换行&lt;br&gt;换行</span><br></pre></td></tr></table></figure>
-<div align="center">
-设置居中。
-</div>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;div align=center&gt;</span><br><span class="line">设置居中。</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+<div align="center">设置居中。</div>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;div align=center&gt;设置居中。&lt;/div&gt;</span><br></pre></td></tr></table></figure>
 <p><font face="黑体">我是黑体字</font> <font face="宋体">我是宋体字</font> <font face="微软雅黑">我是微软雅黑</font> <font face="STCAIYUN">我是华文彩云</font></p>
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;font face=<span class="string">&quot;微软雅黑&quot;</span>&gt;我是微软雅黑&lt;/font&gt;</span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">font</span> <span class="attr">face</span>=<span class="string">&quot;STCAIYUN&quot;</span>&gt;</span>我是华文彩云<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
 <p><font size="1">size为1</font><br>
