@@ -15,13 +15,13 @@
 <p><img data-src="https://i.loli.net/2021/11/23/3LnmbpuVXTgvBY2.jpg" alt="高昌故城"></p>]]></content>
   </entry>
   <entry>
-    <title>大藏经经藏序言合集</title>
+    <title>经藏序言合集</title>
     <url>/p/a7130f16.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
-        <div id="aplayer-yGxTFkTY" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
+        <div id="aplayer-OztgIrap" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
 			  <script>
 				  var options = {"narrow":false,"autoplay":false,"showlrc":3,"mode":"circulation","mutex":true,"theme":"#33a3dc","preload":"metadata","listmaxheight":"680px","music":[{"title":"般若波罗密心经（梵文）","author":"泠鸢yousa","url":"/assets/泠鸢yousa - 【重录】般若波罗密心经（梵文）.mp3","pic":"https://satparamita.top/images/my.jpg","lrc":""}]};
-				  options.element = document.getElementById("aplayer-yGxTFkTY");
+				  options.element = document.getElementById("aplayer-OztgIrap");
 				  var ap = new APlayer(options);
 			    window.aplayers || (window.aplayers = []);
 				  window.aplayers.push(ap);
@@ -147,13 +147,13 @@
       </tags>
   </entry>
   <entry>
-    <title>大藏经论藏序言合集</title>
+    <title>论藏序言合集</title>
     <url>/p/56fff504.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
-        <div id="aplayer-BejtNyHL" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
+        <div id="aplayer-zehuSwiR" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
 			  <script>
 				  var options = {"narrow":false,"autoplay":false,"showlrc":3,"mode":"circulation","mutex":true,"theme":"#33a3dc","preload":"metadata","listmaxheight":"680px","music":[{"title":"般若波罗密心经（梵文）","author":"泠鸢yousa","url":"/assets/泠鸢yousa - 【重录】般若波罗密心经（梵文）.mp3","pic":"https://satparamita.top/images/my.jpg","lrc":""}]};
-				  options.element = document.getElementById("aplayer-BejtNyHL");
+				  options.element = document.getElementById("aplayer-zehuSwiR");
 				  var ap = new APlayer(options);
 			    window.aplayers || (window.aplayers = []);
 				  window.aplayers.push(ap);
@@ -196,7 +196,7 @@
     <title>《法苑珠林校注》勘误</title>
     <url>/p/8cdd1064.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>《法苑珠林》，唐<strong>释道世</strong>撰，全书约百万字，博引诸经、律、论、传等四百多种。收于大正藏第五十三册。本书为一切佛经之索引，具有佛教百科全书之性质。<br>
-中华书局出版《法苑珠林校注》（ISBN：9787101024845）是由周叔迦与其弟子苏晋仁整理而成，是目前最好的校注本。然而因为该书卷帙浩繁，本人发现尚有某些校注之处有待商榷，故略加考证，详列如下。才疏学浅，还望赐教。<span id="more"></span></p>
+中华书局出版《法苑珠林校注》（ISBN：9787101024845）是由周叔迦与其弟子苏晋仁整理而成，是目前最好的校注本。然而因为该书卷帙浩繁，本人发现尚有某些校注之处有待商榷，故略加考证，详列如下。<span id="more"></span></p>
 <h3 id="第一册"><a class="markdownIt-Anchor" href="#第一册"></a> 第一册</h3>
 <ol>
 <li>正文第五十三页第三行，六十八页第七行，七十一页第五行。文中“福慶天“疑是”福愛天”。慶、愛二字字形相近，《地藏菩萨本愿经》里有“福愛天”一词。</li>
