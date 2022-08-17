@@ -18,10 +18,10 @@
     <title>经藏序言合集</title>
     <url>/p/a7130f16.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
-        <div id="aplayer-YNiyFOfJ" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
+        <div id="aplayer-tmtGcHsH" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
 			  <script>
 				  var options = {"narrow":false,"autoplay":false,"showlrc":3,"mode":"circulation","mutex":true,"theme":"#33a3dc","preload":"metadata","listmaxheight":"680px","music":[{"title":"般若波罗密心经（梵文）","author":"泠鸢yousa","url":"/assets/泠鸢yousa - 【重录】般若波罗密心经（梵文）.mp3","pic":"https://satparamita.top/images/my.jpg","lrc":""}]};
-				  options.element = document.getElementById("aplayer-YNiyFOfJ");
+				  options.element = document.getElementById("aplayer-tmtGcHsH");
 				  var ap = new APlayer(options);
 			    window.aplayers || (window.aplayers = []);
 				  window.aplayers.push(ap);
@@ -150,10 +150,10 @@
     <title>论藏序言合集</title>
     <url>/p/56fff504.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
-        <div id="aplayer-gbVKqjHT" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
+        <div id="aplayer-aFWpetsM" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
 			  <script>
 				  var options = {"narrow":false,"autoplay":false,"showlrc":3,"mode":"circulation","mutex":true,"theme":"#33a3dc","preload":"metadata","listmaxheight":"680px","music":[{"title":"般若波罗密心经（梵文）","author":"泠鸢yousa","url":"/assets/泠鸢yousa - 【重录】般若波罗密心经（梵文）.mp3","pic":"https://satparamita.top/images/my.jpg","lrc":""}]};
-				  options.element = document.getElementById("aplayer-gbVKqjHT");
+				  options.element = document.getElementById("aplayer-aFWpetsM");
 				  var ap = new APlayer(options);
 			    window.aplayers || (window.aplayers = []);
 				  window.aplayers.push(ap);
@@ -234,25 +234,6 @@
       <tags>
         <tag>法苑珠林</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/p/4a17b156.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Welcome to <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvLw==">Hexo<i class="fa fa-external-link-alt"></i></span>! This is your very first post. Check <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv">documentation<i class="fa fa-external-link-alt"></i></span> for more info. If you get any problems when using Hexo, you can find the answer in <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=">troubleshooting<i class="fa fa-external-link-alt"></i></span> or you can ask me on <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==">GitHub<i class="fa fa-external-link-alt"></i></span>.</p>
-<h2 id="quick-start"><a class="markdownIt-Anchor" href="#quick-start"></a> Quick Start</h2>
-<h3 id="create-a-new-post"><a class="markdownIt-Anchor" href="#create-a-new-post"></a> Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s">Writing<i class="fa fa-external-link-alt"></i></span></p>
-<h3 id="run-server"><a class="markdownIt-Anchor" href="#run-server"></a> Run server</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=">Server<i class="fa fa-external-link-alt"></i></span></p>
-<h3 id="generate-static-files"><a class="markdownIt-Anchor" href="#generate-static-files"></a> Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s">Generating<i class="fa fa-external-link-alt"></i></span></p>
-<h3 id="deploy-to-remote-sites"><a class="markdownIt-Anchor" href="#deploy-to-remote-sites"></a> Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s">Deployment<i class="fa fa-external-link-alt"></i></span></p>
-]]></content>
   </entry>
   <entry>
     <title>佛经字词</title>
