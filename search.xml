@@ -18,10 +18,10 @@
     <title>经藏序言合集</title>
     <url>/p/a7130f16.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
-        <div id="aplayer-tmtGcHsH" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
+        <div id="aplayer-vILrFIgh" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
 			  <script>
 				  var options = {"narrow":false,"autoplay":false,"showlrc":3,"mode":"circulation","mutex":true,"theme":"#33a3dc","preload":"metadata","listmaxheight":"680px","music":[{"title":"般若波罗密心经（梵文）","author":"泠鸢yousa","url":"/assets/泠鸢yousa - 【重录】般若波罗密心经（梵文）.mp3","pic":"https://satparamita.top/images/my.jpg","lrc":""}]};
-				  options.element = document.getElementById("aplayer-tmtGcHsH");
+				  options.element = document.getElementById("aplayer-vILrFIgh");
 				  var ap = new APlayer(options);
 			    window.aplayers || (window.aplayers = []);
 				  window.aplayers.push(ap);
@@ -150,10 +150,10 @@
     <title>论藏序言合集</title>
     <url>/p/56fff504.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
-        <div id="aplayer-aFWpetsM" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
+        <div id="aplayer-yTPmmjnk" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
 			  <script>
 				  var options = {"narrow":false,"autoplay":false,"showlrc":3,"mode":"circulation","mutex":true,"theme":"#33a3dc","preload":"metadata","listmaxheight":"680px","music":[{"title":"般若波罗密心经（梵文）","author":"泠鸢yousa","url":"/assets/泠鸢yousa - 【重录】般若波罗密心经（梵文）.mp3","pic":"https://satparamita.top/images/my.jpg","lrc":""}]};
-				  options.element = document.getElementById("aplayer-aFWpetsM");
+				  options.element = document.getElementById("aplayer-yTPmmjnk");
 				  var ap = new APlayer(options);
 			    window.aplayers || (window.aplayers = []);
 				  window.aplayers.push(ap);
@@ -272,11 +272,16 @@
     <title>古诗文摘录(一)</title>
     <url>/p/34ec0e12.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote class="blockquote-center">
+<h4 id="夜雨-唐-白居易"><a class="markdownIt-Anchor" href="#夜雨-唐-白居易"></a> 夜雨 唐 白居易</h4>
+<p>我有所念人，隔在远远乡。我有所感事，结在深深肠。<br>
+乡远去不得，无日不瞻望。肠深解不得，无夕不思量。<br>
+况此残灯夜，独宿在空堂。秋天殊未晓，风雨正苍苍。<br>
+不学头陀法，前心安可忘。</p>
+<span id="more"></span>
 <h4 id="三五七言-秋风词-唐-李白"><a class="markdownIt-Anchor" href="#三五七言-秋风词-唐-李白"></a> 三五七言 / 秋风词 唐 李白</h4>
 <p>秋风清，秋月明，<br>
 落叶聚还散，寒鸦栖复惊。<br>
 相思相见知何日，此时此夜难为情。</p>
-<span id="more"></span>
 <h4 id="拟行路难其四-南朝宋-鲍照"><a class="markdownIt-Anchor" href="#拟行路难其四-南朝宋-鲍照"></a> 拟行路难·其四 南朝宋 鲍照</h4>
 <p>泻水置平地，各自东西南北流。人生亦有命，安能行叹复坐愁？<br>
 酌酒以自宽，举杯断绝歌路难。心非木石岂无感？吞声踯躅不敢言。</p>
@@ -905,9 +910,9 @@ pdf文件存放在与test.md文件同名的test文件夹里。也可以添加外
 </ol>
 ]]></content>
       <tags>
+        <tag>next</tag>
         <tag>github</tag>
         <tag>hexo</tag>
-        <tag>next</tag>
       </tags>
   </entry>
   <entry>
