@@ -3,7 +3,7 @@
   <entry>
     <title>首页</title>
     <url>/p/00file.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><div class="link-grid"><div class="link-grid-container">
+    <content><![CDATA[<div class="link-grid"><div class="link-grid-container">
 <object class="link-grid-image" data="/images/my.jpg"></object>
 <p><font face="楷体" size="4" color="#9b95c9">SatParamita六到彼岸</font></p><p>诵持三藏经律论勤修六度波罗蜜</p>
 <a href="https://satparamita.top"></a>
@@ -15,13 +15,51 @@
 <p><img data-src="https://i.loli.net/2021/11/23/3LnmbpuVXTgvBY2.jpg" alt="高昌故城"></p>]]></content>
   </entry>
   <entry>
+    <title>《法苑珠林校注》勘误</title>
+    <url>/p/8cdd1064.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>《法苑珠林》，唐<strong>释道世</strong>撰，全书约百万字，博引诸经、律、论、传等四百多种。收于大正藏第五十三册。本书为一切佛经之索引，具有佛教百科全书之性质。<span id="more"></span><br>
+中华书局出版《法苑珠林校注》（ISBN：9787101024845）是由周叔迦与其弟子苏晋仁整理而成，是目前最好的校注本。然而因为该书卷帙浩繁，本人发现尚有某些校注之处有待商榷，故略加考证，详列如下。</p>
+<h3 id="第一册"><a class="markdownIt-Anchor" href="#第一册"></a> 第一册</h3>
+<ol>
+<li>正文第五十三页第三行，六十八页第七行，七十一页第五行。文中“福慶天“疑是”福愛天”。慶、愛二字字形相近，《地藏菩萨本愿经》里有“福愛天”一词。</li>
+<li>第六十五页。最后一行原文引用《大智度论》卷九“一万八千三百八十三”（18383），疑是“一万六千三百八十三”（16383）。同页第四行，“六万五千年，五百三十五”，即65535 = 2<sup>16</sup> - 1。而 2<sup>14</sup> - 1 = 16383。首先，16383更符合前文叙述，其次，六、八字形相近，传抄易错。<br>
+网上看到的几种电子版与扫描版《大智度论》卷九，原文都写作“万八千三百。八十有三岁。”，应该都写错了，正确的原文应是“万六千三百。八十有三岁。”</li>
+<li>第七十页。第四行“等活地狱寿五百岁，计人间”。逗号应改为句号，因为上下文没有关系。上文“人间日月九百万岁。即是等活地狱一日一夜。如是日月岁数等活地狱寿五百岁”，意思是以人间九百万岁为等活地狱一日一夜，等活地狱寿五百岁，此五百岁为等活地狱五百岁，计人间9000000*500*360岁（文中一年均按360日计算）。由于此数字太大，原文没有表述“计人间9000000*360*500岁”，所以原编辑误以为下一句的“计人间。。。”承接上一句。实际句意到此结束，与下一句无关，所以逗号应改为句号。<br>
+同样，第六行“黑绳地狱寿千岁，计人间”、第七行最后一个逗号、第九行“寿四千岁，计人间”、第七十一页第一行“寿八千岁，计人间”、第二行“一万六千岁，计人间”，其中逗号均应改为句号。</li>
+<li>第七十页第六行。“计人间二百岁，为炎魔天”，逗号可以去掉，因为在上下文其他类似表达的句子里没有断句，这里不必要用逗号。</li>
+<li>第七十页注释三、四。这两处，高丽藏是对的，不应改动。注释三，原文为“三亿六十万岁”，应改为高丽藏“三亿六百万岁”。佛经里的亿，有的等于十万，如第六十四页第八行“三亿二万由旬”，相当于“三十二万由旬”，是同一行里“十六万由旬”的两倍；有的等于一千万，即第七十页的几处。正确的“三亿六百万岁”等于三千六百万，即100*1000*360=36000000。100岁为一日夜，寿1000岁，一岁360个日夜。<br>
+注释四，原文“二百三十亿万岁”，应改为高丽藏“二百三十亿岁”，一亿等于一千万，相当于现代数学里的23亿岁。800岁为一日夜，寿8000岁，一岁360日夜，所以800*8000*360=2304000000，即23亿4百万。4百万相对23亿很小，可以省略4百万，即高丽藏“二百三十亿岁”。最好能加上4百万，写作“二百三十亿四百万岁”。</li>
+<li>第七十五页第四行。“其中由有七种金山是四天王城，邑聚落悉在其中”，应是“其中由有七种金山。是四天王城邑聚落悉在其中”。意思是“这四位天王的城邑聚落悉在其中”。佛经很多是四字四字断句。</li>
+<li>第七十七页第三行，“是故称天共称为”应改为“是故诸天共称为”。第四行末有同样的句子。</li>
+<li>第八十页第四行。引用《立世阿毗昙论》“有万七百房室”，应改为“有七万七百房室”。《立世阿毗昙论》写作“有七万七百房室”。70700*7=494900。符合下一行的“四亿九万四千九百”，即494900。（此处一亿等于现代十万。）70700*7*7=3464300，即下一行的“三十四亿六万四千三百”。（此处一亿等于现代十万。）而且，70700=101*700。此101和第三行“凡一百一所”对应。所以应改为“有七万七百房室”。</li>
+<li>第八十页第八行。“有百楼观有七重”应改为“有百楼观，观有七重”，更符合佛经常用表达，也符合下文的表达。《杂阿含经》原文是“有百一楼观，观有七重”。</li>
+<li>第八十三页第九行。“五、天身无有皮肤体筋脉血肉”，应改为“五、天身无有皮肤骨体筋脉血肉”。其他版本《长阿含经》有“骨”字，符合四字断句。第十行“十、身随意”应改为“十、身随意色”。</li>
+<li>第八十四页第九行。“非其境界故。如不觉彼触故。上界地来向下时”，应改为“非其境界故，如不觉彼触。故上界地来向下时”。首先，第一个句号改逗号。其次，从上一行句末“若上界”开始，意思是“如果上界地居天人来向下时，不化成下身，则下眼不见，不是其境界的原因，如同不觉彼触。所以（故）上界地居天人来向下时，一定（必）要化成下身”。“故”和“必”关联，而且“故上界地来向下时”四字四字断句。《阿毗达磨顺正理论》此处句号位置和此页一样。</li>
+<li>第八十五页第二、三行。“胜于日月。及欲界果报光明离欲天。取要言之，是诸光明皆由”，应改为“胜于日月及欲界果报光明。离欲天，取要言之，是诸光明皆由”。“诸光明”指的是“离欲天的光明”，即“色界诸天的光明”。我看到的电子版《大智度论》标点也是错的。</li>
+<li>第八十九页第六行。“转成身”，《立世阿毗昙论》作“转成身分”。</li>
+<li>第九十二页注释一。此偈出自《大方广佛华严经卷第七贤首菩萨品第八之一》，原文“帝释普应诸天女。九十有二那由他。天女各各心自谓。天王独与我娱乐。”。第七行“唯局初禅三天”，“局”疑是“有”。</li>
+<li>第九十七页第九行。“皆来到此驴圣人边，睹设供养已”，缺文，应是“皆来到此驴圣人边，种种供奉赞叹称扬，如是苦行生来未睹。设供养已”。第十行，“若我能”应是“若我力能”。第十一行“我欲了知分别识解暗瞑故，不惮劬劳”应是“我欲了知分别识解，愍暗瞑故不惮劬劳”。</li>
+<li>第九十八页第三行。“饶益我等。知彼宿属于火天”应是“饶益我等。我知彼宿属于火天”。第四行“形如似剃刀”应是“形如剃刀”。第六行“行三十五时”应是“行四十五时”，参考第102页第十行“有五宿行四十五时，所谓毕。。。”。</li>
+<li>第102页第11行。“宣。我今略说是宿时，”应是“宣，我今略说。说是宿时，”。</li>
+<li>第103页最后一行。“名伽力出现于世”应是“名伽力伽出现于世”，而且人名没有画竖线标注。“置于星宿”应是“置诸星宿”。</li>
+<li>第111页第七行末。“日行路”应是“日行外路”。与第九行“日行内路”对应。</li>
+<li>第113页第一行。“人眼所见，知四十二万由旬，人眼所见。”《处处经》原文“人眼所见，四十二万由旬。”</li>
+<li>第115页第7行。“二十七日加六十分之二十一”（27.35），《大智度论》作“二十七日加六十七分之二十一”（27.3134），更接近月球公转和自转周期27.32天。《开元占经卷十一》有“（月）行一日，十三度六十七分度之二十五半。二十七日，一千三百四十（67*20）分度之七百四十三奇一而周天矣。”分母中有因数67。</li>
+<li>更新中…</li>
+</ol>
+]]></content>
+      <tags>
+        <tag>法苑珠林</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>经藏序言合集</title>
     <url>/p/a7130f16.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
-        <div id="aplayer-TtPQQNnV" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
+        <div id="aplayer-FDwfbuYG" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
 			  <script>
 				  var options = {"narrow":false,"autoplay":false,"showlrc":3,"mode":"circulation","mutex":true,"theme":"#33a3dc","preload":"metadata","listmaxheight":"680px","music":[{"title":"般若波罗密心经（梵文）","author":"泠鸢yousa","url":"/assets/泠鸢yousa - 【重录】般若波罗密心经（梵文）.mp3","pic":"https://satparamita.top/images/my.jpg","lrc":""}]};
-				  options.element = document.getElementById("aplayer-TtPQQNnV");
+				  options.element = document.getElementById("aplayer-FDwfbuYG");
 				  var ap = new APlayer(options);
 			    window.aplayers || (window.aplayers = []);
 				  window.aplayers.push(ap);
@@ -157,237 +195,6 @@
 ]]></content>
       <tags>
         <tag>序言</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>《法苑珠林校注》勘误</title>
-    <url>/p/8cdd1064.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>《法苑珠林》，唐<strong>释道世</strong>撰，全书约百万字，博引诸经、律、论、传等四百多种。收于大正藏第五十三册。本书为一切佛经之索引，具有佛教百科全书之性质。<span id="more"></span><br>
-中华书局出版《法苑珠林校注》（ISBN：9787101024845）是由周叔迦与其弟子苏晋仁整理而成，是目前最好的校注本。然而因为该书卷帙浩繁，本人发现尚有某些校注之处有待商榷，故略加考证，详列如下。</p>
-<h3 id="第一册"><a class="markdownIt-Anchor" href="#第一册"></a> 第一册</h3>
-<ol>
-<li>正文第五十三页第三行，六十八页第七行，七十一页第五行。文中“福慶天“疑是”福愛天”。慶、愛二字字形相近，《地藏菩萨本愿经》里有“福愛天”一词。</li>
-<li>第六十五页。最后一行原文引用《大智度论》卷九“一万八千三百八十三”（18383），疑是“一万六千三百八十三”（16383）。同页第四行，“六万五千年，五百三十五”，即65535 = 2<sup>16</sup> - 1。而 2<sup>14</sup> - 1 = 16383。首先，16383更符合前文叙述，其次，六、八字形相近，传抄易错。<br>
-网上看到的几种电子版与扫描版《大智度论》卷九，原文都写作“万八千三百。八十有三岁。”，应该都写错了，正确的原文应是“万六千三百。八十有三岁。”</li>
-<li>第七十页。第四行“等活地狱寿五百岁，计人间”。逗号应改为句号，因为上下文没有关系。上文“人间日月九百万岁。即是等活地狱一日一夜。如是日月岁数等活地狱寿五百岁”，意思是以人间九百万岁为等活地狱一日一夜，等活地狱寿五百岁，此五百岁为等活地狱五百岁，计人间9000000*500*360岁（文中一年均按360日计算）。由于此数字太大，原文没有表述“计人间9000000*360*500岁”，所以原编辑误以为下一句的“计人间。。。”承接上一句。实际句意到此结束，与下一句无关，所以逗号应改为句号。<br>
-同样，第六行“黑绳地狱寿千岁，计人间”、第七行最后一个逗号、第九行“寿四千岁，计人间”、第七十一页第一行“寿八千岁，计人间”、第二行“一万六千岁，计人间”，其中逗号均应改为句号。</li>
-<li>第七十页第六行。“计人间二百岁，为炎魔天”，逗号可以去掉，因为在上下文其他类似表达的句子里没有断句，这里不必要用逗号。</li>
-<li>第七十页注释三、四。这两处，高丽藏是对的，不应改动。注释三，原文为“三亿六十万岁”，应改为高丽藏“三亿六百万岁”。佛经里的亿，有的等于十万，如第六十四页第八行“三亿二万由旬”，相当于“三十二万由旬”，是同一行里“十六万由旬”的两倍；有的等于一千万，即第七十页的几处。正确的“三亿六百万岁”等于三千六百万，即100*1000*360=36000000。100岁为一日夜，寿1000岁，一岁360个日夜。<br>
-注释四，原文“二百三十亿万岁”，应改为高丽藏“二百三十亿岁”，一亿等于一千万，相当于现代数学里的23亿岁。800岁为一日夜，寿8000岁，一岁360日夜，所以800*8000*360=2304000000，即23亿4百万。4百万相对23亿很小，可以省略4百万，即高丽藏“二百三十亿岁”。最好能加上4百万，写作“二百三十亿四百万岁”。</li>
-<li>第七十五页第四行。“其中由有七种金山是四天王城，邑聚落悉在其中”，应是“其中由有七种金山。是四天王城邑聚落悉在其中”。意思是“这四位天王的城邑聚落悉在其中”。佛经很多是四字四字断句。</li>
-<li>第七十七页第三行，“是故称天共称为”应改为“是故诸天共称为”。第四行末有同样的句子。</li>
-<li>第八十页第四行。引用《立世阿毗昙论》“有万七百房室”，应改为“有七万七百房室”。《立世阿毗昙论》写作“有七万七百房室”。70700*7=494900。符合下一行的“四亿九万四千九百”，即494900。（此处一亿等于现代十万。）70700*7*7=3464300，即下一行的“三十四亿六万四千三百”。（此处一亿等于现代十万。）而且，70700=101*700。此101和第三行“凡一百一所”对应。所以应改为“有七万七百房室”。</li>
-<li>第八十页第八行。“有百楼观有七重”应改为“有百楼观，观有七重”，更符合佛经常用表达，也符合下文的表达。《杂阿含经》原文是“有百一楼观，观有七重”。</li>
-<li>第八十三页第九行。“五、天身无有皮肤体筋脉血肉”，应改为“五、天身无有皮肤骨体筋脉血肉”。其他版本《长阿含经》有“骨”字，符合四字断句。第十行“十、身随意”应改为“十、身随意色”。</li>
-<li>第八十四页第九行。“非其境界故。如不觉彼触故。上界地来向下时”，应改为“非其境界故，如不觉彼触。故上界地来向下时”。首先，第一个句号改逗号。其次，从上一行句末“若上界”开始，意思是“如果上界地居天人来向下时，不化成下身，则下眼不见，不是其境界的原因，如同不觉彼触。所以（故）上界地居天人来向下时，一定（必）要化成下身”。“故”和“必”关联，而且“故上界地来向下时”四字四字断句。《阿毗达磨顺正理论》此处句号位置和此页一样。</li>
-<li>第八十五页第二、三行。“胜于日月。及欲界果报光明离欲天。取要言之，是诸光明皆由”，应改为“胜于日月及欲界果报光明。离欲天，取要言之，是诸光明皆由”。“诸光明”指的是“离欲天的光明”，即“色界诸天的光明”。我看到的电子版《大智度论》标点也是错的。</li>
-<li>第八十九页第六行。“转成身”，《立世阿毗昙论》作“转成身分”。</li>
-<li>第九十二页注释一。此偈出自《大方广佛华严经卷第七贤首菩萨品第八之一》，原文“帝释普应诸天女。九十有二那由他。天女各各心自谓。天王独与我娱乐。”。第七行“唯局初禅三天”，“局”疑是“有”。</li>
-<li>第九十七页第九行。“皆来到此驴圣人边，睹设供养已”，缺文，应是“皆来到此驴圣人边，种种供奉赞叹称扬，如是苦行生来未睹。设供养已”。第十行，“若我能”应是“若我力能”。第十一行“我欲了知分别识解暗瞑故，不惮劬劳”应是“我欲了知分别识解，愍暗瞑故不惮劬劳”。</li>
-<li>第九十八页第三行。“饶益我等。知彼宿属于火天”应是“饶益我等。我知彼宿属于火天”。第四行“形如似剃刀”应是“形如剃刀”。第六行“行三十五时”应是“行四十五时”，参考第102页第十行“有五宿行四十五时，所谓毕。。。”。</li>
-<li>第102页第11行。“宣。我今略说是宿时，”应是“宣，我今略说。说是宿时，”。</li>
-<li>第103页最后一行。“名伽力出现于世”应是“名伽力伽出现于世”，而且人名没有画竖线标注。“置于星宿”应是“置诸星宿”。</li>
-<li>第111页第七行末。“日行路”应是“日行外路”。与第九行“日行内路”对应。</li>
-<li>第113页第一行。“人眼所见，知四十二万由旬，人眼所见。”《处处经》原文“人眼所见，四十二万由旬。”</li>
-<li>第115页第7行。“二十七日加六十分之二十一”（27.35），《大智度论》作“二十七日加六十七分之二十一”（27.3134），更接近月球公转和自转周期27.32天。《开元占经卷十一》有“（月）行一日，十三度六十七分度之二十五半。二十七日，一千三百四十（67*20）分度之七百四十三奇一而周天矣。”分母中有因数67。</li>
-<li>更新中…</li>
-</ol>
-]]></content>
-      <tags>
-        <tag>法苑珠林</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>论藏序言合集</title>
-    <url>/p/56fff504.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
-        <div id="aplayer-ekpsXcWO" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
-			  <script>
-				  var options = {"narrow":false,"autoplay":false,"showlrc":3,"mode":"circulation","mutex":true,"theme":"#33a3dc","preload":"metadata","listmaxheight":"680px","music":[{"title":"般若波罗密心经（梵文）","author":"泠鸢yousa","url":"/assets/泠鸢yousa - 【重录】般若波罗密心经（梵文）.mp3","pic":"https://satparamita.top/images/my.jpg","lrc":""}]};
-				  options.element = document.getElementById("aplayer-ekpsXcWO");
-				  var ap = new APlayer(options);
-			    window.aplayers || (window.aplayers = []);
-				  window.aplayers.push(ap);
-			  </script>
-<span id="more"></span>
-<h3 id="瑜伽师地论"><a class="markdownIt-Anchor" href="#瑜伽师地论"></a> 瑜伽师地论</h3>
-<p>弥勒菩萨说  大唐贞观廿二年五月十五日于长安弘福寺翻经院三藏法师玄奘奉　诏译<br>
-后序  中书令臣许敬宗制<br>
-原夫。三才成位，爰彰开辟之端。六羽为君，犹昧尊卑之序。讯余轨于襄陆，沦胥靡征。考陈迹于怀英，寂寥无纪。暨乎黄轩振武，玄顼疏功。帝道盛于唐虞，王业著于殷夏。葳蕤玉册，照耀金图。茂范曾芬，详诸历选。然则基神袭圣衍庆摛和。轶三代而孤标，掩百王而迥秀。我大唐皇帝无得而称矣。断鳌初载，万有于是宅心。飞龙在辰，六幽于是仰德。偃洪流而恢地络，练清气而缉天维。散服韬戈，扇无为之道。移浇反璞，弘不言之化。悠悠庶类，叶梦于华胥。蠢蠢怀生，遂性于仁寿。大礼大乐，包曲台而掩宣榭。宏谟宏典，澄璧水而藻环林。瑞露祯云，翊紫空而表贶。祥鳞庆翼，绕丹禁而呈符。岁精所记之州，咸为疆场。暄谷所谟之县，并入堤封。广辟辕宫，被文轨于殊俗。还开姬弈，均正朔于王会。大业成矣。大化清矣。于是游心羽陵，寓情延阁。总万箧于天纵，资一贯于生知。洞照神襟，深穷性道。俯同小伎，则绚发三辰。降习微毫，则妙逾八体。居域中之大宝，毕天下之能事。虽则甲夜观书，见称优洽。华旦成曲，独擅风猷。仰挍鸿徽，岂可同年而语矣。<br>
-有玄奘法师者。胎彰辩慧，蹑身子之高踪。生禀神奇，嗣摩什之芳轨。爰初束发，即事抽簪。迥出盖缠，深悟空假，研求四谛，嗟谬旨于真宗。钻仰一乘，鉴讹文于实相。遂乃发弘誓愿，起大悲心，思拯迷途，亲寻正教。幸属时康道泰，远安迩肃。裂裳裹足，直趣迦维。阐皇泽于遐方，征释教于前域。越葱岭之外，犹跬步而忘远。遵竹园之左，譬亲受而何殊。访道周游十有七载，经途所亘百有余国。异方之语，资一音而并贯。未译之经，罄五财而毕写。若诵若阅，喻青莲之受持。半句半偈，随白马而俱返。以贞观十九年。持如来肉舍利一百五十粒。佛像七躯。三藏圣教要文凡六百五十七部。二月六日还至长安。奉敕于弘福寺安置。令所司供给。召诸名僧二十一人学通内外者。共译持来三藏梵本。至二十一年五月十五日。肇译瑜伽师地论。论梵本四万颂。颂三十二字。凡有五分。宗明十七地义。三藏法师玄奘敬执梵文译为唐语。弘福寺沙门灵会。灵隽。智开。知仁。会昌寺沙门玄度。瑶台寺沙门道卓。大总持寺沙门道观。清禅寺沙门明觉烝义笔受。弘福寺沙门玄谟。证梵语。大总持寺沙门玄应。正字。大总持寺沙门道洪。实际寺沙门明琰。宝昌寺沙门法祥。罗汉寺沙门惠贵。弘福寺沙门文备。蒲州栖岩寺沙门神泰。廓州法讲寺沙门道深。详证大义。本地分中。五识身相应地意地。有寻有伺地。无寻唯伺地。无寻无伺地。凡十七卷。普光寺沙门道智。受旨证文。三摩呬多地。非三摩呬多地。有心无心地。闻所成地。思所成地。修所成地。凡十卷。蒲州普救寺沙门行友。受旨证文。声闻地初。瑜伽种姓地尽第二瑜伽处。凡九卷。玄法寺沙门玄赜。受旨证文。声闻地第三瑜伽处尽独觉地。凡五卷。汴州真谛寺沙门玄忠。受旨证文。菩萨地。有余依地。无余依地。凡十六卷。简州福众寺沙门靖迈。受旨证文。摄决择分。凡三十卷。大总持寺沙门辩机。受旨证文。摄异门分。摄释分。凡四卷。普光寺沙门处衡。受旨证文。摄事分。十六卷。弘福寺沙门明浚。受旨证文。银青光禄大夫。行太子左庶子。高阳县开国男。臣许敬宗。奉诏监阅。至二十二年五月十五日绝笔。总成一百卷。佛灭度后。弥勒菩萨自睹史多天宫降于中印度阿瑜他国。为无著菩萨之所说也。斯固法门极地。该三藏之遗文。如来后心。畅五乘之奥旨。玄宗微妙不可思议。僧徒并戒行圆深。道业贞固。欣承嘉召。得奉高人。各罄幽心。共禀新义。随毕奏上。有感宸衷。爰降殊恩。亲裁鸿序。情超系象。理绝名言。皇太子分耀黄离。缵基青陆。北摇传乐。仰金声而窃愧。东明御辩。瞻玉裕而多惭。九载勤经，汉储斯陋。一朝成赋，魏两韬英。既睹天文。顶戴无已。爰抽秘藻。赞叹功德。纡二圣之仙词，阐三藏之幽键。载扬佛日，式导玄津。开夏景于莲华，法流逾洁。泛春光于贝叶，道树增辉。冀夫圣藻长悬，与天地而无极。真如广被，随尘沙而不穷。凡厥含灵。知所归矣。</p>
-<h3 id="中论"><a class="markdownIt-Anchor" href="#中论"></a> 中论</h3>
-<p>龙树菩萨造 梵志青目释 姚秦鸠摩罗什译<br>
-中论卷第一<br>
-释僧睿序<br>
-中论有五百偈。龙树菩萨之所造也。以中为名者。照其实也。以论为称者。尽其言也。实非名不悟。故寄中以宣之。言非释不尽。故假论以明之。其实既宣。其言既明。于菩萨之行道场之照。朗然悬解矣。夫滞惑生于倒见。三界以之而沦溺；偏悟起于厌智。耿介以之而致乖。故知大觉在乎旷照。小智缠乎隘心。照之不旷。则不足以夷有无、一道俗。知之不尽。则未可以涉中途、泯二际。道俗之不夷。二际之不泯。菩萨之忧也。是以龙树大士析之以中道。使惑趣之徒望玄指而一变；括之以即化。令玄悟之宾丧咨询于朝彻。荡荡焉。真可谓坦夷路于冲阶。敝玄门于宇内。扇慧风于陈枚。流甘露于枯悴者矣。夫百梁之构兴。则鄙茅茨之仄陋。睹斯论之宏旷。则知偏悟之鄙倍。幸哉此区之赤县。忽得移灵鹫以作镇。险陂之边情。乃蒙流光之余惠。而今而后。谈道之贤始可与论实矣。云天竺诸国敢预学者之流。无不玩味斯论以为喉衿。其染翰申释者甚亦不少。今所出者。是天竺梵志名宾伽罗。秦言青目之所释也。其人虽信解深法而辞不雅中。其中乖阙烦重者。法师皆裁而裨之。于经通之理尽矣。文或左右未尽善也。百论治外以闲邪。斯文袪内以流滞。大智释论之渊博。十二门观之精诣。寻斯四者。真若日月入怀无不朗然鉴彻矣。予玩之味之不能释手。遂复忘其鄙拙。托悟怀于一序。并目品义题之于首。岂期能释耶。盖是欣自同之怀耳。</p>
-<h3 id="百论"><a class="markdownIt-Anchor" href="#百论"></a> 百论</h3>
-<p>提婆菩萨造  婆薮开士释  姚秦鸠摩罗什译<br>
-百论序<br>
-释僧肇作<br>
-百论者。盖是通圣心之津涂。开真谛之要论也。佛泥曰后八百余年。有出家大士厥名提婆。玄心独悟俊气高朗。道映当时神超世表。故能辟三藏之重关。坦十二之幽路。擅步迦夷。为法城堑。于时外道纷然。异端竞起。邪辩逼真。殆乱正道。乃仰慨圣教之陵迟。俯悼群迷之纵惑。将远拯沉沦故作斯论。所以防正闲邪。大明于宗极者矣。是以正化以之而隆。邪道以之而替。非夫领括众妙孰能若斯。论有百偈故以百为名。理致渊玄。统群籍之要。文旨婉约。穷制作之美。然至趣幽简鲜得其门。<br>
-有婆薮开士者。明慧内融。妙思奇拔。远契玄踪。为之训释。使沉隐之义彰于徽翰。风味宣流被于来叶。文藻焕然。宗涂易晓。其为论也。言而无当。破而无执。傥然靡据而事不失真。萧焉无寄而理自玄会。返本之道。著乎兹矣。<br>
-有天竺沙门鸠摩罗什。器量渊弘。俊神超邈。钻仰累年。转不可测。常味咏斯论以为心要。先虽亲译而方言未融。至令思寻者踌躇于谬文。摽位者乖迕于归致。大秦司隶校尉安成侯姚嵩。风韵清舒。冲心简胜。博涉内外。理思兼通。少好大道。长而弥笃。虽复形羁时务而法言不辍。每抚兹文。所慨良多。以弘始六年岁次寿星。集理味沙门。与什考挍正本。陶练覆疏。务存论旨。使质而不野。简而必诣。宗致尽尔。无间然矣。论凡二十品。品各五偈。后十品。其人以为无益此土。故阙而不传。冀明识君子详而揽焉。</p>
-<h3 id="十二门论"><a class="markdownIt-Anchor" href="#十二门论"></a> 十二门论</h3>
-<p>龙树菩萨造 姚秦鸠摩罗什译<br>
-十二门论序<br>
-十二门论者。盖是实相之折中。道场之要轨也。十二门者。总众枝之大数也。门者开通无滞之称也。论之者。欲以穷其源尽其理也。若一理之不尽则众异纷然有或趣之乖。一源之不穷则众涂扶疏有殊致之迹。殊致之不夷。乖趣之不泯。大士之忧也。是以龙树菩萨开出者之由路。作十二门以正之。正之以十二则有无兼畅。事无不尽。事尽于有无则忘功于造化。理极于虚位则丧我于二际。然则丧我在乎落筌。筌忘存乎遗寄。筌我兼忘。始可以几乎实矣。几乎实矣则虚实两冥得失无际。冥而无际则能忘造次于两玄。泯颠沛于一致。整归驾于道场。毕趣心于佛地。恢恢焉。真可谓运虚刃于无间。奏希声于宇内。济溺丧于玄津。出有无于域外者矣。遇哉后之学者。夷路既坦。幽涂既开。真得振和鸾于北冥。驰白牛以南回。悟大觉于梦境。即百化以安归。夫如是者慧。复知曜灵之方盛。玄陆之未希也哉。睿以鄙倍之浅识犹敢朋。用诚虚关。希怀宗极。庶日用之有宜。冀岁计之能殖。况才之美者乎。不胜敬仰之至。敢以钝辞短思。序而申之。并目品义题之于首。岂其能益也。庶以此心开疾进之路耳。</p>
-<h3 id="因明入正理论"><a class="markdownIt-Anchor" href="#因明入正理论"></a> 因明入正理论</h3>
-<p>南羯罗主菩萨造  三藏法师玄奘奉诏译<br>
-因明入正理论后序<br>
-因明入正理论者。盖乃抗辩标宗、摧邪显正之闷阈也。因谈照实。明彰显理。入言趣本。正以离邪。论之者。较言旨归。审明要会也。昔应符道树兹义备焉。登庸鹿林斯风扇矣。六师稽颡而卷舌。十仙请命以知归。非天灵曜寝光。邪津鼓浪。同恶孔炽。寔繁有徒。所以世亲弘盛烈于前。陈那纂遗芳于后。扬真殄谬。夷难解纷。至矣神功备详余论。粤有天主菩萨亚圣挺生。博综研详。聿修前绪。撰略精秘。逗适时机。启以八门通其二益。芟夷五分取定三支。其义简而彰。其文约而显。西方时彦钻仰弥深。自非履此通规。未足预其高论。<br>
-大唐皇帝乘时启圣。阐金镜而运金轮。纳录嗣明。振玉鼓而调玉烛。洞敷玄化。载缉彝章。爇慧炬而鉴昏城。舣智舟而济苦海。<br>
-我三藏法师玄奘。神悟爽𢪛峻节冠群。行四勤如不及。瞻三宗而好问。汉地先达各擅专门。寓目必察其微。纳心并殚其妙。嗟乎圣迹绵远。像教陵夷。未尝不临讹文以喟然。抚疑义而太息。望葱山而高视。期鹫峰而远游。既而冒险乘危。询师访道。行达北印度迦湿弥罗国。属大论师僧伽耶舍。稽疑八藏。考决五乘。论师以大义磐根嘉其素蓄。唯因明妙术诲其未喻。梵音觏止冰释于怀。后于中印度摩竭陀国。遇尸罗跋陀罗菩萨。更广其例。触类而长。优而柔之。于是遍谒遗灵备讯余烈。虽遇鍱腹纵辩无前。风偃邪徒抑兼兹论。旋弘周化景福会昌。粤以贞观二十一年秋八月六日。于弘福寺承诏译讫。<br>
-弘福寺沙门明浚。笔受证文。<br>
-弘福寺沙门玄谟。证梵语。<br>
-大总持寺沙门玄应。正字。<br>
-大总持寺沙门道洪。实际寺沙门明琰。罗汉寺沙门慧贵。宝昌寺沙门法祥。弘福寺沙门文备。廓州法讲寺沙门道深。蒲州栖岩寺沙门神泰。详证大义。<br>
-银青光禄大夫行左庶子高阳县开国男臣许敬宗奉诏监译。三藏法师以虚己应物辟此幽关。义海淼其无源。词峰峻而难仰。异方秀杰同禀亲承。笔记玄章并行于世。余以不敏妄忝吹嘘。受旨证文偶兹嘉会。敢录时事贻诸后毗。胜范鸿因无泯来际。</p>
-<h3 id="更新中"><a class="markdownIt-Anchor" href="#更新中"></a> 更新中…</h3>
-]]></content>
-      <tags>
-        <tag>序言</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Next主题设置</title>
-    <url>/p/326f884.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><strong>站点配置</strong>文件<code>_config.yml</code>在<code>Hexo</code>文件夹下。在站点配置里注意以下几点：<span id="more"></span></p>
-<ol>
-<li><code>url:</code>添加自己的博客网址<code>https://satparamita.github.io/paramita/</code>。如果买了域名并且能使用，则改成新域名<code>url: https://satparamita.top</code>。</li>
-<li><code>language:</code>，选择对应的语言，在<code>theme\next\language</code>里查看。有的主题是<code>zh-CN</code>，有的是<code>zh-Hans</code>。</li>
-<li><code>description:</code>主要用于告诉搜索引擎一个关于站点的简单描述，建议在其中包含您网站的关键词。</li>
-<li><code>order_by: -date</code>文章排序默认是按照日期，也可以改成按照更新日期排序，即<code>order_by: -updated</code>。</li>
-</ol>
-<h3 id="next主题安装下载地址"><a class="markdownIt-Anchor" href="#next主题安装下载地址"></a> next主题安装，<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0">下载地址<i class="fa fa-external-link-alt"></i></span>。</h3>
-<ol>
-<li>在Hexo文件夹里右键<code>Git Bash Here</code>，输入命令：<br>
-<code>git clone https://github.com/next-theme/hexo-theme-next themes/next</code><br>
-主题会下载到<code>themes</code>目录下的<code>next</code>文件夹。<br>
-如果下载失败就多试几次，实在下载不了就进入<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3JlbGVhc2VzL3RhZy92OC43LjE=">Next官网<i class="fa fa-external-link-alt"></i></span>，找到压缩包<code>Source code(zip)</code>，下载后解压，更名为next，粘贴到<code>themes</code>目录下。</li>
-<li>打开站点配置文件<code>_config.yml</code> ，找到关键字 <code>theme</code>，修改参数为：<code>theme：next</code>，注意冒号后面有一个空格！<br>
-建议将主题配置文件<code>_config.yml</code>重命名为<code>_config.next.yml</code>，然后剪切到<code>Hexo</code>文件夹下，方便以后更新主题。</li>
-<li>当前使用的是最新版本<code>next8.8.1</code>。每个月都会发布新版本，请在更新前阅读更新说明。可以通过如下命令更新：<br>
-<code>npm install hexo-theme-next@latest</code></li>
-</ol>
-<h3 id="文章里插入图片和其它文件"><a class="markdownIt-Anchor" href="#文章里插入图片和其它文件"></a> 文章里插入图片和其它文件</h3>
-<ol>
-<li>安装：<code>npm install hexo-asset-image --save</code></li>
-<li>打开站点配置文件，设置：<code>post_asset_folder: true</code></li>
-<li>在<code>hexo/source/_posts</code>目录下右键新建test.md文件，并新建名为test的文件夹，用于存放文章里需要插入的图片和其它文件。</li>
-<li>使用<code>![title](./test/图片名.jpg &quot;描述&quot;)</code>添加本地图片。同理，可插入其它格式的文件，比如<code>txt</code>、<code>pdf</code>、<code>py</code>、<code>md</code>、<code>zip</code>等，<code>txt</code>、<code>pdf</code>文件可以在网页中直接打开查看，其它格式的文件会在点击后下载到本地。</li>
-</ol>
-<h3 id="emoji表情"><a class="markdownIt-Anchor" href="#emoji表情"></a> Emoji表情</h3>
-<p>在编辑器中输入<code>:smile:</code>可能没有😄表情出现。Hexo默认是采用hexo-renderer-marked渲染器，不支持插件扩展。支持插件扩展的是 hexo-renderer-markdown-it，可以使用markwon-it-emoji插件来支持emoji。</p>
-<ol>
-<li>卸载默认的marked渲染器，安装markdown-it渲染器：<br>
-<code>npm un hexo-renderer-marked --save</code><br>
-<code>npm i hexo-renderer-markdown-it --save</code></li>
-<li>安装markdown-it-emoji插件：<code>npm install markdown-it-emoji --save</code></li>
-</ol>
-<p><strong>PS</strong>:安装时可能会显示一堆信息，fsevent是mac osx系统的，在win或者Linux下使用会有警告，直接忽略，其实已经安装成功了。其它插件安装时也一样。</p>
-<h3 id="全站搜索参考插件searchdb"><a class="markdownIt-Anchor" href="#全站搜索参考插件searchdb"></a> 全站搜索，参考插件<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by1nZW5lcmF0b3Itc2VhcmNoZGI=">searchdb<i class="fa fa-external-link-alt"></i></span>。</h3>
-<ol>
-<li>安装：<code>npm install hexo-generator-searchdb</code></li>
-<li>在站点设置里添加以下设置项：</li>
-</ol>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">search:</span><br><span class="line">  path: search.xml</span><br><span class="line">  <span class="attr">field</span>: post</span><br><span class="line">  <span class="attr">format</span>: html</span><br><span class="line">  <span class="attr">limit</span>: <span class="number">10000</span></span><br></pre></td></tr></table></figure>
-<ol start="3">
-<li>在主题设置里找到<code>local_search</code>，修改成如下：</li>
-</ol>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">local_search:</span><br><span class="line">  enable: <span class="literal">true</span></span><br><span class="line">  #auto, trigger search by changing input. manual, by pressing enter key or search button.</span><br><span class="line">  <span class="attr">trigger</span>: auto</span><br><span class="line">  <span class="attr">top_n_per_article</span>: -<span class="number">1</span> # Show top n results per article, show all results by -<span class="number">1</span></span><br><span class="line">  <span class="attr">unescape</span>: <span class="literal">false</span> </span><br><span class="line">  <span class="attr">preload</span>: <span class="literal">false</span> </span><br></pre></td></tr></table></figure>
-<h3 id="邮件功能"><a class="markdownIt-Anchor" href="#邮件功能"></a> 邮件功能</h3>
-<ol>
-<li>在侧栏<code>social</code>添加<strong>给我发邮件</strong>，在主题配置里修改：</li>
-</ol>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">social:</span><br><span class="line">  邮件: https:<span class="comment">//mail.qq.com/cgi-bin/qm_share?t=qm_mailme&amp;email=1610202621@qq.com || fa fa-envelope</span></span><br></pre></td></tr></table></figure>
-<ol start="2">
-<li>在友情链接或文章中加入<strong>给我发邮件</strong>：<br>
-<code>[1610202621@qq.com](https://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&amp;email=1610202621@qq.com)</code><br>
-效果是<span class="exturl" data-url="aHR0cHM6Ly9tYWlsLnFxLmNvbS9jZ2ktYmluL3FtX3NoYXJlP3Q9cW1fbWFpbG1lJmVtYWlsPTE2MTAyMDI2MjFAcXEuY29t">1610202621@qq.com<i class="fa fa-external-link-alt"></i></span></li>
-</ol>
-<p><strong>PS:</strong> <code>social</code>里的<code>fa fa-envelope</code>会显示表示邮件的小图标，更多小图标请查看<span class="exturl" data-url="aHR0cHM6Ly9mb250YXdlc29tZS5jb20vdjYuMC9pY29ucz9kPWdhbGxlcnkmcD0xJnM9c29saWQmbT1mcmVl">icon<i class="fa fa-external-link-alt"></i></span>。</p>
-<h3 id="持久化连接"><a class="markdownIt-Anchor" href="#持久化连接"></a> 持久化连接</h3>
-<p>文章默认的链接是<code>http://url/2020/02/10/hello-world</code>这种类型，由<code>年/月/日/标题</code>组成。如果文章里调整过日期，链接名也会变化。而且如果标题是中文或存在特殊符号，链接可能就有问题。因此建议使用永久链接，即使更改了日期也能打开原来的链接。</p>
-<ol>
-<li>安装：<code>npm install hexo-abbrlink --save</code>。</li>
-<li>在站点配置里修改：</li>
-</ol>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">permalink: p/:abbrlink.html</span><br><span class="line"><span class="attr">abbrlink</span>:</span><br><span class="line">  alg: crc32  # 算法：crc16(<span class="keyword">default</span>) and crc32</span><br><span class="line">  <span class="attr">rep</span>: hex    # 进制：dec(<span class="keyword">default</span>) and hex</span><br></pre></td></tr></table></figure>
-<h3 id="统计文章字数与阅读时间参考counter"><a class="markdownIt-Anchor" href="#统计文章字数与阅读时间参考counter"></a> 统计文章字数与阅读时间，参考<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by13b3JkLWNvdW50ZXI=">counter<i class="fa fa-external-link-alt"></i></span>。</h3>
-<ol>
-<li>安装：<code>npm install hexo-word-counter</code></li>
-<li>在主题配置<code>_config.yml</code>里添加：</li>
-</ol>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">symbols_count_time:</span><br><span class="line">  separated_meta: <span class="literal">true</span></span><br><span class="line">  <span class="attr">item_text_total</span>: <span class="literal">true</span></span><br></pre></td></tr></table></figure>
-<h3 id="设置文章置顶"><a class="markdownIt-Anchor" href="#设置文章置顶"></a> 设置文章置顶</h3>
-<ol>
-<li>
-<p>先卸载后安装：<br>
-<code>npm uninstall hexo-generator-index --save</code><br>
-<code>npm install hexo-generator-index-pin-top --save</code></p>
-</li>
-<li>
-<p>在文章开头添加<code>top: true</code>，或者<code>top: 2</code>，数字越大，置顶越靠前。</p>
-</li>
-</ol>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: </span><br><span class="line">tags: </span><br><span class="line">comments: <span class="literal">true</span></span><br><span class="line"><span class="attr">top</span>: <span class="number">100</span></span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-<h3 id="文末添加相关文章"><a class="markdownIt-Anchor" href="#文末添加相关文章"></a> 文末添加相关文章</h3>
-<ol>
-<li>安装：<code>npm install hexo-related-popular-posts --save</code></li>
-<li>在主题设置里添加：</li>
-</ol>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"># Related popular posts# Dependencies: https:<span class="comment">//github.com/tea3/hexo-related-popular-posts</span></span><br><span class="line">related_posts:</span><br><span class="line">  enable: <span class="literal">true</span></span><br><span class="line">  <span class="attr">title</span>: # Custom header, leave empty to use the <span class="keyword">default</span> one</span><br><span class="line">  <span class="attr">display_in_home</span>: <span class="literal">true</span></span><br><span class="line">  <span class="attr">params</span>:</span><br><span class="line">    maxCount: <span class="number">5</span></span><br><span class="line">    #PPMixingRate: <span class="number">0.0</span></span><br><span class="line">    #isDate: <span class="literal">false</span></span><br><span class="line">    #isImage: <span class="literal">false</span></span><br><span class="line">    #isExcerpt: <span class="literal">false</span></span><br></pre></td></tr></table></figure>
-<h3 id="数学公式编辑"><a class="markdownIt-Anchor" href="#数学公式编辑"></a> 数学公式编辑</h3>
-<ol>
-<li>先卸载后安装：<br>
-<code>npm un hexo-renderer-marked --save</code><br>
-<code>npm i hexo-renderer-markdown-it-plus --save</code></li>
-<li>启用katex:</li>
-</ol>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">math:</span><br><span class="line">  every_page: <span class="literal">false</span></span><br><span class="line">  <span class="attr">mathjax</span>:</span><br><span class="line">    enable: <span class="literal">false</span></span><br><span class="line">    <span class="attr">tags</span>: none # Available values: none | ams | all</span><br><span class="line">  <span class="attr">katex</span>:</span><br><span class="line">    enable: <span class="literal">true</span></span><br><span class="line">    <span class="attr">copy_tex</span>: <span class="literal">true</span></span><br></pre></td></tr></table></figure>
-<p>在github里不支持katex的某些功能，所以同时启用mathjax。在有数学公式的文章开头添加：</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;head&gt;</span><br><span class="line">    <span class="xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br><span class="line">    <span class="xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/x-mathjax-config&quot;</span>&gt;</span><span class="javascript"></span></span></span><br><span class="line"><span class="javascript"><span class="xml">        MathJax.Hub.Config(&#123;</span></span></span><br><span class="line"><span class="javascript"><span class="xml">            <span class="attr">tex2jax</span>: &#123;</span></span></span><br><span class="line"><span class="javascript"><span class="xml">            <span class="attr">skipTags</span>: [<span class="string">&#x27;script&#x27;</span>, <span class="string">&#x27;noscript&#x27;</span>, <span class="string">&#x27;style&#x27;</span>, <span class="string">&#x27;textarea&#x27;</span>, <span class="string">&#x27;pre&#x27;</span>],</span></span></span><br><span class="line"><span class="javascript"><span class="xml">            <span class="attr">inlineMath</span>: [[<span class="string">&#x27;$&#x27;</span>,<span class="string">&#x27;$&#x27;</span>]]</span></span></span><br><span class="line"><span class="javascript"><span class="xml">            &#125;</span></span></span><br><span class="line"><span class="javascript"><span class="xml">        &#125;);</span></span></span><br><span class="line"><span class="javascript"><span class="xml">    </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br><span class="line">&lt;/head&gt; </span><br></pre></td></tr></table></figure>
-<h3 id="添加流程图支持"><a class="markdownIt-Anchor" href="#添加流程图支持"></a> 添加流程图支持</h3>
-<ol>
-<li>安装：<code>npm i hexo-filter-mermaid-diagrams</code><br>
-<code>npm i --save hexo-filter-sequence</code></li>
-<li>在站点设置里添加：</li>
-</ol>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">mermaid: #流程图</span><br><span class="line">  <span class="attr">enable</span>: <span class="literal">true</span></span><br><span class="line">  # Available themes: <span class="keyword">default</span> | dark | forest | neutral</span><br><span class="line">  <span class="attr">theme</span>: <span class="keyword">default</span></span><br></pre></td></tr></table></figure>
-<h3 id="安装烟花特效"><a class="markdownIt-Anchor" href="#安装烟花特效"></a> 安装烟花特效</h3>
-<p>点击鼠标时显示烟花特效，安装：<br>
-<code>npm install next-theme/hexo-next-fireworks</code></p>
-<h3 id="在文章中浏览pdf参考pdf"><a class="markdownIt-Anchor" href="#在文章中浏览pdf参考pdf"></a> 在文章中浏览pdf，参考<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvdGhlbWUtbmV4dC1wZGY=">pdf<i class="fa fa-external-link-alt"></i></span>。</h3>
-<ol>
-<li>安装：<code>git clone https://github.com/next-theme/theme-next-pdf source/lib/pdf</code>。文件会下载至<code>hexo/source/lib</code>文件夹里。</li>
-<li>修改主题配置:</li>
-</ol>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">pdf:</span><br><span class="line">  enable: <span class="literal">true</span></span><br><span class="line">  # Default height</span><br><span class="line">  <span class="attr">height</span>: 500px</span><br></pre></td></tr></table></figure>
-<ol start="3">
-<li>在站点配置里添加：</li>
-</ol>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">skip_render:</span><br><span class="line">  - lib<span class="comment">/**/</span>*</span><br></pre></td></tr></table></figure>
-<ol start="4">
-<li>
-<p>使用方法：<code>&#123;% pdf /path/to/your/file.pdf %&#125;</code><br>
-例如：<code>&#123;% pdf ./test/1.pdf %&#125;</code>。<br>
-pdf文件存放在与test.md文件同名的test文件夹里。也可以添加外部pdf链接。</p>
-</li>
-<li>
-<p>更新方法：<br>
-<code>cd hexo/source/lib/pdf</code><br>
-<code>git pull</code></p>
-</li>
-</ol>
-<h3 id="文章封面"><a class="markdownIt-Anchor" href="#文章封面"></a> 文章封面</h3>
-<ol>
-<li>安装：<code>npm install --save hexo-less</code></li>
-<li>在文章中添加<code>&lt;!-- less --&gt;</code>，<code>&lt;!-- less --&gt;</code>前面的内容会显示在封面，打开文章后<strong>不会再显示</strong>，直接显示<code>&lt;!-- less --&gt;</code>后面的内容。<br>
-区别于<code>&lt;!-- more --&gt;</code>，<code>&lt;!-- more --&gt;</code>前后的内容全部会显示在文章里。</li>
-</ol>
-]]></content>
-      <tags>
-        <tag>next</tag>
       </tags>
   </entry>
   <entry>
@@ -763,48 +570,6 @@ This is the</p>
 ]]></content>
       <tags>
         <tag>markdown</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Next主题设置-添加标签云、友情链接</title>
-    <url>/p/3752fd9a.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="标签云特效参考cloud"><a class="markdownIt-Anchor" href="#标签云特效参考cloud"></a> 标签云特效，参考<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL0QwbjlYMW4vaGV4by10YWctY2xvdWQvYmxvYi9tYXN0ZXIvUkVBRE1FLlpILm1k">cloud<i class="fa fa-external-link-alt"></i></span>。</h3>
-<ol>
-<li>安装：<code>npm install hexo-tag-cloud@^2.0.* --save</code><span id="more"></span></li>
-<li>对于next8版本，找到<code>theme/next/layout/_macro/sidebar.njk</code>，打开后搜索<code>back2top.sidebar</code>，在其上方添加如下代码。</li>
-</ol>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;% <span class="keyword">if</span> site.tags.length &gt; <span class="number">1</span> %&#125;</span><br><span class="line">&lt;script type=<span class="string">&quot;text/javascript&quot;</span> charset=<span class="string">&quot;utf-8&quot;</span> src=<span class="string">&quot;&#123;&#123; url_for(&#x27;/js/tagcloud.js&#x27;) &#125;&#125;&quot;</span>&gt;&lt;/script&gt;</span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">src</span>=<span class="string">&quot;&#123;&#123; url_for(&#x27;/js/tagcanvas.js&#x27;) &#125;&#125;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;widget-wrap&quot;</span>&gt;</span></span></span><br><span class="line"><span class="xml">    <span class="tag">&lt;<span class="name">h3</span> <span class="attr">class</span>=<span class="string">&quot;widget-title&quot;</span>&gt;</span>Tag Cloud<span class="tag">&lt;/<span class="name">h3</span>&gt;</span>  #为标签云命名，建议不命名，直接删除此行</span></span><br><span class="line"><span class="xml">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;myCanvasContainer&quot;</span> <span class="attr">class</span>=<span class="string">&quot;widget tagcloud&quot;</span>&gt;</span></span></span><br><span class="line"><span class="xml">        <span class="tag">&lt;<span class="name">canvas</span> <span class="attr">width</span>=<span class="string">&quot;250&quot;</span> <span class="attr">height</span>=<span class="string">&quot;250&quot;</span> <span class="attr">id</span>=<span class="string">&quot;resCanvas&quot;</span> <span class="attr">style</span>=<span class="string">&quot;width:100%&quot;</span>&gt;</span></span></span><br><span class="line"><span class="xml">            &#123;&#123; list_tags() &#125;&#125;</span></span><br><span class="line"><span class="xml">        <span class="tag">&lt;/<span class="name">canvas</span>&gt;</span></span></span><br><span class="line"><span class="xml">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="xml"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
-<ol start="3">
-<li><code>hexo-tag-cloud</code>插件支持自定义，可以改变标签云的字体和颜色，还有突出高亮。在站点配置里添加如下的配置项:</li>
-</ol>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">tag_cloud:</span><br><span class="line">    textFont: Trebuchet MS, Helvetica</span><br><span class="line">    <span class="attr">textColor</span>: <span class="string">&#x27;#333&#x27;</span></span><br><span class="line">    <span class="attr">textHeight</span>: <span class="number">25</span></span><br><span class="line">    <span class="attr">outlineColor</span>: <span class="string">&#x27;#E2E1D1&#x27;</span></span><br><span class="line">    <span class="attr">maxSpeed</span>: <span class="number">0.5</span></span><br><span class="line">    <span class="attr">pauseOnSelected</span>: <span class="literal">true</span> # <span class="literal">true</span> 意味着当选中对应 tag 时,停止转动</span><br></pre></td></tr></table></figure>
-<h3 id="自定义友情链接"><a class="markdownIt-Anchor" href="#自定义友情链接"></a> 自定义友情链接</h3>
-<p>next主题自带添加友情链接功能，在侧栏下方显示。</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">links_settings:</span><br><span class="line">  icon: fa fa-globe</span><br><span class="line">  <span class="attr">title</span>: 友情链接</span><br><span class="line">  <span class="attr">layout</span>: inline # Available values: block | inline</span><br><span class="line"><span class="attr">links</span>:</span><br><span class="line">  name: url</span><br></pre></td></tr></table></figure>
-<ol>
-<li>先关闭原先的友情链接，注释掉即可。</li>
-<li>现在要在侧栏上方菜单里添加<strong>友情链接</strong>选项，<code>hexo new page &quot;links&quot;</code>，打开<code>Hexo\source\links</code>里的<code>index.md</code>，修改title、type等。</li>
-</ol>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">title: 友情链接 #为了标题中出现</span><br><span class="line"><span class="attr">type</span>: <span class="string">&quot;links&quot;</span> #必须有</span><br><span class="line"><span class="attr">comments</span>: <span class="literal">true</span> # 是否再下方显示评论栏 </span><br><span class="line">此处编辑你想写的内容，默认显示在所有友情链接下方。比如放置申请友链的要求等。</span><br></pre></td></tr></table></figure>
-<ol start="3">
-<li>在<code>themes\next\languages\zh-CN</code>里添加links的翻译。如果已有翻译，也可以自行改成其他翻译，比如友链、朋友等。</li>
-<li>此创建方法针对我所使用的next8.8.1，其它不同版本的next主题也可以参照以下方法。<br>
-在<code>Hexo\themes\next\layout\_partials\page</code>里新建<code>links.njk</code>文件，复制以下内容：</li>
-</ol>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;% block content %&#125;</span><br><span class="line">  &#123;######################&#125;</span><br><span class="line">  &#123;### LINKS BLOCK ###&#125;</span><br><span class="line">  &#123;######################&#125;</span><br><span class="line">    &lt;div id=<span class="string">&quot;links&quot;</span>&gt;</span><br><span class="line">        <span class="xml"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="css"></span></span></span><br><span class="line"><span class="css"><span class="xml">            <span class="selector-class">.links-content</span>&#123;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">margin-top</span>:<span class="number">1rem</span>;</span></span></span><br><span class="line"><span class="css"><span class="xml">            &#125;</span></span></span><br><span class="line"><span class="css"><span class="xml"></span></span></span><br><span class="line"><span class="css"><span class="xml">            <span class="selector-class">.link-navigation</span><span class="selector-pseudo">::after</span> &#123;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">content</span>: <span class="string">&quot; &quot;</span>;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">display</span>: block;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">clear</span>: both;</span></span></span><br><span class="line"><span class="css"><span class="xml">            &#125;</span></span></span><br><span class="line"><span class="css"><span class="xml">            </span></span></span><br><span class="line"><span class="css"><span class="xml">            <span class="selector-class">.card</span> &#123;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">width</span>: <span class="number">300px</span>;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">font-size</span>: <span class="number">1rem</span>;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">padding</span>: <span class="number">10px</span> <span class="number">20px</span>;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">border-radius</span>: <span class="number">4px</span>;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">transition-duration</span>: <span class="number">0.15s</span>;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">margin-bottom</span>: <span class="number">1rem</span>;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">display</span>:flex;</span></span></span><br><span class="line"><span class="css"><span class="xml">            &#125;</span></span></span><br><span class="line"><span class="css"><span class="xml">            <span class="selector-class">.card</span><span class="selector-pseudo">:nth-child</span>(odd) &#123;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">float</span>: left;</span></span></span><br><span class="line"><span class="css"><span class="xml">            &#125;</span></span></span><br><span class="line"><span class="css"><span class="xml">            <span class="selector-class">.card</span><span class="selector-pseudo">:nth-child</span>(even) &#123;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">float</span>: right;</span></span></span><br><span class="line"><span class="css"><span class="xml">            &#125;</span></span></span><br><span class="line"><span class="css"><span class="xml">            <span class="selector-class">.card</span><span class="selector-pseudo">:hover</span> &#123;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">transform</span>: <span class="built_in">scale</span>(<span class="number">1.1</span>);</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">box-shadow</span>: <span class="number">0</span> <span class="number">2px</span> <span class="number">6px</span> <span class="number">0</span> <span class="built_in">rgba</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0.12</span>), <span class="number">0</span> <span class="number">0</span> <span class="number">6px</span> <span class="number">0</span> <span class="built_in">rgba</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0.04</span>);</span></span></span><br><span class="line"><span class="css"><span class="xml">            &#125;</span></span></span><br><span class="line"><span class="css"><span class="xml">            <span class="selector-class">.card</span> <span class="selector-tag">a</span> &#123;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">border</span>:none; </span></span></span><br><span class="line"><span class="css"><span class="xml">            &#125;</span></span></span><br><span class="line"><span class="css"><span class="xml">            <span class="selector-class">.card</span> <span class="selector-class">.ava</span> &#123;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">width</span>: <span class="number">3rem</span><span class="meta">!important</span>;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">height</span>: <span class="number">3rem</span><span class="meta">!important</span>;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">margin</span>:<span class="number">0</span><span class="meta">!important</span>;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">margin-right</span>: <span class="number">1em</span><span class="meta">!important</span>;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">border-radius</span>:<span class="number">4px</span>;</span></span></span><br><span class="line"><span class="css"><span class="xml">                </span></span></span><br><span class="line"><span class="css"><span class="xml">            &#125;</span></span></span><br><span class="line"><span class="css"><span class="xml">            <span class="selector-class">.card</span> <span class="selector-class">.card-header</span> &#123;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">font-style</span>: italic;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">overflow</span>: hidden;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">width</span>: <span class="number">236px</span>;</span></span></span><br><span class="line"><span class="css"><span class="xml">            &#125;</span></span></span><br><span class="line"><span class="css"><span class="xml">            <span class="selector-class">.card</span> <span class="selector-class">.card-header</span> <span class="selector-tag">a</span> &#123;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">font-style</span>: normal;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">color</span>: <span class="number">#2bbc8a</span>;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">font-weight</span>: bold;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">text-decoration</span>: none;</span></span></span><br><span class="line"><span class="css"><span class="xml">            &#125;</span></span></span><br><span class="line"><span class="css"><span class="xml">            <span class="selector-class">.card</span> <span class="selector-class">.card-header</span> <span class="selector-tag">a</span><span class="selector-pseudo">:hover</span> &#123;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">color</span>: <span class="number">#d480aa</span>;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">text-decoration</span>: none;</span></span></span><br><span class="line"><span class="css"><span class="xml">            &#125;</span></span></span><br><span class="line"><span class="css"><span class="xml">            <span class="selector-class">.card</span> <span class="selector-class">.card-header</span> <span class="selector-class">.info</span> &#123;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">font-style</span>:normal;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">color</span>:<span class="number">#a3a3a3</span>;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">font-size</span>:<span class="number">14px</span>;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">min-width</span>: <span class="number">0</span>;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">text-overflow</span>: ellipsis;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">overflow</span>: hidden;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">white-space</span>: nowrap;</span></span></span><br><span class="line"><span class="css"><span class="xml">            &#125;</span></span></span><br><span class="line"><span class="css"><span class="xml">        </span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span></span><br><span class="line">        <span class="xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;links-content&quot;</span>&gt;</span></span></span><br><span class="line"><span class="xml">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;link-navigation&quot;</span>&gt;</span></span></span><br><span class="line"><span class="xml">                &#123;% for link in theme.mylinks %&#125;</span></span><br><span class="line"><span class="xml">                    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;card&quot;</span>&gt;</span></span></span><br><span class="line"><span class="xml">                        <span class="tag">&lt;<span class="name">img</span> <span class="attr">class</span>=<span class="string">&quot;ava&quot;</span> <span class="attr">src</span>=<span class="string">&quot;&#123;&#123; link.avatar &#125;&#125;&quot;</span>/&gt;</span></span></span><br><span class="line"><span class="xml">                        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;card-header&quot;</span>&gt;</span></span></span><br><span class="line"><span class="xml">                        <span class="tag">&lt;<span class="name">div</span>&gt;</span><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;&#123;&#123; link.site &#125;&#125;&quot;</span> <span class="attr">target</span>=<span class="string">&quot;_blank&quot;</span>&gt;</span>@ &#123;&#123; link.nickname &#125;&#125;<span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="xml">                        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;info&quot;</span>&gt;</span>&#123;&#123; link.info &#125;&#125;<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="xml">                        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="xml">                    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="xml">                &#123;% endfor %&#125;</span></span><br><span class="line"><span class="xml">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="xml">            &#123;&#123; page.content &#125;&#125;</span></span><br><span class="line"><span class="xml">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">  &#123;##########################&#125;</span><br><span class="line">  &#123;### END LINKS BLOCK ###&#125;</span><br><span class="line">  &#123;##########################&#125;</span><br><span class="line">&#123;% endblock %&#125;</span><br></pre></td></tr></table></figure>
-<p>修改<code>Hexo\themes\next\layout\page.njk</code>文件，<strong>注意格式</strong>。<br>
-在</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;%- elif page.type === <span class="string">&#x27;schedule&#x27;</span> and not page.title %&#125;</span><br><span class="line">    &#123;&#123;- __(<span class="string">&#x27;title.schedule&#x27;</span>) + page_title_suffix &#125;&#125;</span><br></pre></td></tr></table></figure>
-<p>下面添加：</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;%- elif page.type === <span class="string">&#x27;links&#x27;</span> and not page.title %&#125;</span><br><span class="line">  &#123;&#123;- __(<span class="string">&#x27;title.links&#x27;</span>) + page_title_suffix &#125;&#125;</span><br></pre></td></tr></table></figure>
-<p>在</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;% elif page.type === <span class="string">&#x27;schedule&#x27;</span> %&#125;</span><br><span class="line">  &#123;%- include <span class="string">&#x27;_partials/page/schedule.njk&#x27;</span> -%&#125;</span><br></pre></td></tr></table></figure>
-<p>下面添加：</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;% elif page.type === <span class="string">&#x27;links&#x27;</span> %&#125;</span><br><span class="line">  &#123;%- include <span class="string">&#x27;_partials/page/links.njk&#x27;</span> -%&#125;</span><br></pre></td></tr></table></figure>
-<p>在主题配置文件<code>_config.yml</code>末尾处添加友链：</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">mylinks:</span><br><span class="line">  - nickname:  #友链名称</span><br><span class="line">    <span class="attr">avatar</span>:   #友链头像</span><br><span class="line">    <span class="attr">site</span>:   #友链地址</span><br><span class="line">    <span class="attr">info</span>:   #友链说明</span><br><span class="line">  - nickname:  #友链名称</span><br><span class="line">    <span class="attr">avatar</span>:   #友链头像</span><br><span class="line">    <span class="attr">site</span>:   #友链地址</span><br><span class="line">    <span class="attr">info</span>:   #友链说明</span><br></pre></td></tr></table></figure>]]></content>
-      <tags>
-        <tag>next</tag>
       </tags>
   </entry>
   <entry>
@@ -1331,73 +1096,6 @@ This is the</p>
       </tags>
   </entry>
   <entry>
-    <title>Next主题设置-安装DaoVoice和Aplayer</title>
-    <url>/p/3330145c.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="安装在线聊天工具daovoice"><a class="markdownIt-Anchor" href="#安装在线聊天工具daovoice"></a> 安装在线聊天工具DaoVoice</h3>
-<ol>
-<li>登录<span class="exturl" data-url="aHR0cDovL3d3dy5kYW92b2ljZS5pby8=">DaoVoice官网<i class="fa fa-external-link-alt"></i></span>注册，点击<code>应用设置</code>–&gt;<code>安装到网站</code>，搜索<code>app_id</code>，复制后面的id。<span id="more"></span></li>
-<li>在主题配置里添加：</li>
-</ol>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">daovoice: <span class="literal">true</span></span><br><span class="line"><span class="attr">daovoice_app_id</span>: 你的id</span><br></pre></td></tr></table></figure>
-<ol start="3">
-<li>在<code>Hexo\themes\next\layout\_partials\head</code>的<code>head.njk</code>文件末尾添加如下内容，粘贴你的id。</li>
-</ol>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;% <span class="keyword">if</span> theme.daovoice %&#125;</span><br><span class="line"> &lt;script&gt;(<span class="function"><span class="keyword">function</span>(<span class="params">i,s,o,g,r,a,m</span>)</span>&#123;i[<span class="string">&quot;DaoVoiceObject&quot;</span>]=r;i[r]=i[r]||<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;(i[r].q=i[r].q||[]).push(<span class="built_in">arguments</span>)&#125;,i[r].l=<span class="number">1</span>*<span class="keyword">new</span> <span class="built_in">Date</span>();a=s.createElement(o),m=s.getElementsByTagName(o)[<span class="number">0</span>];a.async=<span class="number">1</span>;a.src=g;a.charset=<span class="string">&quot;utf-8&quot;</span>;m.parentNode.insertBefore(a,m)&#125;)(<span class="built_in">window</span>,<span class="built_in">document</span>,<span class="string">&quot;script&quot;</span>,(<span class="string">&#x27;https:&#x27;</span> == <span class="built_in">document</span>.location.protocol ? <span class="string">&#x27;https:&#x27;</span> : <span class="string">&#x27;http:&#x27;</span>) + <span class="string">&quot;//widget.daovoice.io/widget/b6dbddb6.js&quot;</span>,<span class="string">&quot;daovoice&quot;</span>)</span><br><span class="line"> daovoice(<span class="string">&#x27;init&#x27;</span>, &#123;</span><br><span class="line">  <span class="attr">app_id</span>: <span class="string">&quot;粘贴你的id&quot;</span></span><br><span class="line">&#125;);</span><br><span class="line">daovoice(<span class="string">&#x27;update&#x27;</span>);</span><br><span class="line"> &lt;/script&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
-<ol start="4">
-<li>收到的信息在DaoVoice官网的<code>对话</code>里查看与回复。</li>
-</ol>
-<h3 id="安装音乐插件aplayer-meting"><a class="markdownIt-Anchor" href="#安装音乐插件aplayer-meting"></a> 安装音乐插件<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL01vZVBsYXllci9oZXhvLXRhZy1hcGxheWVyL2Jsb2IvbWFzdGVyL2RvY3MvUkVBRE1FLXpoX2NuLm1k">Aplayer<i class="fa fa-external-link-alt"></i></span>、meting</h3>
-<ol>
-<li>安装：<code>npm install --save hexo-tag-aplayer</code></li>
-<li>使用方法：</li>
-</ol>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;% aplayer <span class="string">&quot;title&quot;</span>  <span class="string">&quot;author&quot;</span> <span class="string">&quot;url&quot;</span> [picture_url, narrow, autoplay, <span class="attr">width</span>:xxx, <span class="attr">lrc</span>:xxx] %&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">&quot;title&quot;</span>  <span class="string">&quot;author&quot;</span> <span class="string">&quot;url&quot;</span> 按顺序必填，其余选填。这里lrc必须是txt格式。 </span><br></pre></td></tr></table></figure>
-<ol start="3">
-<li>如果使用网络音乐，可以进入<span class="exturl" data-url="aHR0cHM6Ly9tdXNpYy54ZjE0MzMuY29tLw==">音乐外链网站<i class="fa fa-external-link-alt"></i></span>获取音乐链接。</li>
-</ol>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;% aplayer <span class="string">&quot;花儿纳吉&quot;</span> <span class="string">&quot;洛萱&quot;</span> <span class="string">&quot;https://sharefs.ali.kugou.com/202110202136/4bf5427ae89feacb1c10fd2db1c212cc/G202/M00/1C/01/Cg4DAF5QC-CAQbPvADlpgRlSql4871.mp3&quot;</span> <span class="string">&quot;https://satparamita.top/images/my.jpg&quot;</span> <span class="string">&quot;width:100%&quot;</span> <span class="string">&quot;lrc:花儿纳吉-洛萱.txt&quot;</span> %&#125;</span><br></pre></td></tr></table></figure>
-<ol start="4">
-<li>也可以插入本地音乐，需要自定义头像，下载歌词。</li>
-</ol>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;% aplayer <span class="string">&quot;花儿纳吉&quot;</span> <span class="string">&quot;洛萱&quot;</span> <span class="string">&quot;./file/洛萱 - 花儿纳吉.mp3&quot;</span> <span class="string">&quot;https://satparamita.top/images/my.jpg&quot;</span> <span class="string">&quot;width:100%&quot;</span> <span class="string">&quot;lrc:花儿纳吉-洛萱.txt&quot;</span> %&#125;</span><br></pre></td></tr></table></figure>
-<p><strong>注意</strong>:音乐和歌词文件都放在与文章同级的文件夹里，上例里文件夹名为file。</p>
-<ol start="5">
-<li>Aplayer可以建立歌单，一般是将歌单放在侧栏。为了在侧栏上方菜单里添加<strong>音乐</strong>选项，在<code>Hexo/source</code>下新建文件夹<code>music</code>和<code>assets</code>。文件夹<code>assets</code>用来存放歌曲和歌词，文件夹名必须是<code>assets</code>。</li>
-<li>在<code>themes\next\languages\zh-CN</code>里添加<code>music</code>的翻译。</li>
-<li>在music文件夹里新建<code>index.md</code>文件，打开后修改title、type等。添加歌单，参考官方文档的参数解释。注意不要写入参数<code>//</code>后面的注释。歌词可以是lrc格式的。</li>
-</ol>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title:  #为了标题中出现，可以不填</span><br><span class="line"><span class="attr">type</span>: <span class="string">&quot;music&quot;</span> #必须有</span><br><span class="line"><span class="attr">comments</span>: <span class="literal">false</span> # 是否再下方显示评论栏 </span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">&#123;% aplayerlist %&#125;</span><br><span class="line">&#123;</span><br><span class="line">    <span class="string">&quot;narrow&quot;</span>: <span class="literal">false</span>,</span><br><span class="line">    <span class="string">&quot;autoplay&quot;</span>: <span class="literal">false</span>,</span><br><span class="line">    <span class="string">&quot;mode&quot;</span>: <span class="string">&quot;circulation&quot;</span>,</span><br><span class="line">    <span class="string">&quot;showlrc&quot;</span>: <span class="number">3</span>,</span><br><span class="line">    <span class="string">&quot;mutex&quot;</span>: <span class="literal">true</span>,               </span><br><span class="line">    <span class="string">&quot;theme&quot;</span>: <span class="string">&quot;#33a3dc&quot;</span>,	       </span><br><span class="line">    <span class="string">&quot;preload&quot;</span>: <span class="string">&quot;metadata&quot;</span>,        </span><br><span class="line">    <span class="string">&quot;listmaxheight&quot;</span>: <span class="string">&quot;420px&quot;</span>,    </span><br><span class="line">    <span class="string">&quot;music&quot;</span>: [</span><br><span class="line">        &#123;    </span><br><span class="line">            <span class="string">&quot;title&quot;</span>: <span class="string">&quot;花儿纳吉&quot;</span>,      </span><br><span class="line">            <span class="string">&quot;author&quot;</span>: <span class="string">&quot;洛萱&quot;</span>,                                  </span><br><span class="line">            <span class="string">&quot;url&quot;</span>: <span class="string">&quot;/assets/洛萱、Mario - 花儿纳吉.mp3&quot;</span> ,</span><br><span class="line">            <span class="string">&quot;pic&quot;</span>: <span class="string">&quot;https://satparamita.top/images/my.jpg&quot;</span>, </span><br><span class="line">	          <span class="string">&quot;lrc&quot;</span>: <span class="string">&quot;/assets/lrc/花儿纳吉-洛萱.lrc&quot;</span>                                       </span><br><span class="line">    	  &#125;,</span><br><span class="line">        &#123;    </span><br><span class="line">            <span class="string">&quot;title&quot;</span>: <span class="string">&quot;故园情&quot;</span>,      </span><br><span class="line">            <span class="string">&quot;author&quot;</span>: <span class="string">&quot;重小烟&quot;</span>,                                  </span><br><span class="line">            <span class="string">&quot;url&quot;</span>: <span class="string">&quot;https://sharefs.ali.kugou.com/202110202226/8ac7afd5dbda58ffe35399be77e4364e/KGTX/CLTX001/bbd71ef535bdac9d124f31c8315d06eb.mp3&quot;</span> ,</span><br><span class="line">            <span class="string">&quot;pic&quot;</span>: <span class="string">&quot;https://satparamita.top/images/mine.jpg&quot;</span>, </span><br><span class="line">	          <span class="string">&quot;lrc&quot;</span>: <span class="string">&quot;/assets/lrc/故园情-重小烟.lrc&quot;</span>                                     </span><br><span class="line">    	  &#125;</span><br><span class="line">    ]</span><br><span class="line">&#125;</span><br><span class="line">&#123;% endaplayerlist %&#125;</span><br></pre></td></tr></table></figure>
-<p><strong>注意事项</strong>:</p>
-<ol>
-<li>使用歌单加入网络歌曲时，歌曲链接可能会失效。</li>
-<li>插入单曲时，建议也使用歌单，歌单只有一首歌而已。</li>
-<li>Aplayer与Pjax存在冲突，需要手动<strong>刷新</strong>音乐页面，或者在新标签页打开才能显示。可以关闭pjax，在主题配置里修改为<code>pjax: false</code>，不过对网页运行有一点影响。</li>
-<li>也可以直接在文章里添加音乐，这样就可以在不关闭Pjax的情况下，使用<code>window.open()</code>，在新标签页打开音乐，相当于刷新了音乐的网页。</li>
-</ol>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;a onclick=<span class="string">&quot;window.open(&#x27;https://satparamita.top/about/%E9%9F%B3%E4%B9%90.html&#x27;, &#x27;_blank&#x27;);&quot;</span>&gt;&lt;/a&gt;</span><br></pre></td></tr></table></figure>
-<ol>
-<li>meting支持多个音乐平台，可以插入单曲，也可以插入列表。官方文档里有对参数的解释。<code>&quot;listmaxheight:400px&quot;</code>表示列表长度，单曲时不用加入。</li>
-</ol>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;% meting <span class="string">&quot;id&quot;</span> <span class="string">&quot;netease, tencent, kugou, xiami, baidu&quot;</span> <span class="string">&quot;song, playlist, album, search, artist&quot;</span>  <span class="string">&quot;mutex:true&quot;</span> <span class="string">&quot;listmaxheight:400px&quot;</span> <span class="string">&quot;preload:none&quot;</span> <span class="string">&quot;theme:#33a3dc&quot;</span> %&#125;</span><br></pre></td></tr></table></figure>
-<ol start="2">
-<li>在站点配置文件里添加：</li>
-</ol>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">aplayer:</span><br><span class="line">  meting: <span class="literal">true</span></span><br><span class="line">  <span class="attr">asset_inject</span>: <span class="literal">true</span> #  <span class="literal">true</span>可能会影响其它功能</span><br></pre></td></tr></table></figure>
-<ol start="3">
-<li>以单曲为例，在文章里写入：</li>
-</ol>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;% meting <span class="string">&quot;0A184307F0CB47068D6E2B12893FB962&quot;</span> <span class="string">&quot;kugou&quot;</span> <span class="string">&quot;song&quot;</span> <span class="string">&quot;mutex:true&quot;</span> <span class="string">&quot;preload:none&quot;</span> <span class="string">&quot;theme:#33a3dc&quot;</span> %&#125;</span><br><span class="line">&#123;% meting <span class="string">&quot;6F30EE14FFE03FD30CA25887DC602C4B&quot;</span> <span class="string">&quot;kugou&quot;</span> <span class="string">&quot;song&quot;</span> <span class="string">&quot;mutex:true&quot;</span> <span class="string">&quot;preload:none&quot;</span> <span class="string">&quot;theme:#33a3dc&quot;</span> %&#125;</span><br><span class="line">&#123;% meting <span class="string">&quot;29747554&quot;</span> <span class="string">&quot;netease&quot;</span> <span class="string">&quot;song&quot;</span> <span class="string">&quot;mutex:true&quot;</span> <span class="string">&quot;listmaxheight:400px&quot;</span> <span class="string">&quot;preload:none&quot;</span> <span class="string">&quot;theme:#33a3dc&quot;</span> %&#125;</span><br></pre></td></tr></table></figure>
-<ol start="4">
-<li>meting的另一种使用方式：</li>
-</ol>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;link rel=<span class="string">&quot;stylesheet&quot;</span> href=<span class="string">&quot;https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css&quot;</span>&gt;</span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br><span class="line">&lt;!-- <span class="built_in">require</span> MetingJS --&gt;</span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">meting-js</span></span></span></span><br><span class="line"><span class="tag"><span class="xml">	<span class="attr">server</span>=<span class="string">&quot;netease&quot;</span></span></span></span><br><span class="line"><span class="tag"><span class="xml">	<span class="attr">type</span>=<span class="string">&quot;song&quot;</span></span></span></span><br><span class="line"><span class="tag"><span class="xml">	<span class="attr">id</span>=<span class="string">&quot;29747554&quot;</span>&gt;</span>   </span></span><br><span class="line"><span class="xml"><span class="tag">&lt;/<span class="name">meting-js</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
-<p><strong>PS</strong>：使用酷狗音乐时，本地预览和手机都能用meting，但是我的电脑端不能；而网易云的音乐可以。如果meting能正确显示，建议对单曲优先使用meting，因为自带头像与歌词。aplayer和meting在同一个页面使用时，只显示meting。</p>
-]]></content>
-      <tags>
-        <tag>next</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>github + hexo 制作静态网站</title>
     <url>/p/1b9a5d5d.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="软件安装"><a class="markdownIt-Anchor" href="#软件安装"></a> 软件安装</h2>
@@ -1555,9 +1253,151 @@ This is the</p>
 </ol>
 ]]></content>
       <tags>
-        <tag>next</tag>
         <tag>github</tag>
         <tag>hexo</tag>
+        <tag>next</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Next主题设置</title>
+    <url>/p/326f884.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><strong>站点配置</strong>文件<code>_config.yml</code>在<code>Hexo</code>文件夹下。在站点配置里注意以下几点：<span id="more"></span></p>
+<ol>
+<li><code>url:</code>添加自己的博客网址<code>https://satparamita.github.io/paramita/</code>。如果买了域名并且能使用，则改成新域名<code>url: https://satparamita.top</code>。</li>
+<li><code>language:</code>，选择对应的语言，在<code>theme\next\language</code>里查看。有的主题是<code>zh-CN</code>，有的是<code>zh-Hans</code>。</li>
+<li><code>description:</code>主要用于告诉搜索引擎一个关于站点的简单描述，建议在其中包含您网站的关键词。</li>
+<li><code>order_by: -date</code>文章排序默认是按照日期，也可以改成按照更新日期排序，即<code>order_by: -updated</code>。</li>
+</ol>
+<h3 id="next主题安装下载地址"><a class="markdownIt-Anchor" href="#next主题安装下载地址"></a> next主题安装，<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0">下载地址<i class="fa fa-external-link-alt"></i></span>。</h3>
+<ol>
+<li>在Hexo文件夹里右键<code>Git Bash Here</code>，输入命令：<br>
+<code>git clone https://github.com/next-theme/hexo-theme-next themes/next</code><br>
+主题会下载到<code>themes</code>目录下的<code>next</code>文件夹。<br>
+如果下载失败就多试几次，实在下载不了就进入<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3JlbGVhc2VzL3RhZy92OC43LjE=">Next官网<i class="fa fa-external-link-alt"></i></span>，找到压缩包<code>Source code(zip)</code>，下载后解压，更名为next，粘贴到<code>themes</code>目录下。</li>
+<li>打开站点配置文件<code>_config.yml</code> ，找到关键字 <code>theme</code>，修改参数为：<code>theme：next</code>，注意冒号后面有一个空格！<br>
+建议将主题配置文件<code>_config.yml</code>重命名为<code>_config.next.yml</code>，然后剪切到<code>Hexo</code>文件夹下，方便以后更新主题。</li>
+<li>当前使用的是最新版本<code>next8.8.1</code>。每个月都会发布新版本，请在更新前阅读更新说明。可以通过如下命令更新：<br>
+<code>npm install hexo-theme-next@latest</code></li>
+</ol>
+<h3 id="文章里插入图片和其它文件"><a class="markdownIt-Anchor" href="#文章里插入图片和其它文件"></a> 文章里插入图片和其它文件</h3>
+<ol>
+<li>安装：<code>npm install hexo-asset-image --save</code></li>
+<li>打开站点配置文件，设置：<code>post_asset_folder: true</code></li>
+<li>在<code>hexo/source/_posts</code>目录下右键新建test.md文件，并新建名为test的文件夹，用于存放文章里需要插入的图片和其它文件。</li>
+<li>使用<code>![title](./test/图片名.jpg &quot;描述&quot;)</code>添加本地图片。同理，可插入其它格式的文件，比如<code>txt</code>、<code>pdf</code>、<code>py</code>、<code>md</code>、<code>zip</code>等，<code>txt</code>、<code>pdf</code>文件可以在网页中直接打开查看，其它格式的文件会在点击后下载到本地。</li>
+</ol>
+<h3 id="emoji表情"><a class="markdownIt-Anchor" href="#emoji表情"></a> Emoji表情</h3>
+<p>在编辑器中输入<code>:smile:</code>可能没有😄表情出现。Hexo默认是采用hexo-renderer-marked渲染器，不支持插件扩展。支持插件扩展的是 hexo-renderer-markdown-it，可以使用markwon-it-emoji插件来支持emoji。</p>
+<ol>
+<li>卸载默认的marked渲染器，安装markdown-it渲染器：<br>
+<code>npm un hexo-renderer-marked --save</code><br>
+<code>npm i hexo-renderer-markdown-it --save</code></li>
+<li>安装markdown-it-emoji插件：<code>npm install markdown-it-emoji --save</code></li>
+</ol>
+<p><strong>PS</strong>:安装时可能会显示一堆信息，fsevent是mac osx系统的，在win或者Linux下使用会有警告，直接忽略，其实已经安装成功了。其它插件安装时也一样。</p>
+<h3 id="全站搜索参考插件searchdb"><a class="markdownIt-Anchor" href="#全站搜索参考插件searchdb"></a> 全站搜索，参考插件<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by1nZW5lcmF0b3Itc2VhcmNoZGI=">searchdb<i class="fa fa-external-link-alt"></i></span>。</h3>
+<ol>
+<li>安装：<code>npm install hexo-generator-searchdb</code></li>
+<li>在站点设置里添加以下设置项：</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">search:</span><br><span class="line">  path: search.xml</span><br><span class="line">  <span class="attr">field</span>: post</span><br><span class="line">  <span class="attr">format</span>: html</span><br><span class="line">  <span class="attr">limit</span>: <span class="number">10000</span></span><br></pre></td></tr></table></figure>
+<ol start="3">
+<li>在主题设置里找到<code>local_search</code>，修改成如下：</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">local_search:</span><br><span class="line">  enable: <span class="literal">true</span></span><br><span class="line">  #auto, trigger search by changing input. manual, by pressing enter key or search button.</span><br><span class="line">  <span class="attr">trigger</span>: auto</span><br><span class="line">  <span class="attr">top_n_per_article</span>: -<span class="number">1</span> # Show top n results per article, show all results by -<span class="number">1</span></span><br><span class="line">  <span class="attr">unescape</span>: <span class="literal">false</span> </span><br><span class="line">  <span class="attr">preload</span>: <span class="literal">false</span> </span><br></pre></td></tr></table></figure>
+<h3 id="邮件功能"><a class="markdownIt-Anchor" href="#邮件功能"></a> 邮件功能</h3>
+<ol>
+<li>在侧栏<code>social</code>添加<strong>给我发邮件</strong>，在主题配置里修改：</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">social:</span><br><span class="line">  邮件: https:<span class="comment">//mail.qq.com/cgi-bin/qm_share?t=qm_mailme&amp;email=1610202621@qq.com || fa fa-envelope</span></span><br></pre></td></tr></table></figure>
+<ol start="2">
+<li>在友情链接或文章中加入<strong>给我发邮件</strong>：<br>
+<code>[1610202621@qq.com](https://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&amp;email=1610202621@qq.com)</code><br>
+效果是<span class="exturl" data-url="aHR0cHM6Ly9tYWlsLnFxLmNvbS9jZ2ktYmluL3FtX3NoYXJlP3Q9cW1fbWFpbG1lJmVtYWlsPTE2MTAyMDI2MjFAcXEuY29t">1610202621@qq.com<i class="fa fa-external-link-alt"></i></span></li>
+</ol>
+<p><strong>PS:</strong> <code>social</code>里的<code>fa fa-envelope</code>会显示表示邮件的小图标，更多小图标请查看<span class="exturl" data-url="aHR0cHM6Ly9mb250YXdlc29tZS5jb20vdjYuMC9pY29ucz9kPWdhbGxlcnkmcD0xJnM9c29saWQmbT1mcmVl">icon<i class="fa fa-external-link-alt"></i></span>。</p>
+<h3 id="持久化连接"><a class="markdownIt-Anchor" href="#持久化连接"></a> 持久化连接</h3>
+<p>文章默认的链接是<code>http://url/2020/02/10/hello-world</code>这种类型，由<code>年/月/日/标题</code>组成。如果文章里调整过日期，链接名也会变化。而且如果标题是中文或存在特殊符号，链接可能就有问题。因此建议使用永久链接，即使更改了日期也能打开原来的链接。</p>
+<ol>
+<li>安装：<code>npm install hexo-abbrlink --save</code>。</li>
+<li>在站点配置里修改：</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">permalink: p/:abbrlink.html</span><br><span class="line"><span class="attr">abbrlink</span>:</span><br><span class="line">  alg: crc32  # 算法：crc16(<span class="keyword">default</span>) and crc32</span><br><span class="line">  <span class="attr">rep</span>: hex    # 进制：dec(<span class="keyword">default</span>) and hex</span><br></pre></td></tr></table></figure>
+<h3 id="统计文章字数与阅读时间参考counter"><a class="markdownIt-Anchor" href="#统计文章字数与阅读时间参考counter"></a> 统计文章字数与阅读时间，参考<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by13b3JkLWNvdW50ZXI=">counter<i class="fa fa-external-link-alt"></i></span>。</h3>
+<ol>
+<li>安装：<code>npm install hexo-word-counter</code></li>
+<li>在主题配置<code>_config.yml</code>里添加：</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">symbols_count_time:</span><br><span class="line">  separated_meta: <span class="literal">true</span></span><br><span class="line">  <span class="attr">item_text_total</span>: <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+<h3 id="设置文章置顶"><a class="markdownIt-Anchor" href="#设置文章置顶"></a> 设置文章置顶</h3>
+<ol>
+<li>
+<p>先卸载后安装：<br>
+<code>npm uninstall hexo-generator-index --save</code><br>
+<code>npm install hexo-generator-index-pin-top --save</code></p>
+</li>
+<li>
+<p>在文章开头添加<code>top: true</code>，或者<code>top: 2</code>，数字越大，置顶越靠前。</p>
+</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: </span><br><span class="line">tags: </span><br><span class="line">comments: <span class="literal">true</span></span><br><span class="line"><span class="attr">top</span>: <span class="number">100</span></span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<h3 id="文末添加相关文章"><a class="markdownIt-Anchor" href="#文末添加相关文章"></a> 文末添加相关文章</h3>
+<ol>
+<li>安装：<code>npm install hexo-related-popular-posts --save</code></li>
+<li>在主题设置里添加：</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"># Related popular posts# Dependencies: https:<span class="comment">//github.com/tea3/hexo-related-popular-posts</span></span><br><span class="line">related_posts:</span><br><span class="line">  enable: <span class="literal">true</span></span><br><span class="line">  <span class="attr">title</span>: # Custom header, leave empty to use the <span class="keyword">default</span> one</span><br><span class="line">  <span class="attr">display_in_home</span>: <span class="literal">true</span></span><br><span class="line">  <span class="attr">params</span>:</span><br><span class="line">    maxCount: <span class="number">5</span></span><br><span class="line">    #PPMixingRate: <span class="number">0.0</span></span><br><span class="line">    #isDate: <span class="literal">false</span></span><br><span class="line">    #isImage: <span class="literal">false</span></span><br><span class="line">    #isExcerpt: <span class="literal">false</span></span><br></pre></td></tr></table></figure>
+<h3 id="数学公式编辑"><a class="markdownIt-Anchor" href="#数学公式编辑"></a> 数学公式编辑</h3>
+<ol>
+<li>先卸载后安装：<br>
+<code>npm un hexo-renderer-marked --save</code><br>
+<code>npm i hexo-renderer-markdown-it-plus --save</code></li>
+<li>启用katex:</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">math:</span><br><span class="line">  every_page: <span class="literal">false</span></span><br><span class="line">  <span class="attr">mathjax</span>:</span><br><span class="line">    enable: <span class="literal">false</span></span><br><span class="line">    <span class="attr">tags</span>: none # Available values: none | ams | all</span><br><span class="line">  <span class="attr">katex</span>:</span><br><span class="line">    enable: <span class="literal">true</span></span><br><span class="line">    <span class="attr">copy_tex</span>: <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+<p>在github里不支持katex的某些功能，所以同时启用mathjax。在有数学公式的文章开头添加：</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;head&gt;</span><br><span class="line">    <span class="xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br><span class="line">    <span class="xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/x-mathjax-config&quot;</span>&gt;</span><span class="javascript"></span></span></span><br><span class="line"><span class="javascript"><span class="xml">        MathJax.Hub.Config(&#123;</span></span></span><br><span class="line"><span class="javascript"><span class="xml">            <span class="attr">tex2jax</span>: &#123;</span></span></span><br><span class="line"><span class="javascript"><span class="xml">            <span class="attr">skipTags</span>: [<span class="string">&#x27;script&#x27;</span>, <span class="string">&#x27;noscript&#x27;</span>, <span class="string">&#x27;style&#x27;</span>, <span class="string">&#x27;textarea&#x27;</span>, <span class="string">&#x27;pre&#x27;</span>],</span></span></span><br><span class="line"><span class="javascript"><span class="xml">            <span class="attr">inlineMath</span>: [[<span class="string">&#x27;$&#x27;</span>,<span class="string">&#x27;$&#x27;</span>]]</span></span></span><br><span class="line"><span class="javascript"><span class="xml">            &#125;</span></span></span><br><span class="line"><span class="javascript"><span class="xml">        &#125;);</span></span></span><br><span class="line"><span class="javascript"><span class="xml">    </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br><span class="line">&lt;/head&gt; </span><br></pre></td></tr></table></figure>
+<h3 id="添加流程图支持"><a class="markdownIt-Anchor" href="#添加流程图支持"></a> 添加流程图支持</h3>
+<ol>
+<li>安装：<code>npm i hexo-filter-mermaid-diagrams</code><br>
+<code>npm i --save hexo-filter-sequence</code></li>
+<li>在站点设置里添加：</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">mermaid: #流程图</span><br><span class="line">  <span class="attr">enable</span>: <span class="literal">true</span></span><br><span class="line">  # Available themes: <span class="keyword">default</span> | dark | forest | neutral</span><br><span class="line">  <span class="attr">theme</span>: <span class="keyword">default</span></span><br></pre></td></tr></table></figure>
+<h3 id="安装烟花特效"><a class="markdownIt-Anchor" href="#安装烟花特效"></a> 安装烟花特效</h3>
+<p>点击鼠标时显示烟花特效，安装：<br>
+<code>npm install next-theme/hexo-next-fireworks</code></p>
+<h3 id="在文章中浏览pdf参考pdf"><a class="markdownIt-Anchor" href="#在文章中浏览pdf参考pdf"></a> 在文章中浏览pdf，参考<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvdGhlbWUtbmV4dC1wZGY=">pdf<i class="fa fa-external-link-alt"></i></span>。</h3>
+<ol>
+<li>安装：<code>git clone https://github.com/next-theme/theme-next-pdf source/lib/pdf</code>。文件会下载至<code>hexo/source/lib</code>文件夹里。</li>
+<li>修改主题配置:</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">pdf:</span><br><span class="line">  enable: <span class="literal">true</span></span><br><span class="line">  # Default height</span><br><span class="line">  <span class="attr">height</span>: 500px</span><br></pre></td></tr></table></figure>
+<ol start="3">
+<li>在站点配置里添加：</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">skip_render:</span><br><span class="line">  - lib<span class="comment">/**/</span>*</span><br></pre></td></tr></table></figure>
+<ol start="4">
+<li>
+<p>使用方法：<code>&#123;% pdf /path/to/your/file.pdf %&#125;</code><br>
+例如：<code>&#123;% pdf ./test/1.pdf %&#125;</code>。<br>
+pdf文件存放在与test.md文件同名的test文件夹里。也可以添加外部pdf链接。</p>
+</li>
+<li>
+<p>更新方法：<br>
+<code>cd hexo/source/lib/pdf</code><br>
+<code>git pull</code></p>
+</li>
+</ol>
+<h3 id="文章封面"><a class="markdownIt-Anchor" href="#文章封面"></a> 文章封面</h3>
+<ol>
+<li>安装：<code>npm install --save hexo-less</code></li>
+<li>在文章中添加<code>&lt;!-- less --&gt;</code>，<code>&lt;!-- less --&gt;</code>前面的内容会显示在封面，打开文章后<strong>不会再显示</strong>，直接显示<code>&lt;!-- less --&gt;</code>后面的内容。<br>
+区别于<code>&lt;!-- more --&gt;</code>，<code>&lt;!-- more --&gt;</code>前后的内容全部会显示在文章里。</li>
+</ol>
+]]></content>
+      <tags>
+        <tag>next</tag>
       </tags>
   </entry>
   <entry>
@@ -1601,6 +1441,166 @@ This is the</p>
 也可以直接在文章里添加说说，这样就可以在不关闭Pjax的情况下，使用<code>window.open()</code>，在新标签页打开说说，相当于刷新了说说的网页。</p>
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;a onclick=<span class="string">&quot;window.open(&#x27;https://satparamita.top/about/%E9%9F%B3%E4%B9%90.html&#x27;, &#x27;_blank&#x27;);&quot;</span>&gt;&lt;/a&gt;</span><br></pre></td></tr></table></figure>
 ]]></content>
+      <tags>
+        <tag>next</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Next主题设置-安装DaoVoice和Aplayer</title>
+    <url>/p/3330145c.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="安装在线聊天工具daovoice"><a class="markdownIt-Anchor" href="#安装在线聊天工具daovoice"></a> 安装在线聊天工具DaoVoice</h3>
+<ol>
+<li>登录<span class="exturl" data-url="aHR0cDovL3d3dy5kYW92b2ljZS5pby8=">DaoVoice官网<i class="fa fa-external-link-alt"></i></span>注册，点击<code>应用设置</code>–&gt;<code>安装到网站</code>，搜索<code>app_id</code>，复制后面的id。<span id="more"></span></li>
+<li>在主题配置里添加：</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">daovoice: <span class="literal">true</span></span><br><span class="line"><span class="attr">daovoice_app_id</span>: 你的id</span><br></pre></td></tr></table></figure>
+<ol start="3">
+<li>在<code>Hexo\themes\next\layout\_partials\head</code>的<code>head.njk</code>文件末尾添加如下内容，粘贴你的id。</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;% <span class="keyword">if</span> theme.daovoice %&#125;</span><br><span class="line"> &lt;script&gt;(<span class="function"><span class="keyword">function</span>(<span class="params">i,s,o,g,r,a,m</span>)</span>&#123;i[<span class="string">&quot;DaoVoiceObject&quot;</span>]=r;i[r]=i[r]||<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;(i[r].q=i[r].q||[]).push(<span class="built_in">arguments</span>)&#125;,i[r].l=<span class="number">1</span>*<span class="keyword">new</span> <span class="built_in">Date</span>();a=s.createElement(o),m=s.getElementsByTagName(o)[<span class="number">0</span>];a.async=<span class="number">1</span>;a.src=g;a.charset=<span class="string">&quot;utf-8&quot;</span>;m.parentNode.insertBefore(a,m)&#125;)(<span class="built_in">window</span>,<span class="built_in">document</span>,<span class="string">&quot;script&quot;</span>,(<span class="string">&#x27;https:&#x27;</span> == <span class="built_in">document</span>.location.protocol ? <span class="string">&#x27;https:&#x27;</span> : <span class="string">&#x27;http:&#x27;</span>) + <span class="string">&quot;//widget.daovoice.io/widget/b6dbddb6.js&quot;</span>,<span class="string">&quot;daovoice&quot;</span>)</span><br><span class="line"> daovoice(<span class="string">&#x27;init&#x27;</span>, &#123;</span><br><span class="line">  <span class="attr">app_id</span>: <span class="string">&quot;粘贴你的id&quot;</span></span><br><span class="line">&#125;);</span><br><span class="line">daovoice(<span class="string">&#x27;update&#x27;</span>);</span><br><span class="line"> &lt;/script&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
+<ol start="4">
+<li>收到的信息在DaoVoice官网的<code>对话</code>里查看与回复。</li>
+</ol>
+<h3 id="安装音乐插件aplayer-meting"><a class="markdownIt-Anchor" href="#安装音乐插件aplayer-meting"></a> 安装音乐插件<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL01vZVBsYXllci9oZXhvLXRhZy1hcGxheWVyL2Jsb2IvbWFzdGVyL2RvY3MvUkVBRE1FLXpoX2NuLm1k">Aplayer<i class="fa fa-external-link-alt"></i></span>、meting</h3>
+<ol>
+<li>安装：<code>npm install --save hexo-tag-aplayer</code></li>
+<li>使用方法：</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;% aplayer <span class="string">&quot;title&quot;</span>  <span class="string">&quot;author&quot;</span> <span class="string">&quot;url&quot;</span> [picture_url, narrow, autoplay, <span class="attr">width</span>:xxx, <span class="attr">lrc</span>:xxx] %&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">&quot;title&quot;</span>  <span class="string">&quot;author&quot;</span> <span class="string">&quot;url&quot;</span> 按顺序必填，其余选填。这里lrc必须是txt格式。 </span><br></pre></td></tr></table></figure>
+<ol start="3">
+<li>如果使用网络音乐，可以进入<span class="exturl" data-url="aHR0cHM6Ly9tdXNpYy54ZjE0MzMuY29tLw==">音乐外链网站<i class="fa fa-external-link-alt"></i></span>获取音乐链接。</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;% aplayer <span class="string">&quot;花儿纳吉&quot;</span> <span class="string">&quot;洛萱&quot;</span> <span class="string">&quot;https://sharefs.ali.kugou.com/202110202136/4bf5427ae89feacb1c10fd2db1c212cc/G202/M00/1C/01/Cg4DAF5QC-CAQbPvADlpgRlSql4871.mp3&quot;</span> <span class="string">&quot;https://satparamita.top/images/my.jpg&quot;</span> <span class="string">&quot;width:100%&quot;</span> <span class="string">&quot;lrc:花儿纳吉-洛萱.txt&quot;</span> %&#125;</span><br></pre></td></tr></table></figure>
+<ol start="4">
+<li>也可以插入本地音乐，需要自定义头像，下载歌词。</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;% aplayer <span class="string">&quot;花儿纳吉&quot;</span> <span class="string">&quot;洛萱&quot;</span> <span class="string">&quot;./file/洛萱 - 花儿纳吉.mp3&quot;</span> <span class="string">&quot;https://satparamita.top/images/my.jpg&quot;</span> <span class="string">&quot;width:100%&quot;</span> <span class="string">&quot;lrc:花儿纳吉-洛萱.txt&quot;</span> %&#125;</span><br></pre></td></tr></table></figure>
+<p><strong>注意</strong>:音乐和歌词文件都放在与文章同级的文件夹里，上例里文件夹名为file。</p>
+<ol start="5">
+<li>Aplayer可以建立歌单，一般是将歌单放在侧栏。为了在侧栏上方菜单里添加<strong>音乐</strong>选项，在<code>Hexo/source</code>下新建文件夹<code>music</code>和<code>assets</code>。文件夹<code>assets</code>用来存放歌曲和歌词，文件夹名必须是<code>assets</code>。</li>
+<li>在<code>themes\next\languages\zh-CN</code>里添加<code>music</code>的翻译。</li>
+<li>在music文件夹里新建<code>index.md</code>文件，打开后修改title、type等。添加歌单，参考官方文档的参数解释。注意不要写入参数<code>//</code>后面的注释。歌词可以是lrc格式的。</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title:  #为了标题中出现，可以不填</span><br><span class="line"><span class="attr">type</span>: <span class="string">&quot;music&quot;</span> #必须有</span><br><span class="line"><span class="attr">comments</span>: <span class="literal">false</span> # 是否再下方显示评论栏 </span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">&#123;% aplayerlist %&#125;</span><br><span class="line">&#123;</span><br><span class="line">    <span class="string">&quot;narrow&quot;</span>: <span class="literal">false</span>,</span><br><span class="line">    <span class="string">&quot;autoplay&quot;</span>: <span class="literal">false</span>,</span><br><span class="line">    <span class="string">&quot;mode&quot;</span>: <span class="string">&quot;circulation&quot;</span>,</span><br><span class="line">    <span class="string">&quot;showlrc&quot;</span>: <span class="number">3</span>,</span><br><span class="line">    <span class="string">&quot;mutex&quot;</span>: <span class="literal">true</span>,               </span><br><span class="line">    <span class="string">&quot;theme&quot;</span>: <span class="string">&quot;#33a3dc&quot;</span>,	       </span><br><span class="line">    <span class="string">&quot;preload&quot;</span>: <span class="string">&quot;metadata&quot;</span>,        </span><br><span class="line">    <span class="string">&quot;listmaxheight&quot;</span>: <span class="string">&quot;420px&quot;</span>,    </span><br><span class="line">    <span class="string">&quot;music&quot;</span>: [</span><br><span class="line">        &#123;    </span><br><span class="line">            <span class="string">&quot;title&quot;</span>: <span class="string">&quot;花儿纳吉&quot;</span>,      </span><br><span class="line">            <span class="string">&quot;author&quot;</span>: <span class="string">&quot;洛萱&quot;</span>,                                  </span><br><span class="line">            <span class="string">&quot;url&quot;</span>: <span class="string">&quot;/assets/洛萱、Mario - 花儿纳吉.mp3&quot;</span> ,</span><br><span class="line">            <span class="string">&quot;pic&quot;</span>: <span class="string">&quot;https://satparamita.top/images/my.jpg&quot;</span>, </span><br><span class="line">	          <span class="string">&quot;lrc&quot;</span>: <span class="string">&quot;/assets/lrc/花儿纳吉-洛萱.lrc&quot;</span>                                       </span><br><span class="line">    	  &#125;,</span><br><span class="line">        &#123;    </span><br><span class="line">            <span class="string">&quot;title&quot;</span>: <span class="string">&quot;故园情&quot;</span>,      </span><br><span class="line">            <span class="string">&quot;author&quot;</span>: <span class="string">&quot;重小烟&quot;</span>,                                  </span><br><span class="line">            <span class="string">&quot;url&quot;</span>: <span class="string">&quot;https://sharefs.ali.kugou.com/202110202226/8ac7afd5dbda58ffe35399be77e4364e/KGTX/CLTX001/bbd71ef535bdac9d124f31c8315d06eb.mp3&quot;</span> ,</span><br><span class="line">            <span class="string">&quot;pic&quot;</span>: <span class="string">&quot;https://satparamita.top/images/mine.jpg&quot;</span>, </span><br><span class="line">	          <span class="string">&quot;lrc&quot;</span>: <span class="string">&quot;/assets/lrc/故园情-重小烟.lrc&quot;</span>                                     </span><br><span class="line">    	  &#125;</span><br><span class="line">    ]</span><br><span class="line">&#125;</span><br><span class="line">&#123;% endaplayerlist %&#125;</span><br></pre></td></tr></table></figure>
+<p><strong>注意事项</strong>:</p>
+<ol>
+<li>使用歌单加入网络歌曲时，歌曲链接可能会失效。</li>
+<li>插入单曲时，建议也使用歌单，歌单只有一首歌而已。</li>
+<li>Aplayer与Pjax存在冲突，需要手动<strong>刷新</strong>音乐页面，或者在新标签页打开才能显示。可以关闭pjax，在主题配置里修改为<code>pjax: false</code>，不过对网页运行有一点影响。</li>
+<li>也可以直接在文章里添加音乐，这样就可以在不关闭Pjax的情况下，使用<code>window.open()</code>，在新标签页打开音乐，相当于刷新了音乐的网页。</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;a onclick=<span class="string">&quot;window.open(&#x27;https://satparamita.top/about/%E9%9F%B3%E4%B9%90.html&#x27;, &#x27;_blank&#x27;);&quot;</span>&gt;&lt;/a&gt;</span><br></pre></td></tr></table></figure>
+<ol>
+<li>meting支持多个音乐平台，可以插入单曲，也可以插入列表。官方文档里有对参数的解释。<code>&quot;listmaxheight:400px&quot;</code>表示列表长度，单曲时不用加入。</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;% meting <span class="string">&quot;id&quot;</span> <span class="string">&quot;netease, tencent, kugou, xiami, baidu&quot;</span> <span class="string">&quot;song, playlist, album, search, artist&quot;</span>  <span class="string">&quot;mutex:true&quot;</span> <span class="string">&quot;listmaxheight:400px&quot;</span> <span class="string">&quot;preload:none&quot;</span> <span class="string">&quot;theme:#33a3dc&quot;</span> %&#125;</span><br></pre></td></tr></table></figure>
+<ol start="2">
+<li>在站点配置文件里添加：</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">aplayer:</span><br><span class="line">  meting: <span class="literal">true</span></span><br><span class="line">  <span class="attr">asset_inject</span>: <span class="literal">true</span> #  <span class="literal">true</span>可能会影响其它功能</span><br></pre></td></tr></table></figure>
+<ol start="3">
+<li>以单曲为例，在文章里写入：</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;% meting <span class="string">&quot;0A184307F0CB47068D6E2B12893FB962&quot;</span> <span class="string">&quot;kugou&quot;</span> <span class="string">&quot;song&quot;</span> <span class="string">&quot;mutex:true&quot;</span> <span class="string">&quot;preload:none&quot;</span> <span class="string">&quot;theme:#33a3dc&quot;</span> %&#125;</span><br><span class="line">&#123;% meting <span class="string">&quot;6F30EE14FFE03FD30CA25887DC602C4B&quot;</span> <span class="string">&quot;kugou&quot;</span> <span class="string">&quot;song&quot;</span> <span class="string">&quot;mutex:true&quot;</span> <span class="string">&quot;preload:none&quot;</span> <span class="string">&quot;theme:#33a3dc&quot;</span> %&#125;</span><br><span class="line">&#123;% meting <span class="string">&quot;29747554&quot;</span> <span class="string">&quot;netease&quot;</span> <span class="string">&quot;song&quot;</span> <span class="string">&quot;mutex:true&quot;</span> <span class="string">&quot;listmaxheight:400px&quot;</span> <span class="string">&quot;preload:none&quot;</span> <span class="string">&quot;theme:#33a3dc&quot;</span> %&#125;</span><br></pre></td></tr></table></figure>
+<ol start="4">
+<li>meting的另一种使用方式：</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;link rel=<span class="string">&quot;stylesheet&quot;</span> href=<span class="string">&quot;https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css&quot;</span>&gt;</span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br><span class="line">&lt;!-- <span class="built_in">require</span> MetingJS --&gt;</span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">meting-js</span></span></span></span><br><span class="line"><span class="tag"><span class="xml">	<span class="attr">server</span>=<span class="string">&quot;netease&quot;</span></span></span></span><br><span class="line"><span class="tag"><span class="xml">	<span class="attr">type</span>=<span class="string">&quot;song&quot;</span></span></span></span><br><span class="line"><span class="tag"><span class="xml">	<span class="attr">id</span>=<span class="string">&quot;29747554&quot;</span>&gt;</span>   </span></span><br><span class="line"><span class="xml"><span class="tag">&lt;/<span class="name">meting-js</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
+<p><strong>PS</strong>：使用酷狗音乐时，本地预览和手机都能用meting，但是我的电脑端不能；而网易云的音乐可以。如果meting能正确显示，建议对单曲优先使用meting，因为自带头像与歌词。aplayer和meting在同一个页面使用时，只显示meting。</p>
+]]></content>
+      <tags>
+        <tag>next</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>论藏序言合集</title>
+    <url>/p/56fff504.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
+        <div id="aplayer-NvSGywow" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
+			  <script>
+				  var options = {"narrow":false,"autoplay":false,"showlrc":3,"mode":"circulation","mutex":true,"theme":"#33a3dc","preload":"metadata","listmaxheight":"680px","music":[{"title":"般若波罗密心经（梵文）","author":"泠鸢yousa","url":"/assets/泠鸢yousa - 【重录】般若波罗密心经（梵文）.mp3","pic":"https://satparamita.top/images/my.jpg","lrc":""}]};
+				  options.element = document.getElementById("aplayer-NvSGywow");
+				  var ap = new APlayer(options);
+			    window.aplayers || (window.aplayers = []);
+				  window.aplayers.push(ap);
+			  </script>
+<span id="more"></span>
+<h3 id="瑜伽师地论"><a class="markdownIt-Anchor" href="#瑜伽师地论"></a> 瑜伽师地论</h3>
+<p>弥勒菩萨说  大唐贞观廿二年五月十五日于长安弘福寺翻经院三藏法师玄奘奉　诏译<br>
+后序  中书令臣许敬宗制<br>
+原夫。三才成位，爰彰开辟之端。六羽为君，犹昧尊卑之序。讯余轨于襄陆，沦胥靡征。考陈迹于怀英，寂寥无纪。暨乎黄轩振武，玄顼疏功。帝道盛于唐虞，王业著于殷夏。葳蕤玉册，照耀金图。茂范曾芬，详诸历选。然则基神袭圣衍庆摛和。轶三代而孤标，掩百王而迥秀。我大唐皇帝无得而称矣。断鳌初载，万有于是宅心。飞龙在辰，六幽于是仰德。偃洪流而恢地络，练清气而缉天维。散服韬戈，扇无为之道。移浇反璞，弘不言之化。悠悠庶类，叶梦于华胥。蠢蠢怀生，遂性于仁寿。大礼大乐，包曲台而掩宣榭。宏谟宏典，澄璧水而藻环林。瑞露祯云，翊紫空而表贶。祥鳞庆翼，绕丹禁而呈符。岁精所记之州，咸为疆场。暄谷所谟之县，并入堤封。广辟辕宫，被文轨于殊俗。还开姬弈，均正朔于王会。大业成矣。大化清矣。于是游心羽陵，寓情延阁。总万箧于天纵，资一贯于生知。洞照神襟，深穷性道。俯同小伎，则绚发三辰。降习微毫，则妙逾八体。居域中之大宝，毕天下之能事。虽则甲夜观书，见称优洽。华旦成曲，独擅风猷。仰挍鸿徽，岂可同年而语矣。<br>
+有玄奘法师者。胎彰辩慧，蹑身子之高踪。生禀神奇，嗣摩什之芳轨。爰初束发，即事抽簪。迥出盖缠，深悟空假，研求四谛，嗟谬旨于真宗。钻仰一乘，鉴讹文于实相。遂乃发弘誓愿，起大悲心，思拯迷途，亲寻正教。幸属时康道泰，远安迩肃。裂裳裹足，直趣迦维。阐皇泽于遐方，征释教于前域。越葱岭之外，犹跬步而忘远。遵竹园之左，譬亲受而何殊。访道周游十有七载，经途所亘百有余国。异方之语，资一音而并贯。未译之经，罄五财而毕写。若诵若阅，喻青莲之受持。半句半偈，随白马而俱返。以贞观十九年。持如来肉舍利一百五十粒。佛像七躯。三藏圣教要文凡六百五十七部。二月六日还至长安。奉敕于弘福寺安置。令所司供给。召诸名僧二十一人学通内外者。共译持来三藏梵本。至二十一年五月十五日。肇译瑜伽师地论。论梵本四万颂。颂三十二字。凡有五分。宗明十七地义。三藏法师玄奘敬执梵文译为唐语。弘福寺沙门灵会。灵隽。智开。知仁。会昌寺沙门玄度。瑶台寺沙门道卓。大总持寺沙门道观。清禅寺沙门明觉烝义笔受。弘福寺沙门玄谟。证梵语。大总持寺沙门玄应。正字。大总持寺沙门道洪。实际寺沙门明琰。宝昌寺沙门法祥。罗汉寺沙门惠贵。弘福寺沙门文备。蒲州栖岩寺沙门神泰。廓州法讲寺沙门道深。详证大义。本地分中。五识身相应地意地。有寻有伺地。无寻唯伺地。无寻无伺地。凡十七卷。普光寺沙门道智。受旨证文。三摩呬多地。非三摩呬多地。有心无心地。闻所成地。思所成地。修所成地。凡十卷。蒲州普救寺沙门行友。受旨证文。声闻地初。瑜伽种姓地尽第二瑜伽处。凡九卷。玄法寺沙门玄赜。受旨证文。声闻地第三瑜伽处尽独觉地。凡五卷。汴州真谛寺沙门玄忠。受旨证文。菩萨地。有余依地。无余依地。凡十六卷。简州福众寺沙门靖迈。受旨证文。摄决择分。凡三十卷。大总持寺沙门辩机。受旨证文。摄异门分。摄释分。凡四卷。普光寺沙门处衡。受旨证文。摄事分。十六卷。弘福寺沙门明浚。受旨证文。银青光禄大夫。行太子左庶子。高阳县开国男。臣许敬宗。奉诏监阅。至二十二年五月十五日绝笔。总成一百卷。佛灭度后。弥勒菩萨自睹史多天宫降于中印度阿瑜他国。为无著菩萨之所说也。斯固法门极地。该三藏之遗文。如来后心。畅五乘之奥旨。玄宗微妙不可思议。僧徒并戒行圆深。道业贞固。欣承嘉召。得奉高人。各罄幽心。共禀新义。随毕奏上。有感宸衷。爰降殊恩。亲裁鸿序。情超系象。理绝名言。皇太子分耀黄离。缵基青陆。北摇传乐。仰金声而窃愧。东明御辩。瞻玉裕而多惭。九载勤经，汉储斯陋。一朝成赋，魏两韬英。既睹天文。顶戴无已。爰抽秘藻。赞叹功德。纡二圣之仙词，阐三藏之幽键。载扬佛日，式导玄津。开夏景于莲华，法流逾洁。泛春光于贝叶，道树增辉。冀夫圣藻长悬，与天地而无极。真如广被，随尘沙而不穷。凡厥含灵。知所归矣。</p>
+<h3 id="中论"><a class="markdownIt-Anchor" href="#中论"></a> 中论</h3>
+<p>龙树菩萨造 梵志青目释 姚秦鸠摩罗什译<br>
+中论卷第一<br>
+释僧睿序<br>
+中论有五百偈。龙树菩萨之所造也。以中为名者。照其实也。以论为称者。尽其言也。实非名不悟。故寄中以宣之。言非释不尽。故假论以明之。其实既宣。其言既明。于菩萨之行道场之照。朗然悬解矣。夫滞惑生于倒见。三界以之而沦溺；偏悟起于厌智。耿介以之而致乖。故知大觉在乎旷照。小智缠乎隘心。照之不旷。则不足以夷有无、一道俗。知之不尽。则未可以涉中途、泯二际。道俗之不夷。二际之不泯。菩萨之忧也。是以龙树大士析之以中道。使惑趣之徒望玄指而一变；括之以即化。令玄悟之宾丧咨询于朝彻。荡荡焉。真可谓坦夷路于冲阶。敝玄门于宇内。扇慧风于陈枚。流甘露于枯悴者矣。夫百梁之构兴。则鄙茅茨之仄陋。睹斯论之宏旷。则知偏悟之鄙倍。幸哉此区之赤县。忽得移灵鹫以作镇。险陂之边情。乃蒙流光之余惠。而今而后。谈道之贤始可与论实矣。云天竺诸国敢预学者之流。无不玩味斯论以为喉衿。其染翰申释者甚亦不少。今所出者。是天竺梵志名宾伽罗。秦言青目之所释也。其人虽信解深法而辞不雅中。其中乖阙烦重者。法师皆裁而裨之。于经通之理尽矣。文或左右未尽善也。百论治外以闲邪。斯文袪内以流滞。大智释论之渊博。十二门观之精诣。寻斯四者。真若日月入怀无不朗然鉴彻矣。予玩之味之不能释手。遂复忘其鄙拙。托悟怀于一序。并目品义题之于首。岂期能释耶。盖是欣自同之怀耳。</p>
+<h3 id="百论"><a class="markdownIt-Anchor" href="#百论"></a> 百论</h3>
+<p>提婆菩萨造  婆薮开士释  姚秦鸠摩罗什译<br>
+百论序<br>
+释僧肇作<br>
+百论者。盖是通圣心之津涂。开真谛之要论也。佛泥曰后八百余年。有出家大士厥名提婆。玄心独悟俊气高朗。道映当时神超世表。故能辟三藏之重关。坦十二之幽路。擅步迦夷。为法城堑。于时外道纷然。异端竞起。邪辩逼真。殆乱正道。乃仰慨圣教之陵迟。俯悼群迷之纵惑。将远拯沉沦故作斯论。所以防正闲邪。大明于宗极者矣。是以正化以之而隆。邪道以之而替。非夫领括众妙孰能若斯。论有百偈故以百为名。理致渊玄。统群籍之要。文旨婉约。穷制作之美。然至趣幽简鲜得其门。<br>
+有婆薮开士者。明慧内融。妙思奇拔。远契玄踪。为之训释。使沉隐之义彰于徽翰。风味宣流被于来叶。文藻焕然。宗涂易晓。其为论也。言而无当。破而无执。傥然靡据而事不失真。萧焉无寄而理自玄会。返本之道。著乎兹矣。<br>
+有天竺沙门鸠摩罗什。器量渊弘。俊神超邈。钻仰累年。转不可测。常味咏斯论以为心要。先虽亲译而方言未融。至令思寻者踌躇于谬文。摽位者乖迕于归致。大秦司隶校尉安成侯姚嵩。风韵清舒。冲心简胜。博涉内外。理思兼通。少好大道。长而弥笃。虽复形羁时务而法言不辍。每抚兹文。所慨良多。以弘始六年岁次寿星。集理味沙门。与什考挍正本。陶练覆疏。务存论旨。使质而不野。简而必诣。宗致尽尔。无间然矣。论凡二十品。品各五偈。后十品。其人以为无益此土。故阙而不传。冀明识君子详而揽焉。</p>
+<h3 id="十二门论"><a class="markdownIt-Anchor" href="#十二门论"></a> 十二门论</h3>
+<p>龙树菩萨造 姚秦鸠摩罗什译<br>
+十二门论序<br>
+十二门论者。盖是实相之折中。道场之要轨也。十二门者。总众枝之大数也。门者开通无滞之称也。论之者。欲以穷其源尽其理也。若一理之不尽则众异纷然有或趣之乖。一源之不穷则众涂扶疏有殊致之迹。殊致之不夷。乖趣之不泯。大士之忧也。是以龙树菩萨开出者之由路。作十二门以正之。正之以十二则有无兼畅。事无不尽。事尽于有无则忘功于造化。理极于虚位则丧我于二际。然则丧我在乎落筌。筌忘存乎遗寄。筌我兼忘。始可以几乎实矣。几乎实矣则虚实两冥得失无际。冥而无际则能忘造次于两玄。泯颠沛于一致。整归驾于道场。毕趣心于佛地。恢恢焉。真可谓运虚刃于无间。奏希声于宇内。济溺丧于玄津。出有无于域外者矣。遇哉后之学者。夷路既坦。幽涂既开。真得振和鸾于北冥。驰白牛以南回。悟大觉于梦境。即百化以安归。夫如是者慧。复知曜灵之方盛。玄陆之未希也哉。睿以鄙倍之浅识犹敢朋。用诚虚关。希怀宗极。庶日用之有宜。冀岁计之能殖。况才之美者乎。不胜敬仰之至。敢以钝辞短思。序而申之。并目品义题之于首。岂其能益也。庶以此心开疾进之路耳。</p>
+<h3 id="因明入正理论"><a class="markdownIt-Anchor" href="#因明入正理论"></a> 因明入正理论</h3>
+<p>南羯罗主菩萨造  三藏法师玄奘奉诏译<br>
+因明入正理论后序<br>
+因明入正理论者。盖乃抗辩标宗、摧邪显正之闷阈也。因谈照实。明彰显理。入言趣本。正以离邪。论之者。较言旨归。审明要会也。昔应符道树兹义备焉。登庸鹿林斯风扇矣。六师稽颡而卷舌。十仙请命以知归。非天灵曜寝光。邪津鼓浪。同恶孔炽。寔繁有徒。所以世亲弘盛烈于前。陈那纂遗芳于后。扬真殄谬。夷难解纷。至矣神功备详余论。粤有天主菩萨亚圣挺生。博综研详。聿修前绪。撰略精秘。逗适时机。启以八门通其二益。芟夷五分取定三支。其义简而彰。其文约而显。西方时彦钻仰弥深。自非履此通规。未足预其高论。<br>
+大唐皇帝乘时启圣。阐金镜而运金轮。纳录嗣明。振玉鼓而调玉烛。洞敷玄化。载缉彝章。爇慧炬而鉴昏城。舣智舟而济苦海。<br>
+我三藏法师玄奘。神悟爽𢪛峻节冠群。行四勤如不及。瞻三宗而好问。汉地先达各擅专门。寓目必察其微。纳心并殚其妙。嗟乎圣迹绵远。像教陵夷。未尝不临讹文以喟然。抚疑义而太息。望葱山而高视。期鹫峰而远游。既而冒险乘危。询师访道。行达北印度迦湿弥罗国。属大论师僧伽耶舍。稽疑八藏。考决五乘。论师以大义磐根嘉其素蓄。唯因明妙术诲其未喻。梵音觏止冰释于怀。后于中印度摩竭陀国。遇尸罗跋陀罗菩萨。更广其例。触类而长。优而柔之。于是遍谒遗灵备讯余烈。虽遇鍱腹纵辩无前。风偃邪徒抑兼兹论。旋弘周化景福会昌。粤以贞观二十一年秋八月六日。于弘福寺承诏译讫。<br>
+弘福寺沙门明浚。笔受证文。<br>
+弘福寺沙门玄谟。证梵语。<br>
+大总持寺沙门玄应。正字。<br>
+大总持寺沙门道洪。实际寺沙门明琰。罗汉寺沙门慧贵。宝昌寺沙门法祥。弘福寺沙门文备。廓州法讲寺沙门道深。蒲州栖岩寺沙门神泰。详证大义。<br>
+银青光禄大夫行左庶子高阳县开国男臣许敬宗奉诏监译。三藏法师以虚己应物辟此幽关。义海淼其无源。词峰峻而难仰。异方秀杰同禀亲承。笔记玄章并行于世。余以不敏妄忝吹嘘。受旨证文偶兹嘉会。敢录时事贻诸后毗。胜范鸿因无泯来际。</p>
+<h3 id="更新中"><a class="markdownIt-Anchor" href="#更新中"></a> 更新中…</h3>
+]]></content>
+      <tags>
+        <tag>序言</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Next主题设置-添加标签云、友情链接</title>
+    <url>/p/3752fd9a.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="标签云特效参考cloud"><a class="markdownIt-Anchor" href="#标签云特效参考cloud"></a> 标签云特效，参考<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL0QwbjlYMW4vaGV4by10YWctY2xvdWQvYmxvYi9tYXN0ZXIvUkVBRE1FLlpILm1k">cloud<i class="fa fa-external-link-alt"></i></span>。</h3>
+<ol>
+<li>安装：<code>npm install hexo-tag-cloud@^2.0.* --save</code><span id="more"></span></li>
+<li>对于next8版本，找到<code>theme/next/layout/_macro/sidebar.njk</code>，打开后搜索<code>back2top.sidebar</code>，在其上方添加如下代码。</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;% <span class="keyword">if</span> site.tags.length &gt; <span class="number">1</span> %&#125;</span><br><span class="line">&lt;script type=<span class="string">&quot;text/javascript&quot;</span> charset=<span class="string">&quot;utf-8&quot;</span> src=<span class="string">&quot;&#123;&#123; url_for(&#x27;/js/tagcloud.js&#x27;) &#125;&#125;&quot;</span>&gt;&lt;/script&gt;</span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">src</span>=<span class="string">&quot;&#123;&#123; url_for(&#x27;/js/tagcanvas.js&#x27;) &#125;&#125;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;widget-wrap&quot;</span>&gt;</span></span></span><br><span class="line"><span class="xml">    <span class="tag">&lt;<span class="name">h3</span> <span class="attr">class</span>=<span class="string">&quot;widget-title&quot;</span>&gt;</span>Tag Cloud<span class="tag">&lt;/<span class="name">h3</span>&gt;</span>  #为标签云命名，建议不命名，直接删除此行</span></span><br><span class="line"><span class="xml">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;myCanvasContainer&quot;</span> <span class="attr">class</span>=<span class="string">&quot;widget tagcloud&quot;</span>&gt;</span></span></span><br><span class="line"><span class="xml">        <span class="tag">&lt;<span class="name">canvas</span> <span class="attr">width</span>=<span class="string">&quot;250&quot;</span> <span class="attr">height</span>=<span class="string">&quot;250&quot;</span> <span class="attr">id</span>=<span class="string">&quot;resCanvas&quot;</span> <span class="attr">style</span>=<span class="string">&quot;width:100%&quot;</span>&gt;</span></span></span><br><span class="line"><span class="xml">            &#123;&#123; list_tags() &#125;&#125;</span></span><br><span class="line"><span class="xml">        <span class="tag">&lt;/<span class="name">canvas</span>&gt;</span></span></span><br><span class="line"><span class="xml">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="xml"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
+<ol start="3">
+<li><code>hexo-tag-cloud</code>插件支持自定义，可以改变标签云的字体和颜色，还有突出高亮。在站点配置里添加如下的配置项:</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">tag_cloud:</span><br><span class="line">    textFont: Trebuchet MS, Helvetica</span><br><span class="line">    <span class="attr">textColor</span>: <span class="string">&#x27;#333&#x27;</span></span><br><span class="line">    <span class="attr">textHeight</span>: <span class="number">25</span></span><br><span class="line">    <span class="attr">outlineColor</span>: <span class="string">&#x27;#E2E1D1&#x27;</span></span><br><span class="line">    <span class="attr">maxSpeed</span>: <span class="number">0.5</span></span><br><span class="line">    <span class="attr">pauseOnSelected</span>: <span class="literal">true</span> # <span class="literal">true</span> 意味着当选中对应 tag 时,停止转动</span><br></pre></td></tr></table></figure>
+<h3 id="自定义友情链接"><a class="markdownIt-Anchor" href="#自定义友情链接"></a> 自定义友情链接</h3>
+<p>next主题自带添加友情链接功能，在侧栏下方显示。</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">links_settings:</span><br><span class="line">  icon: fa fa-globe</span><br><span class="line">  <span class="attr">title</span>: 友情链接</span><br><span class="line">  <span class="attr">layout</span>: inline # Available values: block | inline</span><br><span class="line"><span class="attr">links</span>:</span><br><span class="line">  name: url</span><br></pre></td></tr></table></figure>
+<ol>
+<li>先关闭原先的友情链接，注释掉即可。</li>
+<li>现在要在侧栏上方菜单里添加<strong>友情链接</strong>选项，<code>hexo new page &quot;links&quot;</code>，打开<code>Hexo\source\links</code>里的<code>index.md</code>，修改title、type等。</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">title: 友情链接 #为了标题中出现</span><br><span class="line"><span class="attr">type</span>: <span class="string">&quot;links&quot;</span> #必须有</span><br><span class="line"><span class="attr">comments</span>: <span class="literal">true</span> # 是否再下方显示评论栏 </span><br><span class="line">此处编辑你想写的内容，默认显示在所有友情链接下方。比如放置申请友链的要求等。</span><br></pre></td></tr></table></figure>
+<ol start="3">
+<li>在<code>themes\next\languages\zh-CN</code>里添加links的翻译。如果已有翻译，也可以自行改成其他翻译，比如友链、朋友等。</li>
+<li>此创建方法针对我所使用的next8.8.1，其它不同版本的next主题也可以参照以下方法。<br>
+在<code>Hexo\themes\next\layout\_partials\page</code>里新建<code>links.njk</code>文件，复制以下内容：</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;% block content %&#125;</span><br><span class="line">  &#123;######################&#125;</span><br><span class="line">  &#123;### LINKS BLOCK ###&#125;</span><br><span class="line">  &#123;######################&#125;</span><br><span class="line">    &lt;div id=<span class="string">&quot;links&quot;</span>&gt;</span><br><span class="line">        <span class="xml"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="css"></span></span></span><br><span class="line"><span class="css"><span class="xml">            <span class="selector-class">.links-content</span>&#123;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">margin-top</span>:<span class="number">1rem</span>;</span></span></span><br><span class="line"><span class="css"><span class="xml">            &#125;</span></span></span><br><span class="line"><span class="css"><span class="xml"></span></span></span><br><span class="line"><span class="css"><span class="xml">            <span class="selector-class">.link-navigation</span><span class="selector-pseudo">::after</span> &#123;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">content</span>: <span class="string">&quot; &quot;</span>;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">display</span>: block;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">clear</span>: both;</span></span></span><br><span class="line"><span class="css"><span class="xml">            &#125;</span></span></span><br><span class="line"><span class="css"><span class="xml">            </span></span></span><br><span class="line"><span class="css"><span class="xml">            <span class="selector-class">.card</span> &#123;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">width</span>: <span class="number">300px</span>;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">font-size</span>: <span class="number">1rem</span>;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">padding</span>: <span class="number">10px</span> <span class="number">20px</span>;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">border-radius</span>: <span class="number">4px</span>;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">transition-duration</span>: <span class="number">0.15s</span>;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">margin-bottom</span>: <span class="number">1rem</span>;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">display</span>:flex;</span></span></span><br><span class="line"><span class="css"><span class="xml">            &#125;</span></span></span><br><span class="line"><span class="css"><span class="xml">            <span class="selector-class">.card</span><span class="selector-pseudo">:nth-child</span>(odd) &#123;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">float</span>: left;</span></span></span><br><span class="line"><span class="css"><span class="xml">            &#125;</span></span></span><br><span class="line"><span class="css"><span class="xml">            <span class="selector-class">.card</span><span class="selector-pseudo">:nth-child</span>(even) &#123;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">float</span>: right;</span></span></span><br><span class="line"><span class="css"><span class="xml">            &#125;</span></span></span><br><span class="line"><span class="css"><span class="xml">            <span class="selector-class">.card</span><span class="selector-pseudo">:hover</span> &#123;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">transform</span>: <span class="built_in">scale</span>(<span class="number">1.1</span>);</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">box-shadow</span>: <span class="number">0</span> <span class="number">2px</span> <span class="number">6px</span> <span class="number">0</span> <span class="built_in">rgba</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0.12</span>), <span class="number">0</span> <span class="number">0</span> <span class="number">6px</span> <span class="number">0</span> <span class="built_in">rgba</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0.04</span>);</span></span></span><br><span class="line"><span class="css"><span class="xml">            &#125;</span></span></span><br><span class="line"><span class="css"><span class="xml">            <span class="selector-class">.card</span> <span class="selector-tag">a</span> &#123;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">border</span>:none; </span></span></span><br><span class="line"><span class="css"><span class="xml">            &#125;</span></span></span><br><span class="line"><span class="css"><span class="xml">            <span class="selector-class">.card</span> <span class="selector-class">.ava</span> &#123;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">width</span>: <span class="number">3rem</span><span class="meta">!important</span>;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">height</span>: <span class="number">3rem</span><span class="meta">!important</span>;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">margin</span>:<span class="number">0</span><span class="meta">!important</span>;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">margin-right</span>: <span class="number">1em</span><span class="meta">!important</span>;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">border-radius</span>:<span class="number">4px</span>;</span></span></span><br><span class="line"><span class="css"><span class="xml">                </span></span></span><br><span class="line"><span class="css"><span class="xml">            &#125;</span></span></span><br><span class="line"><span class="css"><span class="xml">            <span class="selector-class">.card</span> <span class="selector-class">.card-header</span> &#123;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">font-style</span>: italic;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">overflow</span>: hidden;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">width</span>: <span class="number">236px</span>;</span></span></span><br><span class="line"><span class="css"><span class="xml">            &#125;</span></span></span><br><span class="line"><span class="css"><span class="xml">            <span class="selector-class">.card</span> <span class="selector-class">.card-header</span> <span class="selector-tag">a</span> &#123;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">font-style</span>: normal;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">color</span>: <span class="number">#2bbc8a</span>;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">font-weight</span>: bold;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">text-decoration</span>: none;</span></span></span><br><span class="line"><span class="css"><span class="xml">            &#125;</span></span></span><br><span class="line"><span class="css"><span class="xml">            <span class="selector-class">.card</span> <span class="selector-class">.card-header</span> <span class="selector-tag">a</span><span class="selector-pseudo">:hover</span> &#123;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">color</span>: <span class="number">#d480aa</span>;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">text-decoration</span>: none;</span></span></span><br><span class="line"><span class="css"><span class="xml">            &#125;</span></span></span><br><span class="line"><span class="css"><span class="xml">            <span class="selector-class">.card</span> <span class="selector-class">.card-header</span> <span class="selector-class">.info</span> &#123;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">font-style</span>:normal;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">color</span>:<span class="number">#a3a3a3</span>;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">font-size</span>:<span class="number">14px</span>;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">min-width</span>: <span class="number">0</span>;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">text-overflow</span>: ellipsis;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">overflow</span>: hidden;</span></span></span><br><span class="line"><span class="css"><span class="xml">                <span class="attribute">white-space</span>: nowrap;</span></span></span><br><span class="line"><span class="css"><span class="xml">            &#125;</span></span></span><br><span class="line"><span class="css"><span class="xml">        </span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span></span><br><span class="line">        <span class="xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;links-content&quot;</span>&gt;</span></span></span><br><span class="line"><span class="xml">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;link-navigation&quot;</span>&gt;</span></span></span><br><span class="line"><span class="xml">                &#123;% for link in theme.mylinks %&#125;</span></span><br><span class="line"><span class="xml">                    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;card&quot;</span>&gt;</span></span></span><br><span class="line"><span class="xml">                        <span class="tag">&lt;<span class="name">img</span> <span class="attr">class</span>=<span class="string">&quot;ava&quot;</span> <span class="attr">src</span>=<span class="string">&quot;&#123;&#123; link.avatar &#125;&#125;&quot;</span>/&gt;</span></span></span><br><span class="line"><span class="xml">                        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;card-header&quot;</span>&gt;</span></span></span><br><span class="line"><span class="xml">                        <span class="tag">&lt;<span class="name">div</span>&gt;</span><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;&#123;&#123; link.site &#125;&#125;&quot;</span> <span class="attr">target</span>=<span class="string">&quot;_blank&quot;</span>&gt;</span>@ &#123;&#123; link.nickname &#125;&#125;<span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="xml">                        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;info&quot;</span>&gt;</span>&#123;&#123; link.info &#125;&#125;<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="xml">                        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="xml">                    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="xml">                &#123;% endfor %&#125;</span></span><br><span class="line"><span class="xml">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="xml">            &#123;&#123; page.content &#125;&#125;</span></span><br><span class="line"><span class="xml">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">  &#123;##########################&#125;</span><br><span class="line">  &#123;### END LINKS BLOCK ###&#125;</span><br><span class="line">  &#123;##########################&#125;</span><br><span class="line">&#123;% endblock %&#125;</span><br></pre></td></tr></table></figure>
+<p>修改<code>Hexo\themes\next\layout\page.njk</code>文件，<strong>注意格式</strong>。<br>
+在</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;%- elif page.type === <span class="string">&#x27;schedule&#x27;</span> and not page.title %&#125;</span><br><span class="line">    &#123;&#123;- __(<span class="string">&#x27;title.schedule&#x27;</span>) + page_title_suffix &#125;&#125;</span><br></pre></td></tr></table></figure>
+<p>下面添加：</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;%- elif page.type === <span class="string">&#x27;links&#x27;</span> and not page.title %&#125;</span><br><span class="line">  &#123;&#123;- __(<span class="string">&#x27;title.links&#x27;</span>) + page_title_suffix &#125;&#125;</span><br></pre></td></tr></table></figure>
+<p>在</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;% elif page.type === <span class="string">&#x27;schedule&#x27;</span> %&#125;</span><br><span class="line">  &#123;%- include <span class="string">&#x27;_partials/page/schedule.njk&#x27;</span> -%&#125;</span><br></pre></td></tr></table></figure>
+<p>下面添加：</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;% elif page.type === <span class="string">&#x27;links&#x27;</span> %&#125;</span><br><span class="line">  &#123;%- include <span class="string">&#x27;_partials/page/links.njk&#x27;</span> -%&#125;</span><br></pre></td></tr></table></figure>
+<p>在主题配置文件<code>_config.yml</code>末尾处添加友链：</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">mylinks:</span><br><span class="line">  - nickname:  #友链名称</span><br><span class="line">    <span class="attr">avatar</span>:   #友链头像</span><br><span class="line">    <span class="attr">site</span>:   #友链地址</span><br><span class="line">    <span class="attr">info</span>:   #友链说明</span><br><span class="line">  - nickname:  #友链名称</span><br><span class="line">    <span class="attr">avatar</span>:   #友链头像</span><br><span class="line">    <span class="attr">site</span>:   #友链地址</span><br><span class="line">    <span class="attr">info</span>:   #友链说明</span><br></pre></td></tr></table></figure>]]></content>
       <tags>
         <tag>next</tag>
       </tags>
