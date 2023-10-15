@@ -389,8 +389,8 @@ This is the</p>
 图片名称可以用来做记录，方便搜索查看，可填可不填。<br>
 图片地址可以是图片本地地址，也可以是网络图片链接。<br>
 图片简介是当鼠标悬停在图片上时显示的内容。如果不想显示图片下方简介，用空格代替，即<code>&quot; &quot;</code>，或者不填写图片简介。</p>
-<p>在markdown里写不写图片名称都不会显示名称。而在网页制作中使用markdown，如果填写了图片名称而没填写图片简介，图片名称却会显示在图片下面。所以如果不想在图片下显示文字，名称和简介都不填写。<br>
-<img data-src="https://i.loli.net/2021/10/20/fryZVW1xP2qtAsI.jpg" alt="qwer" title="qwer"><br>
+<p>在markdown里写不写图片名称都不会显示名称。而在网页制作中使用markdown，如果填写了图片名称而没填写图片简介，图片名称却会显示在图片下面。所以如果不想在图片下显示文字，名称和简介都不填写。</p>
+<p><img data-src="https://i.loli.net/2021/10/20/fryZVW1xP2qtAsI.jpg" alt="qwer" title="qwer"><br>
 <code>![qwer](https://i.loli.net/2021/10/20/fryZVW1xP2qtAsI.jpg &quot;qwer&quot;)</code></p>
 <p>另一种插图方式，自定义图片大小。<br>
 <code>&lt;img src=&quot;url&quot; width=&quot;&quot; height=&quot;&quot; title=&quot;&quot; /&gt;</code><br>
@@ -503,8 +503,10 @@ This is the</p>
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&amp;ensp;&amp;ensp;半角的空格（英文下使用）<span class="string">`&amp;ensp;`</span>或<span class="string">`&amp;#8194;`</span></span><br><span class="line">&amp;emsp;&amp;emsp;全角的空格（中文下使用）<span class="string">`&amp;emsp;`</span>或<span class="string">`&amp;#8195;`</span></span><br><span class="line">空白行：<span class="string">`&amp;nbsp;`</span>或<span class="string">`&amp;#160;`</span>注意后面的分号不能丢。</span><br></pre></td></tr></table></figure>
 <h3 id="插件"><a class="markdownIt-Anchor" href="#插件"></a> 插件</h3>
 <h4 id="必应每日好图"><a class="markdownIt-Anchor" href="#必应每日好图"></a> 必应每日好图</h4>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;img src=<span class="string">&quot;https://api.uixsj.cn/bing/bing.php&quot;</span> width=<span class="number">100</span>% height=<span class="number">100</span>%&gt;</span><br></pre></td></tr></table></figure>
+<img data-src="https://api.cyrilstudio.top/bing/image.php" width="100%" height="100%">
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;img src=<span class="string">&quot;https://api.cyrilstudio.top/bing/image.php&quot;</span> width=<span class="number">100</span>% height=<span class="number">100</span>%&gt;</span><br></pre></td></tr></table></figure>
 <h4 id="随机图片大小可选"><a class="markdownIt-Anchor" href="#随机图片大小可选"></a> 随机图片，大小可选</h4>
+<img data-src="https://source.unsplash.com/random/1600x900">
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;img src=<span class="string">&quot;https://source.unsplash.com/random/1600x900&quot;</span>&gt;</span><br></pre></td></tr></table></figure>
 <h4 id="天气预报更多样式请点击此处"><a class="markdownIt-Anchor" href="#天气预报更多样式请点击此处"></a> 天气预报，更多样式请<span class="exturl" data-url="aHR0cHM6Ly90aWFucWlhcGkuY29tL2luZGV4L3BsdWdpbg==">点击此处<i class="fa fa-external-link-alt"></i></span></h4>
 <h5 id="样式一"><a class="markdownIt-Anchor" href="#样式一"></a> 样式一</h5>
@@ -514,6 +516,7 @@ This is the</p>
 <iframe scrolling="no" src="https://tianqiapi.com/api.php?style=ya&skin=pitaya" frameborder="0" width="320" height="200" allowtransparency="true"></iframe>
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;iframe scrolling=<span class="string">&quot;no&quot;</span> src=<span class="string">&quot;https://tianqiapi.com/api.php?style=ya&amp;skin=pitaya&quot;</span> frameborder=<span class="string">&quot;0&quot;</span> width=<span class="string">&quot;320&quot;</span> height=<span class="string">&quot;200&quot;</span> allowtransparency=<span class="string">&quot;true&quot;</span>&gt;&lt;/iframe&gt;</span><br></pre></td></tr></table></figure>
 <h4 id="看板娘"><a class="markdownIt-Anchor" href="#看板娘"></a> 看板娘</h4>
+<script defer data-pjax src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;script defer data-pjax src=<span class="string">&quot;https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js&quot;</span>&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
 <h3 id="渐变色"><a class="markdownIt-Anchor" href="#渐变色"></a> 渐变色</h3>
 <html><head><style>
@@ -558,7 +561,7 @@ This is the</p>
 <figure class="highlight python"><figcaption><span>&#123;cmd</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line">plt.plot([<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>, <span class="number">4</span>])</span><br><span class="line">plt.show() <span class="comment"># show figure</span></span><br></pre></td></tr></table></figure>
 <figure class="highlight python"><figcaption><span>&#123;cmd</span></figcaption><table><tr><td class="code"><pre><span class="line">x = <span class="number">1</span></span><br></pre></td></tr></table></figure>
 <figure class="highlight python"><figcaption><span>&#123;cmd</span></figcaption><table><tr><td class="code"><pre><span class="line">x = <span class="number">2</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight python"><figcaption><span>&#123;cmd</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="built_in">print</span>(x+<span class="number">1</span>) <span class="comment"># will print 1</span></span><br></pre></td></tr></table></figure><hr class="footnotes-sep">
+<figure class="highlight python"><figcaption><span>&#123;cmd</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="built_in">print</span>(x+<span class="number">3</span>) <span class="comment"># will print 4</span></span><br></pre></td></tr></table></figure><hr class="footnotes-sep">
 <section class="footnotes">
 <ol class="footnotes-list">
 <li id="fn1" class="footnote-item"><p>第一个注解 <a href="#fnref1" class="footnote-backref">↩︎</a></p>
