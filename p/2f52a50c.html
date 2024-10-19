@@ -27,15 +27,23 @@
 
 
 
+ <script>(function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/b6dbddb6.js","daovoice")
+ daovoice('init', {
+  app_id: "ac10ea31"
+});
+daovoice('update');
+ </script>
+
+
     <meta name="description" content="安装评论valine  注册Leancloud，建议选择国际版。Leancloud既能管理评论，也能统计阅读情况。在创建的应用里点击数据存储-结构化数据-创建Class，点击创建Class，新建名为Comment，选择无限制，其它默认，然后点击创建，用来查看评论。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Next主题设置-安装Valine和Artitalk">
+<meta property="og:title" content="Next 主题设置-安装Valine、Artitalk、Aplayer">
 <meta property="og:url" content="https://satparamita.top/p/2f52a50c.html">
 <meta property="og:site_name" content="SatParamita六到彼岸">
 <meta property="og:description" content="安装评论valine  注册Leancloud，建议选择国际版。Leancloud既能管理评论，也能统计阅读情况。在创建的应用里点击数据存储-结构化数据-创建Class，点击创建Class，新建名为Comment，选择无限制，其它默认，然后点击创建，用来查看评论。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-10-03T16:00:00.000Z">
-<meta property="article:modified_time" content="2024-10-16T09:09:23.595Z">
+<meta property="article:modified_time" content="2024-10-19T23:04:40.729Z">
 <meta property="article:author" content="JingMing">
 <meta property="article:tag" content="next">
 <meta name="twitter:card" content="summary">
@@ -45,10 +53,10 @@
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://satparamita.top/p/2f52a50c.html","path":"p/2f52a50c.html","title":"Next主题设置-安装Valine和Artitalk"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://satparamita.top/p/2f52a50c.html","path":"p/2f52a50c.html","title":"Next 主题设置-安装Valine、Artitalk、Aplayer"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Next主题设置-安装Valine和Artitalk | SatParamita六到彼岸</title>
+<title>Next 主题设置-安装Valine、Artitalk、Aplayer | SatParamita六到彼岸</title>
   
 
   <script src="/js/third-party/analytics/baidu-analytics.js"></script>
@@ -99,7 +107,7 @@
 
 
 <nav class="site-nav">
-  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>日志<span class="badge">14</span></a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">9</span></a></li><li class="menu-item menu-item-treasure"><a href="/treasure/" rel="section"><i class="fa fa-chalkboard fa-fw"></i>宝藏</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>生活</a></li><li class="menu-item menu-item-links"><a href="/links/" rel="section"><i class="fa fa-link fa-fw"></i>朋友</a></li><li class="menu-item menu-item-photo"><a href="/photo/" rel="section"><i class="fa fa-camera fa-fw"></i>相册</a></li>
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>日志<span class="badge">13</span></a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">9</span></a></li><li class="menu-item menu-item-treasure"><a href="/treasure/" rel="section"><i class="fa fa-chalkboard fa-fw"></i>宝藏</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>生活</a></li><li class="menu-item menu-item-links"><a href="/links/" rel="section"><i class="fa fa-link fa-fw"></i>朋友</a></li><li class="menu-item menu-item-photo"><a href="/photo/" rel="section"><i class="fa fa-camera fa-fw"></i>相册</a></li>
       <li class="menu-item menu-item-search">
         <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
         </a>
@@ -150,7 +158,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E8%AF%84%E8%AE%BAvaline"><span class="nav-number">1.</span> <span class="nav-text"> 安装评论valine</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B7%BB%E5%8A%A0artitalk%E8%AF%B4%E8%AF%B4"><span class="nav-number">2.</span> <span class="nav-text"> 添加Artitalk说说</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E8%AF%84%E8%AE%BAvaline"><span class="nav-number">1.</span> <span class="nav-text"> 安装评论valine</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%85artitalk%E8%AF%B4%E8%AF%B4"><span class="nav-number">2.</span> <span class="nav-text"> 安装Artitalk说说</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E9%9F%B3%E4%B9%90%E6%8F%92%E4%BB%B6aplayer-meting"><span class="nav-number">3.</span> <span class="nav-text"> 安装音乐插件Aplayer、meting</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -191,7 +199,7 @@
       <div class="widget-wrap">
           <div id="myCanvasContainer" class="widget tagcloud">
               <canvas width="250" height="250" id="resCanvas" style="width:100%">
-                  <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/github/" rel="tag">github</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/" rel="tag">hexo</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/markdown/" rel="tag">markdown</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/next/" rel="tag">next</a><span class="tag-list-count">6</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%BA%8F%E8%A8%80/" rel="tag">序言</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%91%98%E5%BD%95/" rel="tag">摘录</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%B3%95%E8%8B%91%E7%8F%A0%E6%9E%97/" rel="tag">法苑珠林</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%9F%A5%E7%BD%91/" rel="tag">知网</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%AF%97%E6%96%87/" rel="tag">诗文</a><span class="tag-list-count">1</span></li></ul>
+                  <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/github/" rel="tag">github</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/" rel="tag">hexo</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/markdown/" rel="tag">markdown</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/next/" rel="tag">next</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%BA%8F%E8%A8%80/" rel="tag">序言</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%91%98%E5%BD%95/" rel="tag">摘录</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%B3%95%E8%8B%91%E7%8F%A0%E6%9E%97/" rel="tag">法苑珠林</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%9F%A5%E7%BD%91/" rel="tag">知网</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%AF%97%E6%96%87/" rel="tag">诗文</a><span class="tag-list-count">1</span></li></ul>
               </canvas>
           </div>
       </div>
@@ -228,12 +236,12 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="Next主题设置-安装Valine和Artitalk | SatParamita六到彼岸">
+      <meta itemprop="name" content="Next 主题设置-安装Valine、Artitalk、Aplayer | SatParamita六到彼岸">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Next主题设置-安装Valine和Artitalk
+          Next 主题设置-安装Valine、Artitalk、Aplayer
         </h1>
 
         <div class="post-meta-container">
@@ -243,11 +251,11 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2024-10-16 17:09:23" itemprop="dateModified" datetime="2024-10-16T17:09:23+08:00">2024-10-16</time>
+      <time title="修改时间：2024-10-20 07:04:40" itemprop="dateModified" datetime="2024-10-20T07:04:40+08:00">2024-10-20</time>
     </span>
 
   
-    <span id="/p/2f52a50c.html" class="post-meta-item leancloud_visitors" data-flag-title="Next主题设置-安装Valine和Artitalk" title="阅读次数">
+    <span id="/p/2f52a50c.html" class="post-meta-item leancloud_visitors" data-flag-title="Next 主题设置-安装Valine、Artitalk、Aplayer" title="阅读次数">
       <span class="post-meta-item-icon">
         <i class="far fa-eye"></i>
       </span>
@@ -300,7 +308,7 @@
 <li>如果在阅读统计中出现<code>Counter not initialized! More info at console err msg.</code>，设置<code>leancloud_visitors.security = false</code>，如下：</li>
 </ol>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">leancloud_visitors</span>: </span><br><span class="line">  <span class="attr">enable</span>: <span class="literal">true</span>    # 必须开</span><br><span class="line">  <span class="attr">security</span>: <span class="literal">false</span></span><br></pre></td></tr></table></figure>
-<h3 id="添加artitalk说说"><a class="markdownIt-Anchor" href="#添加artitalk说说"></a> 添加Artitalk说说</h3>
+<h3 id="安装artitalk说说"><a class="markdownIt-Anchor" href="#安装artitalk说说"></a> 安装Artitalk说说</h3>
 <p>Next主题还没有添加Artitalk，需要用到Leancloud。在安装Valine评论系统时，已经注册了Leancloud国际版，在leancloud里的创建操作，请参考<span class="exturl" data-url="aHR0cHM6Ly9hcnRpdGFsay5qcy5vcmcvZG9jLmh0bWw=">Artitalk官网<i class="fa fa-external-link-alt"></i></span>，从<span class="exturl" data-url="aHR0cHM6Ly9hcnRpdGFsay5qcy5vcmcvZG9jLmh0bWwjJUYwJTlGJThDJUJDLSVFNSVCQyU4MCVFNSVBNyU4QiVFNCVCRCVCRiVFNyU5NCVBOA==">这里<i class="fa fa-external-link-alt"></i></span>开始，按照以下步骤。</p>
 <ol>
 <li>一般是在侧栏上方菜单里添加说说，在<code>Hexo\source</code>下新建文件夹<code>shuoshuo</code>，在<code>Hexo\source\shuoshuo</code>里新建文件<code>index.md</code>，修改title、type等，添加以下内容：</li>
@@ -313,6 +321,52 @@
 <p><strong>重要</strong>：由于Artitalk与Pjax存在冲突，需要手动<strong>刷新</strong>说说页面，或者在新标签页打开才能显示。可以关闭pjax，在主题配置里修改为<code>pjax: false</code>，不过对网页运行有一点影响。<br>
 也可以直接在文章里添加说说，这样就可以在不关闭Pjax的情况下，使用<code>window.open()</code>，在新标签页打开说说，相当于刷新了说说的网页。</p>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;a onclick=<span class="string">&quot;window.open(&#x27;https://satparamita.top/about/%E9%9F%B3%E4%B9%90.html&#x27;, &#x27;_blank&#x27;);&quot;</span>&gt;&lt;/a&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="安装音乐插件aplayer-meting"><a class="markdownIt-Anchor" href="#安装音乐插件aplayer-meting"></a> 安装音乐插件<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL01vZVBsYXllci9oZXhvLXRhZy1hcGxheWVyL2Jsb2IvbWFzdGVyL2RvY3MvUkVBRE1FLXpoX2NuLm1k">Aplayer<i class="fa fa-external-link-alt"></i></span>、meting</h3>
+<ol>
+<li>安装：<code>npm install --save hexo-tag-aplayer</code></li>
+<li>使用方法：</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% aplayer <span class="string">&quot;title&quot;</span>  <span class="string">&quot;author&quot;</span> <span class="string">&quot;url&quot;</span> [picture_url, narrow, autoplay, <span class="attr">width</span>:xxx, <span class="attr">lrc</span>:xxx] %&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">&quot;title&quot;</span>  <span class="string">&quot;author&quot;</span> <span class="string">&quot;url&quot;</span> 按顺序必填，其余选填。这里lrc必须是txt格式。 </span><br></pre></td></tr></table></figure>
+<ol start="3">
+<li>如果使用网络音乐，可以进入<span class="exturl" data-url="aHR0cHM6Ly9tdXNpYy54ZjE0MzMuY29tLw==">音乐外链网站<i class="fa fa-external-link-alt"></i></span>获取音乐链接。</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% aplayer <span class="string">&quot;花儿纳吉&quot;</span> <span class="string">&quot;洛萱&quot;</span> <span class="string">&quot;https://sharefs.ali.kugou.com/202110202136/4bf5427ae89feacb1c10fd2db1c212cc/G202/M00/1C/01/Cg4DAF5QC-CAQbPvADlpgRlSql4871.mp3&quot;</span> <span class="string">&quot;https://satparamita.top/images/my.jpg&quot;</span> <span class="string">&quot;width:100%&quot;</span> <span class="string">&quot;lrc:花儿纳吉-洛萱.txt&quot;</span> %&#125;</span><br></pre></td></tr></table></figure>
+<ol start="4">
+<li>也可以插入本地音乐，需要自定义头像，下载歌词。</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% aplayer <span class="string">&quot;花儿纳吉&quot;</span> <span class="string">&quot;洛萱&quot;</span> <span class="string">&quot;./file/洛萱 - 花儿纳吉.mp3&quot;</span> <span class="string">&quot;https://satparamita.top/images/my.jpg&quot;</span> <span class="string">&quot;width:100%&quot;</span> <span class="string">&quot;lrc:花儿纳吉-洛萱.txt&quot;</span> %&#125;</span><br></pre></td></tr></table></figure>
+<p><strong>注意</strong>:音乐和歌词文件都放在与文章同级的文件夹里，上例里文件夹名为file。</p>
+<ol start="5">
+<li>Aplayer可以建立歌单，一般是将歌单放在侧栏。为了在侧栏上方菜单里添加<strong>音乐</strong>选项，在<code>Hexo/source</code>下新建文件夹<code>music</code>和<code>assets</code>。文件夹<code>assets</code>用来存放歌曲和歌词，文件夹名必须是<code>assets</code>。</li>
+<li>在<code>themes\next\languages\zh-CN</code>里添加<code>music</code>的翻译。</li>
+<li>在music文件夹里新建<code>index.md</code>文件，打开后修改title、type等。添加歌单，参考官方文档的参数解释。注意不要写入参数<code>//</code>后面的注释。歌词可以是lrc格式的。</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line"><span class="attr">title</span>:  #为了标题中出现，可以不填</span><br><span class="line"><span class="attr">type</span>: <span class="string">&quot;music&quot;</span> #必须有</span><br><span class="line"><span class="attr">comments</span>: <span class="literal">false</span> # 是否再下方显示评论栏 </span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">&#123;% aplayerlist %&#125;</span><br><span class="line">&#123;</span><br><span class="line">    <span class="string">&quot;narrow&quot;</span>: <span class="literal">false</span>,</span><br><span class="line">    <span class="string">&quot;autoplay&quot;</span>: <span class="literal">false</span>,</span><br><span class="line">    <span class="string">&quot;mode&quot;</span>: <span class="string">&quot;circulation&quot;</span>,</span><br><span class="line">    <span class="string">&quot;showlrc&quot;</span>: <span class="number">3</span>,</span><br><span class="line">    <span class="string">&quot;mutex&quot;</span>: <span class="literal">true</span>,               </span><br><span class="line">    <span class="string">&quot;theme&quot;</span>: <span class="string">&quot;#33a3dc&quot;</span>,	       </span><br><span class="line">    <span class="string">&quot;preload&quot;</span>: <span class="string">&quot;metadata&quot;</span>,        </span><br><span class="line">    <span class="string">&quot;listmaxheight&quot;</span>: <span class="string">&quot;420px&quot;</span>,    </span><br><span class="line">    <span class="string">&quot;music&quot;</span>: [</span><br><span class="line">        &#123;    </span><br><span class="line">            <span class="string">&quot;title&quot;</span>: <span class="string">&quot;花儿纳吉&quot;</span>,      </span><br><span class="line">            <span class="string">&quot;author&quot;</span>: <span class="string">&quot;洛萱&quot;</span>,                                  </span><br><span class="line">            <span class="string">&quot;url&quot;</span>: <span class="string">&quot;/assets/洛萱、Mario - 花儿纳吉.mp3&quot;</span> ,</span><br><span class="line">            <span class="string">&quot;pic&quot;</span>: <span class="string">&quot;https://satparamita.top/images/my.jpg&quot;</span>, </span><br><span class="line">	          <span class="string">&quot;lrc&quot;</span>: <span class="string">&quot;/assets/lrc/花儿纳吉-洛萱.lrc&quot;</span>                                       </span><br><span class="line">    	  &#125;,</span><br><span class="line">        &#123;    </span><br><span class="line">            <span class="string">&quot;title&quot;</span>: <span class="string">&quot;故园情&quot;</span>,      </span><br><span class="line">            <span class="string">&quot;author&quot;</span>: <span class="string">&quot;重小烟&quot;</span>,                                  </span><br><span class="line">            <span class="string">&quot;url&quot;</span>: <span class="string">&quot;https://sharefs.ali.kugou.com/202110202226/8ac7afd5dbda58ffe35399be77e4364e/KGTX/CLTX001/bbd71ef535bdac9d124f31c8315d06eb.mp3&quot;</span> ,</span><br><span class="line">            <span class="string">&quot;pic&quot;</span>: <span class="string">&quot;https://satparamita.top/images/mine.jpg&quot;</span>, </span><br><span class="line">	          <span class="string">&quot;lrc&quot;</span>: <span class="string">&quot;/assets/lrc/故园情-重小烟.lrc&quot;</span>                                     </span><br><span class="line">    	  &#125;</span><br><span class="line">    ]</span><br><span class="line">&#125;</span><br><span class="line">&#123;% endaplayerlist %&#125;</span><br></pre></td></tr></table></figure>
+<p><strong>注意事项</strong>:</p>
+<ol>
+<li>使用歌单加入网络歌曲时，歌曲链接可能会失效。</li>
+<li>插入单曲时，建议也使用歌单，歌单只有一首歌而已。</li>
+<li>Aplayer与Pjax存在冲突，需要手动<strong>刷新</strong>音乐页面，或者在新标签页打开才能显示。可以关闭pjax，在主题配置里修改为<code>pjax: false</code>，不过对网页运行有一点影响。</li>
+<li>也可以直接在文章里添加音乐，这样就可以在不关闭Pjax的情况下，使用<code>window.open()</code>，在新标签页打开音乐，相当于刷新了音乐的网页。</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;a onclick=<span class="string">&quot;window.open(&#x27;https://satparamita.top/about/%E9%9F%B3%E4%B9%90.html&#x27;, &#x27;_blank&#x27;);&quot;</span>&gt;&lt;/a&gt;</span><br></pre></td></tr></table></figure>
+<ol>
+<li>meting支持多个音乐平台，可以插入单曲，也可以插入列表。官方文档里有对参数的解释。<code>&quot;listmaxheight:400px&quot;</code>表示列表长度，单曲时不用加入。</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% meting <span class="string">&quot;id&quot;</span> <span class="string">&quot;netease, tencent, kugou, xiami, baidu&quot;</span> <span class="string">&quot;song, playlist, album, search, artist&quot;</span>  <span class="string">&quot;mutex:true&quot;</span> <span class="string">&quot;listmaxheight:400px&quot;</span> <span class="string">&quot;preload:none&quot;</span> <span class="string">&quot;theme:#33a3dc&quot;</span> %&#125;</span><br></pre></td></tr></table></figure>
+<ol start="2">
+<li>在站点配置文件里添加：</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">aplayer</span>:</span><br><span class="line">  <span class="attr">meting</span>: <span class="literal">true</span></span><br><span class="line">  <span class="attr">asset_inject</span>: <span class="literal">true</span> #  <span class="literal">true</span>可能会影响其它功能</span><br></pre></td></tr></table></figure>
+<ol start="3">
+<li>以单曲为例，在文章里写入：</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% meting <span class="string">&quot;0A184307F0CB47068D6E2B12893FB962&quot;</span> <span class="string">&quot;kugou&quot;</span> <span class="string">&quot;song&quot;</span> <span class="string">&quot;mutex:true&quot;</span> <span class="string">&quot;preload:none&quot;</span> <span class="string">&quot;theme:#33a3dc&quot;</span> %&#125;</span><br><span class="line">&#123;% meting <span class="string">&quot;6F30EE14FFE03FD30CA25887DC602C4B&quot;</span> <span class="string">&quot;kugou&quot;</span> <span class="string">&quot;song&quot;</span> <span class="string">&quot;mutex:true&quot;</span> <span class="string">&quot;preload:none&quot;</span> <span class="string">&quot;theme:#33a3dc&quot;</span> %&#125;</span><br><span class="line">&#123;% meting <span class="string">&quot;29747554&quot;</span> <span class="string">&quot;netease&quot;</span> <span class="string">&quot;song&quot;</span> <span class="string">&quot;mutex:true&quot;</span> <span class="string">&quot;listmaxheight:400px&quot;</span> <span class="string">&quot;preload:none&quot;</span> <span class="string">&quot;theme:#33a3dc&quot;</span> %&#125;</span><br></pre></td></tr></table></figure>
+<ol start="4">
+<li>meting的另一种使用方式：</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&lt;link rel=<span class="string">&quot;stylesheet&quot;</span> href=<span class="string">&quot;https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css&quot;</span>&gt;</span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br><span class="line">&lt;!-- <span class="built_in">require</span> <span class="title class_">MetingJS</span> --&gt;</span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">meting-js</span></span></span></span><br><span class="line"><span class="tag"><span class="language-xml">	<span class="attr">server</span>=<span class="string">&quot;netease&quot;</span></span></span></span><br><span class="line"><span class="tag"><span class="language-xml">	<span class="attr">type</span>=<span class="string">&quot;song&quot;</span></span></span></span><br><span class="line"><span class="tag"><span class="language-xml">	<span class="attr">id</span>=<span class="string">&quot;29747554&quot;</span>&gt;</span>   </span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;/<span class="name">meting-js</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
+<p><strong>PS</strong>：使用酷狗音乐时，本地预览和手机都能用meting，但是我的电脑端不能；而网易云的音乐可以。如果meting能正确显示，建议对单曲优先使用meting，因为自带头像与歌词。aplayer和meting在同一个页面使用时，只显示meting。</p>
 
     </div>
 
@@ -347,13 +401,13 @@
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/p/3330145c.html" rel="prev" title="Next主题设置-安装DaoVoice和Aplayer">
-                  <i class="fa fa-angle-left"></i> Next主题设置-安装DaoVoice和Aplayer
+                <a href="/p/9c1a2afe.html" rel="prev" title="Next 主题设置-页面修改 & 自带插件">
+                  <i class="fa fa-angle-left"></i> Next 主题设置-页面修改 & 自带插件
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/p/3752fd9a.html" rel="next" title="Next主题设置-添加相册、标签云、友情链接">
-                  Next主题设置-添加相册、标签云、友情链接 <i class="fa fa-angle-right"></i>
+                <a href="/p/3752fd9a.html" rel="next" title="Next 主题设置-添加相册、标签云、友情链接">
+                  Next 主题设置-添加相册、标签云、友情链接 <i class="fa fa-angle-right"></i>
                 </a>
             </div>
           </div>
