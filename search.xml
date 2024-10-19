@@ -1233,9 +1233,9 @@ pdf文件存放在与test.md文件同名的test文件夹里。也可以添加外
   <entry>
     <title>Next 主题设置-页面修改 &amp; 自带插件</title>
     <url>/p/9c1a2afe.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="更改标题黑色背景"><a class="markdownIt-Anchor" href="#更改标题黑色背景"></a> 更改标题黑色背景</h3>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="更改站名黑色背景"><a class="markdownIt-Anchor" href="#更改站名黑色背景"></a> 更改站名黑色背景</h3>
 <ol>
-<li>打开<code>Hexo/themes/next/source/css/_schemes/Pisces/_header.styl</code>，找到<code>background</code>改为<code>background: $blue-bright;</code>。<span id="more"></span></li>
+<li>打开<code>Hexo/themes/next/source/css/_schemes/Pisces/_header.styl</code>，找到<code>background</code>改为<code>background: $blue-bright;</code>，或者使用渐变色<code>background: linear-gradient(-225deg, #9EFBD3 0%, #57E9F2 48%, #45D4FB 100%)</code>。<span id="more"></span></li>
 <li>打开<code>Hexo\themes\next\source\css\_variables\Pisces.styl</code>，找到<code>subtitle-color</code>改为<code>$subtitle-color = $whitesmoke;</code></li>
 <li>在<code>Hexo/themes/next/source/css/_variables/base.styl</code>里可以查看颜色设置。</li>
 </ol>
