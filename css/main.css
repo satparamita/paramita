@@ -1508,7 +1508,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #8c403b;
+    background: #54fff9;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2852,7 +2852,7 @@ header.header {
   }
 }
 .site-brand-container {
-  background: linear-gradient(-225deg, #9efbd3 0%, #57e9f2 48%, #45d4fb 100%);
+  background: linear-gradient(102.7deg, #fddaff 8.2%, #dfadfc 19.6%, #adcdfc 36.8%, #adfcf4 73.2%, #caf8d0 90.9%);
 }
 @media (max-width: 991px) {
   .site-nav-on .site-brand-container {
