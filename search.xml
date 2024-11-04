@@ -393,18 +393,16 @@
 <h3 id="列表"><a class="markdownIt-Anchor" href="#列表"></a> 列表</h3>
 <p>使用<code>-</code> <code>*</code> <code>+</code>三种符号都可以新建列表。注意：<code>- + *</code>符号与内容之间都要有一个空格。</p>
 <ul>
-<li>列表内容</li>
-<li>列表内容
-<ul>
-<li>列表内容
-<ul>
 <li>列表内容
 <ul>
 <li>列表内容
 <ul>
 <li>列表内容</li>
 </ul>
-</li>
+<ul>
+<li>列表内容
+<ul>
+<li>列表内容</li>
 </ul>
 </li>
 </ul>
@@ -412,7 +410,7 @@
 </ul>
 </li>
 </ul>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">- 列表内容</span><br><span class="line">- 列表内容</span><br><span class="line">  - 列表内容</span><br><span class="line">    * 列表内容</span><br><span class="line">      - 列表内容</span><br><span class="line">        + 列表内容</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">- 列表内容</span><br><span class="line">  - 列表内容</span><br><span class="line">    * 列表内容</span><br><span class="line">    - 列表内容</span><br><span class="line">        + 列表内容</span><br></pre></td></tr></table></figure>
 <p>使用数字新建列表。</p>
 <ol>
 <li>列表内容
@@ -483,8 +481,7 @@
 </ol>
 <h3 id="段落"><a class="markdownIt-Anchor" href="#段落"></a> 段落</h3>
 <blockquote>
-<p>这是段落的内容<br>
-这是段落的内容</p>
+<p>这是段落的内容</p>
 <ul>
 <li>这是段落的内容</li>
 </ul>
@@ -703,7 +700,8 @@ is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.</p>
 <figure class="highlight python"><figcaption><span>&#123;cmd</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line">plt.plot([<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>, <span class="number">4</span>])</span><br><span class="line">plt.show() <span class="comment"># show figure</span></span><br></pre></td></tr></table></figure>
 <figure class="highlight python"><figcaption><span>&#123;cmd</span></figcaption><table><tr><td class="code"><pre><span class="line">x = <span class="number">1</span></span><br></pre></td></tr></table></figure>
 <figure class="highlight python"><figcaption><span>&#123;cmd</span></figcaption><table><tr><td class="code"><pre><span class="line">x = <span class="number">2</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight python"><figcaption><span>&#123;cmd</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="built_in">print</span>(x+<span class="number">3</span>) <span class="comment"># will print 4</span></span><br></pre></td></tr></table></figure><hr class="footnotes-sep">
+<figure class="highlight python"><figcaption><span>&#123;cmd</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="built_in">print</span>(x+<span class="number">3</span>) <span class="comment"># will print 4</span></span><br></pre></td></tr></table></figure>
+<hr class="footnotes-sep">
 <section class="footnotes">
 <ol class="footnotes-list">
 <li id="fn1" class="footnote-item"><p>第一个注解 <a href="#fnref1" class="footnote-backref">↩︎</a></p>
