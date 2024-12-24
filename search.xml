@@ -378,11 +378,11 @@ This is the <strong>note</strong> admonition body</p>
 图片地址可以是图片本地地址，也可以是网络图片链接。<br>
 图片简介是当鼠标悬停在图片上时显示的内容。如果不想显示图片下方简介，用空格代替，即<code>&quot; &quot;</code>，或者不填写图片简介。</p>
 <p>在markdown里写不写图片名称都不会显示名称。而在网页制作中使用markdown，如果填写了图片名称而没填写图片简介，图片名称却会显示在图片下面。所以如果不想在图片下显示文字，名称和简介都不填写。</p>
-<p><img data-src="https://i.loli.net/2021/10/20/fryZVW1xP2qtAsI.jpg" alt="my" title="my"><br>
-<code>![my](https://i.loli.net/2021/10/20/fryZVW1xP2qtAsI.jpg &quot;my&quot;) </code></p>
+<p><img data-src="https://i.loli.net/2021/10/20/fryZVW1xP2qtAsI.jpg" alt="my" title="my"></p>
+<p><code>![my](https://i.loli.net/2021/10/20/fryZVW1xP2qtAsI.jpg &quot;my&quot;) </code></p>
 <p>另一种插图方式，自定义图片大小。（使用必应每日图片）<br>
-<code>&lt;img src=&quot;url&quot; width=&quot;&quot; height=&quot;&quot; title=&quot;&quot; /&gt;</code><br>
-<img data-src="https://imgapi.cn/bing.php" width="100%" height="100%" title="必应每日图片"></p>
+<code>&lt;img src=&quot;url&quot; width=&quot;&quot; height=&quot;&quot; title=&quot;&quot; /&gt;</code></p>
+<img data-src="https://imgapi.cn/bing.php" width="100%" height="100%" title="必应每日图片">
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;img src=<span class="string">&quot;https://imgapi.cn/bing.php&quot;</span> width=<span class="number">100</span>% height=<span class="number">100</span>% title=<span class="string">&quot;必应每日图片&quot;</span> /&gt;</span><br></pre></td></tr></table></figure>
 <h4 id="网址或文件超链接"><a class="markdownIt-Anchor" href="#网址或文件超链接"></a> 网址或文件超链接</h4>
 <p><code>[超链接名](超链接地址 &quot;超链接简介&quot;)</code><br>
@@ -854,6 +854,11 @@ pdf文件存放在与test.md文件同名的test文件夹里。也可以添加外
 <span id="more"></span>
 <h3 id="月儿弯弯照九州-宋"><a class="markdownIt-Anchor" href="#月儿弯弯照九州-宋"></a> 月儿弯弯照九州 宋</h3>
 <p>月儿弯弯照九州，几家欢乐几家愁。几家夫妇同罗帐，几个飘零在外头？</p>
+<blockquote>
+<p>周寿谊，昆山人，年百岁，其子亦跻八十。同赴苏庠乡饮，徒步而往。既至，子坐于阶石气喘，父笑曰：少年何困倦乃尔？饮毕，子欲附舟，父不可，复步归舍。昆距苏七十余里，往返便捷，其精力强健如此。<br>
+后太祖闻其高寿，特召至京，拜阶下，状甚矍铄。问今岁年若干，对云一百七岁。又问平日有何修养而能致此，对曰：清心寡欲。上善其对，笑曰：闻昆山腔甚嘉，尔亦能讴？否曰不能，但善吴歌。命之歌，歌曰：<strong>月子弯弯照几州，几人欢乐几人愁。几人夫妇同罗帐，几人飘散在他州</strong>。上抚掌曰：是个村老儿。命赏酒饭罢归。<br>
+后至一百十七岁，端坐而逝。子亦年九十八，家有世寿堂，其孙曾多至八十外。盖缘禀赋素厚，其繇来有由矣。</p>
+</blockquote>
 
 </blockquote>
 ]]></content>
