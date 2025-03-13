@@ -504,8 +504,8 @@ is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.</p>
 <img data-src="https://imgapi.cn/bing.php" width="100%" height="100%">
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;img src=<span class="string">&quot;https://imgapi.cn/bing.php&quot;</span> width=<span class="number">100</span>% height=<span class="number">100</span>%&gt;</span><br></pre></td></tr></table></figure>
 <h4 id="看板娘"><a class="markdownIt-Anchor" href="#看板娘"></a> 看板娘</h4>
-<script defer data-pjax src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;script defer data-pjax src=<span class="string">&quot;https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js&quot;</span>&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+<script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;script src=<span class="string">&quot;https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js&quot;</span>&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
 <h3 id="渐变色"><a class="markdownIt-Anchor" href="#渐变色"></a> 渐变色</h3>
 <html><head><style>
 #grad1 {
