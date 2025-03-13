@@ -347,8 +347,8 @@
 </blockquote>
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&gt; 这是段落的内容</span><br><span class="line">&gt; 这是段落的内容</span><br><span class="line">&gt;* 这是段落的内容</span><br><span class="line">&gt;&gt; - 这是段落的内容</span><br><span class="line">&gt;&gt;&gt; 这是段落的内容</span><br></pre></td></tr></table></figure>
 <h3 id="段落边框"><a class="markdownIt-Anchor" href="#段落边框"></a> 段落边框</h3>
-<p>github不支持此功能<br>
-!!! note<br>
+<p>github不支持此功能</p>
+<p>!!! note<br>
 This is the</p>
 <p>!!! summary<br>
 This is the</p>
@@ -442,9 +442,8 @@ This is the <strong>note</strong> admonition body</p>
 <p>在这是一个注解<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>，注解内容会显示在文章的最下面<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>。</p>
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line">这是一个注解[^<span class="number">1</span>]，注解内容会显示在文章的最下面[^<span class="number">2</span>]。</span><br><span class="line">[^<span class="number">1</span>]: 第一个注解</span><br><span class="line">[^<span class="number">2</span>]: 第二个注解</span><br></pre></td></tr></table></figure>
 <h4 id="在文字上方显示注解"><a class="markdownIt-Anchor" href="#在文字上方显示注解"></a> 在文字上方显示注解</h4>
-<p>The <abbr title="Hyper Text Markup Language">HTML</abbr> specification<br>
-is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">*[<span class="variable constant_">HTML</span>]: <span class="title class_">Hyper</span> <span class="title class_">Text</span> <span class="title class_">Markup</span> <span class="title class_">Language</span></span><br><span class="line">*[<span class="variable constant_">W3C</span>]:  <span class="title class_">World</span> <span class="title class_">Wide</span> <span class="title class_">Web</span> <span class="title class_">Consortium</span></span><br><span class="line"><span class="title class_">The</span> <span class="variable constant_">HTML</span> specification</span><br><span class="line">is maintained by the <span class="variable constant_">W3C</span>.</span><br></pre></td></tr></table></figure>
+<p>The <abbr title="Hyper Text Markup Language">HTML</abbr> specification is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">*[<span class="variable constant_">HTML</span>]: <span class="title class_">Hyper</span> <span class="title class_">Text</span> <span class="title class_">Markup</span> <span class="title class_">Language</span></span><br><span class="line">*[<span class="variable constant_">W3C</span>]:  <span class="title class_">World</span> <span class="title class_">Wide</span> <span class="title class_">Web</span> <span class="title class_">Consortium</span></span><br><span class="line"><span class="title class_">The</span> <span class="variable constant_">HTML</span> specification is maintained by the <span class="variable constant_">W3C</span>.</span><br></pre></td></tr></table></figure>
 <h4 id="词语解释"><a class="markdownIt-Anchor" href="#词语解释"></a> 词语解释</h4>
 <p>在github中没有markdown的效果好。</p>
 <dl>
