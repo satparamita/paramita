@@ -1007,11 +1007,11 @@ This is the <strong>note</strong> admonition body</p>
 <ol>
 <li>在侧栏<code>social</code>添加<strong>给我发邮件</strong>，在主题配置里修改：</li>
 </ol>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="attr">social</span>:</span><br><span class="line">  邮件: <span class="attr">https</span>:<span class="comment">//mail.qq.com/cgi-bin/qm_share?t=qm_mailme&amp;email=1610202621@qq.com || fa fa-envelope</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="attr">social</span>:</span><br><span class="line">  邮件: <span class="attr">https</span>:<span class="comment">//mail.qq.com/cgi-bin/qm_share?t=qm_mailme&amp;email=XXXXX@qq.com || fa fa-envelope</span></span><br></pre></td></tr></table></figure>
 <ol start="2">
 <li>在友情链接或文章中加入<strong>给我发邮件</strong>：<br>
-<code>[1610202621@qq.com](https://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&amp;email=1610202621@qq.com)</code><br>
-效果是<span class="exturl" data-url="aHR0cHM6Ly9tYWlsLnFxLmNvbS9jZ2ktYmluL3FtX3NoYXJlP3Q9cW1fbWFpbG1lJmVtYWlsPTE2MTAyMDI2MjFAcXEuY29t">1610202621@qq.com<i class="fa fa-external-link-alt"></i></span></li>
+<code>[jingming215@139.com](https://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&amp;email=jingming215@139.com)</code><br>
+效果是<span class="exturl" data-url="aHR0cHM6Ly9tYWlsLnFxLmNvbS9jZ2ktYmluL3FtX3NoYXJlP3Q9cW1fbWFpbG1lJmVtYWlsPWppbmdtaW5nMjE1QDEzOS5jb20=">jingming215@139.com<i class="fa fa-external-link-alt"></i></span></li>
 </ol>
 <p><strong>PS:</strong> <code>social</code>里的<code>fa fa-envelope</code>会显示表示邮件的小图标，更多小图标请查看<span class="exturl" data-url="aHR0cHM6Ly9mb250YXdlc29tZS5jb20vdjYuMC9pY29ucz9kPWdhbGxlcnkmcD0xJnM9c29saWQmbT1mcmVl">icon<i class="fa fa-external-link-alt"></i></span>。</p>
 <h3 id="安装烟花特效"><a class="markdownIt-Anchor" href="#安装烟花特效"></a> 安装烟花特效</h3>
