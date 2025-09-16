@@ -924,9 +924,9 @@ This is the <strong>note</strong> admonition body</p>
 <code>npm install hexo-generator-baidu-sitemap --save</code></li>
 <li>将sitemap文件添加到站点配置<code>_config.yml</code>中。</li>
 </ol>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="attr">sitemap</span>:</span><br><span class="line">  <span class="attr">path</span>: sitemap.<span class="property">xml</span></span><br><span class="line"><span class="attr">baidusitemap</span>:</span><br><span class="line">  <span class="attr">path</span>: baidusitemap.<span class="property">xml</span></span><br><span class="line">  <span class="attr">url</span>: <span class="attr">https</span>:<span class="comment">//satparamita.top</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="attr">sitemap</span>:</span><br><span class="line">  <span class="attr">path</span>: sitemap.<span class="property">xml</span></span><br><span class="line"><span class="attr">baidusitemap</span>:</span><br><span class="line">  <span class="attr">path</span>: baidusitemap.<span class="property">ejs</span></span><br><span class="line">  <span class="attr">url</span>: <span class="attr">https</span>:<span class="comment">//satparamita.top</span></span><br></pre></td></tr></table></figure>
 <ol start="4">
-<li>执行<code>hexo g</code>就能在<code>Hexo/public</code>文件夹中生成<code>sitemap.xml</code>和<code>baidusitemap.xml</code>。其中第一个要提交给google，第二个提交给Baidu。</li>
+<li>执行<code>hexo g</code>就能在<code>Hexo/public</code>文件夹中生成<code>sitemap.xml</code>和<code>baidusitemap.ejs</code>。其中第一个要提交给google，第二个提交给Baidu。</li>
 </ol>
 <h3 id="提交站点到百度"><a class="markdownIt-Anchor" href="#提交站点到百度"></a> 提交站点到百度</h3>
 <ol>
@@ -936,7 +936,7 @@ This is the <strong>note</strong> admonition body</p>
 添加后保存，执行<code>hexo d -g</code>，然后点击完成验证，通过即可。</li>
 <li>在主题配置文件中找到seo。将<code>content=&quot;xxxxxxxxxxx&quot;</code>里的内容添加到主题配置里：<br>
 <code>baidu_site_verification: xxxxxxx</code></li>
-<li>回到链接提交处，选择自己的站点网址，在<code>普通收录</code>里的<code>资源提交</code>，选择<code>sitemap</code>，按照提示的格式添加自己的baidusitemap.xml文件。</li>
+<li>回到链接提交处，选择自己的站点网址，在<code>普通收录</code>里的<code>资源提交</code>，选择<code>sitemap</code>，按照提示的格式添加自己的baidusitemap.ejs文件。</li>
 <li>自动提交，参考<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2xldGUxMTQvaGV4by1zZW8tYXV0b3B1c2g=">hexo-seo-autopush<i class="fa fa-external-link-alt"></i></span>。</li>
 </ol>
 <h3 id="提交站点到google"><a class="markdownIt-Anchor" href="#提交站点到google"></a> 提交站点到Google</h3>
