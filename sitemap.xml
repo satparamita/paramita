@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://satparamita.top/p/61ef7cc5.html</loc>
+    
+    <lastmod>2025-11-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://satparamita.top/p/5211674e.html</loc>
     
     <lastmod>2025-11-15</lastmod>
@@ -11,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://satparamita.top/p/61ef7cc5.html</loc>
+    <loc>https://satparamita.top/p/f674b979.html</loc>
     
     <lastmod>2025-11-15</lastmod>
     
@@ -131,15 +140,6 @@
     <loc>https://satparamita.top/p/f134a8e5.html</loc>
     
     <lastmod>2025-03-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://satparamita.top/p/f674b979.html</loc>
-    
-    <lastmod>2024-12-03</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -444,13 +444,6 @@
   </url>
   
   <url>
-    <loc>https://satparamita.top/tags/%E7%9F%A5%E7%BD%91/</loc>
-    <lastmod>2025-11-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://satparamita.top/tags/%E8%AF%97%E6%96%87/</loc>
     <lastmod>2025-11-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -466,6 +459,13 @@
   
   <url>
     <loc>https://satparamita.top/tags/%E6%B3%95%E8%8B%91%E7%8F%A0%E6%9E%97/</loc>
+    <lastmod>2025-11-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://satparamita.top/tags/%E7%9F%A5%E7%BD%91/</loc>
     <lastmod>2025-11-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
