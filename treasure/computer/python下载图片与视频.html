@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 8.1.1">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <meta name="google-site-verification" content="RXkj03_NJEB6BQbKv13pqogmMUUDEocigQgD68jrly4">
+  <meta name="baidu-site-verification" content="code-epDHY3vWsd">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css" integrity="sha256-VHqXKFhhMxcpubYf9xiWdCiojEbY9NexQ4jh8AxbvcM=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.31/dist/fancybox/fancybox.css" integrity="sha256-gkQVf8UKZgQ0HyuxL/VnacadJ+D2Kox2TCEBuNQg5+w=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/themes/green/pace-theme-minimal.css">
+  <script src="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous" defer></script>
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"satparamita.top","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.26.0","exturl":true,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"always","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":true,"style":"mac"},"fold":{"enable":true,"height":500},"language":false},"bookmark":{"enable":false,"color":"#37c6c0","save":"auto"},"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":"valine","storage":true,"lazyload":false,"nav":null},"stickytabs":true,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"top_n_per_article":-1,"unescape":false,"preload":false}}</script><script src="/js/config.js" defer></script>
+
+    <meta name="description" content="python基础知识准备  浏览器请求头header 为了使服务器检测到它支持的浏览器标识，以便获得服务器的响应，需要在程序中加入浏览器请求头header，不然服务器会拒绝程序访问。 方法：打开网页–&gt;右键检查–&gt;在network中找到以下信息，复制粘贴到程序中。 1header &#x3D; &#x27;Mozilla&#x2F;5.0 (Windows NT 10.0; Win64; x64) Ap">
+<meta property="og:type" content="website">
+<meta property="og:title" content="python下载图片与视频">
+<meta property="og:url" content="https://satparamita.top/treasure/computer/python%E4%B8%8B%E8%BD%BD%E5%9B%BE%E7%89%87%E4%B8%8E%E8%A7%86%E9%A2%91.html">
+<meta property="og:site_name" content="SatParamita六到彼岸">
+<meta property="og:description" content="python基础知识准备  浏览器请求头header 为了使服务器检测到它支持的浏览器标识，以便获得服务器的响应，需要在程序中加入浏览器请求头header，不然服务器会拒绝程序访问。 方法：打开网页–&gt;右键检查–&gt;在network中找到以下信息，复制粘贴到程序中。 1header &#x3D; &#x27;Mozilla&#x2F;5.0 (Windows NT 10.0; Win64; x64) Ap">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2025-11-15T06:01:00.734Z">
+<meta property="article:modified_time" content="2022-01-24T03:37:28.000Z">
+<meta property="article:author" content="JingMing">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://satparamita.top/treasure/computer/python%E4%B8%8B%E8%BD%BD%E5%9B%BE%E7%89%87%E4%B8%8E%E8%A7%86%E9%A2%91.html">
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"zh-CN","comments":true,"permalink":"https://satparamita.top/treasure/computer/python%E4%B8%8B%E8%BD%BD%E5%9B%BE%E7%89%87%E4%B8%8E%E8%A7%86%E9%A2%91.html","path":"treasure/computer/python下载图片与视频.html","title":"python下载图片与视频"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>python下载图片与视频 | SatParamita六到彼岸
+</title>
+  
+
+  <script src="/js/third-party/analytics/baidu-analytics.js" defer></script>
+  <script async src="https://hm.baidu.com/hm.js?de5e4fc67609c77abdc5395ae1d19704"></script>
+
+
+
+
+
+
+
+  
+  <script size="300" alpha="0.6" zIndex="-1" src="https://cdn.jsdelivr.net/npm/ribbon.js@1.0.2/dist/ribbon.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/@next-theme/pjax@0.6.0/pjax.min.js" integrity="sha256-vxLn1tSKWD4dqbMRyv940UYw4sXgMtYcK6reefzZrao=" crossorigin="anonymous" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.31/dist/fancybox/fancybox.umd.js" integrity="sha256-a+H7FYzJv6oU2hfsfDGM2Ohw/cR9v+hPfxHCLdmCrE8=" crossorigin="anonymous" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/lozad@1.16.0/dist/lozad.min.js" integrity="sha256-mOFREFhqmHeQbXpK2lp4nA3qooVgACfh88fpJftLBbc=" crossorigin="anonymous" defer></script>
+<script src="/js/utils.js" defer></script><script src="/js/motion.js" defer></script><script src="/js/sidebar.js" defer></script><script src="/js/next-boot.js" defer></script><script src="/js/pjax.js" defer></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/hexo-generator-searchdb@1.5.0/dist/search.js" integrity="sha256-xFC6PJ82SL9b3WkGjFavNiA9gm5z6UBxWPiu4CYjptg=" crossorigin="anonymous" defer></script>
+<script src="/js/third-party/search/local-search.js" defer></script>
+
+  <script class="next-config" data-name="pdf" type="application/json">{"object_url":{"url":"https://cdn.jsdelivr.net/npm/pdfobject@2.3.1/pdfobject.min.js","integrity":"sha256-jI72I8ZLVflVOisZIOaLvRew3tyvzeu6aZXFm7P7dEo="},"url":"/lib/pdf/web/viewer.html"}</script>
+  <script src="/js/third-party/tags/pdf.js" defer></script>
+
+  <script class="next-config" data-name="mermaid" type="application/json">{"enable":true,"theme":{"light":"default","dark":"dark"},"js":{"url":"https://cdn.jsdelivr.net/npm/mermaid@11.10.1/dist/mermaid.min.js","integrity":"sha256-BmQmdWDS8X2OTbrwELWK366LV6escyWhHHe0XCTU/Hk="}}</script>
+  <script src="/js/third-party/tags/mermaid.js" defer></script>
+
+
+  <script src="/js/third-party/fancybox.js" defer></script>
+
+  <script src="/js/third-party/pace.js" defer></script>
+
+
+  
+  <script data-pjax async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+  <script class="next-config" data-name="leancloud_visitors" type="application/json">{"enable":true,"app_id":"piDvNSzND79W4hAo3JziyuT9-MdYXbMMI","app_key":"G0Mx9qCAmbQw3OQnPzhIXUTx","server_url":null,"security":false}</script>
+  <script src="/js/third-party/statistics/lean-analytics.js" defer></script>
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">false</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha256-UF1fgpAiu3tPJN/uCqEUHNe7pnr+QR0SQDNfgglgtcM=" crossorigin="anonymous">
+  <script class="next-config" data-name="katex" type="application/json">{"copy_tex_js":{"url":"https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/copy-tex.min.js","integrity":"sha256-Us54+rSGDSTvIhKKUs4kygE2ipA0RXpWWh0/zLqw3bs="}}</script>
+  <script src="/js/third-party/math/katex.js" defer></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/quicklink@3.0.1/dist/quicklink.umd.js" integrity="sha256-44BednzIpUeQJcY8qtLyarFu0UCCTbgmWOvaoehiFQQ=" crossorigin="anonymous" defer></script>
+  <script class="next-config" data-name="quicklink" type="application/json">{"enable":true,"home":true,"archive":true,"delay":true,"timeout":3000,"priority":true,"url":"https://satparamita.top/treasure/computer/python%E4%B8%8B%E8%BD%BD%E5%9B%BE%E7%89%87%E4%B8%8E%E8%A7%86%E9%A2%91.html"}</script>
+  <script src="/js/third-party/quicklink.js" defer></script>
+<script async src="/lib/fireworks.js"></script>
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">SatParamita六到彼岸</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">诵持三藏经律论 勤修六度波罗蜜</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>日志<span class="badge">13</span></a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">8</span></a></li><li class="menu-item menu-item-treasure"><a href="/treasure/" rel="section"><i class="fa fa-chalkboard fa-fw"></i>宝藏</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>生活</a></li><li class="menu-item menu-item-photo"><a href="/photo/" rel="section"><i class="fa fa-camera fa-fw"></i>相册</a></li><li class="menu-item menu-item-links"><a href="/links/" rel="section"><i class="fa fa-link fa-fw"></i>朋友</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+      <div class="search-header">
+        <span class="search-icon">
+          <i class="fa fa-search"></i>
+        </span>
+        <div class="search-input-container">
+          <input autocomplete="off" autocapitalize="off" maxlength="80"
+                placeholder="搜索..." spellcheck="false"
+                type="search" class="search-input">
+        </div>
+        <span class="popup-btn-close" role="button">
+          <i class="fa fa-times-circle"></i>
+        </span>
+      </div>
+      <div class="search-result-container">
+        <div class="search-result-icon">
+          <i class="fa fa-spinner fa-pulse fa-5x"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#python%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E5%87%86%E5%A4%87"><span class="nav-number">1.</span> <span class="nav-text"> python基础知识准备</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B5%8F%E8%A7%88%E5%99%A8%E8%AF%B7%E6%B1%82%E5%A4%B4header"><span class="nav-number">1.1.</span> <span class="nav-text"> 浏览器请求头header</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F"><span class="nav-number">1.2.</span> <span class="nav-text"> 正则表达式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86"><span class="nav-number">1.3.</span> <span class="nav-text"> 异常处理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%87%E7%89%87"><span class="nav-number">1.4.</span> <span class="nav-text"> 切片</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%AD%A3%E5%BA%8F%E5%88%87%E7%89%87"><span class="nav-number">1.4.1.</span> <span class="nav-text"> 正序切片：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%80%92%E5%BA%8F%E5%88%87%E7%89%87"><span class="nav-number">1.4.2.</span> <span class="nav-text"> 倒序切片：</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BD%E5%8D%95%E4%B8%AA%E9%A1%B5%E9%9D%A2%E7%9A%84%E5%9B%BE%E7%89%87"><span class="nav-number">2.</span> <span class="nav-text"> 下载单个页面的图片</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BD%E5%A4%9A%E4%B8%AA%E9%A1%B5%E9%9D%A2%E7%9A%84%E5%9B%BE%E7%89%87"><span class="nav-number">3.</span> <span class="nav-text"> 下载多个页面的图片</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%8E%B7%E5%8F%96%E9%A1%B5%E9%9D%A2%E5%86%85%E7%9A%84html%E9%93%BE%E6%8E%A5"><span class="nav-number">4.</span> <span class="nav-text"> 获取页面内的html链接</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BD%E5%BE%AE%E5%8D%9A%E5%9B%BE%E7%89%87"><span class="nav-number">5.</span> <span class="nav-text"> 下载微博图片</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#python%E6%A8%A1%E6%8B%9F%E7%99%BB%E5%BD%95"><span class="nav-number">5.1.</span> <span class="nav-text"> python模拟登录</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%A4%8D%E5%88%B6cookie"><span class="nav-number">5.1.1.</span> <span class="nav-text"> 复制cookie</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%9F%A5%E7%9C%8B%E5%9B%BE%E7%89%87%E9%93%BE%E6%8E%A5"><span class="nav-number">5.1.2.</span> <span class="nav-text"> 查看图片链接</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%8C%E6%95%B4%E7%A8%8B%E5%BA%8F"><span class="nav-number">5.2.</span> <span class="nav-text"> 完整程序</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BD%E5%BE%AE%E5%8D%9A%E8%A7%86%E9%A2%91"><span class="nav-number">6.</span> <span class="nav-text"> 下载微博视频</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%85you-get"><span class="nav-number">6.1.</span> <span class="nav-text"> 安装you-get</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BD%E8%A7%86%E9%A2%91"><span class="nav-number">6.2.</span> <span class="nav-text"> 下载视频</span></a></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="JingMing"
+      src="/images/my.jpg">
+  <p class="site-author-name" itemprop="name">JingMing</p>
+  <div class="site-description" itemprop="description">出家清信士</div>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="aHR0cHM6Ly9tYWlsLnFxLmNvbS9jZ2ktYmluL3FtX3NoYXJlP3Q9cW1fbWFpbG1lJmVtYWlsPWppbmdtaW5nMjE1QDEzOS5jb20=" title="邮件 → https:&#x2F;&#x2F;mail.qq.com&#x2F;cgi-bin&#x2F;qm_share?t&#x3D;qm_mailme&amp;email&#x3D;jingming215@139.com"><i class="fa fa-envelope fa-fw"></i>邮件</span>
+      </span>
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="aHR0cHM6Ly93d3cuemhpaHUuY29t" title="知乎 → https:&#x2F;&#x2F;www.zhihu.com"><i class="fab fa-zhihu fa-fw"></i>知乎</span>
+      </span>
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="c2t5cGU6eW91cm5hbWU/Y2FsbHxjaGF0" title="Skype → skype:yourname?call|chat"><i class="fab fa-skype fa-fw"></i>Skype</span>
+      </span>
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="aHR0cHM6Ly93ZWliby5jb20=" title="微博 → https:&#x2F;&#x2F;weibo.com"><i class="fab fa-weibo fa-fw"></i>微博</span>
+      </span>
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="aHR0cHM6Ly95b3V0dWJlLmNvbQ==" title="YouTube → https:&#x2F;&#x2F;youtube.com"><i class="fab fa-youtube fa-fw"></i>YouTube</span>
+      </span>
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29t" title="GitHub → https:&#x2F;&#x2F;github.com"><i class="fab fa-github fa-fw"></i>GitHub</span>
+      </span>
+  </div>
+
+        </div>
+      </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner page posts-expand">
+
+
+    
+    
+    
+    <div class="post-block" lang="zh-CN"><header class="post-header">
+
+<h1 class="post-title" itemprop="name headline">python下载图片与视频
+</h1>
+
+<div class="post-meta-container">
+  <ul class="breadcrumb">
+            <li><a href="/treasure/">宝藏</a></li>
+            <li><a href="/treasure/computer/">COMPUTER</a></li>
+            <li>PYTHON下载图片与视频</li>
+  </ul>
+</div>
+
+</header>
+
+      
+      
+      
+      <div class="post-body">
+          <h2 id="python基础知识准备"><a class="markdownIt-Anchor" href="#python基础知识准备"></a> python基础知识准备</h2>
+<h3 id="浏览器请求头header"><a class="markdownIt-Anchor" href="#浏览器请求头header"></a> 浏览器请求头header</h3>
+<p>为了使服务器检测到它支持的浏览器标识，以便获得服务器的响应，需要在程序中加入浏览器请求头header，不然服务器会拒绝程序访问。<br>
+方法：打开网页–&gt;右键检查–&gt;在network中找到以下信息，复制粘贴到程序中。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">header = <span class="string">&#x27;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36&#x27;</span></span><br></pre></td></tr></table></figure>
+<h3 id="正则表达式"><a class="markdownIt-Anchor" href="#正则表达式"></a> 正则表达式</h3>
+<p>使用正则表达式匹配出网页里的图片。常用的正则有：<br>
+<code>.*?</code>匹配不需要的内容，选取的内容加括号<code>(.*?)</code>。例：<code>(.*?)</code>、<code>(.*?\.html)</code>、<code>(.*?\.jpg)</code>；<br>
+<code>?</code>匹配最短内容；<br>
+或<code>|</code>的用法：<code>[src|file]</code>匹配src或file、<code>(.*?\.(?:jpg|JPG|jpeg|JPEG|gif|GIF|png|PNG))</code>匹配多种图片格式；<br>
+匹配数字字母<code>[A-Za-z0-9]</code>；<br>
+提取数字<code>.*?(\d+).*?</code>。<br>
+<strong>注意</strong>：如果链接中有<code>?</code>或<code>\</code>，加<code>\</code>转义，改成<code>\?</code>、<code>\\</code>；<code>(</code>用<code>[]</code>表示，<code>[(]</code>。<br>
+下载网站图片或获取html时会用到如下正则表达式，照此修改。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">reg = <span class="string">r&#x27;src=&quot;(.*?\.jpg)&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&#x27;</span></span><br><span class="line">reg = <span class="string">r&#x27;[src|file]=&quot;(.*?\.(?:jpg|gif))&quot; onload=&quot;&#x27;</span></span><br><span class="line">reg = <span class="string">r&#x27;v2-(.*?\.(?:jpg|gif)).*?noscript&gt;?&#x27;</span></span><br><span class="line">reg = <span class="string">r&#x27;href=&quot;(.*?\.html)&quot;&gt;&lt;img width=&quot;234&quot;&#x27;</span></span><br><span class="line">reg = <span class="string">r&#x27;&lt;li&gt;&lt;a&gt;.*?(\d+).*?: &lt;/a&gt;&lt;/li&gt;&lt;li id=&#x27;</span></span><br></pre></td></tr></table></figure>
+<p>利用<code>re.findall</code>找到html页面中的所有图片地址或新的链接地址：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">allimage = re.findall(reg, html.decode(<span class="string">&#x27;utf-8&#x27;</span>, errors=<span class="string">&#x27;ignore&#x27;</span>))</span><br><span class="line">allhtml = re.findall(reg, html.decode(<span class="string">&#x27;utf-8&#x27;</span>, errors=<span class="string">&#x27;ignore&#x27;</span>))</span><br></pre></td></tr></table></figure>
+<h3 id="异常处理"><a class="markdownIt-Anchor" href="#异常处理"></a> 异常处理</h3>
+<p>程序使用了循环，在不断访问服务器和下载图片时可能会发生异常，我们需要捕获处理它，否则程序会终止。try/except语句用来检测try语句块中的错误，从而让except语句捕获异常信息并处理。当try后的语句执行时发生异常，python就跳回到try并执行第一个匹配该异常的except子句，异常处理完毕，控制流就通过整个try语句，程序不会停止。以下为简单的try…except…else的语法：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">try</span>:</span><br><span class="line">&lt;语句&gt;        <span class="comment">#运行别的代码</span></span><br><span class="line"><span class="keyword">except</span> &lt;名字&gt;：</span><br><span class="line">&lt;语句&gt;        <span class="comment">#如果在try部份引发了&#x27;name&#x27;异常</span></span><br><span class="line"><span class="keyword">except</span> &lt;名字&gt;，&lt;数据&gt;:</span><br><span class="line">&lt;语句&gt;        <span class="comment">#如果引发了&#x27;name&#x27;异常，获得附加的数据</span></span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">&lt;语句&gt;        <span class="comment">#如果没有异常发生</span></span><br></pre></td></tr></table></figure>
+<p>在except里可以保存错误内容至某个文件，方便查看错误内容。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&#x27;wrong_url.txt&#x27;</span>,<span class="string">&#x27;a&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">    f.write(<span class="string">&#x27;\n&#x27;</span>.join(url))</span><br></pre></td></tr></table></figure>
+<h3 id="切片"><a class="markdownIt-Anchor" href="#切片"></a> 切片</h3>
+<p>有时候需要对某些网址做一些切片和合并处理。<br>
+<code>num_str = &quot;0123456789&quot;</code></p>
+<h4 id="正序切片"><a class="markdownIt-Anchor" href="#正序切片"></a> 正序切片：</h4>
+<p>截取从 2 ~ 5位置的字符串<code>print(num_str[2:6])</code><br>
+截取从 2 ~ 末尾的字符串<code>print(num_str[2:])</code><br>
+截取从开始 ~ 5位置的字符串<code>print(num_str[:6])</code><br>
+截取完整的字符串<code>print(num_str[:])</code><br>
+从开始位置，每隔一个字符截取字符串<code>print(num_str[::2])</code><br>
+从索引 1 开始，每隔一个取一个<code>print(num_str[1::2])</code></p>
+<h4 id="倒序切片"><a class="markdownIt-Anchor" href="#倒序切片"></a> 倒序切片：</h4>
+<p>-1表示倒数第一个字符<code>print(num_str[-1])</code><br>
+截取从 2 ~ 末尾-1的字符串<code>print(num_str[2:-1])</code><br>
+截取字符串末尾两个字符<code>print(num_str[-2:])</code><br>
+字符串的逆序<code>print(num_str[::-1])</code></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">string = <span class="built_in">list</span>[<span class="number">0</span>:<span class="number">8</span>]</span><br><span class="line">url = <span class="string">&#x27;&#x27;</span> + string + <span class="string">&#x27;&amp;&#x27;</span> + <span class="built_in">list</span>[<span class="number">13</span>:]</span><br><span class="line">url_new = url[:-<span class="number">5</span>:]</span><br><span class="line">url_short = <span class="built_in">int</span>(url[-<span class="number">11</span>:-<span class="number">5</span>:])<span class="comment">#强制转换成int类型</span></span><br></pre></td></tr></table></figure>
+<h2 id="下载单个页面的图片"><a class="markdownIt-Anchor" href="#下载单个页面的图片"></a> 下载单个页面的图片</h2>
+<p>下载单个页面的图片程序很简单，一般不需要使用函数。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> urllib.request</span><br><span class="line"><span class="keyword">import</span> re</span><br><span class="line"><span class="keyword">def</span> <span class="title function_">Header</span>():</span><br><span class="line">    header = <span class="string">&#x27;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36&#x27;</span></span><br><span class="line">    opener = urllib.request.build_opener()</span><br><span class="line">    opener.addheaders = [(<span class="string">&#x27;User-Agent&#x27;</span>, header)]</span><br><span class="line">    urllib.request.install_opener(opener)</span><br><span class="line"></span><br><span class="line">reg = <span class="string">r&#x27;v2-(.*?\.(?:jpg|gif)).*?noscript&gt;?&#x27;</span> </span><br><span class="line">reg = re.<span class="built_in">compile</span>(reg)<span class="comment">#可以省略这一行</span></span><br><span class="line"><span class="comment">#下载知乎某网页的图片</span></span><br><span class="line">url = <span class="string">&#x27;https://www.zhihu.com/question/&#x27;</span> + <span class="built_in">str</span>(num)</span><br><span class="line"><span class="built_in">print</span>(url, end=<span class="string">&#x27; *** &#x27;</span>)</span><br><span class="line">Header()</span><br><span class="line"></span><br><span class="line">html = urllib.request.urlopen(url).read() <span class="comment">#获取html</span></span><br><span class="line">imglist = re.findall(reg, html.decode(<span class="string">&#x27;utf-8&#x27;</span>, errors=<span class="string">&#x27;ignore&#x27;</span>)) <span class="comment">#从html里获取所有的图片地址。注意添加decode(&#x27;utf-8&#x27;, errors=&#x27;ignore&#x27;)</span></span><br><span class="line"><span class="comment">#print(imglist)#打印html里的所有图片地址</span></span><br><span class="line">n = <span class="number">0</span><span class="comment">#用来计数或命名</span></span><br><span class="line"><span class="keyword">for</span> imgurl <span class="keyword">in</span> imglist:<span class="comment">#建议在循环内使用try，防止异常导致退出循环。</span></span><br><span class="line">    img = <span class="string">&#x27;https://pic1.zhimg.com/v2-&#x27;</span> + imgurl</span><br><span class="line">    urllib.request.urlretrieve(img, <span class="string">&quot;C:/file/%s.jpg&quot;</span> % n)<span class="comment">#保存图片到本地，也可以用imurl来命名</span></span><br><span class="line">    n += <span class="number">1</span></span><br><span class="line">    <span class="built_in">print</span>(n, end=<span class="string">&#x27;-&#x27;</span>)<span class="comment">#每下载一张图片打印一次</span></span><br></pre></td></tr></table></figure>
+<h2 id="下载多个页面的图片"><a class="markdownIt-Anchor" href="#下载多个页面的图片"></a> 下载多个页面的图片</h2>
+<p>多个页面就需要用到for循环和try。程序运行过程中可能会出现异常，使用try防止退出循环。程序的主要部分：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(num1, num2):</span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        url = <span class="string">&#x27;&#x27;</span> + <span class="built_in">str</span>(i) + <span class="string">&#x27;.html&#x27;</span><span class="comment">#可能的网址式样</span></span><br><span class="line">        <span class="built_in">print</span>(url, end=<span class="string">&#x27; *** &#x27;</span>)</span><br><span class="line">        Header()<span class="comment">#调用函数</span></span><br><span class="line">        html = urllib.request.urlopen(url).read()</span><br><span class="line">        reg = <span class="string">r&#x27;file=&quot;(.*?\.jpg)&quot;?&#x27;</span>  </span><br><span class="line"></span><br><span class="line">        allimg = re.findall(reg, html.decode(<span class="string">&#x27;utf-8&#x27;</span>, errors=<span class="string">&#x27;ignore&#x27;</span>))</span><br><span class="line">        n = <span class="number">0</span>  </span><br><span class="line">        <span class="keyword">for</span> img <span class="keyword">in</span> allimg:</span><br><span class="line">            urllib.request.urlretrieve(img, <span class="string">&quot;%s-%s.jpg&quot;</span> % (i, n))</span><br><span class="line">            <span class="built_in">print</span>(n, end=<span class="string">&quot;-&quot;</span>)</span><br><span class="line">            n += <span class="number">1</span></span><br><span class="line">        <span class="built_in">print</span>(n)</span><br><span class="line">    <span class="keyword">except</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&#x27;----------&#x27;</span>)</span><br></pre></td></tr></table></figure>
+<h2 id="获取页面内的html链接"><a class="markdownIt-Anchor" href="#获取页面内的html链接"></a> 获取页面内的html链接</h2>
+<p>有些页面只显示了组图中的封面，点开封面图片后在新网页里才能查看所有图片，这就需要在网页里找到所有组图所在新网页的链接。建议使用自定义函数。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br></pre></td><td class="code"><pre><span class="line">reg1 = <span class="string">r&#x27;href=&quot;(.*?\.html)&#x27;</span>   <span class="comment">#html里找到所有组图的链接url</span></span><br><span class="line">reg2 = <span class="string">r&#x27;&lt;li&gt;&lt;a&gt;.*?(\d+).*?:&#x27;</span>   </span><br><span class="line">reg3 = <span class="string">r&#x27;src=&quot;(.*?\.jpg)&quot;&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">GetHtml</span>(<span class="params">url</span>):<span class="comment">#获取html</span></span><br><span class="line">    <span class="built_in">print</span>(url, end=<span class="string">&#x27; ******\n&#x27;</span>)</span><br><span class="line">    Header()</span><br><span class="line">    html = urllib.request.urlopen(url).read()</span><br><span class="line">    <span class="keyword">return</span> html</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">GetImgUrl</span>(<span class="params">html</span>):<span class="comment">#在html里找到所有组图的链接url</span></span><br><span class="line">    allurl = re.findall(reg1, html.decode(<span class="string">&#x27;utf-8&#x27;</span>, errors=<span class="string">&#x27;ignore&#x27;</span>))</span><br><span class="line">    <span class="keyword">for</span> url <span class="keyword">in</span> allurl:</span><br><span class="line">        html = GetHtml(url)<span class="comment">#获取组图所在网页的html</span></span><br><span class="line">        GetImage(html, url)<span class="comment">#获取组图中所有图片并下载</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">SaveImg</span>(<span class="params">html, reg, name_1, name_2</span>):<span class="comment">#以正则reg的方式获取html里的所有图片并下载</span></span><br><span class="line">    allimg = re.findall(reg, html.decode(<span class="string">&#x27;utf-8&#x27;</span>, errors=<span class="string">&#x27;ignore&#x27;</span>))</span><br><span class="line">    <span class="keyword">for</span> img <span class="keyword">in</span> allimg:</span><br><span class="line">        urllib.request.urlretrieve(img, <span class="string">&quot;%s-%s.jpg&quot;</span> % (name_1, name_2))</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">GetImage</span>(<span class="params">html, url</span>):<span class="comment">#主要函数，下载图片</span></span><br><span class="line">    <span class="comment">#do something for url</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(num1, num2):</span><br><span class="line">        url_n = <span class="string">&#x27;&#x27;</span></span><br><span class="line">        <span class="keyword">try</span>:</span><br><span class="line">            html = urllib.request.urlopen(url_n).read()</span><br><span class="line">            SaveImg(html, reg3, url, i)<span class="comment">#以正则reg的方式获取html里的所有图片并下载</span></span><br><span class="line">            <span class="built_in">print</span>(x, end=<span class="string">&quot;-&quot;</span>)</span><br><span class="line">        <span class="keyword">except</span>:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">&#x27;----- %s -&#x27;</span> % url)</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;&quot;</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(num1, num2):</span><br><span class="line">    url = <span class="string">&#x27;%s.html&#x27;</span> % i</span><br><span class="line">    html = GetHtml(url)</span><br><span class="line">    GetImgUrl(html)</span><br></pre></td></tr></table></figure>
+<h2 id="下载微博图片"><a class="markdownIt-Anchor" href="#下载微博图片"></a> 下载微博图片</h2>
+<h3 id="python模拟登录"><a class="markdownIt-Anchor" href="#python模拟登录"></a> python模拟登录</h3>
+<h4 id="复制cookie"><a class="markdownIt-Anchor" href="#复制cookie"></a> 复制cookie</h4>
+<p>cookie保存在发起请求的客户端中，服务器利用cookie来区分不同的客户端。因为http是一种无状态的连接，当服务器一下子收到好几个请求时，是无法判断出哪些请求是同一个客户端发起的。而“访问登录后才能看到的页面”这一行为，恰恰需要客户端向服务器证明：“我是刚才登录过的那个客户端”。于是就需要cookie来标识客户端的身份，以存储它的信息（如登录状态）。这也意味着，只要得到了别的客户端的cookie，我们就可以假冒成它来和服务器对话。这给我们的程序带来了可乘之机。<br>
+先用浏览器登录微博，打开开发者工具，转到network。在左边的Name一栏找到当前的网址，选择右边的Headers，查看Request Headers，这里包含了该网站颁发给浏览器的cookie。复制到程序里，程序携带该cookie向网站发送请求，就能让程序假扮成刚才登录的浏览器，得到只有登录后才能看到的页面。<br>
+<strong>注意</strong>，最好是在运行程序前登录。如果过早登录，或是关闭浏览器，很可能复制的cookie就失效了。</p>
+<h4 id="查看图片链接"><a class="markdownIt-Anchor" href="#查看图片链接"></a> 查看图片链接</h4>
+<p>进入所要下载用户的界面–&gt;相册–&gt;相册专辑–&gt;微博配图–&gt;打开某张图片，查看网址，网址里的数字分别表示用户id、图片id和所在相册id–&gt;查看网页源代码，选择自动换行，找到album_photo_ids，下面就是图片的id–&gt;只复制数字和逗号到txt文件里，不要复制括号。这些图片都能下载，最多下载2000张，没有显示id的图片不知道怎么下载。</p>
+<h3 id="完整程序"><a class="markdownIt-Anchor" href="#完整程序"></a> 完整程序</h3>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> urllib.request</span><br><span class="line"><span class="keyword">import</span> re</span><br><span class="line"><span class="keyword">import</span> sys</span><br><span class="line"><span class="keyword">import</span> io</span><br><span class="line"></span><br><span class="line">header = <span class="string">&#x27;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36&#x27;</span></span><br><span class="line">reg = <span class="string">r&#x27;src=&quot;(.*?\.(?:jpg|gif))&quot; onload=&quot;?&#x27;</span>  <span class="comment">#通过正则获取图片</span></span><br><span class="line">sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding=<span class="string">&#x27;utf8&#x27;</span>)<span class="comment">#改变标准输出的默认编码</span></span><br><span class="line">cookie = <span class="string">r&#x27;&#x27;</span><span class="comment">#粘贴浏览器登录后得到的cookie，也就是从网页复制的字符串。</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">PhotoNum</span>():  <span class="comment">#计算图片id总数</span></span><br><span class="line">    <span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&#x27;photo.txt&#x27;</span>, <span class="string">&#x27;r&#x27;</span>) <span class="keyword">as</span> f:  <span class="comment">#打开储存photo_id的文件</span></span><br><span class="line">        photoid = f.read().split(<span class="string">&#x27;,&#x27;</span>)<span class="comment">#图片的数字代码都是用逗号隔开的，读取每一个代码</span></span><br><span class="line">        i = <span class="number">0</span></span><br><span class="line">        <span class="keyword">for</span> line <span class="keyword">in</span> photoid:</span><br><span class="line">            i += <span class="number">1</span></span><br><span class="line">    <span class="keyword">return</span> i</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">get_photo</span>(<span class="params">User_id, Album_id</span>):</span><br><span class="line">    <span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&#x27;photo.txt&#x27;</span>, <span class="string">&#x27;r&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">        photoid = f.read().split(<span class="string">&#x27;,&#x27;</span>)</span><br><span class="line">        i = <span class="number">0</span></span><br><span class="line">        <span class="keyword">for</span> Photo_id <span class="keyword">in</span> photoid:</span><br><span class="line">            url = <span class="string">&#x27;https://photo.weibo.com/%s/wbphotos/large/photo_id/%s/album_id/%s&#x27;</span> % (</span><br><span class="line">                User_id, Photo_id, Album_id)<span class="comment">#获取的是高清图片</span></span><br><span class="line">            <span class="built_in">print</span>(url, end=<span class="string">&#x27; ****** &#x27;</span>)</span><br><span class="line">            <span class="keyword">try</span>:</span><br><span class="line">                req = urllib.request.Request(url)</span><br><span class="line">                req.add_header(<span class="string">&#x27;cookie&#x27;</span>, cookie)  <span class="comment">#设置cookie</span></span><br><span class="line">                req.add_header(<span class="string">&#x27;User-Agent&#x27;</span>, header)  <span class="comment">#设置请求头</span></span><br><span class="line"></span><br><span class="line">                html = urllib.request.urlopen(req).read()<span class="comment">#获取图片的html</span></span><br><span class="line">                allimg = re.findall(reg, html.decode(<span class="string">&#x27;utf-8&#x27;</span>, errors=<span class="string">&#x27;ignore&#x27;</span>))<span class="comment">#找到html里 图片，只有一张图，格式有jpg和gif，但是都保存为jpg格式。</span></span><br><span class="line">                <span class="keyword">for</span> img <span class="keyword">in</span> allimg:</span><br><span class="line">                    urllib.request.urlretrieve(img, <span class="string">&quot;C:/%s.jpg&quot;</span> % i)</span><br><span class="line">                    i += <span class="number">1</span></span><br><span class="line">                    <span class="built_in">print</span>(i)</span><br><span class="line"></span><br><span class="line">                <span class="keyword">if</span> (i &gt; photonum):<span class="comment">#大于图片总数就停止程序</span></span><br><span class="line">                    <span class="keyword">return</span> <span class="literal">None</span></span><br><span class="line">            <span class="keyword">except</span>:</span><br><span class="line">                <span class="built_in">print</span>(url, end=<span class="string">&#x27; ------ &#x27;</span>)<span class="comment">#打印因为异常而未下载的图片的地址</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">photonum = PhotoNum()</span><br><span class="line"><span class="built_in">print</span>(photonum)  <span class="comment">#图片id总数</span></span><br><span class="line">userid = <span class="string">&#x27;&#x27;</span><span class="comment">#用户id</span></span><br><span class="line">albumid = <span class="string">&#x27;&#x27;</span><span class="comment">#所要下载的相册的id</span></span><br><span class="line">get_photo(userid, albumid)</span><br></pre></td></tr></table></figure>
+<p>如果出现下载卡在某处，关闭程序，做好标记，从txt文件里删除已下载图片的id。重新命名接下来要下载的图片，不然会覆盖，从未下载的图片继续开始。</p>
+<h2 id="下载微博视频"><a class="markdownIt-Anchor" href="#下载微博视频"></a> 下载微博视频</h2>
+<h3 id="安装you-get"><a class="markdownIt-Anchor" href="#安装you-get"></a> 安装you-get</h3>
+<p>使用you-get下载视频，安装方法：<code>pip install you-get</code>。使用方法：<br>
+<code>you-get url</code>默认下载到当前目录。<br>
+<code>you-get -o dir -O name url</code>下载到指定文件夹，并命名。<br>
+<code>you-get -i url</code>查看视频的清晰度，默认下载第一个。要下载的视频样式，比如高清是<code>--format=mp4sd</code>，使用命令：<code>you-get --format=mp4sd url</code>。<br>
+<code>Ctrl + c</code>停止下载。</p>
+<h3 id="下载视频"><a class="markdownIt-Anchor" href="#下载视频"></a> 下载视频</h3>
+<p>进入用户主页–&gt;相册–&gt;视频，此时页面网址是<code>https://weibo.com/p/%s/photos?type=video#place</code>其中%s是用户的id，复制id，程序会用到。右键–&gt;查看网页源代码，其中<code>https:\/\/video.weibo.com\/show?fid=1034:id</code>就是视频网址。只能查看到用户的前几十个视频id，所以如果视频很多，不能全部下载。视频网址是<code>https://weibo.com/tv/show/1034:%s'</code>%s是视频的id，程序会使用正则表达式获取所有视频id.</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> urllib.request</span><br><span class="line"><span class="keyword">import</span> re</span><br><span class="line"><span class="keyword">import</span> sys</span><br><span class="line"><span class="keyword">import</span> io</span><br><span class="line"><span class="keyword">import</span> os</span><br><span class="line"></span><br><span class="line">header = <span class="string">&#x27;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36&#x27;</span></span><br><span class="line"><span class="comment">#改变标准输出的默认编码</span></span><br><span class="line">sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding=<span class="string">&#x27;utf8&#x27;</span>)</span><br><span class="line"><span class="comment">#登录微博--&gt;右键检查--&gt;network--&gt;headers--&gt;request headers--&gt;cookie复制</span></span><br><span class="line">cookie = <span class="string">r&#x27;&#x27;</span> <span class="comment">#粘贴至此处</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">get_videos</span>(<span class="params">User_id</span>):</span><br><span class="line">    url = <span class="string">&#x27;https://weibo.com/p/%s/photos?type=video#place&#x27;</span> % User_id</span><br><span class="line">    <span class="built_in">print</span>(url, end=<span class="string">&#x27; ****** &#x27;</span>)</span><br><span class="line"></span><br><span class="line">    req = urllib.request.Request(url)</span><br><span class="line">    req.add_header(<span class="string">&#x27;cookie&#x27;</span>, cookie)  <span class="comment">#设置cookie</span></span><br><span class="line">    req.add_header(<span class="string">&#x27;User-Agent&#x27;</span>, header)  <span class="comment">#设置请求头</span></span><br><span class="line"></span><br><span class="line">    html = urllib.request.urlopen(req).read()</span><br><span class="line">    reg = <span class="string">r&#x27;fid=1034:(.*?)\\&quot;&gt;&lt;?&#x27;</span>  <span class="comment">#使用正则表达式获取所有视频id \\表示转义后的\</span></span><br><span class="line">    allvideos = re.findall(reg, html.decode(<span class="string">&#x27;utf-8&#x27;</span>, errors=<span class="string">&#x27;ignore&#x27;</span>))</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> video <span class="keyword">in</span> <span class="built_in">set</span>(allvideos):<span class="comment">#集合里没有重复元素，使用set去除重复元素，不然会重复下载。</span></span><br><span class="line">        url = <span class="string">&#x27;https://weibo.com/tv/show/1034:%s&#x27;</span> % video</span><br><span class="line">        <span class="built_in">print</span>(url)</span><br><span class="line">        cmd = <span class="string">&#x27;you-get &#x27;</span> + url  <span class="comment">#默认下载到当前文件夹，可以指定文件夹</span></span><br><span class="line">        os.system(cmd)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">userid = <span class="string">&#x27;&#x27;</span> <span class="comment">#用户id</span></span><br><span class="line">get_videos(userid)</span><br></pre></td></tr></table></figure>
+
+      </div>
+      
+      
+      
+    </div>
+  <ul class="breadcrumb">
+            <li><a href="/treasure/">宝藏</a></li>
+            <li><a href="/treasure/computer/">COMPUTER</a></li>
+            <li>PYTHON下载图片与视频</li>
+  </ul>
+
+    
+    
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 2021 – 
+    <span itemprop="copyrightYear">2025</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">JingMing</span>
+  </div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+  <div class="powered-by">由 <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & <span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZw==">NexT.Gemini</span> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+</body>
+</html>

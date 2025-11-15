@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 8.1.1">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <meta name="google-site-verification" content="RXkj03_NJEB6BQbKv13pqogmMUUDEocigQgD68jrly4">
+  <meta name="baidu-site-verification" content="code-epDHY3vWsd">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css" integrity="sha256-VHqXKFhhMxcpubYf9xiWdCiojEbY9NexQ4jh8AxbvcM=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.31/dist/fancybox/fancybox.css" integrity="sha256-gkQVf8UKZgQ0HyuxL/VnacadJ+D2Kox2TCEBuNQg5+w=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/themes/green/pace-theme-minimal.css">
+  <script src="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous" defer></script>
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"satparamita.top","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.26.0","exturl":true,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"always","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":true,"style":"mac"},"fold":{"enable":true,"height":500},"language":false},"bookmark":{"enable":false,"color":"#37c6c0","save":"auto"},"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":"valine","storage":true,"lazyload":false,"nav":null},"stickytabs":true,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"top_n_per_article":-1,"unescape":false,"preload":false}}</script><script src="/js/config.js" defer></script>
+
+    <meta name="description" content="Git Code of Conduct This code of conduct outlines our expectations for participants within the Git community, as well as steps for reporting unacceptable behavior. We are committed to providing a wel">
+<meta property="og:type" content="website">
+<meta property="og:title" content="SatParamita六到彼岸">
+<meta property="og:url" content="https://satparamita.top/git/CODE_OF_CONDUCT.html">
+<meta property="og:site_name" content="SatParamita六到彼岸">
+<meta property="og:description" content="Git Code of Conduct This code of conduct outlines our expectations for participants within the Git community, as well as steps for reporting unacceptable behavior. We are committed to providing a wel">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2025-11-15T06:01:00.293Z">
+<meta property="article:modified_time" content="2024-11-02T11:04:00.616Z">
+<meta property="article:author" content="JingMing">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://satparamita.top/git/CODE_OF_CONDUCT.html">
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"zh-CN","comments":true,"permalink":"https://satparamita.top/git/CODE_OF_CONDUCT.html","path":"git/CODE_OF_CONDUCT.html","title":""}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title> | SatParamita六到彼岸
+</title>
+  
+
+  <script src="/js/third-party/analytics/baidu-analytics.js" defer></script>
+  <script async src="https://hm.baidu.com/hm.js?de5e4fc67609c77abdc5395ae1d19704"></script>
+
+
+
+
+
+
+
+  
+  <script size="300" alpha="0.6" zIndex="-1" src="https://cdn.jsdelivr.net/npm/ribbon.js@1.0.2/dist/ribbon.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/@next-theme/pjax@0.6.0/pjax.min.js" integrity="sha256-vxLn1tSKWD4dqbMRyv940UYw4sXgMtYcK6reefzZrao=" crossorigin="anonymous" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.31/dist/fancybox/fancybox.umd.js" integrity="sha256-a+H7FYzJv6oU2hfsfDGM2Ohw/cR9v+hPfxHCLdmCrE8=" crossorigin="anonymous" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/lozad@1.16.0/dist/lozad.min.js" integrity="sha256-mOFREFhqmHeQbXpK2lp4nA3qooVgACfh88fpJftLBbc=" crossorigin="anonymous" defer></script>
+<script src="/js/utils.js" defer></script><script src="/js/motion.js" defer></script><script src="/js/sidebar.js" defer></script><script src="/js/next-boot.js" defer></script><script src="/js/pjax.js" defer></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/hexo-generator-searchdb@1.5.0/dist/search.js" integrity="sha256-xFC6PJ82SL9b3WkGjFavNiA9gm5z6UBxWPiu4CYjptg=" crossorigin="anonymous" defer></script>
+<script src="/js/third-party/search/local-search.js" defer></script>
+
+  <script class="next-config" data-name="pdf" type="application/json">{"object_url":{"url":"https://cdn.jsdelivr.net/npm/pdfobject@2.3.1/pdfobject.min.js","integrity":"sha256-jI72I8ZLVflVOisZIOaLvRew3tyvzeu6aZXFm7P7dEo="},"url":"/lib/pdf/web/viewer.html"}</script>
+  <script src="/js/third-party/tags/pdf.js" defer></script>
+
+  <script class="next-config" data-name="mermaid" type="application/json">{"enable":true,"theme":{"light":"default","dark":"dark"},"js":{"url":"https://cdn.jsdelivr.net/npm/mermaid@11.10.1/dist/mermaid.min.js","integrity":"sha256-BmQmdWDS8X2OTbrwELWK366LV6escyWhHHe0XCTU/Hk="}}</script>
+  <script src="/js/third-party/tags/mermaid.js" defer></script>
+
+
+  <script src="/js/third-party/fancybox.js" defer></script>
+
+  <script src="/js/third-party/pace.js" defer></script>
+
+
+  
+  <script data-pjax async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+  <script class="next-config" data-name="leancloud_visitors" type="application/json">{"enable":true,"app_id":"piDvNSzND79W4hAo3JziyuT9-MdYXbMMI","app_key":"G0Mx9qCAmbQw3OQnPzhIXUTx","server_url":null,"security":false}</script>
+  <script src="/js/third-party/statistics/lean-analytics.js" defer></script>
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">false</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha256-UF1fgpAiu3tPJN/uCqEUHNe7pnr+QR0SQDNfgglgtcM=" crossorigin="anonymous">
+  <script class="next-config" data-name="katex" type="application/json">{"copy_tex_js":{"url":"https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/copy-tex.min.js","integrity":"sha256-Us54+rSGDSTvIhKKUs4kygE2ipA0RXpWWh0/zLqw3bs="}}</script>
+  <script src="/js/third-party/math/katex.js" defer></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/quicklink@3.0.1/dist/quicklink.umd.js" integrity="sha256-44BednzIpUeQJcY8qtLyarFu0UCCTbgmWOvaoehiFQQ=" crossorigin="anonymous" defer></script>
+  <script class="next-config" data-name="quicklink" type="application/json">{"enable":true,"home":true,"archive":true,"delay":true,"timeout":3000,"priority":true,"url":"https://satparamita.top/git/CODE_OF_CONDUCT.html"}</script>
+  <script src="/js/third-party/quicklink.js" defer></script>
+<script async src="/lib/fireworks.js"></script>
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">SatParamita六到彼岸</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">诵持三藏经律论 勤修六度波罗蜜</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>日志<span class="badge">13</span></a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">8</span></a></li><li class="menu-item menu-item-treasure"><a href="/treasure/" rel="section"><i class="fa fa-chalkboard fa-fw"></i>宝藏</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>生活</a></li><li class="menu-item menu-item-photo"><a href="/photo/" rel="section"><i class="fa fa-camera fa-fw"></i>相册</a></li><li class="menu-item menu-item-links"><a href="/links/" rel="section"><i class="fa fa-link fa-fw"></i>朋友</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+      <div class="search-header">
+        <span class="search-icon">
+          <i class="fa fa-search"></i>
+        </span>
+        <div class="search-input-container">
+          <input autocomplete="off" autocapitalize="off" maxlength="80"
+                placeholder="搜索..." spellcheck="false"
+                type="search" class="search-input">
+        </div>
+        <span class="popup-btn-close" role="button">
+          <i class="fa fa-times-circle"></i>
+        </span>
+      </div>
+      <div class="search-result-container">
+        <div class="search-result-icon">
+          <i class="fa fa-spinner fa-pulse fa-5x"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#git-code-of-conduct"><span class="nav-number">1.</span> <span class="nav-text"> Git Code of Conduct</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#our-pledge"><span class="nav-number">1.1.</span> <span class="nav-text"> Our Pledge</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#our-standards"><span class="nav-number">1.2.</span> <span class="nav-text"> Our Standards</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#enforcement-responsibilities"><span class="nav-number">1.3.</span> <span class="nav-text"> Enforcement Responsibilities</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#scope"><span class="nav-number">1.4.</span> <span class="nav-text"> Scope</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#enforcement"><span class="nav-number">1.5.</span> <span class="nav-text"> Enforcement</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#enforcement-guidelines"><span class="nav-number">1.6.</span> <span class="nav-text"> Enforcement Guidelines</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-correction"><span class="nav-number">1.6.1.</span> <span class="nav-text"> 1. Correction</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-warning"><span class="nav-number">1.6.2.</span> <span class="nav-text"> 2. Warning</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-temporary-ban"><span class="nav-number">1.6.3.</span> <span class="nav-text"> 3. Temporary Ban</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-permanent-ban"><span class="nav-number">1.6.4.</span> <span class="nav-text"> 4. Permanent Ban</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#attribution"><span class="nav-number">1.7.</span> <span class="nav-text"> Attribution</span></a></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="JingMing"
+      src="/images/my.jpg">
+  <p class="site-author-name" itemprop="name">JingMing</p>
+  <div class="site-description" itemprop="description">出家清信士</div>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="aHR0cHM6Ly9tYWlsLnFxLmNvbS9jZ2ktYmluL3FtX3NoYXJlP3Q9cW1fbWFpbG1lJmVtYWlsPWppbmdtaW5nMjE1QDEzOS5jb20=" title="邮件 → https:&#x2F;&#x2F;mail.qq.com&#x2F;cgi-bin&#x2F;qm_share?t&#x3D;qm_mailme&amp;email&#x3D;jingming215@139.com"><i class="fa fa-envelope fa-fw"></i>邮件</span>
+      </span>
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="aHR0cHM6Ly93d3cuemhpaHUuY29t" title="知乎 → https:&#x2F;&#x2F;www.zhihu.com"><i class="fab fa-zhihu fa-fw"></i>知乎</span>
+      </span>
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="c2t5cGU6eW91cm5hbWU/Y2FsbHxjaGF0" title="Skype → skype:yourname?call|chat"><i class="fab fa-skype fa-fw"></i>Skype</span>
+      </span>
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="aHR0cHM6Ly93ZWliby5jb20=" title="微博 → https:&#x2F;&#x2F;weibo.com"><i class="fab fa-weibo fa-fw"></i>微博</span>
+      </span>
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="aHR0cHM6Ly95b3V0dWJlLmNvbQ==" title="YouTube → https:&#x2F;&#x2F;youtube.com"><i class="fab fa-youtube fa-fw"></i>YouTube</span>
+      </span>
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29t" title="GitHub → https:&#x2F;&#x2F;github.com"><i class="fab fa-github fa-fw"></i>GitHub</span>
+      </span>
+  </div>
+
+        </div>
+      </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner page posts-expand">
+
+
+    
+    
+    
+    <div class="post-block" lang="zh-CN"><header class="post-header">
+
+<h1 class="post-title" itemprop="name headline">
+</h1>
+
+<div class="post-meta-container">
+</div>
+
+</header>
+
+      
+      
+      
+      <div class="post-body">
+          <h1 id="git-code-of-conduct"><a class="markdownIt-Anchor" href="#git-code-of-conduct"></a> Git Code of Conduct</h1>
+<p>This code of conduct outlines our expectations for participants within<br>
+the Git community, as well as steps for reporting unacceptable behavior.<br>
+We are committed to providing a welcoming and inspiring community for<br>
+all and expect our code of conduct to be honored. Anyone who violates<br>
+this code of conduct may be banned from the community.</p>
+<h2 id="our-pledge"><a class="markdownIt-Anchor" href="#our-pledge"></a> Our Pledge</h2>
+<p>We as members, contributors, and leaders pledge to make participation in our<br>
+community a harassment-free experience for everyone, regardless of age, body<br>
+size, visible or invisible disability, ethnicity, sex characteristics, gender<br>
+identity and expression, level of experience, education, socio-economic status,<br>
+nationality, personal appearance, race, religion, or sexual identity<br>
+and orientation.</p>
+<p>We pledge to act and interact in ways that contribute to an open, welcoming,<br>
+diverse, inclusive, and healthy community.</p>
+<h2 id="our-standards"><a class="markdownIt-Anchor" href="#our-standards"></a> Our Standards</h2>
+<p>Examples of behavior that contributes to a positive environment for our<br>
+community include:</p>
+<ul>
+<li>Demonstrating empathy and kindness toward other people</li>
+<li>Being respectful of differing opinions, viewpoints, and experiences</li>
+<li>Giving and gracefully accepting constructive feedback</li>
+<li>Accepting responsibility and apologizing to those affected by our mistakes,<br>
+and learning from the experience</li>
+<li>Focusing on what is best not just for us as individuals, but for the<br>
+overall community</li>
+</ul>
+<p>Examples of unacceptable behavior include:</p>
+<ul>
+<li>The use of sexualized language or imagery, and sexual attention or<br>
+advances of any kind</li>
+<li>Trolling, insulting or derogatory comments, and personal or political attacks</li>
+<li>Public or private harassment</li>
+<li>Publishing others’ private information, such as a physical or email<br>
+address, without their explicit permission</li>
+<li>Other conduct which could reasonably be considered inappropriate in a<br>
+professional setting</li>
+</ul>
+<h2 id="enforcement-responsibilities"><a class="markdownIt-Anchor" href="#enforcement-responsibilities"></a> Enforcement Responsibilities</h2>
+<p>Community leaders are responsible for clarifying and enforcing our standards of<br>
+acceptable behavior and will take appropriate and fair corrective action in<br>
+response to any behavior that they deem inappropriate, threatening, offensive,<br>
+or harmful.</p>
+<p>Community leaders have the right and responsibility to remove, edit, or reject<br>
+comments, commits, code, wiki edits, issues, and other contributions that are<br>
+not aligned to this Code of Conduct, and will communicate reasons for moderation<br>
+decisions when appropriate.</p>
+<h2 id="scope"><a class="markdownIt-Anchor" href="#scope"></a> Scope</h2>
+<p>This Code of Conduct applies within all community spaces, and also applies when<br>
+an individual is officially representing the community in public spaces.<br>
+Examples of representing our community include using an official e-mail address,<br>
+posting via an official social media account, or acting as an appointed<br>
+representative at an online or offline event.</p>
+<h2 id="enforcement"><a class="markdownIt-Anchor" href="#enforcement"></a> Enforcement</h2>
+<p>Instances of abusive, harassing, or otherwise unacceptable behavior may be<br>
+reported to the community leaders responsible for enforcement at<br>
+<span class="exturl" data-url="bWFpbHRvOmdpdEBzZmNvbnNlcnZhbmN5Lm9yZw==">git@sfconservancy.org<i class="fa fa-external-link-alt"></i></span>, or individually:</p>
+<ul>
+<li>Ævar Arnfjörð Bjarmason <span class="exturl" data-url="bWFpbHRvOmF2YXJhYkBnbWFpbC5jb20=">avarab@gmail.com<i class="fa fa-external-link-alt"></i></span></li>
+<li>Christian Couder <span class="exturl" data-url="bWFpbHRvOmNocmlzdGlhbi5jb3VkZXJAZ21haWwuY29t">christian.couder@gmail.com<i class="fa fa-external-link-alt"></i></span></li>
+<li>Junio C Hamano <span class="exturl" data-url="bWFpbHRvOmdpdHN0ZXJAcG9ib3guY29t">gitster@pobox.com<i class="fa fa-external-link-alt"></i></span></li>
+<li>Taylor Blau <span class="exturl" data-url="bWFpbHRvOm1lQHR0YXlsb3JyLmNvbQ==">me@ttaylorr.com<i class="fa fa-external-link-alt"></i></span></li>
+</ul>
+<p>All complaints will be reviewed and investigated promptly and fairly.</p>
+<p>All community leaders are obligated to respect the privacy and security of the<br>
+reporter of any incident.</p>
+<h2 id="enforcement-guidelines"><a class="markdownIt-Anchor" href="#enforcement-guidelines"></a> Enforcement Guidelines</h2>
+<p>Community leaders will follow these Community Impact Guidelines in determining<br>
+the consequences for any action they deem in violation of this Code of Conduct:</p>
+<h3 id="1-correction"><a class="markdownIt-Anchor" href="#1-correction"></a> 1. Correction</h3>
+<p><strong>Community Impact</strong>: Use of inappropriate language or other behavior deemed<br>
+unprofessional or unwelcome in the community.</p>
+<p><strong>Consequence</strong>: A private, written warning from community leaders, providing<br>
+clarity around the nature of the violation and an explanation of why the<br>
+behavior was inappropriate. A public apology may be requested.</p>
+<h3 id="2-warning"><a class="markdownIt-Anchor" href="#2-warning"></a> 2. Warning</h3>
+<p><strong>Community Impact</strong>: A violation through a single incident or series<br>
+of actions.</p>
+<p><strong>Consequence</strong>: A warning with consequences for continued behavior. No<br>
+interaction with the people involved, including unsolicited interaction with<br>
+those enforcing the Code of Conduct, for a specified period of time. This<br>
+includes avoiding interactions in community spaces as well as external channels<br>
+like social media. Violating these terms may lead to a temporary or<br>
+permanent ban.</p>
+<h3 id="3-temporary-ban"><a class="markdownIt-Anchor" href="#3-temporary-ban"></a> 3. Temporary Ban</h3>
+<p><strong>Community Impact</strong>: A serious violation of community standards, including<br>
+sustained inappropriate behavior.</p>
+<p><strong>Consequence</strong>: A temporary ban from any sort of interaction or public<br>
+communication with the community for a specified period of time. No public or<br>
+private interaction with the people involved, including unsolicited interaction<br>
+with those enforcing the Code of Conduct, is allowed during this period.<br>
+Violating these terms may lead to a permanent ban.</p>
+<h3 id="4-permanent-ban"><a class="markdownIt-Anchor" href="#4-permanent-ban"></a> 4. Permanent Ban</h3>
+<p><strong>Community Impact</strong>: Demonstrating a pattern of violation of community<br>
+standards, including sustained inappropriate behavior,  harassment of an<br>
+individual, or aggression toward or disparagement of classes of individuals.</p>
+<p><strong>Consequence</strong>: A permanent ban from any sort of public interaction within<br>
+the community.</p>
+<h2 id="attribution"><a class="markdownIt-Anchor" href="#attribution"></a> Attribution</h2>
+<p>This Code of Conduct is adapted from the <span class="exturl" data-url="aHR0cHM6Ly93d3cuY29udHJpYnV0b3ItY292ZW5hbnQub3Jn">Contributor Covenant<i class="fa fa-external-link-alt"></i></span>,<br>
+version 2.0, available at<br>
+<span class="exturl" data-url="aHR0cHM6Ly93d3cuY29udHJpYnV0b3ItY292ZW5hbnQub3JnL3ZlcnNpb24vMi8wL2NvZGVfb2ZfY29uZHVjdC5odG1s">https://www.contributor-covenant.org/version/2/0/code_of_conduct.html<i class="fa fa-external-link-alt"></i></span>.</p>
+<p>Community Impact Guidelines were inspired by<br>
+<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL21vemlsbGEvZGl2ZXJzaXR5">Mozilla’s code of conduct enforcement ladder<i class="fa fa-external-link-alt"></i></span>.</p>
+<p>For answers to common questions about this code of conduct, see the FAQ at<br>
+<span class="exturl" data-url="aHR0cHM6Ly93d3cuY29udHJpYnV0b3ItY292ZW5hbnQub3JnL2ZhcQ==">https://www.contributor-covenant.org/faq<i class="fa fa-external-link-alt"></i></span>. Translations are available<br>
+at <span class="exturl" data-url="aHR0cHM6Ly93d3cuY29udHJpYnV0b3ItY292ZW5hbnQub3JnL3RyYW5zbGF0aW9ucw==">https://www.contributor-covenant.org/translations<i class="fa fa-external-link-alt"></i></span>.</p>
+
+      </div>
+      
+      
+      
+    </div>
+
+    
+    
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 2021 – 
+    <span itemprop="copyrightYear">2025</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">JingMing</span>
+  </div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+  <div class="powered-by">由 <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & <span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZw==">NexT.Gemini</span> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+</body>
+</html>

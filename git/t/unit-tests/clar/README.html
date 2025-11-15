@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 8.1.1">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <meta name="google-site-verification" content="RXkj03_NJEB6BQbKv13pqogmMUUDEocigQgD68jrly4">
+  <meta name="baidu-site-verification" content="code-epDHY3vWsd">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css" integrity="sha256-VHqXKFhhMxcpubYf9xiWdCiojEbY9NexQ4jh8AxbvcM=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.31/dist/fancybox/fancybox.css" integrity="sha256-gkQVf8UKZgQ0HyuxL/VnacadJ+D2Kox2TCEBuNQg5+w=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/themes/green/pace-theme-minimal.css">
+  <script src="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous" defer></script>
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"satparamita.top","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.26.0","exturl":true,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"always","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":true,"style":"mac"},"fold":{"enable":true,"height":500},"language":false},"bookmark":{"enable":false,"color":"#37c6c0","save":"auto"},"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":"valine","storage":true,"lazyload":false,"nav":null},"stickytabs":true,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"top_n_per_article":-1,"unescape":false,"preload":false}}</script><script src="/js/config.js" defer></script>
+
+    <meta name="description" content="Come out and Clar In Catalan, “clar” means clear, easy to perceive.  Using clar will make it easy to test and make clear the quality of your code.  Historical note Originally the clar project was nam">
+<meta property="og:type" content="website">
+<meta property="og:title" content="SatParamita六到彼岸">
+<meta property="og:url" content="https://satparamita.top/git/t/unit-tests/clar/README.html">
+<meta property="og:site_name" content="SatParamita六到彼岸">
+<meta property="og:description" content="Come out and Clar In Catalan, “clar” means clear, easy to perceive.  Using clar will make it easy to test and make clear the quality of your code.  Historical note Originally the clar project was nam">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2025-11-15T06:01:00.640Z">
+<meta property="article:modified_time" content="2024-11-02T11:04:02.371Z">
+<meta property="article:author" content="JingMing">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://satparamita.top/git/t/unit-tests/clar/README.html">
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"zh-CN","comments":true,"permalink":"https://satparamita.top/git/t/unit-tests/clar/README.html","path":"git/t/unit-tests/clar/README.html","title":""}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title> | SatParamita六到彼岸
+</title>
+  
+
+  <script src="/js/third-party/analytics/baidu-analytics.js" defer></script>
+  <script async src="https://hm.baidu.com/hm.js?de5e4fc67609c77abdc5395ae1d19704"></script>
+
+
+
+
+
+
+
+  
+  <script size="300" alpha="0.6" zIndex="-1" src="https://cdn.jsdelivr.net/npm/ribbon.js@1.0.2/dist/ribbon.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/@next-theme/pjax@0.6.0/pjax.min.js" integrity="sha256-vxLn1tSKWD4dqbMRyv940UYw4sXgMtYcK6reefzZrao=" crossorigin="anonymous" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.31/dist/fancybox/fancybox.umd.js" integrity="sha256-a+H7FYzJv6oU2hfsfDGM2Ohw/cR9v+hPfxHCLdmCrE8=" crossorigin="anonymous" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/lozad@1.16.0/dist/lozad.min.js" integrity="sha256-mOFREFhqmHeQbXpK2lp4nA3qooVgACfh88fpJftLBbc=" crossorigin="anonymous" defer></script>
+<script src="/js/utils.js" defer></script><script src="/js/motion.js" defer></script><script src="/js/sidebar.js" defer></script><script src="/js/next-boot.js" defer></script><script src="/js/pjax.js" defer></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/hexo-generator-searchdb@1.5.0/dist/search.js" integrity="sha256-xFC6PJ82SL9b3WkGjFavNiA9gm5z6UBxWPiu4CYjptg=" crossorigin="anonymous" defer></script>
+<script src="/js/third-party/search/local-search.js" defer></script>
+
+  <script class="next-config" data-name="pdf" type="application/json">{"object_url":{"url":"https://cdn.jsdelivr.net/npm/pdfobject@2.3.1/pdfobject.min.js","integrity":"sha256-jI72I8ZLVflVOisZIOaLvRew3tyvzeu6aZXFm7P7dEo="},"url":"/lib/pdf/web/viewer.html"}</script>
+  <script src="/js/third-party/tags/pdf.js" defer></script>
+
+  <script class="next-config" data-name="mermaid" type="application/json">{"enable":true,"theme":{"light":"default","dark":"dark"},"js":{"url":"https://cdn.jsdelivr.net/npm/mermaid@11.10.1/dist/mermaid.min.js","integrity":"sha256-BmQmdWDS8X2OTbrwELWK366LV6escyWhHHe0XCTU/Hk="}}</script>
+  <script src="/js/third-party/tags/mermaid.js" defer></script>
+
+
+  <script src="/js/third-party/fancybox.js" defer></script>
+
+  <script src="/js/third-party/pace.js" defer></script>
+
+
+  
+  <script data-pjax async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+  <script class="next-config" data-name="leancloud_visitors" type="application/json">{"enable":true,"app_id":"piDvNSzND79W4hAo3JziyuT9-MdYXbMMI","app_key":"G0Mx9qCAmbQw3OQnPzhIXUTx","server_url":null,"security":false}</script>
+  <script src="/js/third-party/statistics/lean-analytics.js" defer></script>
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">false</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha256-UF1fgpAiu3tPJN/uCqEUHNe7pnr+QR0SQDNfgglgtcM=" crossorigin="anonymous">
+  <script class="next-config" data-name="katex" type="application/json">{"copy_tex_js":{"url":"https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/copy-tex.min.js","integrity":"sha256-Us54+rSGDSTvIhKKUs4kygE2ipA0RXpWWh0/zLqw3bs="}}</script>
+  <script src="/js/third-party/math/katex.js" defer></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/quicklink@3.0.1/dist/quicklink.umd.js" integrity="sha256-44BednzIpUeQJcY8qtLyarFu0UCCTbgmWOvaoehiFQQ=" crossorigin="anonymous" defer></script>
+  <script class="next-config" data-name="quicklink" type="application/json">{"enable":true,"home":true,"archive":true,"delay":true,"timeout":3000,"priority":true,"url":"https://satparamita.top/git/t/unit-tests/clar/README.html"}</script>
+  <script src="/js/third-party/quicklink.js" defer></script>
+<script async src="/lib/fireworks.js"></script>
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">SatParamita六到彼岸</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">诵持三藏经律论 勤修六度波罗蜜</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>日志<span class="badge">13</span></a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">8</span></a></li><li class="menu-item menu-item-treasure"><a href="/treasure/" rel="section"><i class="fa fa-chalkboard fa-fw"></i>宝藏</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>生活</a></li><li class="menu-item menu-item-photo"><a href="/photo/" rel="section"><i class="fa fa-camera fa-fw"></i>相册</a></li><li class="menu-item menu-item-links"><a href="/links/" rel="section"><i class="fa fa-link fa-fw"></i>朋友</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+      <div class="search-header">
+        <span class="search-icon">
+          <i class="fa fa-search"></i>
+        </span>
+        <div class="search-input-container">
+          <input autocomplete="off" autocapitalize="off" maxlength="80"
+                placeholder="搜索..." spellcheck="false"
+                type="search" class="search-input">
+        </div>
+        <span class="popup-btn-close" role="button">
+          <i class="fa fa-times-circle"></i>
+        </span>
+      </div>
+      <div class="search-result-container">
+        <div class="search-result-icon">
+          <i class="fa fa-spinner fa-pulse fa-5x"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#come-out-and-clar"><span class="nav-number">1.</span> <span class="nav-text"> Come out and Clar</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#quick-usage-overview"><span class="nav-number">1.1.</span> <span class="nav-text"> Quick Usage Overview</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#the-clar-test-suite"><span class="nav-number">1.2.</span> <span class="nav-text"> The Clar Test Suite</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#how-does-clar-work"><span class="nav-number">1.3.</span> <span class="nav-text"> How does Clar work?</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#fixtures"><span class="nav-number">1.3.1.</span> <span class="nav-text"> Fixtures</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#the-clar-api"><span class="nav-number">1.4.</span> <span class="nav-text"> The Clar API</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#about-clar"><span class="nav-number">2.</span> <span class="nav-text"> About Clar</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="JingMing"
+      src="/images/my.jpg">
+  <p class="site-author-name" itemprop="name">JingMing</p>
+  <div class="site-description" itemprop="description">出家清信士</div>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="aHR0cHM6Ly9tYWlsLnFxLmNvbS9jZ2ktYmluL3FtX3NoYXJlP3Q9cW1fbWFpbG1lJmVtYWlsPWppbmdtaW5nMjE1QDEzOS5jb20=" title="邮件 → https:&#x2F;&#x2F;mail.qq.com&#x2F;cgi-bin&#x2F;qm_share?t&#x3D;qm_mailme&amp;email&#x3D;jingming215@139.com"><i class="fa fa-envelope fa-fw"></i>邮件</span>
+      </span>
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="aHR0cHM6Ly93d3cuemhpaHUuY29t" title="知乎 → https:&#x2F;&#x2F;www.zhihu.com"><i class="fab fa-zhihu fa-fw"></i>知乎</span>
+      </span>
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="c2t5cGU6eW91cm5hbWU/Y2FsbHxjaGF0" title="Skype → skype:yourname?call|chat"><i class="fab fa-skype fa-fw"></i>Skype</span>
+      </span>
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="aHR0cHM6Ly93ZWliby5jb20=" title="微博 → https:&#x2F;&#x2F;weibo.com"><i class="fab fa-weibo fa-fw"></i>微博</span>
+      </span>
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="aHR0cHM6Ly95b3V0dWJlLmNvbQ==" title="YouTube → https:&#x2F;&#x2F;youtube.com"><i class="fab fa-youtube fa-fw"></i>YouTube</span>
+      </span>
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29t" title="GitHub → https:&#x2F;&#x2F;github.com"><i class="fab fa-github fa-fw"></i>GitHub</span>
+      </span>
+  </div>
+
+        </div>
+      </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner page posts-expand">
+
+
+    
+    
+    
+    <div class="post-block" lang="zh-CN"><header class="post-header">
+
+<h1 class="post-title" itemprop="name headline">
+</h1>
+
+<div class="post-meta-container">
+  <ul class="breadcrumb">
+            <li><a href="/git/">GIT</a></li>
+            <li><a href="/git/t/">T</a></li>
+            <li><a href="/git/t/unit-tests/">UNIT-TESTS</a></li>
+            <li><a href="/git/t/unit-tests/clar/">CLAR</a></li>
+            <li>README</li>
+  </ul>
+</div>
+
+</header>
+
+      
+      
+      
+      <div class="post-body">
+          <h1 id="come-out-and-clar"><a class="markdownIt-Anchor" href="#come-out-and-clar"></a> Come out and Clar</h1>
+<p>In Catalan, “clar” means clear, easy to perceive.  Using clar will make it<br>
+easy to test and make clear the quality of your code.</p>
+<blockquote>
+<p><em>Historical note</em></p>
+<p>Originally the clar project was named “clay” because the word “test” has its<br>
+roots in the latin word <em>“testum”</em>, meaning “earthen pot”, and <em>“testa”</em>,<br>
+meaning “piece of burned clay”?</p>
+<p>This is because historically, testing implied melting metal in a pot to<br>
+check its quality.  Clay is what tests are made of.</p>
+</blockquote>
+<h2 id="quick-usage-overview"><a class="markdownIt-Anchor" href="#quick-usage-overview"></a> Quick Usage Overview</h2>
+<p>Clar is a minimal C unit testing framework. It’s been written to replace the<br>
+old framework in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2xpYmdpdDIvbGliZ2l0Mg==">libgit2<i class="fa fa-external-link-alt"></i></span>, but it’s both very versatile and<br>
+straightforward to use.</p>
+<p>Can you count to funk?</p>
+<ul>
+<li>
+<p><strong>Zero: Initialize test directory</strong></p>
+  <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">mkdir</span> tests</span><br><span class="line">$ <span class="built_in">cp</span> -r <span class="variable">$CLAR_ROOT</span>/clar* tests</span><br><span class="line">$ <span class="built_in">cp</span> <span class="variable">$CLAR_ROOT</span>/test/clar_test.h tests</span><br><span class="line">$ <span class="built_in">cp</span> <span class="variable">$CLAR_ROOT</span>/test/main.c.sample tests/main.c</span><br></pre></td></tr></table></figure>
+</li>
+<li>
+<p><strong>One: Write some tests</strong></p>
+<p>File: tests/adding.c:</p>
+  <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line">    <span class="comment">/* adding.c for the &quot;Adding&quot; suite */</span></span><br><span class="line">    <span class="meta">#<span class="keyword">include</span> <span class="string">&quot;clar.h&quot;</span></span></span><br><span class="line"></span><br><span class="line">    <span class="type">static</span> <span class="type">int</span> *answer;</span><br><span class="line"></span><br><span class="line">    <span class="type">void</span> <span class="title function_">test_adding__initialize</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">    &#123;</span><br><span class="line">        answer = <span class="built_in">malloc</span>(<span class="keyword">sizeof</span>(<span class="type">int</span>));</span><br><span class="line">        cl_assert_(answer != <span class="literal">NULL</span>, <span class="string">&quot;No memory left?&quot;</span>);</span><br><span class="line">        *answer = <span class="number">42</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="type">void</span> <span class="title function_">test_adding__cleanup</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="built_in">free</span>(answer);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="type">void</span> <span class="title function_">test_adding__make_sure_math_still_works</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">    &#123;</span><br><span class="line">        cl_assert_(<span class="number">5</span> &gt; <span class="number">3</span>, <span class="string">&quot;Five should probably be greater than three&quot;</span>);</span><br><span class="line">        cl_assert_(<span class="number">-5</span> &lt; <span class="number">2</span>, <span class="string">&quot;Negative numbers are small, I think&quot;</span>);</span><br><span class="line">        cl_assert_(*answer == <span class="number">42</span>, <span class="string">&quot;The universe is doing OK. And the initializer too.&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    ~~~~~</span><br><span class="line"></span><br><span class="line">- **Two: Build the test executable**</span><br><span class="line"></span><br><span class="line">    ~~~~ sh</span><br><span class="line">    $ cd tests</span><br><span class="line">    $ $CLAR_PATH/generate.py .</span><br><span class="line">    Written `clar.suite` (<span class="number">1</span> suites)</span><br><span class="line">    $ gcc -I. clar.c main.c adding.c -o testit</span><br></pre></td></tr></table></figure>
+</li>
+<li>
+<p><strong>Funk: Funk it.</strong></p>
+  <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ./testit</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="the-clar-test-suite"><a class="markdownIt-Anchor" href="#the-clar-test-suite"></a> The Clar Test Suite</h2>
+<p>Writing a test suite is pretty straightforward. Each test suite is a <code>*.c</code><br>
+file with a descriptive name: this encourages modularity.</p>
+<p>Each test suite has optional initialize and cleanup methods. These methods<br>
+will be called before and after running <strong>each</strong> test in the suite, even if<br>
+such test fails. As a rule of thumb, if a test needs a different initializer<br>
+or cleanup method than another test in the same module, that means it<br>
+doesn’t belong in that module. Keep that in mind when grouping tests<br>
+together.</p>
+<p>The <code>initialize</code> and <code>cleanup</code> methods have the following syntax, with<br>
+<code>suitename</code> being the current suite name, e.g. <code>adding</code> for the <code>adding.c</code><br>
+suite.</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">test_suitename__initialize</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">/* init */</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">test_suitename__cleanup</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">/* cleanup */</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>These methods are encouraged to use static, global variables to store the state<br>
+that will be used by all tests inside the suite.</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">static</span> git_repository *_repository;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">test_status__initialize</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    create_tmp_repo(STATUS_REPO);</span><br><span class="line">    git_repository_open(_repository, STATUS_REPO);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">test_status__cleanup</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    git_repository_close(_repository);</span><br><span class="line">    git_path_rm(STATUS_REPO);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">test_status__simple_test</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">/* do something with _repository */</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>Writing the actual tests is just as straightforward. Tests have the<br>
+<code>void test_suitename__test_name(void)</code> signature, and they should <strong>not</strong><br>
+be static. Clar will automatically detect and list them.</p>
+<p>Tests are run as they appear on their original suites: they have no return<br>
+value. A test is considered “passed” if it doesn’t raise any errors. Check<br>
+the “Clar API” section to see the various helper functions to check and<br>
+raise errors during test execution.</p>
+<p><strong>Caution:</strong> If you use assertions inside of <code>test_suitename__initialize</code>,<br>
+make sure that you do not rely on <code>__initialize</code> being completely run<br>
+inside your <code>test_suitename__cleanup</code> function. Otherwise you might<br>
+encounter ressource cleanup twice.</p>
+<h2 id="how-does-clar-work"><a class="markdownIt-Anchor" href="#how-does-clar-work"></a> How does Clar work?</h2>
+<p>To use Clar:</p>
+<ol>
+<li>copy the Clar boilerplate to your test directory</li>
+<li>copy (and probably modify) the sample <code>main.c</code> (from<br>
+<code>$CLAR_PATH/test/main.c.sample</code>)</li>
+<li>run the Clar mixer (a.k.a. <code>generate.py</code>) to scan your test directory and<br>
+write out the test suite metadata.</li>
+<li>compile your test files and the Clar boilerplate into a single test<br>
+executable</li>
+<li>run the executable to test!</li>
+</ol>
+<p>The Clar boilerplate gives you a set of useful test assertions and features<br>
+(like accessing or making sandbox copies of fixture data).  It consists of<br>
+the <code>clar.c</code> and <code>clar.h</code> files, plus the code in the <code>clar/</code> subdirectory.<br>
+You should not need to edit these files.</p>
+<p>The sample <code>main.c</code> (i.e. <code>$CLAR_PATH/test/main.c.sample</code>) file invokes<br>
+<code>clar_test(argc, argv)</code> to run the tests.  Usually, you will edit this file<br>
+to perform any framework specific initialization and teardown that you need.</p>
+<p>The Clar mixer (<code>generate.py</code>) recursively scans your test directory for<br>
+any <code>.c</code> files, parses them, and writes the <code>clar.suite</code> file with all of<br>
+the metadata about your tests.  When you build, the <code>clar.suite</code> file is<br>
+included into <code>clar.c</code>.</p>
+<p>The mixer can be run with <strong>Python 2.5, 2.6, 2.7, 3.0, 3.1, 3.2 and PyPy 1.6</strong>.</p>
+<p>Commandline usage of the mixer is as follows:</p>
+<pre><code>$ ./generate.py .
+</code></pre>
+<p>Where <code>.</code> is the folder where all the test suites can be found. The mixer<br>
+will automatically locate all the relevant source files and build the<br>
+testing metadata. The metadata will be written to <code>clar.suite</code>, in the same<br>
+folder as all the test suites. This file is included by <code>clar.c</code> and so<br>
+must be accessible via <code>#include</code> when building the test executable.</p>
+<pre><code>$ gcc -I. clar.c main.c suite1.c test2.c -o run_tests
+</code></pre>
+<p><strong>Note that the Clar mixer only needs to be ran when adding new tests to a<br>
+suite, in order to regenerate the metadata</strong>. As a result, the <code>clar.suite</code><br>
+file can be checked into version control if you wish to be able to build<br>
+your test suite without having to re-run the mixer.</p>
+<p>This is handy when e.g. generating tests in a local computer, and then<br>
+building and testing them on an embedded device or a platform where Python<br>
+is not available.</p>
+<h3 id="fixtures"><a class="markdownIt-Anchor" href="#fixtures"></a> Fixtures</h3>
+<p>Clar can create sandboxed fixtures for you to use in your test. You’ll need to compile <em>clar.c</em> with an additional <code>CFLAG</code>, <code>-DCLAR_FIXTURE_PATH</code>. This should be an absolute path to your fixtures directory.</p>
+<p>Once that’s done, you can use the fixture API as defined below.</p>
+<h2 id="the-clar-api"><a class="markdownIt-Anchor" href="#the-clar-api"></a> The Clar API</h2>
+<p>Clar makes the following methods available from all functions in a test<br>
+suite.</p>
+<ul>
+<li>
+<p><code>cl_must_pass(call)</code>, <code>cl_must_pass_(call, message)</code>: Verify that the given<br>
+function call passes, in the POSIX sense (returns a value greater or equal<br>
+to 0).</p>
+</li>
+<li>
+<p><code>cl_must_fail(call)</code>, <code>cl_must_fail_(call, message)</code>: Verify that the given<br>
+function call fails, in the POSIX sense (returns a value less than 0).</p>
+</li>
+<li>
+<p><code>cl_assert(expr)</code>, <code>cl_assert_(expr, message)</code>: Verify that <code>expr</code> is true.</p>
+</li>
+<li>
+<p><code>cl_check_pass(call)</code>, <code>cl_check_pass_(call, message)</code>: Verify that the<br>
+given function call passes, in the POSIX sense (returns a value greater or<br>
+equal to 0). If the function call doesn’t succeed, a test failure will be<br>
+logged but the test’s execution will continue.</p>
+</li>
+<li>
+<p><code>cl_check_fail(call)</code>, <code>cl_check_fail_(call, message)</code>: Verify that the<br>
+given function call fails, in the POSIX sense (returns a value less than<br>
+0). If the function call doesn’t fail, a test failure will be logged but<br>
+the test’s execution will continue.</p>
+</li>
+<li>
+<p><code>cl_check(expr)</code>: Verify that <code>expr</code> is true. If <code>expr</code> is not<br>
+true, a test failure will be logged but the test’s execution will continue.</p>
+</li>
+<li>
+<p><code>cl_fail(message)</code>: Fail the current test with the given message.</p>
+</li>
+<li>
+<p><code>cl_warning(message)</code>: Issue a warning. This warning will be<br>
+logged as a test failure but the test’s execution will continue.</p>
+</li>
+<li>
+<p><code>cl_set_cleanup(void (*cleanup)(void *), void *opaque)</code>: Set the cleanup<br>
+method for a single test. This method will be called with <code>opaque</code> as its<br>
+argument before the test returns (even if the test has failed).<br>
+If a global cleanup method is also available, the local cleanup will be<br>
+called first, and then the global.</p>
+</li>
+<li>
+<p><code>cl_assert_equal_i(int,int)</code>: Verify that two integer values are equal.<br>
+The advantage of this over a simple <code>cl_assert</code> is that it will format<br>
+a much nicer error report if the values are not equal.</p>
+</li>
+<li>
+<p><code>cl_assert_equal_s(const char *,const char *)</code>: Verify that two strings<br>
+are equal.  The expected value can also be NULL and this will correctly<br>
+test for that.</p>
+</li>
+<li>
+<p><code>cl_fixture_sandbox(const char *)</code>: Sets up a sandbox for a fixture<br>
+so that you can mutate the file directly.</p>
+</li>
+<li>
+<p><code>cl_fixture_cleanup(const char *)</code>: Tears down the previous fixture<br>
+sandbox.</p>
+</li>
+<li>
+<p><code>cl_fixture(const char *)</code>: Gets the full path to a fixture file.</p>
+</li>
+</ul>
+<p>Please do note that these methods are <em>always</em> available whilst running a<br>
+test, even when calling auxiliary/static functions inside the same file.</p>
+<p>It’s strongly encouraged to perform test assertions in auxiliary methods,<br>
+instead of returning error values. This is considered good Clar style.</p>
+<p>Style Example:</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment"> * Bad style: auxiliary functions return an error code</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"></span><br><span class="line"><span class="type">static</span> <span class="type">int</span> <span class="title function_">check_string</span><span class="params">(<span class="type">const</span> <span class="type">char</span> *str)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">const</span> <span class="type">char</span> *aux = process_string(str);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (aux == <span class="literal">NULL</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="number">-1</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">strcmp</span>(my_function(aux), str) == <span class="number">0</span> ? <span class="number">0</span> : <span class="number">-1</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">test_example__a_test_with_auxiliary_methods</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    cl_must_pass_(</span><br><span class="line">        check_string(<span class="string">&quot;foo&quot;</span>),</span><br><span class="line">        <span class="string">&quot;String differs after processing&quot;</span></span><br><span class="line">    );</span><br><span class="line"></span><br><span class="line">    cl_must_pass_(</span><br><span class="line">        check_string(<span class="string">&quot;bar&quot;</span>),</span><br><span class="line">        <span class="string">&quot;String differs after processing&quot;</span></span><br><span class="line">    );</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment"> * Good style: auxiliary functions perform assertions</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"></span><br><span class="line"><span class="type">static</span> <span class="type">void</span> <span class="title function_">check_string</span><span class="params">(<span class="type">const</span> <span class="type">char</span> *str)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">const</span> <span class="type">char</span> *aux = process_string(str);</span><br><span class="line"></span><br><span class="line">    cl_assert_(</span><br><span class="line">        aux != <span class="literal">NULL</span>,</span><br><span class="line">        <span class="string">&quot;String processing failed&quot;</span></span><br><span class="line">    );</span><br><span class="line"></span><br><span class="line">    cl_assert_(</span><br><span class="line">        <span class="built_in">strcmp</span>(my_function(aux), str) == <span class="number">0</span>,</span><br><span class="line">        <span class="string">&quot;String differs after processing&quot;</span></span><br><span class="line">    );</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">test_example__a_test_with_auxiliary_methods</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    check_string(<span class="string">&quot;foo&quot;</span>);</span><br><span class="line">    check_string(<span class="string">&quot;bar&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="about-clar"><a class="markdownIt-Anchor" href="#about-clar"></a> About Clar</h1>
+<p>Clar has been written from scratch by <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3ZtZw==">Vicent Martí<i class="fa fa-external-link-alt"></i></span>,<br>
+to replace the old testing framework in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2xpYmdpdDIvbGliZ2l0Mg==">libgit2<i class="fa fa-external-link-alt"></i></span>.</p>
+<p>Do you know what languages are <em>in</em> on the SF startup scene? Node.js <em>and</em><br>
+Latin.  Follow <span class="exturl" data-url="aHR0cHM6Ly93d3cudHdpdHRlci5jb20vdm1n">@vmg<i class="fa fa-external-link-alt"></i></span> on Twitter to<br>
+receive more lessons on word etymology. You can be hip too.</p>
+
+      </div>
+      
+      
+      
+    </div>
+  <ul class="breadcrumb">
+            <li><a href="/git/">GIT</a></li>
+            <li><a href="/git/t/">T</a></li>
+            <li><a href="/git/t/unit-tests/">UNIT-TESTS</a></li>
+            <li><a href="/git/t/unit-tests/clar/">CLAR</a></li>
+            <li>README</li>
+  </ul>
+
+    
+    
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 2021 – 
+    <span itemprop="copyrightYear">2025</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">JingMing</span>
+  </div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+  <div class="powered-by">由 <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & <span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZw==">NexT.Gemini</span> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+</body>
+</html>

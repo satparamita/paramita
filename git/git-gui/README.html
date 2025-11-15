@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 8.1.1">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <meta name="google-site-verification" content="RXkj03_NJEB6BQbKv13pqogmMUUDEocigQgD68jrly4">
+  <meta name="baidu-site-verification" content="code-epDHY3vWsd">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css" integrity="sha256-VHqXKFhhMxcpubYf9xiWdCiojEbY9NexQ4jh8AxbvcM=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.31/dist/fancybox/fancybox.css" integrity="sha256-gkQVf8UKZgQ0HyuxL/VnacadJ+D2Kox2TCEBuNQg5+w=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/themes/green/pace-theme-minimal.css">
+  <script src="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous" defer></script>
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"satparamita.top","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.26.0","exturl":true,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"always","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":true,"style":"mac"},"fold":{"enable":true,"height":500},"language":false},"bookmark":{"enable":false,"color":"#37c6c0","save":"auto"},"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":"valine","storage":true,"lazyload":false,"nav":null},"stickytabs":true,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"top_n_per_article":-1,"unescape":false,"preload":false}}</script><script src="/js/config.js" defer></script>
+
+    <meta name="description" content="Git GUI - A graphical user interface for Git Git GUI allows you to use the Git source control management tools via a GUI. This includes staging, committing, adding, pushing, etc. It can also be used">
+<meta property="og:type" content="website">
+<meta property="og:title" content="SatParamita六到彼岸">
+<meta property="og:url" content="https://satparamita.top/git/git-gui/README.html">
+<meta property="og:site_name" content="SatParamita六到彼岸">
+<meta property="og:description" content="Git GUI - A graphical user interface for Git Git GUI allows you to use the Git source control management tools via a GUI. This includes staging, committing, adding, pushing, etc. It can also be used">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2025-11-15T06:01:00.402Z">
+<meta property="article:modified_time" content="2024-11-02T11:04:01.167Z">
+<meta property="article:author" content="JingMing">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://satparamita.top/git/git-gui/README.html">
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"zh-CN","comments":true,"permalink":"https://satparamita.top/git/git-gui/README.html","path":"git/git-gui/README.html","title":""}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title> | SatParamita六到彼岸
+</title>
+  
+
+  <script src="/js/third-party/analytics/baidu-analytics.js" defer></script>
+  <script async src="https://hm.baidu.com/hm.js?de5e4fc67609c77abdc5395ae1d19704"></script>
+
+
+
+
+
+
+
+  
+  <script size="300" alpha="0.6" zIndex="-1" src="https://cdn.jsdelivr.net/npm/ribbon.js@1.0.2/dist/ribbon.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/@next-theme/pjax@0.6.0/pjax.min.js" integrity="sha256-vxLn1tSKWD4dqbMRyv940UYw4sXgMtYcK6reefzZrao=" crossorigin="anonymous" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.31/dist/fancybox/fancybox.umd.js" integrity="sha256-a+H7FYzJv6oU2hfsfDGM2Ohw/cR9v+hPfxHCLdmCrE8=" crossorigin="anonymous" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/lozad@1.16.0/dist/lozad.min.js" integrity="sha256-mOFREFhqmHeQbXpK2lp4nA3qooVgACfh88fpJftLBbc=" crossorigin="anonymous" defer></script>
+<script src="/js/utils.js" defer></script><script src="/js/motion.js" defer></script><script src="/js/sidebar.js" defer></script><script src="/js/next-boot.js" defer></script><script src="/js/pjax.js" defer></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/hexo-generator-searchdb@1.5.0/dist/search.js" integrity="sha256-xFC6PJ82SL9b3WkGjFavNiA9gm5z6UBxWPiu4CYjptg=" crossorigin="anonymous" defer></script>
+<script src="/js/third-party/search/local-search.js" defer></script>
+
+  <script class="next-config" data-name="pdf" type="application/json">{"object_url":{"url":"https://cdn.jsdelivr.net/npm/pdfobject@2.3.1/pdfobject.min.js","integrity":"sha256-jI72I8ZLVflVOisZIOaLvRew3tyvzeu6aZXFm7P7dEo="},"url":"/lib/pdf/web/viewer.html"}</script>
+  <script src="/js/third-party/tags/pdf.js" defer></script>
+
+  <script class="next-config" data-name="mermaid" type="application/json">{"enable":true,"theme":{"light":"default","dark":"dark"},"js":{"url":"https://cdn.jsdelivr.net/npm/mermaid@11.10.1/dist/mermaid.min.js","integrity":"sha256-BmQmdWDS8X2OTbrwELWK366LV6escyWhHHe0XCTU/Hk="}}</script>
+  <script src="/js/third-party/tags/mermaid.js" defer></script>
+
+
+  <script src="/js/third-party/fancybox.js" defer></script>
+
+  <script src="/js/third-party/pace.js" defer></script>
+
+
+  
+  <script data-pjax async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+  <script class="next-config" data-name="leancloud_visitors" type="application/json">{"enable":true,"app_id":"piDvNSzND79W4hAo3JziyuT9-MdYXbMMI","app_key":"G0Mx9qCAmbQw3OQnPzhIXUTx","server_url":null,"security":false}</script>
+  <script src="/js/third-party/statistics/lean-analytics.js" defer></script>
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">false</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha256-UF1fgpAiu3tPJN/uCqEUHNe7pnr+QR0SQDNfgglgtcM=" crossorigin="anonymous">
+  <script class="next-config" data-name="katex" type="application/json">{"copy_tex_js":{"url":"https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/copy-tex.min.js","integrity":"sha256-Us54+rSGDSTvIhKKUs4kygE2ipA0RXpWWh0/zLqw3bs="}}</script>
+  <script src="/js/third-party/math/katex.js" defer></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/quicklink@3.0.1/dist/quicklink.umd.js" integrity="sha256-44BednzIpUeQJcY8qtLyarFu0UCCTbgmWOvaoehiFQQ=" crossorigin="anonymous" defer></script>
+  <script class="next-config" data-name="quicklink" type="application/json">{"enable":true,"home":true,"archive":true,"delay":true,"timeout":3000,"priority":true,"url":"https://satparamita.top/git/git-gui/README.html"}</script>
+  <script src="/js/third-party/quicklink.js" defer></script>
+<script async src="/lib/fireworks.js"></script>
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">SatParamita六到彼岸</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">诵持三藏经律论 勤修六度波罗蜜</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>日志<span class="badge">13</span></a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">8</span></a></li><li class="menu-item menu-item-treasure"><a href="/treasure/" rel="section"><i class="fa fa-chalkboard fa-fw"></i>宝藏</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>生活</a></li><li class="menu-item menu-item-photo"><a href="/photo/" rel="section"><i class="fa fa-camera fa-fw"></i>相册</a></li><li class="menu-item menu-item-links"><a href="/links/" rel="section"><i class="fa fa-link fa-fw"></i>朋友</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+      <div class="search-header">
+        <span class="search-icon">
+          <i class="fa fa-search"></i>
+        </span>
+        <div class="search-input-container">
+          <input autocomplete="off" autocapitalize="off" maxlength="80"
+                placeholder="搜索..." spellcheck="false"
+                type="search" class="search-input">
+        </div>
+        <span class="popup-btn-close" role="button">
+          <i class="fa fa-times-circle"></i>
+        </span>
+      </div>
+      <div class="search-result-container">
+        <div class="search-result-icon">
+          <i class="fa fa-spinner fa-pulse fa-5x"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#git-gui-a-graphical-user-interface-for-git"><span class="nav-number">1.</span> <span class="nav-text"> Git GUI - A graphical user interface for Git</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#building-and-installing"><span class="nav-number">2.</span> <span class="nav-text"> Building and installing</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#contributing"><span class="nav-number">3.</span> <span class="nav-text"> Contributing</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#sending-your-changes"><span class="nav-number">3.1.</span> <span class="nav-text"> Sending your changes</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#using-git-send-email"><span class="nav-number">3.1.1.</span> <span class="nav-text"> Using git-send-email</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#using-your-email-client"><span class="nav-number">3.1.2.</span> <span class="nav-text"> Using your email client</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#using-gitgitgadget"><span class="nav-number">3.1.3.</span> <span class="nav-text"> Using GitGitGadget</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#signing-off"><span class="nav-number">3.2.</span> <span class="nav-text"> Signing off</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#responding-to-review-comments"><span class="nav-number">3.3.</span> <span class="nav-text"> Responding to review comments</span></a></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="JingMing"
+      src="/images/my.jpg">
+  <p class="site-author-name" itemprop="name">JingMing</p>
+  <div class="site-description" itemprop="description">出家清信士</div>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="aHR0cHM6Ly9tYWlsLnFxLmNvbS9jZ2ktYmluL3FtX3NoYXJlP3Q9cW1fbWFpbG1lJmVtYWlsPWppbmdtaW5nMjE1QDEzOS5jb20=" title="邮件 → https:&#x2F;&#x2F;mail.qq.com&#x2F;cgi-bin&#x2F;qm_share?t&#x3D;qm_mailme&amp;email&#x3D;jingming215@139.com"><i class="fa fa-envelope fa-fw"></i>邮件</span>
+      </span>
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="aHR0cHM6Ly93d3cuemhpaHUuY29t" title="知乎 → https:&#x2F;&#x2F;www.zhihu.com"><i class="fab fa-zhihu fa-fw"></i>知乎</span>
+      </span>
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="c2t5cGU6eW91cm5hbWU/Y2FsbHxjaGF0" title="Skype → skype:yourname?call|chat"><i class="fab fa-skype fa-fw"></i>Skype</span>
+      </span>
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="aHR0cHM6Ly93ZWliby5jb20=" title="微博 → https:&#x2F;&#x2F;weibo.com"><i class="fab fa-weibo fa-fw"></i>微博</span>
+      </span>
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="aHR0cHM6Ly95b3V0dWJlLmNvbQ==" title="YouTube → https:&#x2F;&#x2F;youtube.com"><i class="fab fa-youtube fa-fw"></i>YouTube</span>
+      </span>
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29t" title="GitHub → https:&#x2F;&#x2F;github.com"><i class="fab fa-github fa-fw"></i>GitHub</span>
+      </span>
+  </div>
+
+        </div>
+      </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner page posts-expand">
+
+
+    
+    
+    
+    <div class="post-block" lang="zh-CN"><header class="post-header">
+
+<h1 class="post-title" itemprop="name headline">
+</h1>
+
+<div class="post-meta-container">
+  <ul class="breadcrumb">
+            <li><a href="/git/">GIT</a></li>
+            <li><a href="/git/git-gui/">GIT-GUI</a></li>
+            <li>README</li>
+  </ul>
+</div>
+
+</header>
+
+      
+      
+      
+      <div class="post-body">
+          <h1 id="git-gui-a-graphical-user-interface-for-git"><a class="markdownIt-Anchor" href="#git-gui-a-graphical-user-interface-for-git"></a> Git GUI - A graphical user interface for Git</h1>
+<p>Git GUI allows you to use the <a target="_blank" rel="noopener" href="https://git-scm.com/">Git source control management<br>
+tools</a> via a GUI. This includes staging, committing,<br>
+adding, pushing, etc. It can also be used as a blame viewer, a tree browser,<br>
+and a citool (make exactly one commit before exiting and returning to shell).<br>
+More details about Git GUI can be found in its manual page by either running<br>
+<code>man git-gui</code>, or by visiting the <a target="_blank" rel="noopener" href="https://git-scm.com/docs/git-gui">online manual<br>
+page</a>.</p>
+<p>Git GUI was initially written by Shawn O. Pearce, and is distributed with the<br>
+standard Git installation.</p>
+<h1 id="building-and-installing"><a class="markdownIt-Anchor" href="#building-and-installing"></a> Building and installing</h1>
+<p>You need to have the following dependencies installed before you begin:</p>
+<ul>
+<li>Git</li>
+<li>Tcl</li>
+<li>Tk</li>
+<li>wish</li>
+<li>Gitk (needed for browsing history)</li>
+<li>msgfmt</li>
+</ul>
+<p>Most of Git GUI is written in Tcl, so there is no compilation involved. Still,<br>
+some things do need to be done (mostly some substitutions), so you do need to<br>
+“build” it.</p>
+<p>You can build Git GUI using:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">make</span><br></pre></td></tr></table></figure>
+<p>And then install it using:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">make install</span><br></pre></td></tr></table></figure>
+<p>You probably need to have root/admin permissions to install.</p>
+<h1 id="contributing"><a class="markdownIt-Anchor" href="#contributing"></a> Contributing</h1>
+<p>The project is currently maintained by Johannes Sixt at<br>
+<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2o2dC9naXQtZ3Vp">https://github.com/j6t/git-gui<i class="fa fa-external-link-alt"></i></span>. Even though the project is hosted at<br>
+GitHub, the development does not happen over GitHub Issues and Pull Requests.<br>
+Instead, an email based workflow is used. The Git mailing list<br>
+<span class="exturl" data-url="bWFpbHRvOmdpdEB2Z2VyLmtlcm5lbC5vcmc=">git@vger.kernel.org<i class="fa fa-external-link-alt"></i></span> is where the patches are<br>
+discussed and reviewed.</p>
+<p>More information about the Git mailing list and instructions to subscribe can<br>
+be found <span class="exturl" data-url="aHR0cHM6Ly9naXQud2lraS5rZXJuZWwub3JnL2luZGV4LnBocC9HaXRDb21tdW5pdHk=">here<i class="fa fa-external-link-alt"></i></span>.</p>
+<h2 id="sending-your-changes"><a class="markdownIt-Anchor" href="#sending-your-changes"></a> Sending your changes</h2>
+<p>Since the development happens over email, you need to send in your commits in<br>
+text format. Commits can be converted to emails via the two tools provided by<br>
+Git: <code>git-send-email</code> and <code>git-format-patch</code>.</p>
+<p>You can use <code>git-format-patch</code> to generate patches in mbox format from your<br>
+commits that can then be sent via email. Let’s say you are working on a branch<br>
+called ‘foo’ that was created on top of ‘master’. You can run:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git format-patch -o output_dir master..foo</span><br></pre></td></tr></table></figure>
+<p>to convert all the extra commits in ‘foo’ into a set of patches saved in the<br>
+folder <code>output_dir</code>.</p>
+<p>If you are sending multiple patches, it is recommended to include a cover<br>
+letter. A cover letter is an email explaining in brief what the series is<br>
+supposed to do. A cover letter template can be generated by passing<br>
+<code>--cover-letter</code> to <code>git-format-patch</code>.</p>
+<p>After you send your patches, you might get a review suggesting some changes.<br>
+Make those changes, and re-send your patch(es) in reply to the first patch of<br>
+your initial version. Also please mention the version of the patch. This can be<br>
+done by passing <code>-v X</code> to <code>git-format-patch</code>, where ‘X’ is the version number<br>
+of the patch(es).</p>
+<h3 id="using-git-send-email"><a class="markdownIt-Anchor" href="#using-git-send-email"></a> Using git-send-email</h3>
+<p>You can use <code>git-send-email</code> to send patches generated via <code>git-format-patch</code>.<br>
+While you can directly send patches via <code>git-send-email</code>, it is recommended<br>
+that you first use <code>git-format-patch</code> to generate the emails, audit them, and<br>
+then send them via <code>git-send-email</code>.</p>
+<p>A pretty good guide to configuring and using <code>git-send-email</code> can be found<br>
+<span class="exturl" data-url="aHR0cHM6Ly93d3cuZnJlZWRlc2t0b3Aub3JnL3dpa2kvU29mdHdhcmUvUHVsc2VBdWRpby9Ib3dUb1VzZUdpdFNlbmRFbWFpbC8=">here<i class="fa fa-external-link-alt"></i></span>.</p>
+<h3 id="using-your-email-client"><a class="markdownIt-Anchor" href="#using-your-email-client"></a> Using your email client</h3>
+<p>If your email client supports sending mbox format emails, you can use<br>
+<code>git-format-patch</code> to get an mbox file for each commit, and then send them. If<br>
+there is more than one patch in the series, then all patches after the first<br>
+patch (or the cover letter) need to be sent as replies to the first.<br>
+<code>git-send-email</code> does this by default.</p>
+<h3 id="using-gitgitgadget"><a class="markdownIt-Anchor" href="#using-gitgitgadget"></a> Using GitGitGadget</h3>
+<p>Since some people prefer a GitHub pull request based workflow, they can use<br>
+<span class="exturl" data-url="aHR0cHM6Ly9naXRnaXRnYWRnZXQuZ2l0aHViLmlvLw==">GitGitGadget<i class="fa fa-external-link-alt"></i></span> to send in patches. The tool<br>
+was originally written for sending patches to the Git project, but it now also<br>
+supports sending patches for git-gui.</p>
+<p>Instructions for using GitGitGadget to send git-gui patches, courtesy of<br>
+Johannes Schindelin:</p>
+<p>If you don’t already have a fork of the <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2dpdC9naXQ=">git/git<i class="fa fa-external-link-alt"></i></span><br>
+repo, you need to make one. Then clone your fork:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/&lt;your-username&gt;/git</span><br></pre></td></tr></table></figure>
+<p>Then add GitGitGadget as a remote:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote add gitgitgadget https://github.com/gitgitgadget/git</span><br></pre></td></tr></table></figure>
+<p>Then fetch the git-gui branch:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git fetch gitgitgadget git-gui/master</span><br></pre></td></tr></table></figure>
+<p>Then create a new branch based on git-gui/master:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout -b &lt;your-branch-name&gt; git-gui/master</span><br></pre></td></tr></table></figure>
+<p>Make whatever commits you need to, push them to your fork, and then head over<br>
+to <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2dpdGdpdGdhZGdldC9naXQvcHVsbHM=">https://github.com/gitgitgadget/git/pulls<i class="fa fa-external-link-alt"></i></span> and open a Pull Request targeting<br>
+git-gui/master.</p>
+<p>GitGitGadget will welcome you with a (hopefully) helpful message.</p>
+<h2 id="signing-off"><a class="markdownIt-Anchor" href="#signing-off"></a> Signing off</h2>
+<p>You need to sign off your commits before sending them to the list. You can do<br>
+that by passing the <code>-s</code> option to <code>git-commit</code>. You can also use the “Sign<br>
+Off” option in Git GUI.</p>
+<p>A sign-off is a simple ‘Signed-off-by: A U Thor &lt;author@example.com&gt;’ line at<br>
+the end of the commit message, after your explanation of the commit.</p>
+<p>A sign-off means that you are legally allowed to send the code, and it serves<br>
+as a certificate of origin. More information can be found at<br>
+<span class="exturl" data-url="aHR0cHM6Ly9kZXZlbG9wZXJjZXJ0aWZpY2F0ZS5vcmcv">developercertificate.org<i class="fa fa-external-link-alt"></i></span>.</p>
+<h2 id="responding-to-review-comments"><a class="markdownIt-Anchor" href="#responding-to-review-comments"></a> Responding to review comments</h2>
+<p>It is quite likely your patches will get review comments. Those comments are<br>
+sent on the Git mailing list as replies to your patch, and you will usually be<br>
+Cc’ed in those replies.</p>
+<p>You are expected to respond by either explaining your code further to convince<br>
+the reviewer what you are doing is correct, or acknowledge the comments and<br>
+re-send the patches with those comments addressed.</p>
+<p>Some tips for those not familiar with communication on a mailing list:</p>
+<ul>
+<li>Use only plain text emails. No HTML at all.</li>
+<li>Wrap lines at around 75 characters.</li>
+<li>Do not send attachments. If you do need to send some files, consider using a<br>
+hosting service, and paste the link in your email.</li>
+<li>Do not <span class="exturl" data-url="aHR0cDovL3d3dy5pZGFsbGVuLmNvbS90b3Bwb3N0aW5nLmh0bWw=">top post<i class="fa fa-external-link-alt"></i></span>.</li>
+<li>Always “reply all”. Keep all correspondents and the list in Cc. If you reply<br>
+directly to a reviewer, and not Cc the list, other people would not be able<br>
+to chime in.</li>
+</ul>
+
+      </div>
+      
+      
+      
+    </div>
+  <ul class="breadcrumb">
+            <li><a href="/git/">GIT</a></li>
+            <li><a href="/git/git-gui/">GIT-GUI</a></li>
+            <li>README</li>
+  </ul>
+
+    
+    
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 2021 – 
+    <span itemprop="copyrightYear">2025</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">JingMing</span>
+  </div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+  <div class="powered-by">由 <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & <span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZw==">NexT.Gemini</span> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+</body>
+</html>

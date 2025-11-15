@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 8.1.1">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <meta name="google-site-verification" content="RXkj03_NJEB6BQbKv13pqogmMUUDEocigQgD68jrly4">
+  <meta name="baidu-site-verification" content="code-epDHY3vWsd">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css" integrity="sha256-VHqXKFhhMxcpubYf9xiWdCiojEbY9NexQ4jh8AxbvcM=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.31/dist/fancybox/fancybox.css" integrity="sha256-gkQVf8UKZgQ0HyuxL/VnacadJ+D2Kox2TCEBuNQg5+w=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/themes/green/pace-theme-minimal.css">
+  <script src="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous" defer></script>
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"satparamita.top","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.26.0","exturl":true,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"always","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":true,"style":"mac"},"fold":{"enable":true,"height":500},"language":false},"bookmark":{"enable":false,"color":"#37c6c0","save":"auto"},"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":"valine","storage":true,"lazyload":false,"nav":null},"stickytabs":true,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"top_n_per_article":-1,"unescape":false,"preload":false}}</script><script src="/js/config.js" defer></script>
+
+    <meta name="description" content="更改站名黑色背景  打开Hexo&#x2F;themes&#x2F;next&#x2F;source&#x2F;css&#x2F;_schemes&#x2F;Pisces&#x2F;_header.styl，找到background改为background: $blue-bright;，或者使用渐变色background: linear-gradient(-225deg, #9EFBD3 0%, #57E9F2 48%, #45D4FB 100%)。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Next 主题设置-页面修改 &amp; 自带插件">
+<meta property="og:url" content="https://satparamita.top/p/9c1a2afe.html">
+<meta property="og:site_name" content="SatParamita六到彼岸">
+<meta property="og:description" content="更改站名黑色背景  打开Hexo&#x2F;themes&#x2F;next&#x2F;source&#x2F;css&#x2F;_schemes&#x2F;Pisces&#x2F;_header.styl，找到background改为background: $blue-bright;，或者使用渐变色background: linear-gradient(-225deg, #9EFBD3 0%, #57E9F2 48%, #45D4FB 100%)。">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2021-10-01T16:00:00.000Z">
+<meta property="article:modified_time" content="2024-12-03T03:56:36.999Z">
+<meta property="article:author" content="JingMing">
+<meta property="article:tag" content="next">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://satparamita.top/p/9c1a2afe.html">
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://satparamita.top/p/9c1a2afe.html","path":"p/9c1a2afe.html","title":"Next 主题设置-页面修改 & 自带插件"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>Next 主题设置-页面修改 & 自带插件 | SatParamita六到彼岸</title>
+  
+
+  <script src="/js/third-party/analytics/baidu-analytics.js" defer></script>
+  <script async src="https://hm.baidu.com/hm.js?de5e4fc67609c77abdc5395ae1d19704"></script>
+
+
+
+
+
+
+
+  
+  <script size="300" alpha="0.6" zIndex="-1" src="https://cdn.jsdelivr.net/npm/ribbon.js@1.0.2/dist/ribbon.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/@next-theme/pjax@0.6.0/pjax.min.js" integrity="sha256-vxLn1tSKWD4dqbMRyv940UYw4sXgMtYcK6reefzZrao=" crossorigin="anonymous" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.31/dist/fancybox/fancybox.umd.js" integrity="sha256-a+H7FYzJv6oU2hfsfDGM2Ohw/cR9v+hPfxHCLdmCrE8=" crossorigin="anonymous" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/lozad@1.16.0/dist/lozad.min.js" integrity="sha256-mOFREFhqmHeQbXpK2lp4nA3qooVgACfh88fpJftLBbc=" crossorigin="anonymous" defer></script>
+<script src="/js/utils.js" defer></script><script src="/js/motion.js" defer></script><script src="/js/sidebar.js" defer></script><script src="/js/next-boot.js" defer></script><script src="/js/pjax.js" defer></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/hexo-generator-searchdb@1.5.0/dist/search.js" integrity="sha256-xFC6PJ82SL9b3WkGjFavNiA9gm5z6UBxWPiu4CYjptg=" crossorigin="anonymous" defer></script>
+<script src="/js/third-party/search/local-search.js" defer></script>
+
+  <script class="next-config" data-name="pdf" type="application/json">{"object_url":{"url":"https://cdn.jsdelivr.net/npm/pdfobject@2.3.1/pdfobject.min.js","integrity":"sha256-jI72I8ZLVflVOisZIOaLvRew3tyvzeu6aZXFm7P7dEo="},"url":"/lib/pdf/web/viewer.html"}</script>
+  <script src="/js/third-party/tags/pdf.js" defer></script>
+
+  <script class="next-config" data-name="mermaid" type="application/json">{"enable":true,"theme":{"light":"default","dark":"dark"},"js":{"url":"https://cdn.jsdelivr.net/npm/mermaid@11.10.1/dist/mermaid.min.js","integrity":"sha256-BmQmdWDS8X2OTbrwELWK366LV6escyWhHHe0XCTU/Hk="}}</script>
+  <script src="/js/third-party/tags/mermaid.js" defer></script>
+
+
+  <script src="/js/third-party/fancybox.js" defer></script>
+
+  <script src="/js/third-party/pace.js" defer></script>
+
+
+  
+  <script data-pjax async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+  <script class="next-config" data-name="leancloud_visitors" type="application/json">{"enable":true,"app_id":"piDvNSzND79W4hAo3JziyuT9-MdYXbMMI","app_key":"G0Mx9qCAmbQw3OQnPzhIXUTx","server_url":null,"security":false}</script>
+  <script src="/js/third-party/statistics/lean-analytics.js" defer></script>
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">false</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha256-UF1fgpAiu3tPJN/uCqEUHNe7pnr+QR0SQDNfgglgtcM=" crossorigin="anonymous">
+  <script class="next-config" data-name="katex" type="application/json">{"copy_tex_js":{"url":"https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/copy-tex.min.js","integrity":"sha256-Us54+rSGDSTvIhKKUs4kygE2ipA0RXpWWh0/zLqw3bs="}}</script>
+  <script src="/js/third-party/math/katex.js" defer></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/quicklink@3.0.1/dist/quicklink.umd.js" integrity="sha256-44BednzIpUeQJcY8qtLyarFu0UCCTbgmWOvaoehiFQQ=" crossorigin="anonymous" defer></script>
+  <script class="next-config" data-name="quicklink" type="application/json">{"enable":true,"home":true,"archive":true,"delay":true,"timeout":3000,"priority":true,"url":"https://satparamita.top/p/9c1a2afe.html"}</script>
+  <script src="/js/third-party/quicklink.js" defer></script>
+<script async src="/lib/fireworks.js"></script>
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">SatParamita六到彼岸</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">诵持三藏经律论 勤修六度波罗蜜</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>日志<span class="badge">13</span></a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">8</span></a></li><li class="menu-item menu-item-treasure"><a href="/treasure/" rel="section"><i class="fa fa-chalkboard fa-fw"></i>宝藏</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>生活</a></li><li class="menu-item menu-item-photo"><a href="/photo/" rel="section"><i class="fa fa-camera fa-fw"></i>相册</a></li><li class="menu-item menu-item-links"><a href="/links/" rel="section"><i class="fa fa-link fa-fw"></i>朋友</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+      <div class="search-header">
+        <span class="search-icon">
+          <i class="fa fa-search"></i>
+        </span>
+        <div class="search-input-container">
+          <input autocomplete="off" autocapitalize="off" maxlength="80"
+                placeholder="搜索..." spellcheck="false"
+                type="search" class="search-input">
+        </div>
+        <span class="popup-btn-close" role="button">
+          <i class="fa fa-times-circle"></i>
+        </span>
+      </div>
+      <div class="search-result-container">
+        <div class="search-result-icon">
+          <i class="fa fa-spinner fa-pulse fa-5x"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9B%B4%E6%94%B9%E7%AB%99%E5%90%8D%E9%BB%91%E8%89%B2%E8%83%8C%E6%99%AF"><span class="nav-number">1.</span> <span class="nav-text"> 更改站名黑色背景</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B7%BB%E5%8A%A0%E5%9B%BE%E7%89%87%E8%83%8C%E6%99%AF"><span class="nav-number">2.</span> <span class="nav-text"> 添加图片背景</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%A1%B5%E9%9D%A2%E9%80%8F%E6%98%8E%E5%8C%96"><span class="nav-number">3.</span> <span class="nav-text"> 页面透明化</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BE%B9%E6%A1%86%E5%9C%86%E8%A7%92"><span class="nav-number">4.</span> <span class="nav-text"> 边框圆角</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9B%BE%E6%A0%87%E9%A2%9C%E8%89%B2"><span class="nav-number">5.</span> <span class="nav-text"> 图标颜色</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#next%E8%87%AA%E5%B8%A6%E6%8F%92%E4%BB%B6%E5%8A%9F%E8%83%BD"><span class="nav-number">6.</span> <span class="nav-text"> Next自带插件功能</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-note"><span class="nav-number">6.1.</span> <span class="nav-text"> 1. Note</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#header"><span class="nav-number">7.</span> <span class="nav-text"> Header</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#default-header"><span class="nav-number">7.1.</span> <span class="nav-text"> Default Header</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#primary-header"><span class="nav-number">7.2.</span> <span class="nav-text"> Primary Header</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#info-header"><span class="nav-number">7.3.</span> <span class="nav-text"> Info Header</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#success-header"><span class="nav-number">7.4.</span> <span class="nav-text"> Success Header</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#warning-header"><span class="nav-number">7.5.</span> <span class="nav-text"> Warning Header</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#danger-header"><span class="nav-number">7.6.</span> <span class="nav-text"> Danger Header</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#no-icon-note"><span class="nav-number">7.7.</span> <span class="nav-text"> No icon note</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#details-and-summary"><span class="nav-number">7.8.</span> <span class="nav-text"> Details and summary</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#details-and-summary-no-icon"><span class="nav-number">7.9.</span> <span class="nav-text"> Details and summary (No icon)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-tabs%E9%80%89%E9%A1%B9%E5%8D%A1"><span class="nav-number">7.10.</span> <span class="nav-text"> 2. Tabs选项卡</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%8C%87%E5%90%91tab"><span class="nav-number">7.11.</span> <span class="nav-text"> 指向tab</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%BB%BC%E5%90%88tab"><span class="nav-number">7.12.</span> <span class="nav-text"> 综合tab</span></a></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="JingMing"
+      src="/images/my.jpg">
+  <p class="site-author-name" itemprop="name">JingMing</p>
+  <div class="site-description" itemprop="description">出家清信士</div>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="aHR0cHM6Ly9tYWlsLnFxLmNvbS9jZ2ktYmluL3FtX3NoYXJlP3Q9cW1fbWFpbG1lJmVtYWlsPWppbmdtaW5nMjE1QDEzOS5jb20=" title="邮件 → https:&#x2F;&#x2F;mail.qq.com&#x2F;cgi-bin&#x2F;qm_share?t&#x3D;qm_mailme&amp;email&#x3D;jingming215@139.com"><i class="fa fa-envelope fa-fw"></i>邮件</span>
+      </span>
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="aHR0cHM6Ly93d3cuemhpaHUuY29t" title="知乎 → https:&#x2F;&#x2F;www.zhihu.com"><i class="fab fa-zhihu fa-fw"></i>知乎</span>
+      </span>
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="c2t5cGU6eW91cm5hbWU/Y2FsbHxjaGF0" title="Skype → skype:yourname?call|chat"><i class="fab fa-skype fa-fw"></i>Skype</span>
+      </span>
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="aHR0cHM6Ly93ZWliby5jb20=" title="微博 → https:&#x2F;&#x2F;weibo.com"><i class="fab fa-weibo fa-fw"></i>微博</span>
+      </span>
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="aHR0cHM6Ly95b3V0dWJlLmNvbQ==" title="YouTube → https:&#x2F;&#x2F;youtube.com"><i class="fab fa-youtube fa-fw"></i>YouTube</span>
+      </span>
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29t" title="GitHub → https:&#x2F;&#x2F;github.com"><i class="fab fa-github fa-fw"></i>GitHub</span>
+      </span>
+  </div>
+
+        </div>
+      </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://satparamita.top/p/9c1a2afe.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/my.jpg">
+      <meta itemprop="name" content="JingMing">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="SatParamita六到彼岸">
+      <meta itemprop="description" content="出家清信士">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="Next 主题设置-页面修改 &amp; 自带插件 | SatParamita六到彼岸">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Next 主题设置-页面修改 & 自带插件
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2024-12-03 11:56:36" itemprop="dateModified" datetime="2024-12-03T11:56:36+08:00">2024-12-03</time>
+    </span>
+
+  
+    <span id="/p/9c1a2afe.html" class="post-meta-item leancloud_visitors" data-flag-title="Next 主题设置-页面修改 & 自带插件" title="阅读次数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span class="leancloud-visitors-count"></span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><h3 id="更改站名黑色背景"><a class="markdownIt-Anchor" href="#更改站名黑色背景"></a> 更改站名黑色背景</h3>
+<ol>
+<li>打开<code>Hexo/themes/next/source/css/_schemes/Pisces/_header.styl</code>，找到<code>background</code>改为<code>background: $blue-bright;</code>，或者使用渐变色<code>background: linear-gradient(-225deg, #9EFBD3 0%, #57E9F2 48%, #45D4FB 100%)</code>。<span id="more"></span></li>
+<li>打开<code>Hexo\themes\next\source\css\_variables\Pisces.styl</code>，找到<code>subtitle-color</code>改为<code>$subtitle-color = $whitesmoke;</code></li>
+<li>在<code>Hexo/themes/next/source/css/_variables/base.styl</code>里可以查看颜色设置。</li>
+</ol>
+<h3 id="添加图片背景"><a class="markdownIt-Anchor" href="#添加图片背景"></a> 添加图片背景</h3>
+<ol>
+<li>在hexo目录下的<code>source</code>文件夹下新建<code>_data</code>文件夹，不是主题next目录下的source文件夹。文件夹里新建文件<code>styles.styl</code>，添加如下内容：</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//背景图片设置</span></span><br><span class="line">body &#123;</span><br><span class="line">    background-<span class="attr">image</span>: <span class="title function_">url</span>(<span class="regexp">/images/</span>background.<span class="property">jpg</span>); </span><br><span class="line">    background-<span class="attr">repeat</span>: no-repeat;</span><br><span class="line">    background-<span class="attr">attachment</span>: fixed;</span><br><span class="line">    background-<span class="attr">size</span>: <span class="number">100</span>% <span class="number">100</span>%;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><code>background-image:url</code> 可以直接使用图片链接，也可以是图片路径（将自定义图片放入next\source\images）<br>
+<code>background-repeat：</code>若果背景图片不能全屏，那么是否平铺显示，充满屏幕<br>
+<code>background-attachment：</code>背景是否随着网页上下滚动而滚动，fixed 为固定<br>
+<code>background-size：</code>图片展示大小，设置 100%，100% 的意义为：如果背景图片不能全屏，那么是否通过拉伸的方式将背景强制拉伸至全屏显示</p>
+<ol start="2">
+<li>打开主题配置文件，找到<code>custom_file_path:</code>，修改如下：</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">custom_file_path</span>:</span><br><span class="line">  <span class="attr">style</span>: source/_data/styles.<span class="property">styl</span></span><br></pre></td></tr></table></figure>
+<h3 id="页面透明化"><a class="markdownIt-Anchor" href="#页面透明化"></a> 页面透明化</h3>
+<p>为了更好欣赏背景图片，可将博客页面透明化，在<code>source/_data/styles.styl</code>里添加如下内容：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 文章透明度设置</span></span><br><span class="line">.<span class="property">post</span>-block &#123;</span><br><span class="line">  <span class="attr">opacity</span>: <span class="number">0.9</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 侧边框的透明度设置</span></span><br><span class="line">.<span class="property">sidebar</span> &#123;</span><br><span class="line">  background-<span class="attr">color</span>: transparent;</span><br><span class="line">  <span class="attr">opacity</span>: <span class="number">0.9</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 菜单栏的透明度设置</span></span><br><span class="line">.<span class="property">header</span>-inner &#123;</span><br><span class="line">  <span class="attr">background</span>: <span class="title function_">rgba</span>(<span class="number">255</span>,<span class="number">255</span>,<span class="number">255</span>,<span class="number">0.9</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 搜索框（local-search）的透明度设置</span></span><br><span class="line">.<span class="property">popup</span> &#123;</span><br><span class="line">  <span class="attr">opacity</span>: <span class="number">0.9</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="边框圆角"><a class="markdownIt-Anchor" href="#边框圆角"></a> 边框圆角</h3>
+<ol>
+<li>在hexo目录下的<code>source</code>文件夹下新建<code>_data</code>文件夹，文件夹中新建文件<code>variables.styl</code>，添加如下内容：</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 圆角设置</span></span><br><span class="line">$border-radius-inner     = 20px 20px 20px 20px;</span><br><span class="line">$border-radius           = 20px;</span><br></pre></td></tr></table></figure>
+<ol start="2">
+<li>打开主题配置文件，找到<code>custom_file_path:</code>，修改如下：</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">custom_file_path</span>:</span><br><span class="line">  <span class="attr">variable</span>: source/_data/variables.<span class="property">styl</span></span><br></pre></td></tr></table></figure>
+<h3 id="图标颜色"><a class="markdownIt-Anchor" href="#图标颜色"></a> 图标颜色</h3>
+<ol>
+<li>在hexo目录下的<code>source</code>文件夹下新建<code>_data</code>文件夹，不是主题next目录下的source文件夹。文件夹里新建文件<code>styles.styl</code>，添加如下内容：</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">// 图标颜色大小</span></span><br><span class="line">.<span class="property">fa</span>&#123;</span><br><span class="line">  font-<span class="attr">size</span>: 14px;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 菜单栏</span></span><br><span class="line">.<span class="property">fa</span>-home&#123;</span><br><span class="line">  <span class="attr">color</span>: #e74c3c;</span><br><span class="line">  font-<span class="attr">size</span>: 15px;</span><br><span class="line">&#125;</span><br><span class="line">.<span class="property">fa</span>-archive&#123;</span><br><span class="line">  <span class="attr">color</span>: #00BFFF;</span><br><span class="line">&#125;</span><br><span class="line">.<span class="property">fa</span>-tags&#123;</span><br><span class="line">  <span class="attr">color</span>: orange;</span><br><span class="line">&#125;</span><br><span class="line">.<span class="property">fa</span>-chalkboard&#123;</span><br><span class="line">  <span class="attr">color</span>: #3498db;</span><br><span class="line">&#125;</span><br><span class="line">.<span class="property">fa</span>-link&#123;</span><br><span class="line">  <span class="attr">color</span>: #<span class="title class_">FC427B</span>;</span><br><span class="line">&#125;</span><br><span class="line">.<span class="property">fa</span>-user&#123;</span><br><span class="line">  <span class="attr">color</span>: #9b59b6;</span><br><span class="line">&#125;</span><br><span class="line">.<span class="property">fa</span>-camera&#123;</span><br><span class="line">  <span class="attr">color</span>: #1abc9c;</span><br><span class="line">&#125;</span><br><span class="line">.<span class="property">fa</span>-envelope&#123;</span><br><span class="line">  <span class="attr">color</span>: #66CDAA;</span><br><span class="line">&#125;</span><br><span class="line">.<span class="property">fa</span>-zhihu&#123;</span><br><span class="line">  <span class="attr">color</span>: #00BFFF;</span><br><span class="line">&#125;</span><br><span class="line">.<span class="property">fa</span>-weibo&#123;</span><br><span class="line">  <span class="attr">color</span>: red;</span><br><span class="line">&#125;</span><br><span class="line">.<span class="property">fa</span>-github&#123;</span><br><span class="line">  <span class="attr">color</span>: #7CFC00;</span><br><span class="line">&#125;</span><br><span class="line">.<span class="property">fa</span>-youtube&#123;</span><br><span class="line">  <span class="attr">color</span>: red;</span><br><span class="line">&#125;</span><br><span class="line">.<span class="property">fa</span>-skype&#123;</span><br><span class="line">  <span class="attr">color</span>: #00BFFF;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 文章</span></span><br><span class="line">.<span class="property">fa</span>-calendar-check&#123;</span><br><span class="line">  <span class="attr">color</span>: red;</span><br><span class="line">&#125;</span><br><span class="line">.<span class="property">fa</span>-tag&#123;</span><br><span class="line">  <span class="attr">color</span>: orange;</span><br><span class="line">&#125;</span><br><span class="line">.<span class="property">fa</span>-eye&#123;</span><br><span class="line">  <span class="attr">color</span>: #70a1ff;</span><br><span class="line">&#125;</span><br><span class="line">.<span class="property">fa</span>-comment&#123;</span><br><span class="line">  <span class="attr">color</span>: #2ed573;</span><br><span class="line">&#125;</span><br><span class="line">.<span class="property">fa</span>-comments&#123;</span><br><span class="line">  <span class="attr">color</span>: #2ed573;</span><br><span class="line">&#125;</span><br><span class="line">.<span class="property">fa</span>-file-word&#123;</span><br><span class="line">  <span class="attr">color</span>: #273c75;</span><br><span class="line">&#125;</span><br><span class="line">.<span class="property">fa</span>-clock&#123;</span><br><span class="line">  <span class="attr">color</span>: #ff5252;</span><br><span class="line">&#125;</span><br><span class="line">.<span class="property">fa</span>-image&#123;</span><br><span class="line">  <span class="attr">color</span>: #<span class="title class_">FC427B</span>;</span><br><span class="line">&#125;</span><br><span class="line">.<span class="property">fa</span>-sun&#123;</span><br><span class="line">  <span class="attr">color</span>: orange;</span><br><span class="line">&#125;</span><br><span class="line">.<span class="property">fa</span>-bookmark&#123;</span><br><span class="line">  <span class="attr">color</span>: #00FFFF;</span><br><span class="line">&#125;</span><br><span class="line">.<span class="property">fa</span>-book&#123;</span><br><span class="line">  <span class="attr">color</span>: #1abc9c;</span><br><span class="line">&#125;</span><br><span class="line">.<span class="property">fa</span>-images&#123;</span><br><span class="line">  <span class="attr">color</span>: #<span class="title class_">FF00FF</span>;</span><br><span class="line">&#125;</span><br><span class="line">.<span class="property">fa</span>-windows&#123;</span><br><span class="line">  <span class="attr">color</span>: #e74c3c;</span><br><span class="line">&#125;</span><br><span class="line">.<span class="property">fa</span>-chrome&#123;</span><br><span class="line">  <span class="attr">color</span>: orange;</span><br><span class="line">&#125;</span><br><span class="line">.<span class="property">fa</span>-desktop&#123;</span><br><span class="line">  <span class="attr">color</span>: #3498db;</span><br><span class="line">&#125;</span><br><span class="line">.<span class="property">fa</span>-tools&#123;</span><br><span class="line">  <span class="attr">color</span>: #00FFFF;</span><br><span class="line">&#125;</span><br><span class="line">.<span class="property">fa</span>-python&#123;</span><br><span class="line">  <span class="attr">color</span>: #3498db;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="next自带插件功能"><a class="markdownIt-Anchor" href="#next自带插件功能"></a> Next自带插件功能</h3>
+<ul>
+<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RhZy1wbHVnaW5zLw==">Tag Plugins<i class="fa fa-external-link-alt"></i></span></li>
+</ul>
+<h4 id="1-note"><a class="markdownIt-Anchor" href="#1-note"></a> 1. Note</h4>
+<details class="note "><summary><p>[class] [no-icon] [summary]</p>
+</summary>
+<p>Any content (support inline tags too).</p>
+
+</details>
+<p>[class] : Optional parameter. Supported values: default | primary | success | info | warning | danger.<br>
+[no-icon] : Optional parameter. Disable icon in note.<br>
+[summary] : Optional parameter. Optional summary of the note.</p>
+<div class="note "><h2 id="header"><a class="markdownIt-Anchor" href="#header"></a> Header</h2>
+<p>(without define class style)</p>
+</div>
+<div class="note default"><h4 id="default-header"><a class="markdownIt-Anchor" href="#default-header"></a> Default Header</h4>
+<p>Welcome to <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo!<i class="fa fa-external-link-alt"></i></span></p>
+</div>
+<div class="note primary"><h4 id="primary-header"><a class="markdownIt-Anchor" href="#primary-header"></a> Primary Header</h4>
+<p><strong>Welcome</strong> to <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo!<i class="fa fa-external-link-alt"></i></span></p>
+</div>
+<div class="note info"><h4 id="info-header"><a class="markdownIt-Anchor" href="#info-header"></a> Info Header</h4>
+<p><strong>Welcome</strong> to <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo!<i class="fa fa-external-link-alt"></i></span></p>
+</div>
+<div class="note success"><h4 id="success-header"><a class="markdownIt-Anchor" href="#success-header"></a> Success Header</h4>
+<p><strong>Welcome</strong> to <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo!<i class="fa fa-external-link-alt"></i></span></p>
+</div>
+<div class="note warning"><h4 id="warning-header"><a class="markdownIt-Anchor" href="#warning-header"></a> Warning Header</h4>
+<p><strong>Welcome</strong> to <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo!<i class="fa fa-external-link-alt"></i></span></p>
+</div>
+<div class="note danger"><h4 id="danger-header"><a class="markdownIt-Anchor" href="#danger-header"></a> Danger Header</h4>
+<p><strong>Welcome</strong> to <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo!<i class="fa fa-external-link-alt"></i></span></p>
+</div>
+<p>不显示符号no-icon：</p>
+<div class="note info no-icon"><h4 id="no-icon-note"><a class="markdownIt-Anchor" href="#no-icon-note"></a> No icon note</h4>
+<p>Note <strong>without</strong> icon: <code>note info no-icon</code></p>
+</div>
+<p>点击后显示全部内容：</p>
+<details class="note primary"><summary><p>This is a summary</p>
+</summary>
+<h4 id="details-and-summary"><a class="markdownIt-Anchor" href="#details-and-summary"></a> Details and summary</h4>
+<p>Note with summary: <code>note primary This is a summary</code></p>
+
+</details>
+<p>不显示符号no-icon、点击后显示全部内容：</p>
+<details class="note info no-icon"><summary><p>This is a summary</p>
+</summary>
+<h4 id="details-and-summary-no-icon"><a class="markdownIt-Anchor" href="#details-and-summary-no-icon"></a> Details and summary (No icon)</h4>
+<p>Note with summary: <code>note info no-icon This is a summary</code></p>
+
+</details>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br></pre></td><td class="code"><pre><span class="line">&#123;% note [<span class="keyword">class</span>] [no-icon] [summary] %&#125;</span><br><span class="line"><span class="title class_">Any</span> <span class="title function_">content</span> (support inline tags too).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">[<span class="keyword">class</span>] : <span class="title class_">Optional</span> parameter. <span class="title class_">Supported</span> <span class="attr">values</span>: <span class="keyword">default</span> | primary | success | info | warning | danger.</span><br><span class="line">[no-icon] : <span class="title class_">Optional</span> parameter. <span class="title class_">Disable</span> icon <span class="keyword">in</span> note.</span><br><span class="line">[summary] : <span class="title class_">Optional</span> parameter. <span class="title class_">Optional</span> summary <span class="keyword">of</span> the note.</span><br><span class="line"></span><br><span class="line">&#123;% note %&#125;</span><br><span class="line">## <span class="title class_">Header</span></span><br><span class="line">(without define <span class="keyword">class</span> <span class="title class_">style</span>)</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note <span class="keyword">default</span> %&#125;</span><br><span class="line">#### <span class="title class_">Default</span> <span class="title class_">Header</span></span><br><span class="line"><span class="title class_">Welcome</span> to [<span class="title class_">Hexo</span>!](<span class="attr">https</span>:<span class="comment">//hexo.io)</span></span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note primary %&#125;</span><br><span class="line">#### <span class="title class_">Primary</span> <span class="title class_">Header</span></span><br><span class="line">**<span class="title class_">Welcome</span>** to [<span class="title class_">Hexo</span>!](<span class="attr">https</span>:<span class="comment">//hexo.io)</span></span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note info %&#125;</span><br><span class="line">#### <span class="title class_">Info</span> <span class="title class_">Header</span></span><br><span class="line">**<span class="title class_">Welcome</span>** to [<span class="title class_">Hexo</span>!](<span class="attr">https</span>:<span class="comment">//hexo.io)</span></span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note success %&#125;</span><br><span class="line">#### <span class="title class_">Success</span> <span class="title class_">Header</span></span><br><span class="line">**<span class="title class_">Welcome</span>** to [<span class="title class_">Hexo</span>!](<span class="attr">https</span>:<span class="comment">//hexo.io)</span></span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note warning %&#125;</span><br><span class="line">#### <span class="title class_">Warning</span> <span class="title class_">Header</span></span><br><span class="line">**<span class="title class_">Welcome</span>** to [<span class="title class_">Hexo</span>!](<span class="attr">https</span>:<span class="comment">//hexo.io)</span></span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note danger %&#125;</span><br><span class="line">#### <span class="title class_">Danger</span> <span class="title class_">Header</span></span><br><span class="line">**<span class="title class_">Welcome</span>** to [<span class="title class_">Hexo</span>!](<span class="attr">https</span>:<span class="comment">//hexo.io)</span></span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">不显示符号no-icon：</span><br><span class="line">&#123;% note info no-icon %&#125;</span><br><span class="line">#### <span class="title class_">No</span> icon note</span><br><span class="line"><span class="title class_">Note</span> **without** <span class="attr">icon</span>: <span class="string">`note info no-icon`</span></span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">点击后显示全部内容：</span><br><span class="line">&#123;% note primary <span class="title class_">This</span> is a summary %&#125;</span><br><span class="line">#### <span class="title class_">Details</span> and summary</span><br><span class="line"><span class="title class_">Note</span> <span class="keyword">with</span> <span class="attr">summary</span>: <span class="string">`note primary This is a summary`</span></span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">不显示符号no-icon、点击后显示全部内容：</span><br><span class="line">&#123;% note info no-icon <span class="title class_">This</span> is a summary %&#125;</span><br><span class="line">#### <span class="title class_">Details</span> and <span class="title function_">summary</span> (<span class="title class_">No</span> icon)</span><br><span class="line"><span class="title class_">Note</span> <span class="keyword">with</span> <span class="attr">summary</span>: <span class="string">`note info no-icon This is a summary`</span></span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="2-tabs选项卡"><a class="markdownIt-Anchor" href="#2-tabs选项卡"></a> 2. Tabs选项卡</h4>
+<h4 id="指向tab"><a class="markdownIt-Anchor" href="#指向tab"></a> 指向tab</h4>
+<p><a href="#tab-one">Tab one</a>. <a href="#tab-one-1">Tab one 1</a>. <a href="#tab-one-2">Tab one 2</a>. <a href="#tab-one-3">Tab one 3</a>.</p>
+<div class="tabs" id="tab-one"><ul class="nav-tabs"><li class="tab active"><a href="#tab-one-1">name1</a></li><li class="tab"><a href="#tab-one-2">name2</a></li><li class="tab"><a href="#tab-one-3">Tab one 3</a></li></ul><div class="tab-content"><div class="tab-pane active" id="tab-one-1"><p><strong>This is Tab 1.</strong></p></div><div class="tab-pane" id="tab-one-2"><p><strong>This is Tab 2.</strong></p></div><div class="tab-pane" id="tab-one-3"><p><strong>This is Tab 3.</strong></p></div></div></div>
+<h4 id="综合tab"><a class="markdownIt-Anchor" href="#综合tab"></a> 综合tab</h4>
+<div class="tabs" id="tags-"><ul class="nav-tabs"><li class="tab"><a href="#tags--1">01</a></li><li class="tab active"><a href="#tags--2">Tags  2</a></li></ul><div class="tab-content"><div class="tab-pane" id="tags--1"><p><strong>This is Tab 1.</strong></p></div><div class="tab-pane active" id="tags--2"><p><strong>This is Tab 3.</strong></p>
+<div class="tabs" id="sub-tabs"><ul class="nav-tabs"><li class="tab active"><a href="#sub-tabs-1">001</a></li><li class="tab"><a href="#sub-tabs-2">002</a></li><li class="tab"><a href="#sub-tabs-3">03</a></li></ul><div class="tab-content"><div class="tab-pane active" id="sub-tabs-1"><p><strong>This is Sub Tab 1.</strong></p>
+<div class="note success"><p>Lorem ipsum dolor sit amet.</p>
+<div class="note warning"><p>Sed egestas.</p>
+</div>
+<p>Morbi interdum mollis sapien.</p>
+</div></div><div class="tab-pane" id="sub-tabs-2"><p><strong>This is Sub Tab 2.</strong></p></div><div class="tab-pane" id="sub-tabs-3"><p><strong>This is Sub Tab 3.</strong></p>
+<div class="tabs" id="sub-sub-tabs"><ul class="nav-tabs"><li class="tab active"><a href="#sub-sub-tabs-1">003</a></li><li class="tab"><a href="#sub-sub-tabs-2">Sub-Sub Tabs 2</a></li><li class="tab"><a href="#sub-sub-tabs-3">Sub-Sub Tabs 3</a></li></ul><div class="tab-content"><div class="tab-pane active" id="sub-sub-tabs-1"><p><strong>This is Sub-Sub Tab 1 of Sub Tab 3.</strong></p>
+<div class="note success"><p>Lorem ipsum dolor sit amet.</p>
+</div></div><div class="tab-pane" id="sub-sub-tabs-2"><p><strong>This is Sub-Sub Tab 2 of Sub Tab 3.</strong></p></div><div class="tab-pane" id="sub-sub-tabs-3"><p><strong>This is Sub-Sub Tab 3 of Sub Tab 3.</strong></p></div></div></div></div></div></div></div></div></div>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br></pre></td><td class="code"><pre><span class="line">[<span class="title class_">Tab</span> one](#tab-one). [<span class="title class_">Tab</span> one <span class="number">1</span>](#tab-one-<span class="number">1</span>). [<span class="title class_">Tab</span> one <span class="number">2</span>](#tab-one-<span class="number">2</span>). [<span class="title class_">Tab</span> one <span class="number">3</span>](#tab-one-<span class="number">3</span>).</span><br><span class="line"></span><br><span class="line">&#123;% tabs <span class="title class_">Tab</span> one %&#125;</span><br><span class="line">&lt;!-- tab name1--&gt;</span><br><span class="line">**<span class="title class_">This</span> is <span class="title class_">Tab</span> <span class="number">1.</span>**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab name2--&gt;</span><br><span class="line">**<span class="title class_">This</span> is <span class="title class_">Tab</span> <span class="number">2.</span>**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab --&gt;</span><br><span class="line">**<span class="title class_">This</span> is <span class="title class_">Tab</span> <span class="number">3.</span>**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line">&#123;% endtabs %&#125;</span><br><span class="line"></span><br><span class="line">#### 综合tab</span><br><span class="line">&#123;% tabs <span class="title class_">Tags</span> , <span class="number">2</span> %&#125;</span><br><span class="line">&lt;!-- tab <span class="number">01</span>--&gt;</span><br><span class="line">**<span class="title class_">This</span> is <span class="title class_">Tab</span> <span class="number">1.</span>**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab --&gt;</span><br><span class="line">**<span class="title class_">This</span> is <span class="title class_">Tab</span> <span class="number">3.</span>**</span><br><span class="line"></span><br><span class="line">&#123;% subtabs <span class="title class_">Sub</span> <span class="title class_">Tabs</span> %&#125;</span><br><span class="line">&lt;!-- tab <span class="number">001</span>--&gt;</span><br><span class="line">**<span class="title class_">This</span> is <span class="title class_">Sub</span> <span class="title class_">Tab</span> <span class="number">1.</span>**</span><br><span class="line">&#123;% note success %&#125;</span><br><span class="line"><span class="title class_">Lorem</span> ipsum dolor sit amet.</span><br><span class="line"></span><br><span class="line">&#123;% note warning %&#125;</span><br><span class="line"><span class="title class_">Sed</span> egestas.</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"><span class="title class_">Morbi</span> interdum mollis sapien. </span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab <span class="number">002</span>--&gt;</span><br><span class="line">**<span class="title class_">This</span> is <span class="title class_">Sub</span> <span class="title class_">Tab</span> <span class="number">2.</span>**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab <span class="number">03</span>--&gt;</span><br><span class="line">**<span class="title class_">This</span> is <span class="title class_">Sub</span> <span class="title class_">Tab</span> <span class="number">3.</span>**</span><br><span class="line"></span><br><span class="line">&#123;% subtabs <span class="title class_">Sub</span>-<span class="title class_">Sub</span> <span class="title class_">Tabs</span> %&#125;</span><br><span class="line">&lt;!-- tab <span class="number">003</span>--&gt;</span><br><span class="line">**<span class="title class_">This</span> is <span class="title class_">Sub</span>-<span class="title class_">Sub</span> <span class="title class_">Tab</span> <span class="number">1</span> <span class="keyword">of</span> <span class="title class_">Sub</span> <span class="title class_">Tab</span> <span class="number">3.</span>**</span><br><span class="line">&#123;% note success %&#125;</span><br><span class="line"><span class="title class_">Lorem</span> ipsum dolor sit amet.</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab --&gt;</span><br><span class="line">**<span class="title class_">This</span> is <span class="title class_">Sub</span>-<span class="title class_">Sub</span> <span class="title class_">Tab</span> <span class="number">2</span> <span class="keyword">of</span> <span class="title class_">Sub</span> <span class="title class_">Tab</span> <span class="number">3.</span>**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab --&gt;</span><br><span class="line">**<span class="title class_">This</span> is <span class="title class_">Sub</span>-<span class="title class_">Sub</span> <span class="title class_">Tab</span> <span class="number">3</span> <span class="keyword">of</span> <span class="title class_">Sub</span> <span class="title class_">Tab</span> <span class="number">3.</span>**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line">&#123;% endsubtabs %&#125;</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line">&#123;% endsubtabs %&#125;</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line">&#123;% endtabs %&#125;</span><br></pre></td></tr></table></figure>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="reward-container">
+  <div>请我一杯咖啡吧！</div>
+  <button>
+    赞赏
+  </button>
+  <div class="post-reward">
+      <div>
+        <img src="/images/wechatpay.jpg" alt="JingMing 微信">
+        <span>微信</span>
+      </div>
+
+  </div>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/next/" rel="tag"><i class="fa fa-tag"></i> next</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/p/8cdd1064.html" rel="prev" title="《法苑珠林校注》勘误">
+                  <i class="fa fa-angle-left"></i> 《法苑珠林校注》勘误
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/p/2f52a50c.html" rel="next" title="Next 主题设置-安装Valine、Artitalk、Aplayer">
+                  Next 主题设置-安装Valine、Artitalk、Aplayer <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 2021 – 
+    <span itemprop="copyrightYear">2025</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">JingMing</span>
+  </div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+  <div class="powered-by">由 <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & <span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZw==">NexT.Gemini</span> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+</body>
+</html>
