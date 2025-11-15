@@ -189,7 +189,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E8%AF%84%E8%AE%BAvaline"><span class="nav-number">1.</span> <span class="nav-text"> 安装评论valine</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%85artitalk%E8%AF%B4%E8%AF%B4"><span class="nav-number">2.</span> <span class="nav-text"> 安装Artitalk说说</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E9%9F%B3%E4%B9%90%E6%8F%92%E4%BB%B6aplayer-meting"><span class="nav-number">3.</span> <span class="nav-text"> 安装音乐插件Aplayer、meting</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E8%AF%84%E8%AE%BAvaline"><span class="nav-number">1.</span> <span class="nav-text">安装评论valine</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%85Artitalk%E8%AF%B4%E8%AF%B4"><span class="nav-number">2.</span> <span class="nav-text">安装Artitalk说说</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E9%9F%B3%E4%B9%90%E6%8F%92%E4%BB%B6Aplayer%E3%80%81meting"><span class="nav-number">3.</span> <span class="nav-text">安装音乐插件Aplayer、meting</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -315,7 +315,7 @@
     
     
     
-    <div class="post-body" itemprop="articleBody"><h3 id="安装评论valine"><a class="markdownIt-Anchor" href="#安装评论valine"></a> 安装评论valine</h3>
+    <div class="post-body" itemprop="articleBody"><h3 id="安装评论valine">安装评论valine</h3>
 <ol>
 <li>注册Leancloud，建议选择国际版。Leancloud既能管理评论，也能统计阅读情况。在创建的应用里点击<code>数据存储</code>-<code>结构化数据</code>-<code>创建Class</code>，点击<code>创建Class</code>，新建名为<code>Comment</code>，选择<code>无限制</code>，其它默认，然后点击创建，用来查看评论。<span id="more"></span><br>
 再在<code>数据存储</code>-<code>结构化数据</code>-<code>创建Class</code>，点击<code>创建Class</code>，新建名为<code>Counter</code>，选择<code>无限制</code>，其它默认，用来统计阅读。</li>
@@ -339,7 +339,7 @@
 <li>如果在阅读统计中出现<code>Counter not initialized! More info at console err msg.</code>，设置<code>leancloud_visitors.security = false</code>，如下：</li>
 </ol>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">leancloud_visitors</span>: </span><br><span class="line">  <span class="attr">enable</span>: <span class="literal">true</span>    # 必须开</span><br><span class="line">  <span class="attr">security</span>: <span class="literal">false</span></span><br></pre></td></tr></table></figure>
-<h3 id="安装artitalk说说"><a class="markdownIt-Anchor" href="#安装artitalk说说"></a> 安装Artitalk说说</h3>
+<h3 id="安装Artitalk说说">安装Artitalk说说</h3>
 <p>Next主题还没有添加Artitalk，需要用到Leancloud。在安装Valine评论系统时，已经注册了Leancloud国际版，在leancloud里的创建操作，请参考<span class="exturl" data-url="aHR0cHM6Ly9hcnRpdGFsay5qcy5vcmcvZG9jLmh0bWw=">Artitalk官网<i class="fa fa-external-link-alt"></i></span>，从<span class="exturl" data-url="aHR0cHM6Ly9hcnRpdGFsay5qcy5vcmcvZG9jLmh0bWwjJUYwJTlGJThDJUJDLSVFNSVCQyU4MCVFNSVBNyU4QiVFNCVCRCVCRiVFNyU5NCVBOA==">这里<i class="fa fa-external-link-alt"></i></span>开始，按照以下步骤。</p>
 <ol>
 <li>一般是在侧栏上方菜单里添加说说，在<code>Hexo\source</code>下新建文件夹<code>shuoshuo</code>，在<code>Hexo\source\shuoshuo</code>里新建文件<code>index.md</code>，修改title、type等，添加以下内容：</li>
@@ -352,7 +352,7 @@
 <p><strong>重要</strong>：由于Artitalk与Pjax存在冲突，需要手动<strong>刷新</strong>说说页面，或者在新标签页打开才能显示。可以关闭pjax，在主题配置里修改为<code>pjax: false</code>，不过对网页运行有一点影响。<br>
 也可以直接在文章里添加说说，这样就可以在不关闭Pjax的情况下，使用<code>window.open()</code>，在新标签页打开说说，相当于刷新了说说的网页。</p>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;a onclick=<span class="string">&quot;window.open(&#x27;https://satparamita.top/about/%E9%9F%B3%E4%B9%90.html&#x27;, &#x27;_blank&#x27;);&quot;</span>&gt;&lt;/a&gt;</span><br></pre></td></tr></table></figure>
-<h3 id="安装音乐插件aplayer-meting"><a class="markdownIt-Anchor" href="#安装音乐插件aplayer-meting"></a> 安装音乐插件<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL01vZVBsYXllci9oZXhvLXRhZy1hcGxheWVyL2Jsb2IvbWFzdGVyL2RvY3MvUkVBRE1FLXpoX2NuLm1k">Aplayer<i class="fa fa-external-link-alt"></i></span>、meting</h3>
+<h3 id="安装音乐插件Aplayer、meting">安装音乐插件<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL01vZVBsYXllci9oZXhvLXRhZy1hcGxheWVyL2Jsb2IvbWFzdGVyL2RvY3MvUkVBRE1FLXpoX2NuLm1k">Aplayer<i class="fa fa-external-link-alt"></i></span>、meting</h3>
 <ol>
 <li>安装：<code>npm install --save hexo-tag-aplayer</code></li>
 <li>使用方法：</li>

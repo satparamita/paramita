@@ -189,7 +189,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B7%BB%E5%8A%A0%E7%9B%B8%E5%86%8C"><span class="nav-number">1.</span> <span class="nav-text"> 添加相册</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%A0%87%E7%AD%BE%E4%BA%91%E7%89%B9%E6%95%88%E5%8F%82%E8%80%83cloud"><span class="nav-number">2.</span> <span class="nav-text"> 标签云特效，参考cloud。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%87%AA%E5%AE%9A%E4%B9%89%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5"><span class="nav-number">3.</span> <span class="nav-text"> 自定义友情链接</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B7%BB%E5%8A%A0%E7%9B%B8%E5%86%8C"><span class="nav-number">1.</span> <span class="nav-text">添加相册</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%A0%87%E7%AD%BE%E4%BA%91%E7%89%B9%E6%95%88%EF%BC%8C%E5%8F%82%E8%80%83cloud%E3%80%82"><span class="nav-number">2.</span> <span class="nav-text">标签云特效，参考cloud。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%87%AA%E5%AE%9A%E4%B9%89%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5"><span class="nav-number">3.</span> <span class="nav-text">自定义友情链接</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -315,10 +315,10 @@
     
     
     
-    <div class="post-body" itemprop="articleBody"><h3 id="添加相册"><a class="markdownIt-Anchor" href="#添加相册"></a> 添加相册</h3>
+    <div class="post-body" itemprop="articleBody"><h3 id="添加相册">添加相册</h3>
 <p>可以使用Next自带功能<span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RhZy1wbHVnaW5zL2dyb3VwLXBpY3R1cmVzLmh0bWw=">Group Pictures<i class="fa fa-external-link-alt"></i></span>建立相册或者在文章中插入图片，这是一种最简单的方法。</p>
 <span id="more"></span>
-<h3 id="标签云特效参考cloud"><a class="markdownIt-Anchor" href="#标签云特效参考cloud"></a> 标签云特效，参考<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL0QwbjlYMW4vaGV4by10YWctY2xvdWQvYmxvYi9tYXN0ZXIvUkVBRE1FLlpILm1k">cloud<i class="fa fa-external-link-alt"></i></span>。</h3>
+<h3 id="标签云特效，参考cloud。">标签云特效，参考<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL0QwbjlYMW4vaGV4by10YWctY2xvdWQvYmxvYi9tYXN0ZXIvUkVBRE1FLlpILm1k">cloud<i class="fa fa-external-link-alt"></i></span>。</h3>
 <ol>
 <li>安装：<code>npm install hexo-tag-cloud@^2.0.* --save</code></li>
 <li>对于next8版本，找到<code>theme/next/layout/_macro/sidebar.njk</code>，打开后搜索<code>back2top.sidebar</code>，在其上方添加如下代码。</li>
@@ -328,7 +328,7 @@
 <li><code>hexo-tag-cloud</code>插件支持自定义，可以改变标签云的字体和颜色，还有突出高亮。在<code>站点配置</code>里添加如下的配置项:</li>
 </ol>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">tag_cloud</span>:</span><br><span class="line">    <span class="attr">textFont</span>: <span class="title class_">Trebuchet</span> <span class="variable constant_">MS</span>, <span class="title class_">Helvetica</span></span><br><span class="line">    <span class="attr">textColor</span>: <span class="string">&#x27;#333&#x27;</span></span><br><span class="line">    <span class="attr">textHeight</span>: <span class="number">25</span></span><br><span class="line">    <span class="attr">outlineColor</span>: <span class="string">&#x27;#E2E1D1&#x27;</span></span><br><span class="line">    <span class="attr">maxSpeed</span>: <span class="number">0.5</span></span><br><span class="line">    <span class="attr">pauseOnSelected</span>: <span class="literal">true</span> # <span class="literal">true</span> 意味着当选中对应 tag 时,停止转动</span><br></pre></td></tr></table></figure>
-<h3 id="自定义友情链接"><a class="markdownIt-Anchor" href="#自定义友情链接"></a> 自定义友情链接</h3>
+<h3 id="自定义友情链接">自定义友情链接</h3>
 <p>next主题自带添加友情链接功能，在侧栏下方显示。</p>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">links_settings</span>:</span><br><span class="line">  <span class="attr">icon</span>: fa fa-globe</span><br><span class="line">  <span class="attr">title</span>: 友情链接</span><br><span class="line">  <span class="attr">layout</span>: inline # <span class="title class_">Available</span> <span class="attr">values</span>: block | inline</span><br><span class="line"><span class="attr">links</span>:</span><br><span class="line">  <span class="attr">name</span>: url</span><br></pre></td></tr></table></figure>
 <ol>
