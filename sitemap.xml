@@ -398,14 +398,7 @@
 
   
   <url>
-    <loc>https://satparamita.top/tags/github/</loc>
-    <lastmod>2025-11-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://satparamita.top/tags/hexo/</loc>
+    <loc>https://satparamita.top/tags/markdown/</loc>
     <lastmod>2025-11-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -419,7 +412,14 @@
   </url>
   
   <url>
-    <loc>https://satparamita.top/tags/markdown/</loc>
+    <loc>https://satparamita.top/tags/github/</loc>
+    <lastmod>2025-11-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://satparamita.top/tags/hexo/</loc>
     <lastmod>2025-11-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
