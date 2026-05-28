@@ -19,8 +19,10 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha256-VHqXKFhhMxcpubYf9xiWdCiojEbY9NexQ4jh8AxbvcM=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/themes/blue/pace-theme-minimal.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous" defer></script>
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"satparamita.top","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.27.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":true,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"top_n_per_article":-1,"unescape":false,"preload":false}}</script><script src="/js/config.js" defer></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"satparamita.top","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.27.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":true,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"top_n_per_article":-1,"unescape":false,"preload":false}}</script><script src="/js/config.js" defer></script>
 
     <meta name="description" content="全球学术快报是中国知网旗下移动检索平台，可以搜索、阅读、下载文献，但是收费。在校内关联机构后，个人可以免费使用。若在校外，需要更改手机当前的定位到某些机构（如北京大学）。本文介绍使用模拟定位神器App更改定位。先在手机端下载App，安装，注册。">
 <meta property="og:type" content="article">
@@ -69,7 +71,9 @@
   
   <script size="300" alpha="0.6" zIndex="-1" src="https://cdnjs.cloudflare.com/ajax/libs/ribbon.js/1.0.2/ribbon.min.js" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous" defer></script>
-<script src="/js/utils.js" defer></script><script src="/js/motion.js" defer></script><script src="/js/sidebar.js" defer></script><script src="/js/next-boot.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/next-theme-pjax/0.6.0/pjax.min.js" integrity="sha256-vxLn1tSKWD4dqbMRyv940UYw4sXgMtYcK6reefzZrao=" crossorigin="anonymous" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lozad.js/1.16.0/lozad.min.js" integrity="sha256-mOFREFhqmHeQbXpK2lp4nA3qooVgACfh88fpJftLBbc=" crossorigin="anonymous" defer></script>
+<script src="/js/utils.js" defer></script><script src="/js/motion.js" defer></script><script src="/js/sidebar.js" defer></script><script src="/js/next-boot.js" defer></script><script src="/js/pjax.js" defer></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.5.0/search.js" integrity="sha256-xFC6PJ82SL9b3WkGjFavNiA9gm5z6UBxWPiu4CYjptg=" crossorigin="anonymous" defer></script>
 <script src="/js/third-party/search/local-search.js" defer></script>
@@ -78,10 +82,11 @@
 
 
 
+  <script src="/js/third-party/pace.js" defer></script>
 
 
   
-  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  <script data-pjax async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 
@@ -295,63 +300,63 @@
 <span id="more"></span>
 <p>进入<a target="_blank" rel="noopener" href="https://www.cnki.net/">知网</a>，点击<strong>手机版</strong>，进入“全球学术快报”下载页面，下载<strong>手机端</strong>和<strong>电脑端</strong>，安装，注册。</p>
 <div style="text-align:center">
-   <img src="https://s2.loli.net/2023/11/05/zk5R8BMhLvF2UJH.png" width="80%">
+   <img data-src="https://s2.loli.net/2023/11/05/zk5R8BMhLvF2UJH.png" width="80%">
 </div>
 
 <h1 id="模拟定位神器"><a href="#模拟定位神器" class="headerlink" title="模拟定位神器"></a>模拟定位神器</h1><ol>
 <li><p>按照使用说明开启定位权限。如果使用过程中弹出窗口要求观看视频广告，直接关闭软件再重新打开。</p>
 <div style="text-align:center">
-<img src="https://s2.loli.net/2023/11/05/eyrYFvLgmta3uXA.jpg" width="40%">
+<img data-src="https://s2.loli.net/2023/11/05/eyrYFvLgmta3uXA.jpg" width="40%">
 </div>
 </li>
 <li><p>设置完成后，点击<strong>开始模拟位置</strong>，再点击右上方<strong>搜索图标</strong>🔍。</p>
 <div style="text-align:center">
-<img src="https://s2.loli.net/2023/11/05/2hbNpxs9HE8OSLG.jpg" width="40%">
+<img data-src="https://s2.loli.net/2023/11/05/2hbNpxs9HE8OSLG.jpg" width="40%">
 </div>
 </li>
 <li><p>输入需要定位的机构名称，如：北京大学。</p>
 <div style="text-align:center">
-<img src="https://s2.loli.net/2023/11/05/P298BpJN1aSmQrb.jpg" width="40%">
+<img data-src="https://s2.loli.net/2023/11/05/P298BpJN1aSmQrb.jpg" width="40%">
 </div>
 </li>
 <li><p>定位成功后，输入此次定位的名字（可以随便命名），选择<strong>保存</strong>。</p>
 <div style="text-align:center">
-<img src="https://s2.loli.net/2023/11/05/aUzRZ4jyV8QhXt9.jpg" width="40%">
+<img data-src="https://s2.loli.net/2023/11/05/aUzRZ4jyV8QhXt9.jpg" width="40%">
 </div>
 </li>
 <li><p>返回首页，点击运行。</p>
 <div style="text-align:center">
-<img src="https://s2.loli.net/2023/11/05/jGCrlkFHdXviE6f.jpg" width="40%">
+<img data-src="https://s2.loli.net/2023/11/05/jGCrlkFHdXviE6f.jpg" width="40%">
 </div>
 </li>
 <li><p>成功运行，如图所示。暂时不要关闭app。</p>
 <div style="text-align:center">
-<img src="https://s2.loli.net/2023/11/05/hA3BEKuDGUgL5FH.jpg" width="40%">
+<img data-src="https://s2.loli.net/2023/11/05/hA3BEKuDGUgL5FH.jpg" width="40%">
 </div>
 </li>
 <li><p>也可以添加其它定位，每次只能选择开启一个。</p>
 <div style="text-align:center">
-<img src="https://s2.loli.net/2023/11/05/uIojcwFSUmlEnXY.jpg" width="40%">
+<img data-src="https://s2.loli.net/2023/11/05/uIojcwFSUmlEnXY.jpg" width="40%">
 </div></li>
 </ol>
 <h1 id="全球学术快报"><a href="#全球学术快报" class="headerlink" title="全球学术快报"></a>全球学术快报</h1><h2 id="手机端关联"><a href="#手机端关联" class="headerlink" title="手机端关联"></a>手机端关联</h2><ol>
 <li><p>打开<strong>全球学术快报</strong>App，进入<strong>我的</strong>，点击<strong>立即关联</strong>。</p>
 <div style="text-align:center">
-<img src="https://s2.loli.net/2023/11/05/iEaJVoxmcLXAPUw.jpg" width="40%">
+<img data-src="https://s2.loli.net/2023/11/05/iEaJVoxmcLXAPUw.jpg" width="40%">
 </div>
 </li>
 <li><p>点击<strong>位置关联</strong>，会显示已经定位的机构，点击关联。</p>
 <div style="text-align:center">
-<img src="https://s2.loli.net/2023/11/05/MaZYiBdWFho1EfR.jpg" width="40%">
+<img data-src="https://s2.loli.net/2023/11/05/MaZYiBdWFho1EfR.jpg" width="40%">
 </div>
 </li>
 <li><p>关联成功后，如下两图所示。</p>
 <div style="text-align:center">
-<img src="https://s2.loli.net/2023/11/05/zSNb31wia7yClDI.jpg" width="40%">
+<img data-src="https://s2.loli.net/2023/11/05/zSNb31wia7yClDI.jpg" width="40%">
 </div></li>
 </ol>
 <div style="text-align:center">
-   <img src="https://s2.loli.net/2023/11/05/bBfvArSIMx9Vwyz.jpg" width="40%">
+   <img data-src="https://s2.loli.net/2023/11/05/bBfvArSIMx9Vwyz.jpg" width="40%">
 </div>
 
 <ol start="4">
@@ -360,7 +365,7 @@
 </ol>
 <h2 id="电脑端关联"><a href="#电脑端关联" class="headerlink" title="电脑端关联"></a>电脑端关联</h2><p>打开全球学术快报电脑端，点击右上角头像，选择关联机构，打开全球学术快报手机端，扫码授权。关联后如图所示。</p>
 <div style="text-align:center">
-   <img src="https://s2.loli.net/2023/11/05/HjZVFp7w914Atgx.png" width="40%">
+   <img data-src="https://s2.loli.net/2023/11/05/HjZVFp7w914Atgx.png" width="40%">
 </div>
 
 <h1 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h1><ol>
@@ -375,6 +380,20 @@
     
 
     <footer class="post-footer">
+          <div class="reward-container">
+  <div>相逢何必曾相识…</div>
+  <button>
+    赞赏
+  </button>
+  <div class="post-reward">
+      <div>
+        <img src="/images/wechatpay.jpg" alt="JingMing 微信">
+        <span>微信</span>
+      </div>
+
+  </div>
+</div>
+
           <div class="post-tags">
               <a href="/tags/%E7%9F%A5%E7%BD%91/" rel="tag"><i class="fa fa-tag"></i> 知网</a>
           </div>
@@ -409,7 +428,7 @@
     <div class="footer-inner">
 
   <div class="copyright">
-    &copy; 
+    &copy; 2021 – 
     <span itemprop="copyrightYear">2026</span>
     <span class="with-love">
       <i class="fa fa-heart"></i>
