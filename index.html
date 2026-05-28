@@ -271,7 +271,30 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <!-- 插入图片 -->
+          <!-- 般若心经背景音乐 -->
+<link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/aplayer/1.10.1/APlayer.min.css">
+<div id="aplayer" style="position:fixed;bottom:10px;left:10px;z-index:999;opacity:0.8"></div>
+<script src="https://cdn.bootcdn.net/ajax/libs/aplayer/1.10.1/APlayer.min.js"></script>
+<script>
+const ap = new APlayer({
+    container: document.getElementById('aplayer'),
+    autoplay: false,
+    loop: true,
+    volume: 0.3,
+    listFolded: true,
+    listMaxHeight: 30,
+    audio: [
+        {
+            name: '般若心经',
+            artist: '佛经',
+            url: 'https://cdn.staticfile.org/ChineseText2Speech/1.0/audio/xinjing.mp3',
+            cover: 'https://pic.ntimg.cn/20210113/9316362_114345370114_2.jpg'
+        }
+    ]
+});
+</script>
+
+<!-- 插入图片 -->
 
 			<script>
 				console.error("Error: [hexo-tag-aplayer] Unrecognized tag argument(3): loop");
