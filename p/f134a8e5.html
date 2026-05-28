@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 7.3.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="google-site-verification" content="google9ad17c5ac9872ae4">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha256-VHqXKFhhMxcpubYf9xiWdCiojEbY9NexQ4jh8AxbvcM=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"satparamita.top","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.27.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":true,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"top_n_per_article":-1,"unescape":false,"preload":false}}</script><script src="/js/config.js" defer></script>
+
+    <meta name="description" content="目录在文章开头或段落中填写[TOC]以显示全文的目录。如果不需要在目录中显示某一个标题，在标题后面添加 &#123;ignore&#x3D;true&#125; 即可。比如## 这是二级标题 &#123;ignore&#x3D;true&#125;，注意中间有一个空格。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Markdown 语法">
+<meta property="og:url" content="https://satparamita.top/p/f134a8e5.html">
+<meta property="og:site_name" content="SatParamita六到彼岸">
+<meta property="og:description" content="目录在文章开头或段落中填写[TOC]以显示全文的目录。如果不需要在目录中显示某一个标题，在标题后面添加 &#123;ignore&#x3D;true&#125; 即可。比如## 这是二级标题 &#123;ignore&#x3D;true&#125;，注意中间有一个空格。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://imgapi.cn/bing.php">
+<meta property="og:image" content="https://satparamita.top/p/00file/0.jpg">
+<meta property="og:image" content="https://i.loli.net/2021/10/20/fryZVW1xP2qtAsI.jpg">
+<meta property="og:image" content="https://imgapi.cn/bing.php">
+<meta property="og:image" content="https://i.loli.net/2021/10/20/fryZVW1xP2qtAsI.jpg">
+<meta property="og:image" content="https://imgapi.cn/bing.php">
+<meta property="article:published_time" content="2021-10-07T16:00:00.000Z">
+<meta property="article:modified_time" content="2026-02-15T12:49:22.000Z">
+<meta property="article:author" content="JingMing">
+<meta property="article:tag" content="markdown">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://imgapi.cn/bing.php">
+
+
+<link rel="canonical" href="https://satparamita.top/p/f134a8e5.html">
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://satparamita.top/p/f134a8e5.html","path":"p/f134a8e5.html","title":"Markdown 语法"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>Markdown 语法 | SatParamita六到彼岸</title>
+  
+
+
+
+
+
+
+
+
+  
+  <script size="300" alpha="0.6" zIndex="-1" src="https://cdnjs.cloudflare.com/ajax/libs/ribbon.js/1.0.2/ribbon.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous" defer></script>
+<script src="/js/utils.js" defer></script><script src="/js/motion.js" defer></script><script src="/js/sidebar.js" defer></script><script src="/js/next-boot.js" defer></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.5.0/search.js" integrity="sha256-xFC6PJ82SL9b3WkGjFavNiA9gm5z6UBxWPiu4CYjptg=" crossorigin="anonymous" defer></script>
+<script src="/js/third-party/search/local-search.js" defer></script>
+
+
+
+
+
+
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+<script async src="/lib/fireworks.js"></script>
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">SatParamita六到彼岸</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">诵持三藏经律论 勤修六度波罗蜜</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>日志</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-treasure"><a href="/treasure/" rel="section"><i class="fa fa-chalkboard fa-fw"></i>宝藏</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>生活</a></li><li class="menu-item menu-item-photo"><a href="/photo/" rel="section"><i class="fa fa-camera fa-fw"></i>相册</a></li><li class="menu-item menu-item-links"><a href="/links/" rel="section"><i class="fa fa-link fa-fw"></i>朋友</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+      <div class="search-header">
+        <span class="search-icon">
+          <i class="fa fa-search"></i>
+        </span>
+        <div class="search-input-container">
+          <input autocomplete="off" autocapitalize="off" maxlength="80"
+                placeholder="搜索..." spellcheck="false"
+                type="search" class="search-input">
+        </div>
+        <span class="popup-btn-close" role="button">
+          <i class="fa fa-times-circle"></i>
+        </span>
+      </div>
+      <div class="search-result-container">
+        <div class="search-result-icon">
+          <i class="fa fa-spinner fa-pulse fa-5x"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%9B%AE%E5%BD%95"><span class="nav-number">1.</span> <span class="nav-text">目录</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%A0%87%E9%A2%98"><span class="nav-number">2.</span> <span class="nav-text">标题</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%87%E5%AD%97"><span class="nav-number">3.</span> <span class="nav-text">文字</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B3%A8%E9%87%8A"><span class="nav-number">4.</span> <span class="nav-text">注释</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%86%E5%89%B2%E7%BA%BF"><span class="nav-number">5.</span> <span class="nav-text">分割线</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%97%E8%A1%A8"><span class="nav-number">6.</span> <span class="nav-text">列表</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%A1%A8%E6%A0%BC"><span class="nav-number">7.</span> <span class="nav-text">表格</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%AE%B5%E8%90%BD"><span class="nav-number">8.</span> <span class="nav-text">段落</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%AE%B5%E8%90%BD%E8%BE%B9%E6%A1%86"><span class="nav-number">9.</span> <span class="nav-text">段落边框</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BC%95%E7%94%A8"><span class="nav-number">10.</span> <span class="nav-text">引用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%B6%85%E9%93%BE%E6%8E%A5"><span class="nav-number">11.</span> <span class="nav-text">超链接</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%9B%BE%E7%89%87%E8%B6%85%E9%93%BE%E6%8E%A5"><span class="nav-number">11.1.</span> <span class="nav-text">图片超链接</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%BD%91%E5%9D%80%E6%88%96%E6%96%87%E4%BB%B6%E8%B6%85%E9%93%BE%E6%8E%A5"><span class="nav-number">11.2.</span> <span class="nav-text">网址或文件超链接</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%9B%BE%E7%89%87%E9%93%BE%E6%8E%A5%E8%87%B3%E7%BD%91%E7%AB%99"><span class="nav-number">11.3.</span> <span class="nav-text">图片链接至网站</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%93%BE%E6%8E%A5%E5%8F%98%E9%87%8F%E7%9A%84%E5%AE%9A%E4%B9%89%E4%B8%8E%E5%BC%95%E7%94%A8"><span class="nav-number">11.4.</span> <span class="nav-text">链接变量的定义与引用</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%A0%87%E9%A2%98%E8%B6%85%E9%93%BE%E6%8E%A5"><span class="nav-number">11.5.</span> <span class="nav-text">标题超链接</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%94%9A%E7%82%B9%EF%BC%88Anchors%EF%BC%89"><span class="nav-number">12.</span> <span class="nav-text">锚点（Anchors）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B3%A8%E8%A7%A3"><span class="nav-number">13.</span> <span class="nav-text">注解</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%96%87%E7%AB%A0%E6%9C%80%E4%B8%8B%E9%9D%A2%E6%98%BE%E7%A4%BA%E6%B3%A8%E8%A7%A3"><span class="nav-number">13.1.</span> <span class="nav-text">文章最下面显示注解</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%9C%A8%E6%96%87%E5%AD%97%E4%B8%8A%E6%96%B9%E6%98%BE%E7%A4%BA%E6%B3%A8%E8%A7%A3"><span class="nav-number">13.2.</span> <span class="nav-text">在文字上方显示注解</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%8D%E8%AF%AD%E8%A7%A3%E9%87%8A"><span class="nav-number">13.3.</span> <span class="nav-text">词语解释</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%87%E5%AD%97%E9%A2%9C%E8%89%B2"><span class="nav-number">14.</span> <span class="nav-text">文字颜色</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B0%8F%E5%9B%BE%E6%A0%87emoji"><span class="nav-number">15.</span> <span class="nav-text">小图标emoji</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%AE%B5%E8%90%BD%E7%BC%A9%E8%BF%9B"><span class="nav-number">16.</span> <span class="nav-text">段落缩进</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8F%92%E4%BB%B6"><span class="nav-number">17.</span> <span class="nav-text">插件</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%BF%85%E5%BA%94%E6%AF%8F%E6%97%A5%E5%A5%BD%E5%9B%BE"><span class="nav-number">17.1.</span> <span class="nav-text">必应每日好图</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%9C%8B%E6%9D%BF%E5%A8%98"><span class="nav-number">17.2.</span> <span class="nav-text">看板娘</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B8%90%E5%8F%98%E8%89%B2"><span class="nav-number">18.</span> <span class="nav-text">渐变色</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%8B%B1%E6%96%87%E5%AD%97%E4%BD%93"><span class="nav-number">19.</span> <span class="nav-text">英文字体</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%84%9A%E6%9C%AC%E8%BF%90%E8%A1%8C"><span class="nav-number">20.</span> <span class="nav-text">脚本运行</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="JingMing"
+      src="/images/my.jpg">
+  <p class="site-author-name" itemprop="name">JingMing</p>
+  <div class="site-description" itemprop="description">出家清信士</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">9</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">7</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=jingming215@139.com" title="邮件 → https:&#x2F;&#x2F;mail.qq.com&#x2F;cgi-bin&#x2F;qm_share?t&#x3D;qm_mailme&amp;email&#x3D;jingming215@139.com" rel="noopener me" target="_blank"><i class="fa fa-envelope fa-fw"></i>邮件</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://github.com/yourname" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;yourname" rel="noopener me" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://weibo.com/yourname" title="Weibo → https:&#x2F;&#x2F;weibo.com&#x2F;yourname" rel="noopener me" target="_blank"><i class="fab fa-weibo fa-fw"></i>Weibo</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://youtube.com/yourname" title="YouTube → https:&#x2F;&#x2F;youtube.com&#x2F;yourname" rel="noopener me" target="_blank"><i class="fab fa-youtube fa-fw"></i>YouTube</a>
+      </span>
+  </div>
+
+        </div>
+      </div>
+      
+      
+      <script type="text/javascript" charset="utf-8" src="/js/tagcloud.js"></script>
+      <script type="text/javascript" charset="utf-8" src="/js/tagcanvas.js"></script>
+      <div class="widget-wrap">
+          <div id="myCanvasContainer" class="widget tagcloud">
+              <canvas width="250" height="250" id="resCanvas" style="width:100%">
+                  <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/github/" rel="tag">github</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/" rel="tag">hexo</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/markdown/" rel="tag">markdown</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/next/" rel="tag">next</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%91%98%E5%BD%95/" rel="tag">摘录</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%9F%A5%E7%BD%91/" rel="tag">知网</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%AF%97%E6%96%87/" rel="tag">诗文</a><span class="tag-list-count">1</span></li></ul>
+              </canvas>
+          </div>
+      </div>
+      
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://satparamita.top/p/f134a8e5.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/my.jpg">
+      <meta itemprop="name" content="JingMing">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="SatParamita六到彼岸">
+      <meta itemprop="description" content="出家清信士">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="Markdown 语法 | SatParamita六到彼岸">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Markdown 语法
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2026-02-15 20:49:22" itemprop="dateModified" datetime="2026-02-15T20:49:22+08:00">2026-02-15</time>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><h3 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h3><p>在文章开头或段落中填写<code>[TOC]</code>以显示全文的目录。如果不需要在目录中显示某一个标题，在标题后面添加 <code>&#123;ignore=true&#125;</code> 即可。比如<code>## 这是二级标题 &#123;ignore=true&#125;</code>，注意中间有一个空格。<span id="more"></span><br>使用<code>[TOC]</code>显示目录，选择目录标题深度有两种方式：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line"><span class="attr">toc</span>: </span><br><span class="line">  <span class="attr">depth_from</span>: <span class="number">2</span></span><br><span class="line">  <span class="attr">depth_to</span>: <span class="number">3</span></span><br><span class="line">  <span class="attr">ordered</span>: <span class="literal">false</span></span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">@<span class="keyword">import</span> <span class="string">&quot;[TOC]&quot;</span> &#123;cmd=<span class="string">&quot;toc&quot;</span> depthFrom=<span class="number">2</span> depthTo=<span class="number">2</span> orderedList=<span class="literal">false</span>&#125; </span><br></pre></td></tr></table></figure>
+
+<h3 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h3><p><code># 这是一级标题</code><br><code>## 这是二级标题</code><br><code>###### 这是六级标题</code></p>
+<h3 id="文字"><a href="#文字" class="headerlink" title="文字"></a>文字</h3><p><em>这是倾斜的文字</em><code>_这是倾斜的文字_</code><br><strong>这是加粗的文字</strong><code>__这是加粗的文字__</code><br><em><strong>这是斜体加粗的文字</strong></em><code>___这是斜体加粗的文字___</code></p>
+<p><em>这是倾斜的文字</em><code>*这是倾斜的文字*</code><br><strong>这是加粗的文字</strong><code>**这是加粗的文字**</code><br><em><strong>这是斜体加粗的文字</strong></em><code>***这是斜体加粗的文字***</code></p>
+<p><del>这是加删除线的文字</del><code>~~这是加删除线的文字~~</code></p>
+<p><u>文字下划线。使用HTML u标签</u><code>&lt;u&gt;文字下划线。使用HTML u标签&lt;/u&gt;</code></p>
+<p>{++ 文字下划线 ++}<code>&#123;++ 文字下划线 ++&#125;</code></p>
+<p>&#x3D;&#x3D;文字高亮&#x3D;&#x3D; 上^标^ e^x^ 下<del>标</del> a<del>n</del> <code>==文字高亮== 上^标^ e^x^ 下~标~ a~n~ </code></p>
+<p>显示按键风格文字<kbd>Enter</kbd> <kbd>按键</kbd> <code>&lt;kbd&gt;Enter&lt;/kbd&gt; &lt;kbd&gt;按键&lt;/kbd&gt;</code></p>
+<p><mark>标记文字</mark><br>换行<br>换行</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;mark&gt;标记文字&lt;/mark&gt;</span><br><span class="line">换行&lt;br&gt;换行</span><br></pre></td></tr></table></figure>
+
+<div align=center>设置文字居中、图片居中。</div>
+
+<p style="text-align:center">Center this text</p>
+
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;div align=center&gt;设置文字居中、图片居中。&lt;/div&gt;</span><br><span class="line"></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">p</span> <span class="attr">style</span>=<span class="string">&quot;text-align:center&quot;</span>&gt;</span>Center this text<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
+
+<div style="text-align:center">
+   <img src="https://imgapi.cn/bing.php" width="60%" />
+</div>
+
+<div style="text-align:center">
+   <img src="./00file/0.jpg" width="70%" />
+</div>
+
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&lt;div style=<span class="string">&quot;text-align:center&quot;</span>&gt;</span><br><span class="line">   <span class="language-xml"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;https://imgapi.cn/bing.php&quot;</span> <span class="attr">width</span>=<span class="string">&quot;50%&quot;</span> /&gt;</span></span></span><br><span class="line">&lt;/div&gt;</span><br><span class="line"></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;text-align:center&quot;</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">   <span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;./00file/0.jpg&quot;</span> <span class="attr">width</span>=<span class="string">&quot;70%&quot;</span> /&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
+
+<p><font face="黑体">我是黑体字</font> <font face="宋体">我是宋体字</font> <font face="微软雅黑">我是微软雅黑</font> <font face="STCAIYUN">我是华文彩云</font></p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;font face=<span class="string">&quot;微软雅黑&quot;</span>&gt;我是微软雅黑&lt;/font&gt;</span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">font</span> <span class="attr">face</span>=<span class="string">&quot;STCAIYUN&quot;</span>&gt;</span>我是华文彩云<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
+
+<p><font size="1">size为1</font><br><font size="4">size为4</font></p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">size为<span class="number">4</span>：&lt;font size=<span class="string">&quot;4&quot;</span>&gt;size为<span class="number">4</span>&lt;/font&gt;</span><br></pre></td></tr></table></figure>
+
+<p><font color="red">红色文字</font> <font color="#dd0000">浅红色文字</font> <font color="blue">蓝色文字</font> <font color="#0000dd">浅蓝色文字</font> <font color="green">绿色文字</font> <font color="#FFFF00">金黄色文字</font> <font color="#dddd00">浅黄色文字</font> <font color="#666600">深黄色文字</font></p>
+<p style="color:blue">Make this text blue.</p>
+
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;font color=<span class="string">&quot;#dd0000&quot;</span>&gt;浅红色文字&lt;/font&gt; </span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">font</span> <span class="attr">color</span>=<span class="string">&quot;blue&quot;</span>&gt;</span>蓝色文字<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">p</span> <span class="attr">style</span>=<span class="string">&quot;color:blue&quot;</span>&gt;</span>Make this text blue.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
+
+<p><font face="黑体"  size=5 color=green>我是黑体，绿色，尺寸为5</font></p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;font face=<span class="string">&quot;黑体&quot;</span>  size=<span class="number">5</span> color=green&gt;我是黑体，绿色，尺寸为<span class="number">5</span>&lt;/font&gt;</span><br></pre></td></tr></table></figure>
+
+<table><tr><td bgcolor=#FFFF00>背景色的设置是按照十六进制颜色值：#FFFF00</td></tr></table>
+<table><tr><td bgcolor=#D1EEEE>背景色的设置是按照十六进制颜色值：#D1EEEE</td></tr></table>
+<table><tr><td bgcolor=#C0FF3E>背景色的设置是按照十六进制颜色值：#C0FF3E</td></tr></table>
+<table><tr><td bgcolor=#54FF9F>背景色的设置是按照十六进制颜色值：#54FF9F</td></tr></table>
+<table><tr><td bgcolor=orange>背景色是orange</td></tr></table>
+
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;table&gt;<span class="language-xml"><span class="tag">&lt;<span class="name">tr</span>&gt;</span><span class="tag">&lt;<span class="name">td</span> <span class="attr">bgcolor</span>=<span class="string">orange</span>&gt;</span>背景色是orange<span class="tag">&lt;/<span class="name">td</span>&gt;</span><span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span>&lt;/table&gt;</span><br></pre></td></tr></table></figure>
+
+<h3 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h3><ol>
+<li><p>注释不会被渲染出来，按下快捷键 <code>Ctrl</code>+<code>/</code>将当前行或选中的段落注释与反注释。<br><code>&lt;!-- 你看不见我 --&gt;</code><br><code>&lt;!-- 多行注释</code><br><code>就像这样 --&gt;</code></p>
+</li>
+<li><p>在首页显示文章的部分内容，在文章中使用<code>&lt;!-- more --&gt;</code>手动截断，除了可以精确控制需要显示的内容以外，也可以让Hexo的插件更好的识别。</p>
+</li>
+<li><p>要添加注释，请将文本放在方括号内，后跟冒号、空格和井号（例如，[comment]: #）。应在注释前后留空行。</p>
+</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">这是一个将显示的段落。</span><br><span class="line"></span><br><span class="line">[这里是注释内容，将不会显示。]: # </span><br><span class="line"></span><br><span class="line">这是另一个将显示的段落。</span><br></pre></td></tr></table></figure>
+
+<h3 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h3><p>有3种方式：<code>---</code> <code>***</code> <code>___</code></p>
+<hr>
+<h3 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h3><p>使用<code>-</code> <code>*</code> <code>+</code>三种符号都可以新建列表。注意：<code>- + *</code>符号与内容之间都要有一个空格。</p>
+<ul>
+<li>列表内容<ul>
+<li>列表内容<ul>
+<li>列表内容</li>
+</ul>
+<ul>
+<li>列表内容<ul>
+<li>列表内容</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">- 列表内容</span><br><span class="line">  - 列表内容</span><br><span class="line">    * 列表内容</span><br><span class="line">    - 列表内容</span><br><span class="line">        + 列表内容</span><br></pre></td></tr></table></figure>
+
+<p>使用数字新建列表。</p>
+<ol>
+<li>列表内容<ol>
+<li>列表内容<ol>
+<li>列表内容</li>
+</ol>
+</li>
+<li>列表内容<ol>
+<li>列表内容</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>列表内容<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">1.</span> 列表内容</span><br><span class="line">   <span class="number">1.</span> 列表内容</span><br><span class="line">      <span class="number">1.</span> 列表内容</span><br><span class="line">   <span class="number">2.</span> 列表内容</span><br><span class="line">      <span class="number">1.</span> 列表内容</span><br><span class="line"><span class="number">2.</span> 列表内容</span><br></pre></td></tr></table></figure></li>
+</ol>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> 已完成事项<ul>
+<li><input disabled="" type="checkbox"> 未完成</li>
+<li><input disabled="" type="checkbox"> 未完成</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> 未完成</li>
+<li><input disabled="" type="checkbox"> 在github中不能正确显示。</li>
+</ul>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">- [x] 已完成事项</span><br><span class="line">  - [ ] 未完成</span><br><span class="line">  - [ ] 未完成</span><br><span class="line">- [ ] 未完成</span><br><span class="line">- [ ] 在github中不能正确显示。</span><br></pre></td></tr></table></figure>
+
+<h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><table>
+<thead>
+<tr>
+<th>表头</th>
+<th align="center">表头</th>
+<th align="right">表头</th>
+<th align="center">表头</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>内容</td>
+<td align="center">内容</td>
+<td align="right">内容</td>
+<td align="center">内容</td>
+</tr>
+<tr>
+<td>^</td>
+<td align="center">内容</td>
+<td align="right">&gt;</td>
+<td align="center">内容</td>
+</tr>
+<tr>
+<td>内容</td>
+<td align="center">&gt;</td>
+<td align="right">内容</td>
+<td align="center">内容</td>
+</tr>
+</tbody></table>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">| 表头 | 表头  | 表头 | 表头  |</span><br><span class="line">| ---- | :---: | ---: | :---: |</span><br><span class="line">| 内容 | 内容  | 内容 | 内容  |</span><br><span class="line">| ^    | 内容  |    &gt; | 内容  |</span><br><span class="line">| 内容 |   &gt;   | 内容 | 内容  |</span><br></pre></td></tr></table></figure>
+
+<ol>
+<li>第二行分割表头和内容。</li>
+<li><code>^</code>和<code>&gt;</code>分别表示上下合并和左右合并。在github中不能正确显示。</li>
+<li><code>-</code>有一个就行，为了对齐，多加了几个。</li>
+<li>文字默认居左。	<code>-</code>两边加<code>:</code>表示文字居中	<code>-</code>右边加<code>:</code>表示文字居右</li>
+</ol>
+<h3 id="段落"><a href="#段落" class="headerlink" title="段落"></a>段落</h3><blockquote>
+<p>这是段落的内容</p>
+<ul>
+<li>这是段落的内容<blockquote>
+<ul>
+<li>这是段落的内容<blockquote>
+<p>这是段落的内容</p>
+</blockquote>
+</li>
+</ul>
+</blockquote>
+</li>
+</ul>
+</blockquote>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&gt; 这是段落的内容</span><br><span class="line">&gt; 这是段落的内容</span><br><span class="line">&gt;* 这是段落的内容</span><br><span class="line">&gt;&gt; - 这是段落的内容</span><br><span class="line">&gt;&gt;&gt; 这是段落的内容</span><br></pre></td></tr></table></figure>
+
+<h3 id="段落边框"><a href="#段落边框" class="headerlink" title="段落边框"></a>段落边框</h3><p>github不支持此功能</p>
+<p>!!! note<br>    This is the</p>
+<p>!!! summary<br>    This is the</p>
+<p>!!! info<br>    This is the</p>
+<p>!!! tip<br>    This is the</p>
+<p>!!! success<br>    This is the</p>
+<p>!!! question<br>    This is the</p>
+<p>!!! warning<br>    This is the</p>
+<p>!!! failure<br>    This is the</p>
+<p>!!! danger<br>    This is the</p>
+<p>!!! example<br>    This is the</p>
+<p>!!! quote<br>    This is the</p>
+<p>!!! note<br>    This is the <strong>note</strong> admonition body</p>
+<pre><code>!!! danger Danger
+    This is the **danger**
+</code></pre>
+<p>!!! note 使用方法，选择样式，在后面直接写文字<br>    使用方法，选择样式，在后面直接写文字</p>
+<p>!!! danger “”<br>    直接写文字</p>
+<h3 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h3><p>使用<code>@import</code>可以引用多种格式的本地或网络文件。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">@<span class="keyword">import</span> <span class="string">&quot;1.txt&quot;</span> &#123;<span class="keyword">class</span>=<span class="string">&quot;line-numbers&quot;</span>&#125;</span><br><span class="line">@<span class="keyword">import</span> <span class="string">&quot;1.py&quot;</span></span><br><span class="line">@<span class="keyword">import</span> <span class="string">&quot;C:/Users/1.jpg&quot;</span></span><br></pre></td></tr></table></figure>
+<p>github可能不支持{class&#x3D;”line-numbers”}</p>
+<h3 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h3><h4 id="图片超链接"><a href="#图片超链接" class="headerlink" title="图片超链接"></a>图片超链接</h4><p><code>![图片名称](图片地址 &#39;图片简介&#39;)</code><br>图片名称可以用来做记录，方便搜索查看，可填可不填。<br>图片地址可以是图片本地地址，也可以是网络图片链接。<br>图片简介是当鼠标悬停在图片上时显示的内容。如果不想显示图片下方简介，用空格代替，即<code>&quot; &quot;</code>，或者不填写图片简介。</p>
+<p>在markdown里写不写图片名称都不会显示名称。而在网页制作中使用markdown，如果填写了图片名称而没填写图片简介，图片名称却会显示在图片下面。所以如果不想在图片下显示文字，名称和简介都不填写。</p>
+<p><img src="https://i.loli.net/2021/10/20/fryZVW1xP2qtAsI.jpg" alt="my" title="my"></p>
+<p><code>![my](https://i.loli.net/2021/10/20/fryZVW1xP2qtAsI.jpg &quot;my&quot;) </code></p>
+<p>另一种插图方式，自定义图片大小。（使用必应每日图片）<br><code>&lt;img src=&quot;url&quot; width=&quot;&quot; height=&quot;&quot; title=&quot;&quot; /&gt;</code></p>
+<img src="https://imgapi.cn/bing.php" width=100% height=100% title="必应每日图片" />
+
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;img src=<span class="string">&quot;https://imgapi.cn/bing.php&quot;</span> width=<span class="number">100</span>% height=<span class="number">100</span>% title=<span class="string">&quot;必应每日图片&quot;</span> /&gt;</span><br></pre></td></tr></table></figure>
+
+<h4 id="网址或文件超链接"><a href="#网址或文件超链接" class="headerlink" title="网址或文件超链接"></a>网址或文件超链接</h4><p><code>[超链接名](超链接地址 &quot;超链接简介&quot;)</code><br>超链接名是显示在文中的文字。<br>超链接地址可以是本地文件地址，也可以是网络链接。<br>超链接简介是当鼠标悬停在链接上时显示的内容，可填可不填。<br><em><a target="_blank" rel="noopener" href="https://baidu.com/" title="百度">百度</a></em>  <strong><a target="_blank" rel="noopener" href="https://baidu.com/">百度</a></strong> <a href="1.txt">链接到本地文件</a></p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">*[百度](<span class="attr">https</span>:<span class="comment">//baidu.com &quot;百度&quot;)*</span></span><br><span class="line">**[百度](<span class="attr">https</span>:<span class="comment">//baidu.com)**</span></span><br><span class="line">[链接到本地文件](<span class="number">1.</span>txt)</span><br></pre></td></tr></table></figure>
+
+<p>另一种链接方式：<a href="https://baidu.com" title="baidu" target="_blank">百度</a></p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;a href=<span class="string">&quot;https://baidu.com&quot;</span> title=<span class="string">&quot;baidu&quot;</span> target=<span class="string">&quot;_blank&quot;</span>&gt;百度&lt;/a&gt;</span><br></pre></td></tr></table></figure>
+<p>href是链接。title为链接添加标题，当鼠标悬停在链接上时，将显示提示，title可加可不加。</p>
+<h4 id="图片链接至网站"><a href="#图片链接至网站" class="headerlink" title="图片链接至网站"></a>图片链接至网站</h4><p>综合图片超链接与网址超链接，示例为图片添加超链接，点击图片就能打开所链接的网址。<br><a target="_blank" rel="noopener" href="https://www.baidu.com/"><img src="https://i.loli.net/2021/10/20/fryZVW1xP2qtAsI.jpg" title="my"></a></p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[![](<span class="attr">https</span>:<span class="comment">//i.loli.net/2021/10/20/fryZVW1xP2qtAsI.jpg &#x27;my&#x27;)](https://www.baidu.com/)</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="链接变量的定义与引用"><a href="#链接变量的定义与引用" class="headerlink" title="链接变量的定义与引用"></a>链接变量的定义与引用</h4><p>定义链接：<code>[baidu]: &lt;https://baidu.com&gt; &quot;baidu&quot;</code><br>引用链接：<code>[百度链接][baidu]</code><br>效果：<a target="_blank" rel="noopener" href="https://baidu.com/" title="baidu">百度链接</a></p>
+<p>这种写法可以将多个链接地址与简介一起写在文中其它地方，而且可以多处共用一个链接。注意正文与链接之间空一行。<br><a target="_blank" rel="noopener" href="https://baidu.com/" title="baidu">共用链接baidu</a>，新的<a target="_blank" rel="noopener" href="https://baidu.com/" title="baidu">链接</a>。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">[共用链接baidu][baidu]，新的[链接][<span class="number">2</span>]。</span><br><span class="line"></span><br><span class="line">[baidu]: <span class="language-xml">&lt;https://baidu.com&gt;</span> <span class="string">&quot;baidu&quot;</span></span><br><span class="line">[<span class="number">2</span>]: <span class="language-xml">&lt;https://baidu.com&gt;</span> <span class="string">&quot;baidu&quot;</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="标题超链接"><a href="#标题超链接" class="headerlink" title="标题超链接"></a>标题超链接</h4><p><code>[标题指定 ID](#heading-ids)</code><br>在标题后面输入<strong>空格</strong>，添加一个超链接标记，在文中其它地方使用超链接标记，可以链接到此处。例如：<br>先在标题后添加标记，<code>### 引用 &#123;#ids-1&#125;</code>；<br>然后<a href="#ids-1">链接到引用</a><code>[链接到引用](#ids-1)</code>。<br><strong>注意</strong>：自定义链接标记时，要有一个<code>#</code>。<br><strong>PS</strong>：使用这种链接方式就不能上传到github，只能在本地使用。</p>
+<p>链接到本地其它文件里，先在要链接的文件里的某个标题后添加超链接标记。<br>例如：链接到本地文件<code>文章编辑.md</code>里的某个标题<code>### 段落缩进</code>，先在此处添加标记<code>### 段落缩进 &#123;#ids-2&#125;</code>。<br><a href="%E6%96%87%E7%AB%A0%E7%BC%96%E8%BE%91.md#ids-2">链接到其它文件</a><code>[链接到其它文件](文章编辑.md#ids-2)</code></p>
+<h3 id="锚点（Anchors）"><a href="#锚点（Anchors）" class="headerlink" title="锚点（Anchors）"></a>锚点（Anchors）</h3><p>格式：<code>[锚点文本](#锚点链接)</code>。可以<strong>代替标题超链接</strong>。需要注意如下几点：<br>欲定位的锚点链接必须是标题，即#、###等定义的6级标题；<br>锚点链接前只写一个<code>#</code>；<br>不管标题大小写，锚点均为小写；<br>可以使用中文做锚点，中文锚点需要省略<code>（）</code> <code>、</code>等中文标点符号。</p>
+<p>以标题<code>### 锚点（Anchors）</code>为锚点：<a href="#%E9%94%9A%E7%82%B9anchors">例一锚点（Anchors）</a><br><code>[例一锚点（Anchors）](#锚点anchors)</code></p>
+<p>以标题<code>### 超链接</code>为锚点：<a href="#%E8%B6%85%E9%93%BE%E6%8E%A5">例二锚点</a><br><code>[例二锚点](#超链接)</code></p>
+<p>指定锚点<a href="#1">1</a><br><a id="1">指定锚点到此处</a></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[1](#1)</span><br><span class="line">&lt;a id=&quot;1&quot;&gt;锚点&lt;/a&gt;</span><br></pre></td></tr></table></figure>
+
+<h3 id="注解"><a href="#注解" class="headerlink" title="注解"></a>注解</h3><h4 id="文章最下面显示注解"><a href="#文章最下面显示注解" class="headerlink" title="文章最下面显示注解"></a>文章最下面显示注解</h4><p>在这是一个注解[^1]，注解内容会显示在文章的最下面[^2]。<br>[^1]: 第一个注解<br>[^2]: 第二个注解</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">这是一个注解[^<span class="number">1</span>]，注解内容会显示在文章的最下面[^<span class="number">2</span>]。</span><br><span class="line">[^<span class="number">1</span>]: 第一个注解</span><br><span class="line">[^<span class="number">2</span>]: 第二个注解</span><br></pre></td></tr></table></figure>
+
+<h4 id="在文字上方显示注解"><a href="#在文字上方显示注解" class="headerlink" title="在文字上方显示注解"></a>在文字上方显示注解</h4><p>*[HTML]: Hyper Text Markup Language<br>*[W3C]:  World Wide Web Consortium<br>The HTML specification is maintained by the W3C.</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">*[<span class="variable constant_">HTML</span>]: <span class="title class_">Hyper</span> <span class="title class_">Text</span> <span class="title class_">Markup</span> <span class="title class_">Language</span></span><br><span class="line">*[<span class="variable constant_">W3C</span>]:  <span class="title class_">World</span> <span class="title class_">Wide</span> <span class="title class_">Web</span> <span class="title class_">Consortium</span></span><br><span class="line"><span class="title class_">The</span> <span class="variable constant_">HTML</span> specification is maintained by the <span class="variable constant_">W3C</span>.</span><br></pre></td></tr></table></figure>
+<h4 id="词语解释"><a href="#词语解释" class="headerlink" title="词语解释"></a>词语解释</h4><p>在github中没有markdown的效果好。</p>
+<dl><dt>Apple</dt><dd>Pomaceous fruit of plants of the genus Malus in the family Rosaceae.</dd></dl><dl><dt>苹果</dt><dd>一种水果。</dd></dl><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="title class_">Apple</span></span><br><span class="line">: <span class="title class_">Pomaceous</span> fruit <span class="keyword">of</span> plants <span class="keyword">of</span> the genus <span class="title class_">Malus</span> <span class="keyword">in</span> the family <span class="title class_">Rosaceae</span>.</span><br><span class="line"></span><br><span class="line">苹果</span><br><span class="line">: 一种水果。</span><br></pre></td></tr></table></figure>
+
+<h3 id="文字颜色"><a href="#文字颜色" class="headerlink" title="文字颜色"></a>文字颜色</h3><p>$\textcolor{GreenYellow}{GreenYellow}$<br>$\textcolor{Yellow}{Yellow}$<br>$\textcolor{Goldenrod}{Goldenrod}$<br>$\textcolor{Orange}{Orange}$<br>$\textcolor{Maroon}{Maroon}$<br>$\textcolor{Red}{Red}$<br>$\textcolor{OrangeRed}{OrangeRed}$<br>$\textcolor{Salmon}{Salmon}$<br>$\textcolor{Magenta}{Magenta}$<br>$\textcolor{Fuchsia}{Fuchsia}$<br>$\textcolor{Lavender}{Lavender}$<br>$\textcolor{Thistle}{Thistle}$<br>$\textcolor{Orchid}{Orchid}$<br>$\textcolor{DarkOrchid}{DarkOrchid}$<br>$\textcolor{Purple}{Purple}$<br>$\textcolor{Plum}{Plum}$<br>$\textcolor{Violet}{Violet}$<br>$\textcolor{BlueViolet}{BlueViolet}$<br>$\textcolor{CadetBlue}{CadetBlue}$<br>$\textcolor{CornflowerBlue}{CornflowerBlue}$<br>$\textcolor{MidnightBlue}{MidnightBlue}$<br>$\textcolor{RoyalBlue}{RoyalBlue}$<br>$\textcolor{Blue}{Blue}$<br>$\textcolor{Cyan}{Cyan}$<br>$\textcolor{SkyBlue}{SkyBlue}$<br>$\textcolor{Turquoise}{Turquoise}$<br>$\textcolor{Aquamarine}{Aquamarine}$<br>$\textcolor{SeaGreen}{SeaGreen}$<br>$\textcolor{Green}{Green}$<br>$\textcolor{ForestGreen}{ForestGreen}$<br>$\textcolor{LimeGreen}{LimeGreen}$<br>$\textcolor{YellowGreen}{YellowGreen}$<br>$\textcolor{SpringGreen}{SpringGreen}$<br>$\textcolor{Brown}{Brown}$<br>$\textcolor{Tan}{Tan}$<br>$\textcolor{Gray}{Gray}$</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line">$\textcolor&#123;<span class="title class_">GreenYellow</span>&#125;&#123;<span class="title class_">GreenYellow</span>&#125;$</span><br><span class="line">$\textcolor&#123;<span class="title class_">Yellow</span>&#125;&#123;<span class="title class_">Yellow</span>&#125;$</span><br><span class="line">$\textcolor&#123;<span class="title class_">Goldenrod</span>&#125;&#123;<span class="title class_">Goldenrod</span>&#125;$</span><br><span class="line">$\textcolor&#123;<span class="title class_">Orange</span>&#125;&#123;<span class="title class_">Orange</span>&#125;$</span><br><span class="line">$\textcolor&#123;<span class="title class_">Maroon</span>&#125;&#123;<span class="title class_">Maroon</span>&#125;$</span><br><span class="line">$\textcolor&#123;<span class="title class_">Red</span>&#125;&#123;<span class="title class_">Red</span>&#125;$</span><br><span class="line">$\textcolor&#123;<span class="title class_">OrangeRed</span>&#125;&#123;<span class="title class_">OrangeRed</span>&#125;$</span><br><span class="line">$\textcolor&#123;<span class="title class_">Salmon</span>&#125;&#123;<span class="title class_">Salmon</span>&#125;$</span><br><span class="line">$\textcolor&#123;<span class="title class_">Magenta</span>&#125;&#123;<span class="title class_">Magenta</span>&#125;$</span><br><span class="line">$\textcolor&#123;<span class="title class_">Fuchsia</span>&#125;&#123;<span class="title class_">Fuchsia</span>&#125;$</span><br><span class="line">$\textcolor&#123;<span class="title class_">Lavender</span>&#125;&#123;<span class="title class_">Lavender</span>&#125;$</span><br><span class="line">$\textcolor&#123;<span class="title class_">Thistle</span>&#125;&#123;<span class="title class_">Thistle</span>&#125;$</span><br><span class="line">$\textcolor&#123;<span class="title class_">Orchid</span>&#125;&#123;<span class="title class_">Orchid</span>&#125;$</span><br><span class="line">$\textcolor&#123;<span class="title class_">DarkOrchid</span>&#125;&#123;<span class="title class_">DarkOrchid</span>&#125;$</span><br><span class="line">$\textcolor&#123;<span class="title class_">Purple</span>&#125;&#123;<span class="title class_">Purple</span>&#125;$</span><br><span class="line">$\textcolor&#123;<span class="title class_">Plum</span>&#125;&#123;<span class="title class_">Plum</span>&#125;$</span><br><span class="line">$\textcolor&#123;<span class="title class_">Violet</span>&#125;&#123;<span class="title class_">Violet</span>&#125;$</span><br><span class="line">$\textcolor&#123;<span class="title class_">BlueViolet</span>&#125;&#123;<span class="title class_">BlueViolet</span>&#125;$</span><br><span class="line">$\textcolor&#123;<span class="title class_">CadetBlue</span>&#125;&#123;<span class="title class_">CadetBlue</span>&#125;$</span><br><span class="line">$\textcolor&#123;<span class="title class_">CornflowerBlue</span>&#125;&#123;<span class="title class_">CornflowerBlue</span>&#125;$</span><br><span class="line">$\textcolor&#123;<span class="title class_">MidnightBlue</span>&#125;&#123;<span class="title class_">MidnightBlue</span>&#125;$</span><br><span class="line">$\textcolor&#123;<span class="title class_">RoyalBlue</span>&#125;&#123;<span class="title class_">RoyalBlue</span>&#125;$</span><br><span class="line">$\textcolor&#123;<span class="title class_">Blue</span>&#125;&#123;<span class="title class_">Blue</span>&#125;$</span><br><span class="line">$\textcolor&#123;<span class="title class_">Cyan</span>&#125;&#123;<span class="title class_">Cyan</span>&#125;$</span><br><span class="line">$\textcolor&#123;<span class="title class_">SkyBlue</span>&#125;&#123;<span class="title class_">SkyBlue</span>&#125;$</span><br><span class="line">$\textcolor&#123;<span class="title class_">Turquoise</span>&#125;&#123;<span class="title class_">Turquoise</span>&#125;$</span><br><span class="line">$\textcolor&#123;<span class="title class_">Aquamarine</span>&#125;&#123;<span class="title class_">Aquamarine</span>&#125;$</span><br><span class="line">$\textcolor&#123;<span class="title class_">SeaGreen</span>&#125;&#123;<span class="title class_">SeaGreen</span>&#125;$</span><br><span class="line">$\textcolor&#123;<span class="title class_">Green</span>&#125;&#123;<span class="title class_">Green</span>&#125;$</span><br><span class="line">$\textcolor&#123;<span class="title class_">ForestGreen</span>&#125;&#123;<span class="title class_">ForestGreen</span>&#125;$</span><br><span class="line">$\textcolor&#123;<span class="title class_">LimeGreen</span>&#125;&#123;<span class="title class_">LimeGreen</span>&#125;$</span><br><span class="line">$\textcolor&#123;<span class="title class_">YellowGreen</span>&#125;&#123;<span class="title class_">YellowGreen</span>&#125;$</span><br><span class="line">$\textcolor&#123;<span class="title class_">SpringGreen</span>&#125;&#123;<span class="title class_">SpringGreen</span>&#125;$</span><br><span class="line">$\textcolor&#123;<span class="title class_">Brown</span>&#125;&#123;<span class="title class_">Brown</span>&#125;$</span><br><span class="line">$\textcolor&#123;<span class="title class_">Tan</span>&#125;&#123;<span class="title class_">Tan</span>&#125;$</span><br><span class="line">$\textcolor&#123;<span class="title class_">Gray</span>&#125;&#123;<span class="title class_">Gray</span>&#125;$</span><br></pre></td></tr></table></figure>
+<h3 id="小图标emoji"><a href="#小图标emoji" class="headerlink" title="小图标emoji"></a>小图标emoji</h3><p>🔴🟠🟡🟢🔵🟣🟤⚫⚪✅☑️✔️❌❎⭕🙏👤👥🚶🏃💪👈👉☝👆👇✌✋👌👍👎✊👊👋👏👐✍🔃🔄🔙🔚🔛🔜🔝👣🐾👀👓👑🎓💍🌂📶📳📴♻🏧🚮🚰♿🚹🚺🚻🚼🚾⚠🚸⛔🚫🚳🚭🚯🚱🚷🔞🐁🐂🐅🐇🐉🐍🐎🐐🐒🐓🐕🐖🐼🐻🐨🐔🦆🦢🕊🦜🦉🐣🐤🐥🐦🐧🐸🐊🐢🐲🐳🐋🐬🐟🐠🐡🐙🐌🐛🐜🐝🐞🦋💐🌸💮🌹🌺🌻🌼🌷🌱🌲🌳🌴🌵🌾🌿🍀🍁🍂🍃🥝🥭🥥🍇🍈🍉🍊🍋🍌🍍🍎🍏🍐🍑🍒🍓🍅🍆🌽🍄🌰🍔🍟🍕🍳🍘🍙🍚🍛🍜🍩🍪🎂🍰🍫🍬🍭🍼🍷🍸🍹🍴⬆↗➡↘⬇↙⬅↖↕↔↩↪⤴⤵🌍🌎🌏🌐🌑🌒🌓🌔🌕🌖🌗🌘🌚🌙🌛🌜🌝🌞☀⭐🌟🌠⛅☔⚡❄🔥💧🌊🎨🏆⚽⚾🏀🏈🎾🎱🎳⛳🏊🚴🚵🎯🎮🎷🎸🎺🎻🎬💀☠👻👽💣🌋🗻🏠🏡🏯🗼🎠🚁🚀💌💎💈⌛⏳⌚⏰🎈🎉🎊🎐🎀🎁📯📻💡🔦🔧🔗💉💊🚩💦⏱🔇🔈🔉🔊📢📣💤💢💬🔔🔕➕➖➗➰➿⁉❓❔❕❗©®™🔅🔆💯🔠🔡🔢🔣🔤🅰🆎🅱🆑🆒🆓🆔🆕🆖🅾🆗🅿🆘🆙🆚🈶🈚🈲🔺🔻♈♉♊♋♌♍♎♏♐♑♒♓⛎💘❤💓💔💕💖💗💙💚💛💜💝💞💟💴💵💶💷💰💸💳🚥🚦⚓✈🚁🚀🏠🏡🗼🗽📱📲☎📞📟📠🔋🔌💻💽💾💿📀🎥📺📷📹📼🔍🔎🔬🔭📡📔📕📖📗📘📙📚📓📃📜📄📰📑🔖💳✉📧📨📩📤📥📦📫📪📬📭📮✏✒📝📁📂📅📆📇📈📉📊📋📌📍📎📏📐✂🔒🔓🔏🔐🔑</p>
+<h3 id="段落缩进"><a href="#段落缩进" class="headerlink" title="段落缩进"></a>段落缩进</h3><p>&ensp;&ensp;半角的空格（英文下使用）<code>&amp;ensp;</code>或<code>&amp;#8194;</code><br>&emsp;&emsp;全角的空格（中文下使用）<code>&amp;emsp;</code>或<code>&amp;#8195;</code><br>空白行：<code>&amp;nbsp;</code>或<code>&amp;#160;</code>注意后面的分号不能丢。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&amp;ensp;&amp;ensp;半角的空格（英文下使用）<span class="string">`&amp;ensp;`</span>或<span class="string">`&amp;#8194;`</span></span><br><span class="line">&amp;emsp;&amp;emsp;全角的空格（中文下使用）<span class="string">`&amp;emsp;`</span>或<span class="string">`&amp;#8195;`</span></span><br><span class="line">空白行：<span class="string">`&amp;nbsp;`</span>或<span class="string">`&amp;#160;`</span>注意后面的分号不能丢。</span><br></pre></td></tr></table></figure>
+
+<h3 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h3><h4 id="必应每日好图"><a href="#必应每日好图" class="headerlink" title="必应每日好图"></a>必应每日好图</h4><img src="https://imgapi.cn/bing.php" width=100% height=100%>
+
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;img src=<span class="string">&quot;https://imgapi.cn/bing.php&quot;</span> width=<span class="number">100</span>% height=<span class="number">100</span>%&gt;</span><br></pre></td></tr></table></figure>
+
+<h4 id="看板娘"><a href="#看板娘" class="headerlink" title="看板娘"></a>看板娘</h4><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src=<span class="string">&quot;https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js&quot;</span>&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+
+<h3 id="渐变色"><a href="#渐变色" class="headerlink" title="渐变色"></a>渐变色</h3><html><head><style>
+#grad1 {
+    height: 70px;
+    background-image: linear-gradient(to right, #bb313e25, #bb313e25, #d7222925, #dd4a1625, #e4761525, #f5c50025, #f0e92725, #b1ce2425, #48a93525, #03944525, #157c4f25, #176a5825, #1b556325, #1d386f25, #1d386f25, #20277825, #52266325, #8a244b25);
+}
+#grad2 {
+    height: 70px;
+    background-image: linear-gradient(91deg,#f1eefc,#9dc6ff 70%,#a5bcff);
+}
+</style></head>
+
+<body>
+<div id="grad1" align=center><font face="楷体"  size=12 color=blue >为了人类心智的荣耀</font></div>
+<div id="grad2" align=center><font face="楷体"  size=12 color= orange >为了人类心智的荣耀</font></div>
+</body></html>
+
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br></pre></td><td class="code"><pre><span class="line">&lt;html&gt;<span class="language-xml"><span class="tag">&lt;<span class="name">head</span>&gt;</span><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span></span><br><span class="line"><span class="language-css"><span class="language-xml"><span class="selector-id">#grad1</span> &#123;</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml">	<span class="attribute">height</span>: <span class="number">70px</span>;</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml">    <span class="attribute">background-image</span>: <span class="built_in">linear-gradient</span>(to right, <span class="number">#bb313e25</span>, <span class="number">#bb313e25</span>, <span class="number">#d7222925</span>, <span class="number">#dd4a1625</span>, <span class="number">#e4761525</span>, <span class="number">#f5c50025</span>, <span class="number">#f0e92725</span>, <span class="number">#b1ce2425</span>, <span class="number">#48a93525</span>, <span class="number">#03944525</span>, <span class="number">#157c4f25</span>, <span class="number">#176a5825</span>, <span class="number">#1b556325</span>, <span class="number">#1d386f25</span>, <span class="number">#1d386f25</span>, <span class="number">#20277825</span>, <span class="number">#52266325</span>, <span class="number">#8a244b25</span>);</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml">&#125;</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml"><span class="selector-id">#grad2</span> &#123;</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml">	<span class="attribute">height</span>: <span class="number">70px</span>;</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml">    <span class="attribute">background-image</span>: <span class="built_in">linear-gradient</span>(<span class="number">91deg</span>,<span class="number">#f1eefc</span>,<span class="number">#9dc6ff</span> <span class="number">70%</span>,<span class="number">#a5bcff</span>);</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml">&#125;</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml"><span class="selector-id">#grad3</span> &#123;</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml">	<span class="attribute">height</span>: <span class="number">70px</span>;</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml">    <span class="attribute">background-image</span>: <span class="built_in">linear-gradient</span>(<span class="number">135deg</span>,<span class="number">#56c8ff</span>,<span class="number">#6f99fc</span>);</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml">&#125;</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml"><span class="selector-id">#grad4</span> &#123;</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml">  	<span class="attribute">height</span>: <span class="number">70px</span>;</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml">    <span class="attribute">background-image</span>: <span class="built_in">linear-gradient</span>(-<span class="number">225deg</span>, <span class="number">#D4FFEC</span> <span class="number">0%</span>, <span class="number">#57F2CC</span> <span class="number">48%</span>, <span class="number">#4596FB</span> <span class="number">100%</span>);</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml">&#125;</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml"><span class="selector-id">#grad5</span> &#123;</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml">	<span class="attribute">height</span>: <span class="number">70px</span>;</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml">    <span class="attribute">background-image</span>: <span class="built_in">linear-gradient</span>(to right, <span class="number">#acb6e5</span> , <span class="number">#86fde8</span> );</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml">&#125;</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml"><span class="selector-id">#grad6</span> &#123;</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml">	<span class="attribute">height</span>: <span class="number">70px</span>;</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml">    <span class="attribute">background-image</span>: <span class="built_in">linear-gradient</span>(-<span class="number">225deg</span>, <span class="number">#9EFBD3</span> <span class="number">0%</span>, <span class="number">#57E9F2</span> <span class="number">48%</span>, <span class="number">#45D4FB</span> <span class="number">100%</span>);</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml">&#125;</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml"><span class="selector-id">#grad7</span> &#123;</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml">	<span class="attribute">height</span>: <span class="number">70px</span>;</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml">    <span class="attribute">background-image</span>: <span class="built_in">linear-gradient</span>(<span class="number">160deg</span>, <span class="number">#00ffd5</span> <span class="number">20%</span>,<span class="number">#008cff</span> <span class="number">80%</span>);</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml">&#125;</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml"><span class="selector-id">#grad8</span> &#123;</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml">	<span class="attribute">height</span>: <span class="number">70px</span>;</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml">    <span class="attribute">background-image</span>: <span class="built_in">linear-gradient</span>(-<span class="number">225deg</span>, <span class="number">#2CD8D5</span> <span class="number">0%</span>, <span class="number">#C5C1FF</span> <span class="number">56%</span>, <span class="number">#FFBAC3</span> <span class="number">100%</span>);</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml">&#125;</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml"><span class="selector-id">#grad9</span> &#123;</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml">	<span class="attribute">height</span>: <span class="number">70px</span>;</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml">    <span class="attribute">background-image</span>: <span class="built_in">linear-gradient</span>(<span class="number">102.7deg</span>, <span class="number">#fddaff</span> <span class="number">8.2%</span>, <span class="number">#dfadfc</span> <span class="number">19.6%</span>, <span class="number">#adcdfc</span> <span class="number">36.8%</span>, <span class="number">#adfcf4</span> <span class="number">73.2%</span>, <span class="number">#caf8d0</span> <span class="number">90.9%</span>);</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml">&#125;</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml"><span class="selector-id">#grad10</span> &#123;</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml">	<span class="attribute">height</span>: <span class="number">70px</span>;</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml">    <span class="attribute">background-image</span>: <span class="built_in">linear-gradient</span>(<span class="number">50deg</span>, <span class="built_in">rgb</span>(<span class="number">30</span>,<span class="number">227</span>,<span class="number">207</span>) <span class="number">10%</span>, <span class="built_in">rgb</span>(<span class="number">249</span>,<span class="number">188</span>,<span class="number">221</span>) <span class="number">90%</span>);</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml">&#125;</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml"><span class="selector-id">#grad0</span> &#123;</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml">	<span class="attribute">height</span>: <span class="number">70px</span>;</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml">    <span class="attribute">background-image</span>: <span class="built_in">linear-gradient</span>(to right, <span class="built_in">rgba</span>(<span class="number">255</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>), <span class="built_in">rgba</span>(<span class="number">255</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">1</span>));</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml">&#125;</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;grad1&quot;</span> <span class="attr">align</span>=<span class="string">center</span>&gt;</span><span class="tag">&lt;<span class="name">font</span> <span class="attr">face</span>=<span class="string">&quot;楷体&quot;</span>  <span class="attr">size</span>=<span class="string">12</span> <span class="attr">color</span>=&gt;</span>为了人类心智的荣耀<span class="tag">&lt;/<span class="name">font</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;grad2&quot;</span> <span class="attr">align</span>=<span class="string">center</span>&gt;</span><span class="tag">&lt;<span class="name">font</span> <span class="attr">face</span>=<span class="string">&quot;楷体&quot;</span>  <span class="attr">size</span>=<span class="string">12</span> <span class="attr">color</span>=&gt;</span>为了人类心智的荣耀<span class="tag">&lt;/<span class="name">font</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;grad3&quot;</span> <span class="attr">align</span>=<span class="string">center</span>&gt;</span><span class="tag">&lt;<span class="name">font</span> <span class="attr">face</span>=<span class="string">&quot;楷体&quot;</span>  <span class="attr">size</span>=<span class="string">12</span> <span class="attr">color</span>=&gt;</span>为了人类心智的荣耀<span class="tag">&lt;/<span class="name">font</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;grad4&quot;</span> <span class="attr">align</span>=<span class="string">center</span>&gt;</span><span class="tag">&lt;<span class="name">font</span> <span class="attr">face</span>=<span class="string">&quot;楷体&quot;</span>  <span class="attr">size</span>=<span class="string">12</span> <span class="attr">color</span>=&gt;</span>为了人类心智的荣耀<span class="tag">&lt;/<span class="name">font</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;grad5&quot;</span> <span class="attr">align</span>=<span class="string">center</span>&gt;</span><span class="tag">&lt;<span class="name">font</span> <span class="attr">face</span>=<span class="string">&quot;楷体&quot;</span>  <span class="attr">size</span>=<span class="string">12</span> <span class="attr">color</span>=&gt;</span>为了人类心智的荣耀<span class="tag">&lt;/<span class="name">font</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;grad6&quot;</span> <span class="attr">align</span>=<span class="string">center</span>&gt;</span><span class="tag">&lt;<span class="name">font</span> <span class="attr">face</span>=<span class="string">&quot;楷体&quot;</span>  <span class="attr">size</span>=<span class="string">12</span> <span class="attr">color</span>=&gt;</span>为了人类心智的荣耀<span class="tag">&lt;/<span class="name">font</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;grad7&quot;</span> <span class="attr">align</span>=<span class="string">center</span>&gt;</span><span class="tag">&lt;<span class="name">font</span> <span class="attr">face</span>=<span class="string">&quot;楷体&quot;</span>  <span class="attr">size</span>=<span class="string">12</span> <span class="attr">color</span>=&gt;</span>为了人类心智的荣耀<span class="tag">&lt;/<span class="name">font</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;grad8&quot;</span> <span class="attr">align</span>=<span class="string">center</span>&gt;</span><span class="tag">&lt;<span class="name">font</span> <span class="attr">face</span>=<span class="string">&quot;楷体&quot;</span>  <span class="attr">size</span>=<span class="string">12</span> <span class="attr">color</span>=&gt;</span>为了人类心智的荣耀<span class="tag">&lt;/<span class="name">font</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;grad9&quot;</span> <span class="attr">align</span>=<span class="string">center</span>&gt;</span><span class="tag">&lt;<span class="name">font</span> <span class="attr">face</span>=<span class="string">&quot;楷体&quot;</span>  <span class="attr">size</span>=<span class="string">12</span> <span class="attr">color</span>=&gt;</span>为了人类心智的荣耀<span class="tag">&lt;/<span class="name">font</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;grad10&quot;</span> <span class="attr">align</span>=<span class="string">center</span>&gt;</span><span class="tag">&lt;<span class="name">font</span> <span class="attr">face</span>=<span class="string">&quot;楷体&quot;</span>  <span class="attr">size</span>=<span class="string">12</span> <span class="attr">color</span>=&gt;</span>为了人类心智的荣耀<span class="tag">&lt;/<span class="name">font</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;grad0&quot;</span> <span class="attr">align</span>=<span class="string">center</span>&gt;</span><span class="tag">&lt;<span class="name">font</span> <span class="attr">face</span>=<span class="string">&quot;楷体&quot;</span>  <span class="attr">size</span>=<span class="string">12</span> <span class="attr">color</span>=&gt;</span>为了人类心智的荣耀<span class="tag">&lt;/<span class="name">font</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span>&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+
+<h3 id="英文字体"><a href="#英文字体" class="headerlink" title="英文字体"></a>英文字体</h3><p>黑板粗体字<br>$\mathbb{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$<br>$\mathbb{abcdefghijklmnopqrstuvwxyz}$<br>$\Bbb{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$<br>$\Bbb{abcdefghijklmnopqrstuvwxyz}$<br>黑体字<br>$\mathbf{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$<br>$\mathbf{abcdefghijklmnopqrstuvwxyz}$<br>打印机字体<br>$\mathtt{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$<br>$\mathtt{abcdefghijklmnopqrstuvwxyz}$<br>$\mathscr{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$<br>$\mathscr{abcdefghijklmnopqrstuvwxyz}$<br>$\mathcal{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$<br>$\mathcal{abcdefghijklmnopqrstuvwxyz}$<br>$\mathsf{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$<br>$\mathsf{abcdefghijklmnopqrstuvwxyz}$<br>$\mathrm{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$<br>$\mathrm{abcdefghijklmnopqrstuvwxyz}$</p>
+<h3 id="脚本运行"><a href="#脚本运行" class="headerlink" title="脚本运行"></a>脚本运行</h3><p>脚本运行默认是禁用的，并且需要在Atom和VSCode的插件设置中开启使用。设置名称：<code>enableScriptExecution</code>。<br>请小心使用这一特性，因为它很有可能造成安全问题！当你的脚本运行设置是开启的，你的电脑很有可能被黑客攻击，如果有人使你运行了Markdown文档中的恶意代码。<br>上传至github则不能使用此功能！只在markdown适用。</p>
+<figure class="highlight python"><figcaption><span>&#123;cmd</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line">plt.plot([<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>, <span class="number">4</span>])</span><br><span class="line">plt.show() <span class="comment"># show figure</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight python"><figcaption><span>&#123;cmd</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">x = <span class="number">1</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight python"><figcaption><span>&#123;cmd</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">x = <span class="number">2</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight python"><figcaption><span>&#123;cmd</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(x+<span class="number">3</span>) <span class="comment"># will print 4</span></span><br></pre></td></tr></table></figure>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/markdown/" rel="tag"># markdown</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/p/1b9a5d5d.html" rel="prev" title="Github + Hexo 制作静态网站">
+                  <i class="fa fa-angle-left"></i> Github + Hexo 制作静态网站
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/p/00file.html" rel="next" title="如是我聞">
+                  如是我聞 <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2026</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">JingMing</span>
+  </div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+</body>
+</html>
