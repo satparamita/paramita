@@ -3,102 +3,111 @@
   <entry>
     <title>如是我聞</title>
     <url>/p/00file.html</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<img src="/p/00file/00file/00.jpg" class>]]></content>
   </entry>
   <entry>
-    <title>Github + Hexo 制作静态网站</title>
-    <url>/p/1b9a5d5d.html</url>
-    <content><![CDATA[<h2 id="软件安装"><a href="#软件安装" class="headerlink" title="软件安装"></a>软件安装</h2><ol>
-<li>安装<a href="https://nodejs.org/zh-cn/">Node.js</a>、<a href="https://git-scm.com/downloads">git</a>，点击进入下载网站。<span id="more"></span></li>
-<li>检验git是否安装成功，同时按下<code>Win</code>键和<code>R</code>键打开运行窗口，输入<code>cmd</code>，打开命令提示符，分别输入以下命令：<br><code>git --version</code><br><code>node -v</code><br><code>npm -v</code><br>有相应版本信息显示则安装成功。若安装成功，在桌面右键鼠标，可以看到菜单里多了 <code>Git GUI Here</code> 和 <code>Git Bash Here</code>两个选项，第一个是图形界面的Git操作，另一个是命令行。</li>
-<li>git更新方法，输入命令:<br><code>git clone https://github.com/git/git</code></li>
-</ol>
-<h2 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h2><h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><ol>
-<li>选择一个磁盘，新建并重命名文件夹（我的文件夹为：C:&#x2F;satparamita），博客相关文件将储存在此文件夹下。在该文件夹下右键点击<code>Git Bash Here</code>，输入以下npm命令即可安装。第一个命令表示安装hexo，第二个命令表示安装hexo部署到git page的deployer。需要几十秒。<br><code>npm install hexo-cli -g</code><br><code>npm install hexo-deployer-git --save</code></li>
-<li>Hexo初始化配置，在刚才新建的文件夹里面再次新建一个<code>Hexo</code>文件夹，进入该文件夹，右键点击<code>Git Bash Here</code>，输入命令：<code>hexo init</code><br>安装需要几十秒，安装完成后，将会在指定文件夹中新建所需要的文件。</li>
-</ol>
-<h3 id="升级"><a href="#升级" class="headerlink" title="升级"></a>升级</h3><p>目前不用升级，以后想要升级，请参考以下：</p>
-<ol>
-<li>全局升级hexo-cli，先<code>hexo version</code>查看当前版本，然后<code>npm i hexo-cli -g</code>，再次<code>hexo version</code>查看是否升级成功。</li>
-<li>使用<code>npm install -g npm-check</code>和<code>npm-check</code>，检查系统中的插件是否有升级的，可以看到之前都安装了哪些插件。</li>
-<li>使用<code>npm install -g npm-upgrade</code>和<code>npm-upgrade</code>，升级系统中的插件。</li>
-<li>使用<code>npm update -g</code>和<code>npm update --save</code>，更新全局包和依赖包。</li>
-</ol>
-<h3 id="本地查看效果"><a href="#本地查看效果" class="headerlink" title="本地查看效果"></a>本地查看效果</h3><ol>
-<li>执行以下命令，<code>hexo generate</code>或者<code>hexo g</code>、<code>hexo server</code>或者<code>hexo s</code>。</li>
-<li>执行完即可登录<code>http://localhost:4000/</code>查看效果。<br>显示以下信息说明操作成功：<br><code>INFO Hexo is running at http://0.0.0.0:4000/. Press Ctrl+C to stop.</code></li>
-</ol>
-<h2 id="将博客部署到-Github-Pages-上"><a href="#将博客部署到-Github-Pages-上" class="headerlink" title="将博客部署到 Github Pages 上"></a>将博客部署到 Github Pages 上</h2><p>至此，本地博客就搭建成功了，但是只能通过本地连接查看博客。想要让其他人也能访问，就需要将博客部署到Github Pages上。</p>
-<ol>
-<li>注册Github账户。创建项目代码库，点击<code>New repository</code>开始创建。</li>
-<li>配置SSH密钥，配置SSH密钥后才可以通过git操作实现本地代码库与Github代码库同步。在第一次新建的文件夹里（我的文件夹为：C:&#x2F;satparamita）右键点击<code>Git Bash Here</code>，输入以下命令：<br><code>ssh-keygen -t rsa -C &quot;liyiling1030@outlook.com&quot;</code><br>引号里面填写你的邮箱地址，注意两边加引号。之后会出现：<br><code>Generating public/private rsa key pair.Enter file in which to save the key (/c/Users/you/.ssh/id_rsa):</code><br>可以直接回车将密钥按默认文件存储，然后会出现：<br><code>Enter passphrase (empty for no passphrase):</code><br>要输入密码，直接回车就行<br><code>Enter same passphrase again:</code><br>接下来屏幕会显示：<br><code>Your identification has been saved in /c/Users/you/.ssh/id_rsa.Your public key has been saved in /c/Users/you/.ssh/id_rsa.pub.The key fingerprint is:</code><br>这里是各种字母数字组成的字符串，结尾是你的邮箱。<br><code>The key&#39;s randomart image is:</code><br>这里也是各种字母数字符号组成的字符串。<br>运行以下命令，将公钥的内容复制到系统粘贴板上。<br><code>clip &lt; ~/.ssh/id_rsa.pub</code>。</li>
-<li>在GitHub账户中添加你的公钥，登录GitHub，头像–&gt;<code>Settings</code>–&gt;<code>SSH and GPG Keys</code>–&gt;<code>New SSH key</code>，粘贴密钥。</li>
-<li>测试，输入以下命令：注意不要做任何更改！<br><code>ssh -T git@github.com</code></li>
-<li>配置Git个人信息，Git会根据用户的名字和邮箱来记录提交，GitHub也是用这些信息来做权限的处理，输入以下命令设置个人信息，把名称和邮箱替换成你的，名字可以不是GitHub的昵称，建议与GitHub一致。<br><code>git config --global user.name &quot;paramita&quot;</code><br><code>git config --global user.email &quot;liyiling1030@outlook.com&quot;</code><br><strong>注意</strong>加引号。至此<code>SSH Key</code>配置成功，本机已成功连接到Github.</li>
-</ol>
-<h2 id="将本地的Hexo文件更新到Github的库中"><a href="#将本地的Hexo文件更新到Github的库中" class="headerlink" title="将本地的Hexo文件更新到Github的库中"></a>将本地的Hexo文件更新到Github的库中</h2><ol>
-<li><p>登录Github打开自己的项目<code>https://github.com/yousite/</code>；</p>
+    <title>古诗文摘录</title>
+    <url>/p/34ec0e12.html</url>
+    <content><![CDATA[<span id="more"></span>
+
+<blockquote class="blockquote-center">
+<h3 id="浣溪沙-王国维"><a href="#浣溪沙-王国维" class="headerlink" title="浣溪沙 王国维"></a>浣溪沙 王国维</h3><p>山寺微茫背夕曛，鸟飞不到半山昏。上方孤磬定行云。<br>试上高峰窥皓月，偶开天眼觑红尘。可怜身是眼中人。</p>
+<h3 id="月儿弯弯照九州-宋"><a href="#月儿弯弯照九州-宋" class="headerlink" title="月儿弯弯照九州 宋"></a>月儿弯弯照九州 宋</h3><p>月儿弯弯照九州，几家欢乐几家愁。几家夫妇同罗帐，几个飘零在外头？</p>
+
+</blockquote>
+
+<blockquote>
+<p>周寿谊，昆山人，年百岁，其子亦跻八十。同赴苏庠乡饮，徒步而往。既至，子坐于阶石气喘，父笑曰：少年何困倦乃尔？饮毕，子欲附舟，父不可，复步归舍。昆距苏七十余里，往返便捷，其精力强健如此。</p>
+<p>后太祖闻其高寿，特召至京，拜阶下，状甚矍铄。问今岁年若干，对云一百七岁。又问平日有何修养而能致此，对曰：清心寡欲。上善其对，笑曰：闻昆山腔甚嘉，尔亦能讴？否曰不能，但善吴歌。命之歌，歌曰：<strong>月子弯弯照几州，几人欢乐几人愁。几人夫妇同罗帐，几人飘散在他州</strong>。上抚掌曰：是个村老儿。命赏酒饭罢归。</p>
+<p>后至一百十七岁，端坐而逝。子亦年九十八，家有世寿堂，其孙曾多至八十外。盖缘禀赋素厚，其繇来有由矣。</p>
+</blockquote>]]></content>
+      <tags>
+        <tag>诗文</tag>
+        <tag>摘录</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>校外使用“全球学术快报+模拟定位神器”免费下载知网文献</title>
+    <url>/p/f674b979.html</url>
+    <content><![CDATA[<p><strong>全球学术快报</strong>是中国<strong>知网</strong>旗下移动检索平台，可以搜索、阅读、下载文献，但是收费。在校内关联机构后，个人可以免费使用。若在校外，需要更改手机当前的定位到某些机构（如北京大学）。本文介绍使用<strong>模拟定位神器</strong>App更改定位。先在手机端下载App，安装，注册。</p>
+<span id="more"></span>
+<p>进入<a href="https://www.cnki.net/">知网</a>，点击<strong>手机版</strong>，进入“全球学术快报”下载页面，下载<strong>手机端</strong>和<strong>电脑端</strong>，安装，注册。</p>
+<div style="text-align:center">
+   <img src="https://s2.loli.net/2023/11/05/zk5R8BMhLvF2UJH.png" width="80%">
+</div>
+
+<h1 id="模拟定位神器"><a href="#模拟定位神器" class="headerlink" title="模拟定位神器"></a>模拟定位神器</h1><ol>
+<li><p>按照使用说明开启定位权限。如果使用过程中弹出窗口要求观看视频广告，直接关闭软件再重新打开。</p>
+<div style="text-align:center">
+<img src="https://s2.loli.net/2023/11/05/eyrYFvLgmta3uXA.jpg" width="40%">
+</div>
 </li>
-<li><p>点击绿色<code>Code</code>按钮，选择<code>SSH</code>，一键复制地址；</p>
+<li><p>设置完成后，点击<strong>开始模拟位置</strong>，再点击右上方<strong>搜索图标</strong>🔍。</p>
+<div style="text-align:center">
+<img src="https://s2.loli.net/2023/11/05/2hbNpxs9HE8OSLG.jpg" width="40%">
+</div>
 </li>
-<li><p>进入Hexo文件夹，打开该文件夹下的<code>_config.yml</code>，修改为：</p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">deploy<span class="punctuation">:</span></span><br><span class="line">  type<span class="punctuation">:</span> &#x27;git&#x27;</span><br><span class="line">  repository<span class="punctuation">:</span> git@github.com<span class="punctuation">:</span>satparamita/paramita.git</span><br><span class="line">  branch<span class="punctuation">:</span> master</span><br></pre></td></tr></table></figure>
-<p><code>repository:</code>后面改成你的。<strong>注意</strong>：冒号后面有一个空格！改完之后一定要<strong>保存</strong>！</p>
+<li><p>输入需要定位的机构名称，如：北京大学。</p>
+<div style="text-align:center">
+<img src="https://s2.loli.net/2023/11/05/P298BpJN1aSmQrb.jpg" width="40%">
+</div>
 </li>
-<li><p>在Hexo文件夹下分别执行命令：<code>hexo g</code>、<code>hexo d</code>或者直接执行<code>hexo g -d</code>。执行完之后会让你输入你的Github的账号和密码。如果此时报以下错误，说明你的deployer没有安装成功。<br><code>ERROR Deployer not found: git</code><br>需要执行以下命令再安装一次：<br><code>npm install hexo-deployer-git --save</code><br>再执行 <code>hexo g -d</code>，你的博客就会部署到Github上了。</p>
+<li><p>定位成功后，输入此次定位的名字（可以随便命名），选择<strong>保存</strong>。</p>
+<div style="text-align:center">
+<img src="https://s2.loli.net/2023/11/05/aUzRZ4jyV8QhXt9.jpg" width="40%">
+</div>
 </li>
+<li><p>返回首页，点击运行。</p>
+<div style="text-align:center">
+<img src="https://s2.loli.net/2023/11/05/jGCrlkFHdXviE6f.jpg" width="40%">
+</div>
+</li>
+<li><p>成功运行，如图所示。暂时不要关闭app。</p>
+<div style="text-align:center">
+<img src="https://s2.loli.net/2023/11/05/hA3BEKuDGUgL5FH.jpg" width="40%">
+</div>
+</li>
+<li><p>也可以添加其它定位，每次只能选择开启一个。</p>
+<div style="text-align:center">
+<img src="https://s2.loli.net/2023/11/05/uIojcwFSUmlEnXY.jpg" width="40%">
+</div></li>
 </ol>
-<p><strong>PS</strong>：在以后的部署过程中，如果部署失败，或者出现<code>Please make sure you have the correct access rights and the repository exists.</code>。<br>解决办法：删除<code>.deploy_git</code>文件夹，输入<code>git config --global core.autocrlf false</code>，然后依次执行：<code>hexo clean</code> <code>hexo g -d</code><br>主要是要删除<code>.deploy_git</code>文件夹。<br>或者<br><code>git config --global user.name &quot;paramita&quot;</code><br><code>git config --global user.email &quot;liyiling1030@outlook.com&quot;</code><br>或者<br><code>hexo config deploy.repository git@github.com:satparamita/paramita.git</code></p>
-<p>我在网上找到以下建议：不要使用<code>hexo g -d</code>或者<code>hexo d -g</code>这类组合命令。使用<code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</code>本地预览，<code>hexo clean</code>为必须选项。<code>hexo d</code>要单独执行，其他命令可以组合执行，否则就会导致无法推送文件。一般多推送几次就能成功。<br>可能是由于墙的原因，也可能和系统有关，重装系统后可能会解决。</p>
-<h2 id="在博客上发表文章"><a href="#在博客上发表文章" class="headerlink" title="在博客上发表文章"></a>在博客上发表文章</h2><ol>
-<li>在<code>\Hexo\source\_posts</code>目录下新建文件，后缀为<code>.md</code>，<code>.md</code>文件可以使用支持Markdown语法的编辑器编辑。或者将写好的文章（.md文件）粘贴到 <code>\Hexo\source\_posts</code> 文件夹下。</li>
-<li>然后在hexo文件夹里<code>hexo g -d</code>上传，<code>hexo s</code>本地预览。在文章开头添加以下内容，注意冒号后面有一个空格。<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line"><span class="attr">title</span>: #标题； 必填</span><br><span class="line"><span class="attr">catagories</span>:  #分类； 选填</span><br><span class="line"><span class="attr">tags</span>: # 标签；选填</span><br><span class="line"><span class="attr">comments</span>: #是否开启评论 <span class="literal">true</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">abbrlink</span>:  #永久链接，需要先设置永久链接</span><br><span class="line"><span class="attr">date</span>:  # 文章发布日期；选填</span><br><span class="line"><span class="attr">updated</span>: #文章更新日期； 选填</span><br><span class="line"><span class="attr">description</span>: #文章描述，显示在标题下面； 选填</span><br><span class="line">---</span><br></pre></td></tr></table></figure></li>
+<h1 id="全球学术快报"><a href="#全球学术快报" class="headerlink" title="全球学术快报"></a>全球学术快报</h1><h2 id="手机端关联"><a href="#手机端关联" class="headerlink" title="手机端关联"></a>手机端关联</h2><ol>
+<li><p>打开<strong>全球学术快报</strong>App，进入<strong>我的</strong>，点击<strong>立即关联</strong>。</p>
+<div style="text-align:center">
+<img src="https://s2.loli.net/2023/11/05/iEaJVoxmcLXAPUw.jpg" width="40%">
+</div>
+</li>
+<li><p>点击<strong>位置关联</strong>，会显示已经定位的机构，点击关联。</p>
+<div style="text-align:center">
+<img src="https://s2.loli.net/2023/11/05/MaZYiBdWFho1EfR.jpg" width="40%">
+</div>
+</li>
+<li><p>关联成功后，如下两图所示。</p>
+<div style="text-align:center">
+<img src="https://s2.loli.net/2023/11/05/zSNb31wia7yClDI.jpg" width="40%">
+</div></li>
 </ol>
-<h2 id="更换自己喜欢的主题"><a href="#更换自己喜欢的主题" class="headerlink" title="更换自己喜欢的主题"></a>更换自己喜欢的主题</h2><ol>
-<li>找到主题下载地址，比如要安装<code>next</code>主题，在hexo文件夹里右键<code>Git Bash Here</code>，输入命令：<br><code>git clone https://github.com/next-theme/hexo-theme-next themes/next</code><br>主题会下载到<code>themes</code>目录下的<code>next</code>文件夹。</li>
-<li>打开Hexo文件夹下的站点配置文件<code>_config.yml</code>，找到关键字<code>theme</code>，修改参数为：<code>theme：next</code>，注意冒号后面有一个空格！</li>
+<div style="text-align:center">
+   <img src="https://s2.loli.net/2023/11/05/bBfvArSIMx9Vwyz.jpg" width="40%">
+</div>
+
+<ol start="4">
+<li>此时可以<strong>关闭定位软件</strong>，不然会影响其它app的定位功能，如打车软件。</li>
+<li>测试能否阅读、下载文献。</li>
 </ol>
-<p>更多主题设置请看我的文章<a href="https://satparamita.top/p/326f884.html">Next主题配置1</a>和<a href="https://satparamita.top/p/3330145c.html">Next主题配置2</a>。</p>
-<h2 id="自定义域名"><a href="#自定义域名" class="headerlink" title="自定义域名"></a>自定义域名</h2><ol>
-<li>购买域名，需要实名认证，域名的服务状态可能要几天后才会显示正常，显示正常后才能访问。</li>
-<li>在此期间添加解析，以我的为例，博客原地址是<code>https://satparamita.github.io/paramita/</code>，解析后指向购买的域名<code>https://satparamita.top</code>。建议记录类型选择CNAME，输入记录值<code>satparamita.github.io</code>。</li>
-<li>等待域名的服务状态为正常，正常后，在<code>Hexo/source</code>文件夹下创建名为<code>CNAME</code>的文件（注意没有后缀名），在里面写上购买的域名。比如我的：<code>satparamita.top</code>，没有<code>https://</code>。<code>hexo g -d</code>推送至github。</li>
-<li>在github上打开项目的<code>Settings</code>设置，在<code>GitHub Pages</code>的<code>Custom domain</code>设置里填上购买的域名。勾选下方的强制使用<code>https</code>。设置成功后，再打开博客地址<code>https://satparamita.github.io/paramita/</code>即转向新域名<code>https://satparamita.top</code>。</li>
-</ol>
-<h2 id="SEO推广"><a href="#SEO推广" class="headerlink" title="SEO推广"></a>SEO推广</h2><p>搭建完博客，博客的文章在谷歌和百度都搜索不到，因为需要SEO优化，SEO即Search Engine Optimization，搜索引擎优化。</p>
-<ol>
-<li>首先生成站点地图sitemap，用于通知搜索引擎网站上有哪些可供抓取的网页，以便搜索引擎智能地抓取网站。</li>
-<li>安装sitemap自动生成插件:<br><code>npm install hexo-generator-sitemap --save</code><br><code>npm install hexo-generator-baidu-sitemap --save</code></li>
-<li>将sitemap文件添加到站点配置<code>_config.yml</code>中。<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="attr">sitemap</span>:</span><br><span class="line">  <span class="attr">path</span>: sitemap.<span class="property">xml</span></span><br><span class="line"><span class="attr">baidusitemap</span>:</span><br><span class="line">  <span class="attr">path</span>: baidusitemap.<span class="property">ejs</span></span><br><span class="line">  <span class="attr">url</span>: <span class="attr">https</span>:<span class="comment">//satparamita.top</span></span><br></pre></td></tr></table></figure></li>
-<li>执行<code>hexo g</code>就能在<code>Hexo/public</code>文件夹中生成<code>sitemap.xml</code>和<code>baidusitemap.ejs</code>。其中第一个要提交给google，第二个提交给Baidu。</li>
-</ol>
-<h3 id="提交站点到百度"><a href="#提交站点到百度" class="headerlink" title="提交站点到百度"></a>提交站点到百度</h3><ol>
-<li>注册<a href="https://ziyuan.baidu.com/">百度站长平台</a>，有百度账号即可。点击用户中心，进入站点管理，点击添加网站，将网站链接提交到百度。</li>
-<li>正式提交有三种验证方式，我选择Html标签验证，在<code>themes\next\layout\_partials\head\head.njk</code>中第二行开始添加百度提供的验证代码：<br><code>&lt;meta name=&quot;baidu-site-verification&quot; content=&quot;xxxxxxxxxxx&quot; /&gt;</code>。<br>添加后保存，执行<code>hexo d -g</code>，然后点击完成验证，通过即可。</li>
-<li>在主题配置文件中找到seo。将<code>content=&quot;xxxxxxxxxxx&quot;</code>里的内容添加到主题配置里：<br><code>baidu_site_verification: xxxxxxx</code></li>
-<li>回到链接提交处，选择自己的站点网址，在<code>普通收录</code>里的<code>资源提交</code>，选择<code>sitemap</code>，按照提示的格式添加自己的baidusitemap.ejs文件。</li>
-<li>自动提交，参考<a href="https://github.com/lete114/hexo-seo-autopush">hexo-seo-autopush</a>。</li>
-</ol>
-<h3 id="提交站点到Google"><a href="#提交站点到Google" class="headerlink" title="提交站点到Google"></a>提交站点到Google</h3><ol>
-<li>与提交到百度差不多，首先保证能连到谷歌。打开Google Search Console，根据提示注册好之后，添加博客域名。</li>
-<li>验证站点，我选择了备用方法中的HTML标记，将google给出的代码<code>&lt;meta name=&quot;google-site-verification&quot; content=&quot;xxxxxxxxxx&quot; /&gt;</code>复制到<code>themes\next\layout\_partials\head\head.njk</code>第二行。<br>添加后保存，执行<code>hexo d -g</code>，稍后就验证成功了。</li>
-<li>在主题配置文件中找到seo。将<code>content=&quot;xxxxxxxxxxx&quot;</code>里的内容添加到主题配置里：<br><code>google_site_verification: xxxxxxx</code></li>
-<li>在<code>站点地图</code>里添加新的站点地图，输入<code>sitemap.xml</code>。</li>
-</ol>
-<h3 id="添加蜘蛛协议"><a href="#添加蜘蛛协议" class="headerlink" title="添加蜘蛛协议"></a>添加蜘蛛协议</h3><p>网站通过Robots协议告诉搜索引擎哪些页面可以抓取，哪些页面不能抓取。robots.txt通常存放于<code>Hexo/public</code>文件夹。由于每次<code>hexo clean</code>都会清空public文件夹，所以把robots.txt文件放在source文件夹下，我的robots.txt内容为：</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="title class_">User</span>-<span class="attr">agent</span>: *</span><br><span class="line"><span class="title class_">Allow</span>: /</span><br><span class="line"><span class="title class_">Allow</span>: <span class="regexp">/archives/</span></span><br><span class="line"><span class="title class_">Allow</span>: <span class="regexp">/categories/</span></span><br><span class="line"><span class="title class_">Allow</span>: <span class="regexp">/tags/</span></span><br><span class="line"><span class="title class_">Allow</span>: <span class="regexp">/page/</span></span><br><span class="line"><span class="title class_">Disallow</span>: <span class="regexp">/js/</span></span><br><span class="line"><span class="title class_">Disallow</span>: <span class="regexp">/css/</span></span><br><span class="line"><span class="title class_">Disallow</span>: <span class="regexp">/fonts/</span></span><br><span class="line"><span class="title class_">Disallow</span>: <span class="regexp">/vendors/</span></span><br><span class="line"><span class="title class_">Disallow</span>: <span class="regexp">/fancybox/</span></span><br><span class="line"><span class="title class_">Sitemap</span>: <span class="attr">https</span>:<span class="comment">//satparamita.top/sitemap.xml</span></span><br><span class="line"><span class="title class_">Sitemap</span>: <span class="attr">https</span>:<span class="comment">//satparamita.top/baidusitemap.ejs</span></span><br></pre></td></tr></table></figure>
-<p>其中Allow后面的就是menu，可自行修改，将<code>satparamita.top</code>改成自己的域名，然后<code>hexo g</code>提交。</p>
-<h3 id="验证站点是否被收录。"><a href="#验证站点是否被收录。" class="headerlink" title="验证站点是否被收录。"></a>验证站点是否被收录。</h3><p>在搜索引擎搜索框输入<code>site:satparamita.top</code>，可以查看域名是否被该搜索引擎收录。如果没有找到，说明没有被收录。一般需要几个星期。</p>
-<h3 id="附"><a href="#附" class="headerlink" title="附"></a>附</h3><p>有时候需要在github里删除某些文件或文件夹，而删除按钮比较隐蔽，以下操作供参考。</p>
-<ol>
-<li>删除github文件，点击<code>Go to file</code> ，选中文件，打开，点击删除图标，然后提交。</li>
-<li>删除repository，打开<code>repository</code>，点击<code>Settings</code>，下拉找到红色<code>Delete this repository</code>。</li>
+<h2 id="电脑端关联"><a href="#电脑端关联" class="headerlink" title="电脑端关联"></a>电脑端关联</h2><p>打开全球学术快报电脑端，点击右上角头像，选择关联机构，打开全球学术快报手机端，扫码授权。关联后如图所示。</p>
+<div style="text-align:center">
+   <img src="https://s2.loli.net/2023/11/05/HjZVFp7w914Atgx.png" width="40%">
+</div>
+
+<h1 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h1><ol>
+<li>关联到期后，开启定位，重新关联。</li>
+<li>如果需要更换定位机构（一般没有必要更换），先在模拟定位神器app中开启新的定位。全球学术快报app可能没有显示新的定位机构，尝试关闭全球学术快报app的定位权限，再重新开启定位权限，再点击位置关联，此时应该会显示新的定位机构。</li>
 </ol>
 ]]></content>
       <tags>
-        <tag>github</tag>
-        <tag>hexo</tag>
-        <tag>next</tag>
+        <tag>知网</tag>
       </tags>
   </entry>
   <entry>
@@ -367,6 +376,102 @@
 ]]></content>
       <tags>
         <tag>markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Github + Hexo 制作静态网站</title>
+    <url>/p/1b9a5d5d.html</url>
+    <content><![CDATA[<h2 id="软件安装"><a href="#软件安装" class="headerlink" title="软件安装"></a>软件安装</h2><ol>
+<li>安装<a href="https://nodejs.org/zh-cn/">Node.js</a>、<a href="https://git-scm.com/downloads">git</a>，点击进入下载网站。<span id="more"></span></li>
+<li>检验git是否安装成功，同时按下<code>Win</code>键和<code>R</code>键打开运行窗口，输入<code>cmd</code>，打开命令提示符，分别输入以下命令：<br><code>git --version</code><br><code>node -v</code><br><code>npm -v</code><br>有相应版本信息显示则安装成功。若安装成功，在桌面右键鼠标，可以看到菜单里多了 <code>Git GUI Here</code> 和 <code>Git Bash Here</code>两个选项，第一个是图形界面的Git操作，另一个是命令行。</li>
+<li>git更新方法，输入命令:<br><code>git clone https://github.com/git/git</code></li>
+</ol>
+<h2 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h2><h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><ol>
+<li>选择一个磁盘，新建并重命名文件夹（我的文件夹为：C:&#x2F;satparamita），博客相关文件将储存在此文件夹下。在该文件夹下右键点击<code>Git Bash Here</code>，输入以下npm命令即可安装。第一个命令表示安装hexo，第二个命令表示安装hexo部署到git page的deployer。需要几十秒。<br><code>npm install hexo-cli -g</code><br><code>npm install hexo-deployer-git --save</code></li>
+<li>Hexo初始化配置，在刚才新建的文件夹里面再次新建一个<code>Hexo</code>文件夹，进入该文件夹，右键点击<code>Git Bash Here</code>，输入命令：<code>hexo init</code><br>安装需要几十秒，安装完成后，将会在指定文件夹中新建所需要的文件。</li>
+</ol>
+<h3 id="升级"><a href="#升级" class="headerlink" title="升级"></a>升级</h3><p>目前不用升级，以后想要升级，请参考以下：</p>
+<ol>
+<li>全局升级hexo-cli，先<code>hexo version</code>查看当前版本，然后<code>npm i hexo-cli -g</code>，再次<code>hexo version</code>查看是否升级成功。</li>
+<li>使用<code>npm install -g npm-check</code>和<code>npm-check</code>，检查系统中的插件是否有升级的，可以看到之前都安装了哪些插件。</li>
+<li>使用<code>npm install -g npm-upgrade</code>和<code>npm-upgrade</code>，升级系统中的插件。</li>
+<li>使用<code>npm update -g</code>和<code>npm update --save</code>，更新全局包和依赖包。</li>
+</ol>
+<h3 id="本地查看效果"><a href="#本地查看效果" class="headerlink" title="本地查看效果"></a>本地查看效果</h3><ol>
+<li>执行以下命令，<code>hexo generate</code>或者<code>hexo g</code>、<code>hexo server</code>或者<code>hexo s</code>。</li>
+<li>执行完即可登录<code>http://localhost:4000/</code>查看效果。<br>显示以下信息说明操作成功：<br><code>INFO Hexo is running at http://0.0.0.0:4000/. Press Ctrl+C to stop.</code></li>
+</ol>
+<h2 id="将博客部署到-Github-Pages-上"><a href="#将博客部署到-Github-Pages-上" class="headerlink" title="将博客部署到 Github Pages 上"></a>将博客部署到 Github Pages 上</h2><p>至此，本地博客就搭建成功了，但是只能通过本地连接查看博客。想要让其他人也能访问，就需要将博客部署到Github Pages上。</p>
+<ol>
+<li>注册Github账户。创建项目代码库，点击<code>New repository</code>开始创建。</li>
+<li>配置SSH密钥，配置SSH密钥后才可以通过git操作实现本地代码库与Github代码库同步。在第一次新建的文件夹里（我的文件夹为：C:&#x2F;satparamita）右键点击<code>Git Bash Here</code>，输入以下命令：<br><code>ssh-keygen -t rsa -C &quot;liyiling1030@outlook.com&quot;</code><br>引号里面填写你的邮箱地址，注意两边加引号。之后会出现：<br><code>Generating public/private rsa key pair.Enter file in which to save the key (/c/Users/you/.ssh/id_rsa):</code><br>可以直接回车将密钥按默认文件存储，然后会出现：<br><code>Enter passphrase (empty for no passphrase):</code><br>要输入密码，直接回车就行<br><code>Enter same passphrase again:</code><br>接下来屏幕会显示：<br><code>Your identification has been saved in /c/Users/you/.ssh/id_rsa.Your public key has been saved in /c/Users/you/.ssh/id_rsa.pub.The key fingerprint is:</code><br>这里是各种字母数字组成的字符串，结尾是你的邮箱。<br><code>The key&#39;s randomart image is:</code><br>这里也是各种字母数字符号组成的字符串。<br>运行以下命令，将公钥的内容复制到系统粘贴板上。<br><code>clip &lt; ~/.ssh/id_rsa.pub</code>。</li>
+<li>在GitHub账户中添加你的公钥，登录GitHub，头像–&gt;<code>Settings</code>–&gt;<code>SSH and GPG Keys</code>–&gt;<code>New SSH key</code>，粘贴密钥。</li>
+<li>测试，输入以下命令：注意不要做任何更改！<br><code>ssh -T git@github.com</code></li>
+<li>配置Git个人信息，Git会根据用户的名字和邮箱来记录提交，GitHub也是用这些信息来做权限的处理，输入以下命令设置个人信息，把名称和邮箱替换成你的，名字可以不是GitHub的昵称，建议与GitHub一致。<br><code>git config --global user.name &quot;paramita&quot;</code><br><code>git config --global user.email &quot;liyiling1030@outlook.com&quot;</code><br><strong>注意</strong>加引号。至此<code>SSH Key</code>配置成功，本机已成功连接到Github.</li>
+</ol>
+<h2 id="将本地的Hexo文件更新到Github的库中"><a href="#将本地的Hexo文件更新到Github的库中" class="headerlink" title="将本地的Hexo文件更新到Github的库中"></a>将本地的Hexo文件更新到Github的库中</h2><ol>
+<li><p>登录Github打开自己的项目<code>https://github.com/yousite/</code>；</p>
+</li>
+<li><p>点击绿色<code>Code</code>按钮，选择<code>SSH</code>，一键复制地址；</p>
+</li>
+<li><p>进入Hexo文件夹，打开该文件夹下的<code>_config.yml</code>，修改为：</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">deploy<span class="punctuation">:</span></span><br><span class="line">  type<span class="punctuation">:</span> &#x27;git&#x27;</span><br><span class="line">  repository<span class="punctuation">:</span> git@github.com<span class="punctuation">:</span>satparamita/paramita.git</span><br><span class="line">  branch<span class="punctuation">:</span> master</span><br></pre></td></tr></table></figure>
+<p><code>repository:</code>后面改成你的。<strong>注意</strong>：冒号后面有一个空格！改完之后一定要<strong>保存</strong>！</p>
+</li>
+<li><p>在Hexo文件夹下分别执行命令：<code>hexo g</code>、<code>hexo d</code>或者直接执行<code>hexo g -d</code>。执行完之后会让你输入你的Github的账号和密码。如果此时报以下错误，说明你的deployer没有安装成功。<br><code>ERROR Deployer not found: git</code><br>需要执行以下命令再安装一次：<br><code>npm install hexo-deployer-git --save</code><br>再执行 <code>hexo g -d</code>，你的博客就会部署到Github上了。</p>
+</li>
+</ol>
+<p><strong>PS</strong>：在以后的部署过程中，如果部署失败，或者出现<code>Please make sure you have the correct access rights and the repository exists.</code>。<br>解决办法：删除<code>.deploy_git</code>文件夹，输入<code>git config --global core.autocrlf false</code>，然后依次执行：<code>hexo clean</code> <code>hexo g -d</code><br>主要是要删除<code>.deploy_git</code>文件夹。<br>或者<br><code>git config --global user.name &quot;paramita&quot;</code><br><code>git config --global user.email &quot;liyiling1030@outlook.com&quot;</code><br>或者<br><code>hexo config deploy.repository git@github.com:satparamita/paramita.git</code></p>
+<p>我在网上找到以下建议：不要使用<code>hexo g -d</code>或者<code>hexo d -g</code>这类组合命令。使用<code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</code>本地预览，<code>hexo clean</code>为必须选项。<code>hexo d</code>要单独执行，其他命令可以组合执行，否则就会导致无法推送文件。一般多推送几次就能成功。<br>可能是由于墙的原因，也可能和系统有关，重装系统后可能会解决。</p>
+<h2 id="在博客上发表文章"><a href="#在博客上发表文章" class="headerlink" title="在博客上发表文章"></a>在博客上发表文章</h2><ol>
+<li>在<code>\Hexo\source\_posts</code>目录下新建文件，后缀为<code>.md</code>，<code>.md</code>文件可以使用支持Markdown语法的编辑器编辑。或者将写好的文章（.md文件）粘贴到 <code>\Hexo\source\_posts</code> 文件夹下。</li>
+<li>然后在hexo文件夹里<code>hexo g -d</code>上传，<code>hexo s</code>本地预览。在文章开头添加以下内容，注意冒号后面有一个空格。<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line"><span class="attr">title</span>: #标题； 必填</span><br><span class="line"><span class="attr">catagories</span>:  #分类； 选填</span><br><span class="line"><span class="attr">tags</span>: # 标签；选填</span><br><span class="line"><span class="attr">comments</span>: #是否开启评论 <span class="literal">true</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">abbrlink</span>:  #永久链接，需要先设置永久链接</span><br><span class="line"><span class="attr">date</span>:  # 文章发布日期；选填</span><br><span class="line"><span class="attr">updated</span>: #文章更新日期； 选填</span><br><span class="line"><span class="attr">description</span>: #文章描述，显示在标题下面； 选填</span><br><span class="line">---</span><br></pre></td></tr></table></figure></li>
+</ol>
+<h2 id="更换自己喜欢的主题"><a href="#更换自己喜欢的主题" class="headerlink" title="更换自己喜欢的主题"></a>更换自己喜欢的主题</h2><ol>
+<li>找到主题下载地址，比如要安装<code>next</code>主题，在hexo文件夹里右键<code>Git Bash Here</code>，输入命令：<br><code>git clone https://github.com/next-theme/hexo-theme-next themes/next</code><br>主题会下载到<code>themes</code>目录下的<code>next</code>文件夹。</li>
+<li>打开Hexo文件夹下的站点配置文件<code>_config.yml</code>，找到关键字<code>theme</code>，修改参数为：<code>theme：next</code>，注意冒号后面有一个空格！</li>
+</ol>
+<p>更多主题设置请看我的文章<a href="https://satparamita.top/p/326f884.html">Next主题配置1</a>和<a href="https://satparamita.top/p/3330145c.html">Next主题配置2</a>。</p>
+<h2 id="自定义域名"><a href="#自定义域名" class="headerlink" title="自定义域名"></a>自定义域名</h2><ol>
+<li>购买域名，需要实名认证，域名的服务状态可能要几天后才会显示正常，显示正常后才能访问。</li>
+<li>在此期间添加解析，以我的为例，博客原地址是<code>https://satparamita.github.io/paramita/</code>，解析后指向购买的域名<code>https://satparamita.top</code>。建议记录类型选择CNAME，输入记录值<code>satparamita.github.io</code>。</li>
+<li>等待域名的服务状态为正常，正常后，在<code>Hexo/source</code>文件夹下创建名为<code>CNAME</code>的文件（注意没有后缀名），在里面写上购买的域名。比如我的：<code>satparamita.top</code>，没有<code>https://</code>。<code>hexo g -d</code>推送至github。</li>
+<li>在github上打开项目的<code>Settings</code>设置，在<code>GitHub Pages</code>的<code>Custom domain</code>设置里填上购买的域名。勾选下方的强制使用<code>https</code>。设置成功后，再打开博客地址<code>https://satparamita.github.io/paramita/</code>即转向新域名<code>https://satparamita.top</code>。</li>
+</ol>
+<h2 id="SEO推广"><a href="#SEO推广" class="headerlink" title="SEO推广"></a>SEO推广</h2><p>搭建完博客，博客的文章在谷歌和百度都搜索不到，因为需要SEO优化，SEO即Search Engine Optimization，搜索引擎优化。</p>
+<ol>
+<li>首先生成站点地图sitemap，用于通知搜索引擎网站上有哪些可供抓取的网页，以便搜索引擎智能地抓取网站。</li>
+<li>安装sitemap自动生成插件:<br><code>npm install hexo-generator-sitemap --save</code><br><code>npm install hexo-generator-baidu-sitemap --save</code></li>
+<li>将sitemap文件添加到站点配置<code>_config.yml</code>中。<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="attr">sitemap</span>:</span><br><span class="line">  <span class="attr">path</span>: sitemap.<span class="property">xml</span></span><br><span class="line"><span class="attr">baidusitemap</span>:</span><br><span class="line">  <span class="attr">path</span>: baidusitemap.<span class="property">ejs</span></span><br><span class="line">  <span class="attr">url</span>: <span class="attr">https</span>:<span class="comment">//satparamita.top</span></span><br></pre></td></tr></table></figure></li>
+<li>执行<code>hexo g</code>就能在<code>Hexo/public</code>文件夹中生成<code>sitemap.xml</code>和<code>baidusitemap.ejs</code>。其中第一个要提交给google，第二个提交给Baidu。</li>
+</ol>
+<h3 id="提交站点到百度"><a href="#提交站点到百度" class="headerlink" title="提交站点到百度"></a>提交站点到百度</h3><ol>
+<li>注册<a href="https://ziyuan.baidu.com/">百度站长平台</a>，有百度账号即可。点击用户中心，进入站点管理，点击添加网站，将网站链接提交到百度。</li>
+<li>正式提交有三种验证方式，我选择Html标签验证，在<code>themes\next\layout\_partials\head\head.njk</code>中第二行开始添加百度提供的验证代码：<br><code>&lt;meta name=&quot;baidu-site-verification&quot; content=&quot;xxxxxxxxxxx&quot; /&gt;</code>。<br>添加后保存，执行<code>hexo d -g</code>，然后点击完成验证，通过即可。</li>
+<li>在主题配置文件中找到seo。将<code>content=&quot;xxxxxxxxxxx&quot;</code>里的内容添加到主题配置里：<br><code>baidu_site_verification: xxxxxxx</code></li>
+<li>回到链接提交处，选择自己的站点网址，在<code>普通收录</code>里的<code>资源提交</code>，选择<code>sitemap</code>，按照提示的格式添加自己的baidusitemap.ejs文件。</li>
+<li>自动提交，参考<a href="https://github.com/lete114/hexo-seo-autopush">hexo-seo-autopush</a>。</li>
+</ol>
+<h3 id="提交站点到Google"><a href="#提交站点到Google" class="headerlink" title="提交站点到Google"></a>提交站点到Google</h3><ol>
+<li>与提交到百度差不多，首先保证能连到谷歌。打开Google Search Console，根据提示注册好之后，添加博客域名。</li>
+<li>验证站点，我选择了备用方法中的HTML标记，将google给出的代码<code>&lt;meta name=&quot;google-site-verification&quot; content=&quot;xxxxxxxxxx&quot; /&gt;</code>复制到<code>themes\next\layout\_partials\head\head.njk</code>第二行。<br>添加后保存，执行<code>hexo d -g</code>，稍后就验证成功了。</li>
+<li>在主题配置文件中找到seo。将<code>content=&quot;xxxxxxxxxxx&quot;</code>里的内容添加到主题配置里：<br><code>google_site_verification: xxxxxxx</code></li>
+<li>在<code>站点地图</code>里添加新的站点地图，输入<code>sitemap.xml</code>。</li>
+</ol>
+<h3 id="添加蜘蛛协议"><a href="#添加蜘蛛协议" class="headerlink" title="添加蜘蛛协议"></a>添加蜘蛛协议</h3><p>网站通过Robots协议告诉搜索引擎哪些页面可以抓取，哪些页面不能抓取。robots.txt通常存放于<code>Hexo/public</code>文件夹。由于每次<code>hexo clean</code>都会清空public文件夹，所以把robots.txt文件放在source文件夹下，我的robots.txt内容为：</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="title class_">User</span>-<span class="attr">agent</span>: *</span><br><span class="line"><span class="title class_">Allow</span>: /</span><br><span class="line"><span class="title class_">Allow</span>: <span class="regexp">/archives/</span></span><br><span class="line"><span class="title class_">Allow</span>: <span class="regexp">/categories/</span></span><br><span class="line"><span class="title class_">Allow</span>: <span class="regexp">/tags/</span></span><br><span class="line"><span class="title class_">Allow</span>: <span class="regexp">/page/</span></span><br><span class="line"><span class="title class_">Disallow</span>: <span class="regexp">/js/</span></span><br><span class="line"><span class="title class_">Disallow</span>: <span class="regexp">/css/</span></span><br><span class="line"><span class="title class_">Disallow</span>: <span class="regexp">/fonts/</span></span><br><span class="line"><span class="title class_">Disallow</span>: <span class="regexp">/vendors/</span></span><br><span class="line"><span class="title class_">Disallow</span>: <span class="regexp">/fancybox/</span></span><br><span class="line"><span class="title class_">Sitemap</span>: <span class="attr">https</span>:<span class="comment">//satparamita.top/sitemap.xml</span></span><br><span class="line"><span class="title class_">Sitemap</span>: <span class="attr">https</span>:<span class="comment">//satparamita.top/baidusitemap.ejs</span></span><br></pre></td></tr></table></figure>
+<p>其中Allow后面的就是menu，可自行修改，将<code>satparamita.top</code>改成自己的域名，然后<code>hexo g</code>提交。</p>
+<h3 id="验证站点是否被收录。"><a href="#验证站点是否被收录。" class="headerlink" title="验证站点是否被收录。"></a>验证站点是否被收录。</h3><p>在搜索引擎搜索框输入<code>site:satparamita.top</code>，可以查看域名是否被该搜索引擎收录。如果没有找到，说明没有被收录。一般需要几个星期。</p>
+<h3 id="附"><a href="#附" class="headerlink" title="附"></a>附</h3><p>有时候需要在github里删除某些文件或文件夹，而删除按钮比较隐蔽，以下操作供参考。</p>
+<ol>
+<li>删除github文件，点击<code>Go to file</code> ，选中文件，打开，点击删除图标，然后提交。</li>
+<li>删除repository，打开<code>repository</code>，点击<code>Settings</code>，下拉找到红色<code>Delete this repository</code>。</li>
+</ol>
+]]></content>
+      <tags>
+        <tag>github</tag>
+        <tag>hexo</tag>
+        <tag>next</tag>
       </tags>
   </entry>
   <entry>
@@ -658,111 +763,6 @@
 ]]></content>
       <tags>
         <tag>next</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>校外使用“全球学术快报+模拟定位神器”免费下载知网文献</title>
-    <url>/p/f674b979.html</url>
-    <content><![CDATA[<p><strong>全球学术快报</strong>是中国<strong>知网</strong>旗下移动检索平台，可以搜索、阅读、下载文献，但是收费。在校内关联机构后，个人可以免费使用。若在校外，需要更改手机当前的定位到某些机构（如北京大学）。本文介绍使用<strong>模拟定位神器</strong>App更改定位。先在手机端下载App，安装，注册。</p>
-<span id="more"></span>
-<p>进入<a href="https://www.cnki.net/">知网</a>，点击<strong>手机版</strong>，进入“全球学术快报”下载页面，下载<strong>手机端</strong>和<strong>电脑端</strong>，安装，注册。</p>
-<div style="text-align:center">
-   <img src="https://s2.loli.net/2023/11/05/zk5R8BMhLvF2UJH.png" width="80%">
-</div>
-
-<h1 id="模拟定位神器"><a href="#模拟定位神器" class="headerlink" title="模拟定位神器"></a>模拟定位神器</h1><ol>
-<li><p>按照使用说明开启定位权限。如果使用过程中弹出窗口要求观看视频广告，直接关闭软件再重新打开。</p>
-<div style="text-align:center">
-<img src="https://s2.loli.net/2023/11/05/eyrYFvLgmta3uXA.jpg" width="40%">
-</div>
-</li>
-<li><p>设置完成后，点击<strong>开始模拟位置</strong>，再点击右上方<strong>搜索图标</strong>🔍。</p>
-<div style="text-align:center">
-<img src="https://s2.loli.net/2023/11/05/2hbNpxs9HE8OSLG.jpg" width="40%">
-</div>
-</li>
-<li><p>输入需要定位的机构名称，如：北京大学。</p>
-<div style="text-align:center">
-<img src="https://s2.loli.net/2023/11/05/P298BpJN1aSmQrb.jpg" width="40%">
-</div>
-</li>
-<li><p>定位成功后，输入此次定位的名字（可以随便命名），选择<strong>保存</strong>。</p>
-<div style="text-align:center">
-<img src="https://s2.loli.net/2023/11/05/aUzRZ4jyV8QhXt9.jpg" width="40%">
-</div>
-</li>
-<li><p>返回首页，点击运行。</p>
-<div style="text-align:center">
-<img src="https://s2.loli.net/2023/11/05/jGCrlkFHdXviE6f.jpg" width="40%">
-</div>
-</li>
-<li><p>成功运行，如图所示。暂时不要关闭app。</p>
-<div style="text-align:center">
-<img src="https://s2.loli.net/2023/11/05/hA3BEKuDGUgL5FH.jpg" width="40%">
-</div>
-</li>
-<li><p>也可以添加其它定位，每次只能选择开启一个。</p>
-<div style="text-align:center">
-<img src="https://s2.loli.net/2023/11/05/uIojcwFSUmlEnXY.jpg" width="40%">
-</div></li>
-</ol>
-<h1 id="全球学术快报"><a href="#全球学术快报" class="headerlink" title="全球学术快报"></a>全球学术快报</h1><h2 id="手机端关联"><a href="#手机端关联" class="headerlink" title="手机端关联"></a>手机端关联</h2><ol>
-<li><p>打开<strong>全球学术快报</strong>App，进入<strong>我的</strong>，点击<strong>立即关联</strong>。</p>
-<div style="text-align:center">
-<img src="https://s2.loli.net/2023/11/05/iEaJVoxmcLXAPUw.jpg" width="40%">
-</div>
-</li>
-<li><p>点击<strong>位置关联</strong>，会显示已经定位的机构，点击关联。</p>
-<div style="text-align:center">
-<img src="https://s2.loli.net/2023/11/05/MaZYiBdWFho1EfR.jpg" width="40%">
-</div>
-</li>
-<li><p>关联成功后，如下两图所示。</p>
-<div style="text-align:center">
-<img src="https://s2.loli.net/2023/11/05/zSNb31wia7yClDI.jpg" width="40%">
-</div></li>
-</ol>
-<div style="text-align:center">
-   <img src="https://s2.loli.net/2023/11/05/bBfvArSIMx9Vwyz.jpg" width="40%">
-</div>
-
-<ol start="4">
-<li>此时可以<strong>关闭定位软件</strong>，不然会影响其它app的定位功能，如打车软件。</li>
-<li>测试能否阅读、下载文献。</li>
-</ol>
-<h2 id="电脑端关联"><a href="#电脑端关联" class="headerlink" title="电脑端关联"></a>电脑端关联</h2><p>打开全球学术快报电脑端，点击右上角头像，选择关联机构，打开全球学术快报手机端，扫码授权。关联后如图所示。</p>
-<div style="text-align:center">
-   <img src="https://s2.loli.net/2023/11/05/HjZVFp7w914Atgx.png" width="40%">
-</div>
-
-<h1 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h1><ol>
-<li>关联到期后，开启定位，重新关联。</li>
-<li>如果需要更换定位机构（一般没有必要更换），先在模拟定位神器app中开启新的定位。全球学术快报app可能没有显示新的定位机构，尝试关闭全球学术快报app的定位权限，再重新开启定位权限，再点击位置关联，此时应该会显示新的定位机构。</li>
-</ol>
-]]></content>
-      <tags>
-        <tag>知网</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>古诗文摘录</title>
-    <url>/p/34ec0e12.html</url>
-    <content><![CDATA[<span id="more"></span>
-
-<blockquote class="blockquote-center">
-<h3 id="浣溪沙-王国维"><a href="#浣溪沙-王国维" class="headerlink" title="浣溪沙 王国维"></a>浣溪沙 王国维</h3><p>山寺微茫背夕曛，鸟飞不到半山昏。上方孤磬定行云。<br>试上高峰窥皓月，偶开天眼觑红尘。可怜身是眼中人。</p>
-<h3 id="月儿弯弯照九州-宋"><a href="#月儿弯弯照九州-宋" class="headerlink" title="月儿弯弯照九州 宋"></a>月儿弯弯照九州 宋</h3><p>月儿弯弯照九州，几家欢乐几家愁。几家夫妇同罗帐，几个飘零在外头？</p>
-
-</blockquote>
-
-<blockquote>
-<p>周寿谊，昆山人，年百岁，其子亦跻八十。同赴苏庠乡饮，徒步而往。既至，子坐于阶石气喘，父笑曰：少年何困倦乃尔？饮毕，子欲附舟，父不可，复步归舍。昆距苏七十余里，往返便捷，其精力强健如此。</p>
-<p>后太祖闻其高寿，特召至京，拜阶下，状甚矍铄。问今岁年若干，对云一百七岁。又问平日有何修养而能致此，对曰：清心寡欲。上善其对，笑曰：闻昆山腔甚嘉，尔亦能讴？否曰不能，但善吴歌。命之歌，歌曰：<strong>月子弯弯照几州，几人欢乐几人愁。几人夫妇同罗帐，几人飘散在他州</strong>。上抚掌曰：是个村老儿。命赏酒饭罢归。</p>
-<p>后至一百十七岁，端坐而逝。子亦年九十八，家有世寿堂，其孙曾多至八十外。盖缘禀赋素厚，其繇来有由矣。</p>
-</blockquote>]]></content>
-      <tags>
-        <tag>诗文</tag>
-        <tag>摘录</tag>
       </tags>
   </entry>
 </search>
