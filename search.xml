@@ -9,7 +9,7 @@
   <entry>
     <title>古诗文摘录</title>
     <url>/p/34ec0e12.html</url>
-    <content><![CDATA[<span id="more"></span>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.bootcdn.net/ajax/libs/aplayer/1.10.1/APlayer.min.css"><script src="https://cdn.bootcdn.net/ajax/libs/aplayer/1.10.1/APlayer.min.js" class="aplayer-secondary-script-marker"></script><span id="more"></span>
 
 <blockquote class="blockquote-center">
 <h3 id="浣溪沙-王国维"><a href="#浣溪沙-王国维" class="headerlink" title="浣溪沙 王国维"></a>浣溪沙 王国维</h3><p>山寺微茫背夕曛，鸟飞不到半山昏。上方孤磬定行云。<br>试上高峰窥皓月，偶开天眼觑红尘。可怜身是眼中人。</p>
@@ -30,7 +30,7 @@
   <entry>
     <title>校外使用“全球学术快报+模拟定位神器”免费下载知网文献</title>
     <url>/p/f674b979.html</url>
-    <content><![CDATA[<p><strong>全球学术快报</strong>是中国<strong>知网</strong>旗下移动检索平台，可以搜索、阅读、下载文献，但是收费。在校内关联机构后，个人可以免费使用。若在校外，需要更改手机当前的定位到某些机构（如北京大学）。本文介绍使用<strong>模拟定位神器</strong>App更改定位。先在手机端下载App，安装，注册。</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.bootcdn.net/ajax/libs/aplayer/1.10.1/APlayer.min.css"><script src="https://cdn.bootcdn.net/ajax/libs/aplayer/1.10.1/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong>全球学术快报</strong>是中国<strong>知网</strong>旗下移动检索平台，可以搜索、阅读、下载文献，但是收费。在校内关联机构后，个人可以免费使用。若在校外，需要更改手机当前的定位到某些机构（如北京大学）。本文介绍使用<strong>模拟定位神器</strong>App更改定位。先在手机端下载App，安装，注册。</p>
 <span id="more"></span>
 <p>进入<a href="https://www.cnki.net/">知网</a>，点击<strong>手机版</strong>，进入“全球学术快报”下载页面，下载<strong>手机端</strong>和<strong>电脑端</strong>，安装，注册。</p>
 <div style="text-align:center">
@@ -114,7 +114,7 @@
   <entry>
     <title>Markdown 语法</title>
     <url>/p/f134a8e5.html</url>
-    <content><![CDATA[<h3 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h3><p>在文章开头或段落中填写<code>[TOC]</code>以显示全文的目录。如果不需要在目录中显示某一个标题，在标题后面添加 <code>&#123;ignore=true&#125;</code> 即可。比如<code>## 这是二级标题 &#123;ignore=true&#125;</code>，注意中间有一个空格。<span id="more"></span><br>使用<code>[TOC]</code>显示目录，选择目录标题深度有两种方式：</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.bootcdn.net/ajax/libs/aplayer/1.10.1/APlayer.min.css"><script src="https://cdn.bootcdn.net/ajax/libs/aplayer/1.10.1/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h3><p>在文章开头或段落中填写<code>[TOC]</code>以显示全文的目录。如果不需要在目录中显示某一个标题，在标题后面添加 <code>&#123;ignore=true&#125;</code> 即可。比如<code>## 这是二级标题 &#123;ignore=true&#125;</code>，注意中间有一个空格。<span id="more"></span><br>使用<code>[TOC]</code>显示目录，选择目录标题深度有两种方式：</p>
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line"><span class="attr">toc</span>: </span><br><span class="line">  <span class="attr">depth_from</span>: <span class="number">2</span></span><br><span class="line">  <span class="attr">depth_to</span>: <span class="number">3</span></span><br><span class="line">  <span class="attr">ordered</span>: <span class="literal">false</span></span><br><span class="line">---</span><br></pre></td></tr></table></figure>
 
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line">@<span class="keyword">import</span> <span class="string">&quot;[TOC]&quot;</span> &#123;cmd=<span class="string">&quot;toc&quot;</span> depthFrom=<span class="number">2</span> depthTo=<span class="number">2</span> orderedList=<span class="literal">false</span>&#125; </span><br></pre></td></tr></table></figure>
@@ -382,7 +382,7 @@
   <entry>
     <title>Github + Hexo 制作静态网站</title>
     <url>/p/1b9a5d5d.html</url>
-    <content><![CDATA[<h2 id="软件安装"><a href="#软件安装" class="headerlink" title="软件安装"></a>软件安装</h2><ol>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.bootcdn.net/ajax/libs/aplayer/1.10.1/APlayer.min.css"><script src="https://cdn.bootcdn.net/ajax/libs/aplayer/1.10.1/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="软件安装"><a href="#软件安装" class="headerlink" title="软件安装"></a>软件安装</h2><ol>
 <li>安装<a href="https://nodejs.org/zh-cn/">Node.js</a>、<a href="https://git-scm.com/downloads">git</a>，点击进入下载网站。<span id="more"></span></li>
 <li>检验git是否安装成功，同时按下<code>Win</code>键和<code>R</code>键打开运行窗口，输入<code>cmd</code>，打开命令提示符，分别输入以下命令：<br><code>git --version</code><br><code>node -v</code><br><code>npm -v</code><br>有相应版本信息显示则安装成功。若安装成功，在桌面右键鼠标，可以看到菜单里多了 <code>Git GUI Here</code> 和 <code>Git Bash Here</code>两个选项，第一个是图形界面的Git操作，另一个是命令行。</li>
 <li>git更新方法，输入命令:<br><code>git clone https://github.com/git/git</code></li>
@@ -478,7 +478,7 @@
   <entry>
     <title>Next 主题设置</title>
     <url>/p/61ef7cc5.html</url>
-    <content><![CDATA[<p><strong>站点配置</strong>文件<code>_config.yml</code>在<code>Hexo</code>文件夹下。在站点配置里注意以下几点:<span id="more"></span></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.bootcdn.net/ajax/libs/aplayer/1.10.1/APlayer.min.css"><script src="https://cdn.bootcdn.net/ajax/libs/aplayer/1.10.1/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong>站点配置</strong>文件<code>_config.yml</code>在<code>Hexo</code>文件夹下。在站点配置里注意以下几点:<span id="more"></span></p>
 <ol>
 <li><code>url: </code>添加自己的博客网址<code>https://satparamita.github.io/paramita/</code>。如果买了域名并且能使用，则改成新域名<code>url: https://satparamita.top</code>。</li>
 <li><code>language: </code>，选择对应的语言，在<code>theme\next\language</code>里查看。有的主题是<code>zh-CN</code>，有的是<code>zh-Hans</code>。</li>
@@ -575,7 +575,7 @@
   <entry>
     <title>Next 主题设置-添加相册、标签云、友情链接</title>
     <url>/p/3752fd9a.html</url>
-    <content><![CDATA[<h3 id="添加相册"><a href="#添加相册" class="headerlink" title="添加相册"></a>添加相册</h3><p>可以使用Next自带功能<a href="https://theme-next.js.org/docs/tag-plugins/group-pictures.html">Group Pictures</a>建立相册或者在文章中插入图片，这是一种最简单的方法。</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.bootcdn.net/ajax/libs/aplayer/1.10.1/APlayer.min.css"><script src="https://cdn.bootcdn.net/ajax/libs/aplayer/1.10.1/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="添加相册"><a href="#添加相册" class="headerlink" title="添加相册"></a>添加相册</h3><p>可以使用Next自带功能<a href="https://theme-next.js.org/docs/tag-plugins/group-pictures.html">Group Pictures</a>建立相册或者在文章中插入图片，这是一种最简单的方法。</p>
 <span id="more"></span>
 <h3 id="标签云特效，参考cloud。"><a href="#标签云特效，参考cloud。" class="headerlink" title="标签云特效，参考cloud。"></a>标签云特效，参考<a href="https://github.com/D0n9X1n/hexo-tag-cloud/blob/master/README.ZH.md">cloud</a>。</h3><ol>
 <li>安装：<code>npm install hexo-tag-cloud@^3.* --save</code></li>
@@ -603,7 +603,7 @@
   <entry>
     <title>Next 主题设置-安装Valine、Artitalk、Aplayer</title>
     <url>/p/2f52a50c.html</url>
-    <content><![CDATA[<h3 id="安装评论valine"><a href="#安装评论valine" class="headerlink" title="安装评论valine"></a>安装评论valine</h3><ol>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.bootcdn.net/ajax/libs/aplayer/1.10.1/APlayer.min.css"><script src="https://cdn.bootcdn.net/ajax/libs/aplayer/1.10.1/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="安装评论valine"><a href="#安装评论valine" class="headerlink" title="安装评论valine"></a>安装评论valine</h3><ol>
 <li>注册Leancloud，建议选择国际版。Leancloud既能管理评论，也能统计阅读情况。在创建的应用里点击<code>数据存储</code>-<code>结构化数据</code>-<code>创建Class</code>，点击<code>创建Class</code>，新建名为<code>Comment</code>，选择<code>无限制</code>，其它默认，然后点击创建，用来查看评论。<span id="more"></span><br>再在<code>数据存储</code>-<code>结构化数据</code>-<code>创建Class</code>，点击<code>创建Class</code>，新建名为<code>Counter</code>，选择<code>无限制</code>，其它默认，用来统计阅读。</li>
 <li>有些主题已经自带valine评论，如果没有，安装：<code>npm install next-theme/hexo-next-valine</code>。valine相关文件会下载至<code>Hexo\node_modules\hexo-next-valine</code>，打开该文件夹里的<code>default.yaml</code>，全部复制，粘贴到主题配置文件里。<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="attr">valine</span>:</span><br><span class="line">  <span class="attr">enable</span>: <span class="literal">true</span></span><br><span class="line">  <span class="attr">appId</span>:  #你的leancloud里面的<span class="title class_">AppID</span></span><br><span class="line">  <span class="attr">appKey</span>:  #你的leancloud里面的<span class="title class_">AppKey</span></span><br><span class="line">  <span class="attr">serverURLs</span>:  #<span class="variable constant_">REST</span> <span class="variable constant_">API</span>服务器地址 <span class="attr">https</span>:<span class="comment">//。。。。 # When the custom domain name is enabled, fill it in here</span></span><br><span class="line">  <span class="attr">placeholder</span>: <span class="title class_">Just</span> go go # <span class="title class_">Comment</span> box placeholder</span><br><span class="line">  <span class="attr">avatar</span>: mm # gravatar style</span><br><span class="line">  <span class="attr">meta</span>: [nick, mail, link] # <span class="title class_">Custom</span> comment header</span><br><span class="line">  <span class="attr">pageSize</span>: <span class="number">10</span> # pagination size</span><br><span class="line">  <span class="attr">lang</span>: # <span class="title class_">Language</span>, available <span class="attr">values</span>: en, zh-cn</span><br><span class="line">  <span class="attr">visitor</span>: <span class="literal">true</span> #文章阅读量统计  </span><br><span class="line">  <span class="attr">comment_count</span>: <span class="literal">true</span> # <span class="title class_">If</span> <span class="literal">false</span>, comment count will only be displayed <span class="keyword">in</span> post page, not <span class="keyword">in</span> home page 评论计数</span><br><span class="line">  <span class="attr">recordIP</span>: <span class="literal">true</span> # <span class="title class_">Whether</span> to record the commenter <span class="variable constant_">IP</span></span><br><span class="line">  <span class="attr">enableQQ</span>: <span class="literal">true</span></span><br><span class="line">  <span class="attr">requiredFields</span>: [] # <span class="title class_">Set</span> required <span class="attr">fields</span>: [nick] | [nick, mail]</span><br></pre></td></tr></table></figure></li>
 <li>在Leancloud<code>设置</code>-<code>应用凭证</code>里复制AppID和AppKey，粘贴到appId和appKey，注意冒号后面有空格，并且不要和<code>#</code>连着。<br>在<code>设置</code>-<code>安全中心</code>-<code>Web安全域名</code>里添加自己的网址。其余按需修改。<br><strong>注意</strong>，如果出现<code>Code 401: 未经授权的操作,请检查你的AppId和AppKey</code>，会发现有评论框但是不能提交评论。在<code>设置</code>-<code>应用凭证</code>里复制<code>REST API 服务器地址</code>，粘贴到<code>serverURLs: </code>，即可解决。</li>
@@ -672,7 +672,7 @@
   <entry>
     <title>Next 主题设置-页面修改 &amp; 自带插件</title>
     <url>/p/9c1a2afe.html</url>
-    <content><![CDATA[<h3 id="更改站名黑色背景"><a href="#更改站名黑色背景" class="headerlink" title="更改站名黑色背景"></a>更改站名黑色背景</h3><ol>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.bootcdn.net/ajax/libs/aplayer/1.10.1/APlayer.min.css"><script src="https://cdn.bootcdn.net/ajax/libs/aplayer/1.10.1/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="更改站名黑色背景"><a href="#更改站名黑色背景" class="headerlink" title="更改站名黑色背景"></a>更改站名黑色背景</h3><ol>
 <li>打开<code>Hexo/themes/next/source/css/_schemes/Pisces/_header.styl</code>，找到<code>background</code>改为<code>background: $blue-bright;</code>，或者使用渐变色<code>background: linear-gradient(-225deg, #9EFBD3 0%, #57E9F2 48%, #45D4FB 100%)</code>。<span id="more"></span></li>
 <li>打开<code>Hexo\themes\next\source\css\_variables\Pisces.styl</code>，找到<code>subtitle-color</code>改为<code>$subtitle-color = $whitesmoke;</code></li>
 <li>在<code>Hexo/themes/next/source/css/_variables/base.styl</code>里可以查看颜色设置。</li>
