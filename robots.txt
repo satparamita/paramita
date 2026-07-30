@@ -10,4 +10,4 @@ Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
 Sitemap: https://satparamita.top/sitemap.xml
-Sitemap: https://satparamita.top/baidusitemap.xml
+Sitemap: https://satparamita.top/baidusitemap.ejs

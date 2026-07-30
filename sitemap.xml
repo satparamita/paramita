@@ -425,20 +425,6 @@
 
   
   <url>
-    <loc>https://satparamita.top/tags/github/</loc>
-    <lastmod>2026-07-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://satparamita.top/tags/hexo/</loc>
-    <lastmod>2026-07-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://satparamita.top/tags/next/</loc>
     <lastmod>2026-07-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -453,7 +439,14 @@
   </url>
   
   <url>
-    <loc>https://satparamita.top/tags/%E5%8F%A4%E6%96%87/</loc>
+    <loc>https://satparamita.top/tags/github/</loc>
+    <lastmod>2026-07-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://satparamita.top/tags/hexo/</loc>
     <lastmod>2026-07-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -461,6 +454,13 @@
   
   <url>
     <loc>https://satparamita.top/tags/%E7%9F%A5%E7%BD%91/</loc>
+    <lastmod>2026-07-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://satparamita.top/tags/%E5%8F%A4%E6%96%87/</loc>
     <lastmod>2026-07-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
