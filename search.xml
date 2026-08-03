@@ -1013,7 +1013,7 @@
 </ol>
 <h3 id="邮件功能"><a href="#邮件功能" class="headerlink" title="邮件功能"></a>邮件功能</h3><ol>
 <li>在侧栏<code>social</code>添加<strong>给我发邮件</strong>，在主题配置里修改：<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="attr">social</span>:</span><br><span class="line">  邮件: <span class="attr">https</span>:<span class="comment">//mail.qq.com/cgi-bin/qm_share?t=qm_mailme&amp;email=XXXXX@qq.com || fa fa-envelope</span></span><br></pre></td></tr></table></figure></li>
-<li>在友情链接或文章中加入<strong>给我发邮件</strong>：<br><code>[jingming215@139.com](https://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&amp;email=jingming215@139.com)</code><br>效果是<a href="https://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=jingming215@139.com">jingming215@139.com</a></li>
+<li>在友情链接或文章中加入<strong>给我发邮件</strong>：<br><code>[jingming215@qq.com](https://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&amp;email=jingming215@qq.com)</code><br>效果是<a href="https://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=jingming215@qq.com">jingming215@qq.com</a></li>
 </ol>
 <p><strong>PS:</strong> <code>social</code>里的<code>fa fa-envelope</code>会显示表示邮件的小图标，更多小图标请查看<a href="https://fontawesome.com/v6.0/icons?d=gallery&p=1&s=solid&m=free">icon</a>。</p>
 <h3 id="安装烟花特效"><a href="#安装烟花特效" class="headerlink" title="安装烟花特效"></a>安装烟花特效</h3><p>点击鼠标时显示烟花特效，安装：<br><code>npm install next-theme/hexo-next-fireworks</code></p>
